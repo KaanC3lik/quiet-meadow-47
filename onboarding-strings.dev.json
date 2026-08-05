@@ -1,26 +1,32 @@
 {
-  "version": 2,
-  "onboarding": {
-    "page1": {
-      "title": "This alarm refuses to stop.",
-      "copy": "No snooze abuse. No half-asleep dismissals. DawnVow only shuts up when you prove you’re awake."
-    },
-    "page2": {
-      "title": "Prove you’re awake.",
-      "copy": "Answer quiz questions or get out of bed and photograph a specific object. That’s the deal."
-    },
-    "page3": {
-      "title": "We need a few permissions.",
-      "copy": "Exact alarms to fire on time, notifications to show the ring screen, camera for photo missions. We’ll ask only when needed."
-    },
-    "demo": {
-      "question": "When does DawnVow stop ringing?",
-      "wrongOption": "When I tap snooze ten times",
-      "rightOption": "When I prove I’m awake",
-      "wrongFeedback": "Nope. Snooze runs out.",
-      "rightFeedback": "Exactly."
-    },
-    "next": "Next",
-    "start": "Get started"
+  "version": 3,
+  "experiment_id": "exp_v1",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "page1": {
+        "title": "This alarm doesn’t stop.",
+        "copy": "No snooze abuse. No half-asleep dismissals. DawnVow only shuts up when you prove you’re awake."
+      },
+      "page2": {
+        "title": "Prove you’re awake.",
+        "copy": "Answer quiz questions or get out of bed and photograph a specific object. That’s the deal."
+      },
+      "page3": {
+        "title": "We need a few permissions.",
+        "copy": "Exact alarms to fire on time, notifications to show the ring screen, camera for photo missions. We’ll ask only when needed."
+      },
+      "demo": {
+        "question": "When does DawnVow stop ringing?",
+        "wrongOption": "When I tap snooze ten times",
+        "rightOption": "When I prove I’m awake",
+        "wrongFeedback": "Nope. Snooze runs out.",
+        "rightFeedback": "Exactly."
+      },
+      "next": "Next",
+      "start": "Get started"
+    }
   }
 }
