@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "onboarding": {
     "page1": {
-      "title": "This alarm doesn’t stop.",
+      "title": "This alarm refuses to stop.",
       "copy": "No snooze abuse. No half-asleep dismissals. DawnVow only shuts up when you prove you’re awake."
     },
     "page2": {
