@@ -1,8 +1,10 @@
 {
-  "version": 3,
+  "version": 4,
   "experiment_id": "exp_v1",
   "assignment": {
-    "control": 100
+    "control": 34,
+    "emotional": 33,
+    "humorous": 33
   },
   "variants": {
     "control": {
@@ -27,6 +29,52 @@
       },
       "next": "Next",
       "start": "Get started"
+    },
+    "emotional": {
+      "page1": {
+        "title": "Your mornings deserve a real start.",
+        "copy": "Slipping back into sleep is easy. Waking up on purpose is the part that changes your day."
+      },
+      "page2": {
+        "title": "Show up for your morning.",
+        "copy": "Answer a few questions or get up and photograph something real. Your future self will thank you."
+      },
+      "page3": {
+        "title": "Just a little access.",
+        "copy": "Exact alarms, notifications, and camera — only when a mission needs them. We ask as we go."
+      },
+      "demo": {
+        "question": "When does DawnVow stop ringing?",
+        "wrongOption": "When I give up and go back to sleep",
+        "rightOption": "When I show I’m truly awake",
+        "wrongFeedback": "That’s the old habit.",
+        "rightFeedback": "That’s the promise."
+      },
+      "next": "Next",
+      "start": "Start my mornings"
+    },
+    "humorous": {
+      "page1": {
+        "title": "Snooze is a trap. This alarm bites back.",
+        "copy": "Hit snooze all you want — DawnVow keeps talking until it knows your brain is actually online."
+      },
+      "page2": {
+        "title": "Prove it, sleepyhead.",
+        "copy": "Answer a few questions or photograph something in your house. Your awake self says thanks."
+      },
+      "page3": {
+        "title": "A few keys to the kingdom.",
+        "copy": "Exact alarms, notifications, and camera — we only knock when we need them."
+      },
+      "demo": {
+        "question": "When does DawnVow finally shut up?",
+        "wrongOption": "After the fifth snooze",
+        "rightOption": "When I prove I’m awake",
+        "wrongFeedback": "Nice try, snooze champion.",
+        "rightFeedback": "Exactly. Mission first."
+      },
+      "next": "Next",
+      "start": "Let’s go"
     }
   }
 }
