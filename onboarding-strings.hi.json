@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "वापस",
+    "rule": "मिशन पूरा करें। सुबह पूरी करें।",
+    "painHook": { "title": "आपने अलार्म बंद किया।\nआप जागे नहीं।", "cta": "यह मैं हूं" },
+    "goal": { "title": "आप अपनी सुबह में क्या बदलना चाहते हैं?" },
+    "wakeTime": { "cta": "जागने का समय सेट करें" }
+  } }
+}

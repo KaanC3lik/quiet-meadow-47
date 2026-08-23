@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "ย้อนกลับ",
+    "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+    "painHook": { "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น", "cta": "นี่แหละฉัน" },
+    "goal": { "title": "คุณอยากเปลี่ยนอะไรในยามเช้า" },
+    "wakeTime": { "cta": "ตั้งเวลาตื่นของฉัน" }
+  } }
+}

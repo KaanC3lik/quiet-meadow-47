@@ -1,0 +1,136 @@
+{
+  "source_version": 1,
+  "version": 10,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Zurück",
+      "rule": "Schließe die Mission ab. Starte den Morgen.",
+      "timestamps": {
+        "planned": "06:30 Geplant",
+        "late": "07:30 Zu spät",
+        "alreadyMoving": "06:30 · Schon unterwegs"
+      },
+      "painHook": {
+        "title": "Du hast den Wecker ausgeschaltet.\nDu bist nicht aufgewacht.",
+        "copy": "Ein halb verschlafener Tipp hat dich eine Stunde gekostet.",
+        "cta": "Das bin ich"
+      },
+      "goal": {
+        "title": "Was möchtest du an deinen Morgen ändern?",
+        "copy": "",
+        "cta": "Mein Morgenziel wählen",
+        "options": {
+          "first_alarm": "Aufstehen, wenn mein erster Wecker klingelt",
+          "on_time": "Pünktlich zur Arbeit oder zum Unterricht kommen",
+          "workouts": "Zeit für ein morgendliches Training schaffen",
+          "routine": "Eine beständige Morgenroutine aufbauen",
+          "no_rushing": "Meinen Tag ohne Hektik beginnen"
+        }
+      },
+      "painPoints": {
+        "title": "Was stiehlt dir normalerweise den Morgen?",
+        "titlesByGoal": {
+          "first_alarm": "Was hält dich davon ab, beim ersten Wecker aufzustehen?",
+          "on_time": "Was sorgt normalerweise dafür, dass du zu spät kommst?",
+          "workouts": "Was steht zwischen dir und deinem morgendlichen Training?",
+          "routine": "Was bringt deine Morgenroutine durcheinander?",
+          "no_rushing": "Was macht deinen Morgen hektisch?"
+        },
+        "copy": "Wähle alles aus, was auf dich zutrifft.",
+        "cta": "Das kenne ich",
+        "options": {
+          "snooze_unaware": "Ich drücke auf Schlummern, ohne mich wirklich daran zu erinnern",
+          "dismiss_fall_asleep": "Ich schalte ihn aus und schlafe wieder ein",
+          "multiple_alarms": "Ich stelle mehrere Wecker und ignoriere sie alle",
+          "louder_background": "Lautere Wecker werden irgendwann zu Hintergrundgeräuschen",
+          "sleepy_ignores": "Mein verschlafenes Ich ignoriert die Pläne, die ich abends gemacht habe",
+          "late_frustrated": "Ich wache spät auf und beginne den Tag frustriert"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Das ist kein Motivationsproblem.",
+        "copy": "Die von dir ausgewählten Probleme entstehen, bevor dein vollständig waches Gehirn mitentscheiden kann. So verändert DawnVow jedes Muster.",
+        "cta": "Zeig mir, wie es funktioniert",
+        "solutions": {
+          "snooze_unaware": "Eine notwendige Mission unterbricht die automatische Schlummer-Schleife.",
+          "dismiss_fall_asleep": "Eine Mission liegt zwischen einem verschlafenen Tipp und dem abgeschlossenen Aufstehen.",
+          "multiple_alarms": "Ein handlungsbasierter Wecker ersetzt eine Kette, die du gelernt hast zu ignorieren.",
+          "louder_background": "DawnVow verändert dein Verhalten, statt nur lauter zu werden.",
+          "sleepy_ignores": "Dein waches Ich wählt die Mission. Dein verschlafenes Ich muss ihr folgen.",
+          "late_frustrated": "Deine erste abgeschlossene Handlung bringt dich in Bewegung, bevor der Morgen verstreicht."
+        }
+      },
+      "mechanism": {
+        "title": "Schließe die Mission ab. Starte den Morgen.",
+        "copy": "DawnVow verwandelt deinen Wecker in eine einfache Abfolge, die du am Vorabend festlegst.",
+        "cta": "So könnte mein Morgen aussehen",
+        "steps": [
+          { "id": "alarm_rings", "title": "Wecker klingelt", "copy": "Dein Wecker klingelt zur gewählten Zeit." },
+          { "id": "complete_mission", "title": "Schließe deine Mission ab", "copy": "Schließe eine Live-Fotomission oder ein kurzes Quiz ab." },
+          { "id": "dismiss_alarm", "title": "Schließe das Aufstehen ab", "copy": "Nach bestandener Mission gilt dein Aufstehen als abgeschlossen." }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Schon auf. Schon unterwegs.",
+        "copy": "Die Stunde, die du früher verloren hast, gehört wieder dir.",
+        "cta": "Meinen Aufstehplan erstellen",
+        "gains": ["Pünktlich", "Klar im Kopf", "Schon unterwegs", "Alles im Griff"]
+      },
+      "mission": {
+        "title": "Was würde dich wirklich in Gang bringen?",
+        "copy": "Wähle die Mission, die sich für deinen Morgen realistisch anfühlt.",
+        "cta": "Diese Mission verwenden",
+        "photoDisclosure": "Fotos werden auf deinem Gerät geprüft. Bilder aus der Galerie zählen nicht, und Missionsfotos werden nach der Prüfung gelöscht.",
+        "targetPrompt": "Wähle aus, was du hast. Deine erste Auswahl wird die morgige Mission.",
+        "targets": {
+          "toilet": "Toilette",
+          "sink": "Waschbecken",
+          "toothbrush": "Zahnbürste",
+          "hair drier": "Föhn",
+          "refrigerator": "Kühlschrank",
+          "cup": "Tasse",
+          "bottle": "Flasche",
+          "microwave": "Mikrowelle",
+          "bowl": "Schüssel",
+          "cat": "Katze",
+          "dog": "Hund",
+          "book": "Buch",
+          "laptop": "Laptop",
+          "keyboard": "Tastatur",
+          "mouse": "Maus",
+          "backpack": "Rucksack"
+        },
+        "options": {
+          "bathroom_escape": { "title": "Bad-Start", "copy": "Fotografiere einen wichtigen Gegenstand aus dem Badezimmer." },
+          "kitchen_start": { "title": "Küchen-Start", "copy": "Fotografiere einen wichtigen Gegenstand aus der Küche." },
+          "pet_check": { "title": "Haustier-Check", "copy": "Fotografiere deine Katze oder deinen Hund." },
+          "study_mode": { "title": "Lernmodus", "copy": "Fotografiere ein Buch, einen Laptop oder einen Rucksack." },
+          "quick_quiz": { "title": "Schnelles Quiz", "copy": "Beantworte einige Fragen, um zu zeigen, dass du wach bist." }
+        }
+      },
+      "wakeTime": {
+        "title": "Um wie viel Uhr möchtest du morgen aufstehen?",
+        "copy": "Wähle die Zeit, zu der dein erster DawnVow-Wecker klingeln soll.",
+        "cta": "Meine Aufstehzeit festlegen",
+        "accessibilityLabel": "Aufstehzeit auswählen"
+      },
+      "plan": {
+        "title": "Dein erster DawnVow ist bereit.",
+        "copy": "Du hast die Zeit gewählt. Du hast die Mission gewählt. Morgen folgt dein verschlafenes Ich dem Plan.",
+        "cta": "Mein DawnVow behalten",
+        "trust": "DawnVow fragt nur dann nach Wecker-, Benachrichtigungs- und Kamerazugriff, wenn die jeweilige Berechtigung benötigt wird.",
+        "labels": {
+          "wakeTime": "Aufstehzeit",
+          "goal": "Ziel",
+          "escape": "Dein bisheriger Ausweg",
+          "mission": "Deine Mission",
+          "rule": "Deine neue Regel"
+        }
+      }
+    }
+  }
+}

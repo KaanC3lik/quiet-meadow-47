@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "رجوع",
+    "rule": "أكمل المهمة. أكمل صباحك.",
+    "painHook": { "title": "أوقفت المنبّه.\nلكنّك لم تستيقظ.", "cta": "هذا أنا" },
+    "goal": { "title": "ما الذي تريد تغييره في صباحك؟" },
+    "wakeTime": { "cta": "اضبط وقت استيقاظي" }
+  } }
+}

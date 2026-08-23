@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "Kembali",
+    "rule": "Selesaikan misi. Selesaikan pagimu.",
+    "painHook": { "title": "Kamu mematikan alarm.\nKamu tidak bangun.", "cta": "Itu aku" },
+    "goal": { "title": "Apa yang ingin kamu ubah dari pagimu?" },
+    "wakeTime": { "cta": "Atur waktu bangunku" }
+  } }
+}

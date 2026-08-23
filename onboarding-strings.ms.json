@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "Kembali",
+    "rule": "Lengkapkan misi. Lengkapkan pagi anda.",
+    "painHook": { "title": "Anda mematikan penggera.\nAnda tidak bangun.", "cta": "Itu saya" },
+    "goal": { "title": "Apakah yang ingin anda ubah tentang pagi anda?" },
+    "wakeTime": { "cta": "Tetapkan masa bangun saya" }
+  } }
+}

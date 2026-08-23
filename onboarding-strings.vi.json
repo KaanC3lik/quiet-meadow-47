@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "Quay lại",
+    "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
+    "painHook": { "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.", "cta": "Đúng là tôi" },
+    "goal": { "title": "Bạn muốn thay đổi điều gì trong buổi sáng?" },
+    "wakeTime": { "cta": "Đặt giờ thức dậy" }
+  } }
+}

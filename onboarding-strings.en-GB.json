@@ -1,0 +1,27 @@
+{
+  "source_version": 1,
+  "version": 9,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "painHook": {
+        "title": "You switched off the alarm.\nYou didn’t wake up."
+      },
+      "goal": {
+        "options": {
+          "first_alarm": "Get up when my first alarm goes off",
+          "on_time": "Get to work or school on time"
+        }
+      },
+      "mission": {
+        "targets": {
+          "hair drier": "Hairdryer",
+          "refrigerator": "Fridge"
+        }
+      }
+    }
+  }
+}

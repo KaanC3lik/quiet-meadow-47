@@ -1,0 +1,13 @@
+{
+  "source_version": 1,
+  "version": 7,
+  "experiment_id": "exp_v2",
+  "assignment": { "control": 100 },
+  "variants": { "control": {
+    "back": "Назад",
+    "rule": "Виконайте місію. Завершіть свій ранок.",
+    "painHook": { "title": "Ви вимкнули будильник.\nАле не прокинулися.", "cta": "Це про мене" },
+    "goal": { "title": "Що ви хочете змінити у своїх ранках?" },
+    "wakeTime": { "cta": "Встановити час пробудження" }
+  } }
+}
