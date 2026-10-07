@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 8,
+  "version": 9,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -18,6 +18,37 @@
         "title": "You turned off the alarm.\nYou didn’t wake up.",
         "copy": "One half-asleep tap cost you an hour.",
         "cta": "That’s me"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
       },
       "goal": {
         "title": "What do you want to change about your mornings?",
