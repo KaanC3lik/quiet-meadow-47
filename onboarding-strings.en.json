@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 12,
+  "version": 13,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -137,8 +137,10 @@
         "title": "What would actually get you going?",
         "copy": "Pick the mission that feels realistic for your morning.",
         "cta": "Use this mission",
-        "photoDisclosure": "Photos are checked on your device. Gallery images don’t count, and mission photos are deleted after verification.",
-        "targetPrompt": "Select what you have. Your first choice becomes tomorrow’s mission.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
         "targets": {
           "toilet": "Toilet",
           "sink": "Sink",
@@ -160,24 +162,42 @@
         "options": {
           "bathroom_escape": {
             "title": "Bathroom Escape",
-            "copy": "Photograph one bathroom essential."
+            "copy": "bathroom essentials"
           },
           "kitchen_start": {
             "title": "Kitchen Start",
-            "copy": "Photograph one kitchen essential."
+            "copy": "kitchen essentials"
           },
           "pet_check": {
             "title": "Pet Check",
-            "copy": "Photograph your cat or dog."
+            "copy": "your cat or dog"
           },
           "study_mode": {
             "title": "Study Mode",
-            "copy": "Photograph a book, laptop, or backpack."
+            "copy": "book or laptop"
           },
           "quick_quiz": {
             "title": "Quick Quiz",
-            "copy": "Answer a few questions to prove you’re awake."
+            "copy": "a few questions"
           }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
         }
       },
       "wakeTime": {
@@ -331,8 +351,10 @@
         "title": "What would actually get you going?",
         "copy": "Pick the mission that feels realistic for your morning.",
         "cta": "Use this mission",
-        "photoDisclosure": "Photos are checked on your device. Gallery images don’t count, and mission photos are deleted after verification.",
-        "targetPrompt": "Select what you have. Your first choice becomes tomorrow’s mission.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
         "targets": {
           "toilet": "Toilet",
           "sink": "Sink",
@@ -354,24 +376,42 @@
         "options": {
           "bathroom_escape": {
             "title": "Bathroom Escape",
-            "copy": "Photograph one bathroom essential."
+            "copy": "bathroom essentials"
           },
           "kitchen_start": {
             "title": "Kitchen Start",
-            "copy": "Photograph one kitchen essential."
+            "copy": "kitchen essentials"
           },
           "pet_check": {
             "title": "Pet Check",
-            "copy": "Photograph your cat or dog."
+            "copy": "your cat or dog"
           },
           "study_mode": {
             "title": "Study Mode",
-            "copy": "Photograph a book, laptop, or backpack."
+            "copy": "book or laptop"
           },
           "quick_quiz": {
             "title": "Quick Quiz",
-            "copy": "Answer a few questions to prove you’re awake."
+            "copy": "a few questions"
           }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
         }
       },
       "wakeTime": {
@@ -525,8 +565,10 @@
         "title": "What would actually get you going?",
         "copy": "Pick the mission that feels realistic for your morning.",
         "cta": "Use this mission",
-        "photoDisclosure": "Photos are checked on your device. Gallery images don’t count, and mission photos are deleted after verification.",
-        "targetPrompt": "Select what you have. Your first choice becomes tomorrow’s mission.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
         "targets": {
           "toilet": "Toilet",
           "sink": "Sink",
@@ -548,24 +590,42 @@
         "options": {
           "bathroom_escape": {
             "title": "Bathroom Escape",
-            "copy": "Photograph one bathroom essential."
+            "copy": "bathroom essentials"
           },
           "kitchen_start": {
             "title": "Kitchen Start",
-            "copy": "Photograph one kitchen essential."
+            "copy": "kitchen essentials"
           },
           "pet_check": {
             "title": "Pet Check",
-            "copy": "Photograph your cat or dog."
+            "copy": "your cat or dog"
           },
           "study_mode": {
             "title": "Study Mode",
-            "copy": "Photograph a book, laptop, or backpack."
+            "copy": "book or laptop"
           },
           "quick_quiz": {
             "title": "Quick Quiz",
-            "copy": "Answer a few questions to prove you’re awake."
+            "copy": "a few questions"
           }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
         }
       },
       "wakeTime": {
