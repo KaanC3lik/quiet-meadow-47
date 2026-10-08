@@ -1,13 +1,637 @@
 {
   "source_version": 1,
-  "version": 7,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
-  "variants": { "control": {
-    "back": "वापस",
-    "rule": "मिशन पूरा करें। सुबह पूरी करें।",
-    "painHook": { "title": "आपने अलार्म बंद किया।\nआप जागे नहीं।", "cta": "यह मैं हूं" },
-    "goal": { "title": "आप अपनी सुबह में क्या बदलना चाहते हैं?" },
-    "wakeTime": { "cta": "जागने का समय सेट करें" }
-  } }
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "वापस",
+      "rule": "मिशन पूरा करें। सुबह पूरी करें।",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "आपने अलार्म बंद किया।\nआप जागे नहीं।",
+        "copy": "आधी नींद में किया एक टैप आपका एक घंटा ले गया।",
+        "cta": "यह मैं हूं"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "आप अपनी सुबह में क्या बदलना चाहते हैं?",
+        "copy": "",
+        "cta": "सुबह की जीत चुनें",
+        "options": {
+          "first_alarm": "पहले अलार्म पर उठना",
+          "on_time": "काम या कक्षा में समय पर पहुंचना",
+          "workouts": "सुबह की कसरत के लिए समय बनाना",
+          "routine": "नियमित सुबह की दिनचर्या बनाना",
+          "no_rushing": "बिना भागदौड़ दिन शुरू करना"
+        }
+      },
+      "painPoints": {
+        "title": "आमतौर पर आपकी सुबह कौन चुरा लेता है?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "जो भी सही लगे, चुनें।",
+        "cta": "यह मैं हूं",
+        "options": {
+          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
+          "multiple_alarms": "मैं कई अलार्म लगाकर सभी को अनदेखा करता हूं",
+          "louder_background": "तेज़ अलार्म भी अंत में पृष्ठभूमि की आवाज़ बन जाते हैं",
+          "sleepy_ignores": "मेरी नींद वाली अवस्था रात की योजनाएं अनदेखी करती है",
+          "late_frustrated": "मैं देर से उठकर निराश होकर दिन शुरू करता हूं"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "मिशन पूरा करें। सुबह पूरी करें।",
+        "copy": "",
+        "cta": "देखें मेरी सुबह कैसी हो सकती है",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "अलार्म बजता है",
+            "copy": "आपके चुने समय पर अलार्म बजता है।"
+          },
+          {
+            "id": "complete_mission",
+            "title": "मिशन पूरा करें",
+            "copy": "लाइव फोटो मिशन या त्वरित क्विज़ पूरा करें।"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "जागना पूरा करें",
+            "copy": "मिशन पास करने से जागना पूरा माना जाता है।"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. उठ चुके। चल पड़े।",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "अपनी जागने की योजना बनाएं",
+        "gains": [
+          "समय पर",
+          "साफ़ दिमाग",
+          "चल पड़े",
+          "नियंत्रण में"
+        ]
+      },
+      "mission": {
+        "title": "वास्तव में आपको कौन सी चीज़ आगे बढ़ाएगी?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "यह मिशन इस्तेमाल करें",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "फोटो आपके डिवाइस पर जांची जाती हैं। गैलरी की फोटो नहीं गिनी जाती और जांच के बाद मिशन फोटो हटा दी जाती है।",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "शौचालय",
+          "sink": "सिंक",
+          "toothbrush": "टूथब्रश",
+          "hair drier": "Hair dryer",
+          "refrigerator": "रेफ्रिजरेटर",
+          "cup": "कप",
+          "bottle": "बोतल",
+          "microwave": "Microwave",
+          "bowl": "कटोरा",
+          "cat": "बिल्ली",
+          "dog": "कुत्ता",
+          "book": "किताब",
+          "laptop": "लैपटॉप",
+          "keyboard": "कीबोर्ड",
+          "mouse": "माउस",
+          "backpack": "बैकपैक"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "कल आप किस समय उठना चाहते हैं?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "जागने का समय सेट करें",
+        "accessibilityLabel": "जागने का समय चुनें"
+      },
+      "plan": {
+        "title": "आपका पहला DawnVow तैयार है।",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "मेरा DawnVow रखें",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "जागने का समय",
+          "goal": "लक्ष्य",
+          "escape": "आपका सामान्य बचाव",
+          "mission": "आपका मिशन",
+          "rule": "आपका नया नियम"
+        }
+      }
+    },
+    "calm": {
+      "back": "वापस",
+      "rule": "मिशन पूरा करें। सुबह पूरी करें।",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "आपने अलार्म बंद किया।\nआप जागे नहीं।",
+        "copy": "आधी नींद में किया एक टैप आपका एक घंटा ले गया।",
+        "cta": "यह मैं हूं"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "आप अपनी सुबह में क्या बदलना चाहते हैं?",
+        "copy": "",
+        "cta": "सुबह की जीत चुनें",
+        "options": {
+          "first_alarm": "पहले अलार्म पर उठना",
+          "on_time": "काम या कक्षा में समय पर पहुंचना",
+          "workouts": "सुबह की कसरत के लिए समय बनाना",
+          "routine": "नियमित सुबह की दिनचर्या बनाना",
+          "no_rushing": "बिना भागदौड़ दिन शुरू करना"
+        }
+      },
+      "painPoints": {
+        "title": "आमतौर पर आपकी सुबह कौन चुरा लेता है?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "जो भी सही लगे, चुनें।",
+        "cta": "यह मैं हूं",
+        "options": {
+          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
+          "multiple_alarms": "मैं कई अलार्म लगाकर सभी को अनदेखा करता हूं",
+          "louder_background": "तेज़ अलार्म भी अंत में पृष्ठभूमि की आवाज़ बन जाते हैं",
+          "sleepy_ignores": "मेरी नींद वाली अवस्था रात की योजनाएं अनदेखी करती है",
+          "late_frustrated": "मैं देर से उठकर निराश होकर दिन शुरू करता हूं"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "मिशन पूरा करें। सुबह पूरी करें।",
+        "copy": "",
+        "cta": "देखें मेरी सुबह कैसी हो सकती है",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "अलार्म बजता है",
+            "copy": "आपके चुने समय पर अलार्म बजता है।"
+          },
+          {
+            "id": "complete_mission",
+            "title": "मिशन पूरा करें",
+            "copy": "लाइव फोटो मिशन या त्वरित क्विज़ पूरा करें।"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "जागना पूरा करें",
+            "copy": "मिशन पास करने से जागना पूरा माना जाता है।"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. उठ चुके। चल पड़े।",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "अपनी जागने की योजना बनाएं",
+        "gains": [
+          "समय पर",
+          "साफ़ दिमाग",
+          "चल पड़े",
+          "नियंत्रण में"
+        ]
+      },
+      "mission": {
+        "title": "वास्तव में आपको कौन सी चीज़ आगे बढ़ाएगी?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "यह मिशन इस्तेमाल करें",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "फोटो आपके डिवाइस पर जांची जाती हैं। गैलरी की फोटो नहीं गिनी जाती और जांच के बाद मिशन फोटो हटा दी जाती है।",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "शौचालय",
+          "sink": "सिंक",
+          "toothbrush": "टूथब्रश",
+          "hair drier": "Hair dryer",
+          "refrigerator": "रेफ्रिजरेटर",
+          "cup": "कप",
+          "bottle": "बोतल",
+          "microwave": "Microwave",
+          "bowl": "कटोरा",
+          "cat": "बिल्ली",
+          "dog": "कुत्ता",
+          "book": "किताब",
+          "laptop": "लैपटॉप",
+          "keyboard": "कीबोर्ड",
+          "mouse": "माउस",
+          "backpack": "बैकपैक"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "कल आप किस समय उठना चाहते हैं?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "जागने का समय सेट करें",
+        "accessibilityLabel": "जागने का समय चुनें"
+      },
+      "plan": {
+        "title": "आपका पहला DawnVow तैयार है।",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "मेरा DawnVow रखें",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "जागने का समय",
+          "goal": "लक्ष्य",
+          "escape": "आपका सामान्य बचाव",
+          "mission": "आपका मिशन",
+          "rule": "आपका नया नियम"
+        }
+      }
+    },
+    "bold": {
+      "back": "वापस",
+      "rule": "मिशन पूरा करें। सुबह पूरी करें।",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "आपने अलार्म बंद किया।\nआप जागे नहीं।",
+        "copy": "आधी नींद में किया एक टैप आपका एक घंटा ले गया।",
+        "cta": "यह मैं हूं"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "आप अपनी सुबह में क्या बदलना चाहते हैं?",
+        "copy": "",
+        "cta": "सुबह की जीत चुनें",
+        "options": {
+          "first_alarm": "पहले अलार्म पर उठना",
+          "on_time": "काम या कक्षा में समय पर पहुंचना",
+          "workouts": "सुबह की कसरत के लिए समय बनाना",
+          "routine": "नियमित सुबह की दिनचर्या बनाना",
+          "no_rushing": "बिना भागदौड़ दिन शुरू करना"
+        }
+      },
+      "painPoints": {
+        "title": "आमतौर पर आपकी सुबह कौन चुरा लेता है?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "जो भी सही लगे, चुनें।",
+        "cta": "यह मैं हूं",
+        "options": {
+          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
+          "multiple_alarms": "मैं कई अलार्म लगाकर सभी को अनदेखा करता हूं",
+          "louder_background": "तेज़ अलार्म भी अंत में पृष्ठभूमि की आवाज़ बन जाते हैं",
+          "sleepy_ignores": "मेरी नींद वाली अवस्था रात की योजनाएं अनदेखी करती है",
+          "late_frustrated": "मैं देर से उठकर निराश होकर दिन शुरू करता हूं"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "मिशन पूरा करें। सुबह पूरी करें।",
+        "copy": "",
+        "cta": "देखें मेरी सुबह कैसी हो सकती है",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "अलार्म बजता है",
+            "copy": "आपके चुने समय पर अलार्म बजता है।"
+          },
+          {
+            "id": "complete_mission",
+            "title": "मिशन पूरा करें",
+            "copy": "लाइव फोटो मिशन या त्वरित क्विज़ पूरा करें।"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "जागना पूरा करें",
+            "copy": "मिशन पास करने से जागना पूरा माना जाता है।"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. उठ चुके। चल पड़े।",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "अपनी जागने की योजना बनाएं",
+        "gains": [
+          "समय पर",
+          "साफ़ दिमाग",
+          "चल पड़े",
+          "नियंत्रण में"
+        ]
+      },
+      "mission": {
+        "title": "वास्तव में आपको कौन सी चीज़ आगे बढ़ाएगी?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "यह मिशन इस्तेमाल करें",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "फोटो आपके डिवाइस पर जांची जाती हैं। गैलरी की फोटो नहीं गिनी जाती और जांच के बाद मिशन फोटो हटा दी जाती है।",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "शौचालय",
+          "sink": "सिंक",
+          "toothbrush": "टूथब्रश",
+          "hair drier": "Hair dryer",
+          "refrigerator": "रेफ्रिजरेटर",
+          "cup": "कप",
+          "bottle": "बोतल",
+          "microwave": "Microwave",
+          "bowl": "कटोरा",
+          "cat": "बिल्ली",
+          "dog": "कुत्ता",
+          "book": "किताब",
+          "laptop": "लैपटॉप",
+          "keyboard": "कीबोर्ड",
+          "mouse": "माउस",
+          "backpack": "बैकपैक"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "कल आप किस समय उठना चाहते हैं?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "जागने का समय सेट करें",
+        "accessibilityLabel": "जागने का समय चुनें"
+      },
+      "plan": {
+        "title": "आपका पहला DawnVow तैयार है।",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "मेरा DawnVow रखें",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "जागने का समय",
+          "goal": "लक्ष्य",
+          "escape": "आपका सामान्य बचाव",
+          "mission": "आपका मिशन",
+          "rule": "आपका नया नियम"
+        }
+      }
+    }
+  }
 }

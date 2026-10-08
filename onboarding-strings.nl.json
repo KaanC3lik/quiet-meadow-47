@@ -1,1 +1,637 @@
-{"source_version":1,"version":11,"experiment_id":"exp_v2","assignment":{"control":100},"variants":{"control":{"back":"Terug","rule":"Voltooi de missie. Begin je ochtend."}}}
+{
+  "source_version": 1,
+  "version": 14,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Terug",
+      "rule": "Voltooi de missie. Begin je ochtend.",
+      "timestamps": {
+        "planned": "06:30 Gepland",
+        "late": "07:30 Te laat",
+        "alreadyMoving": "06:30 · Al onderweg"
+      },
+      "painHook": {
+        "title": "Je zette de wekker uit.\nJe werd niet wakker.",
+        "copy": "Eén halfslaperige tik kostte je een uur.",
+        "cta": "Dat ben ik"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Wat wil je veranderen aan je ochtenden?",
+        "copy": "",
+        "cta": "Mijn ochtenddoel kiezen",
+        "options": {
+          "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
+          "on_time": "Op tijd op werk of in de les komen",
+          "workouts": "Tijd maken voor een ochtendtraining",
+          "routine": "Een vaste ochtendroutine opbouwen",
+          "no_rushing": "Mijn dag zonder haast beginnen"
+        }
+      },
+      "painPoints": {
+        "title": "Wat steelt meestal je ochtend?",
+        "titlesByGoal": {
+          "first_alarm": "Wat houdt je tegen om bij je eerste wekker op te staan?",
+          "on_time": "Waardoor kom je meestal te laat?",
+          "workouts": "Wat staat tussen jou en je ochtendtraining?",
+          "routine": "Wat verstoort je ochtendroutine?",
+          "no_rushing": "Wat maakt je ochtend gehaast?"
+        },
+        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "cta": "Dat herken ik",
+        "options": {
+          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
+          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
+          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
+          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
+          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Dit is geen motivatieprobleem.",
+        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "cta": "Laat zien hoe het werkt",
+        "solutions": {
+          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
+          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
+          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
+          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
+          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
+          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+        }
+      },
+      "mechanism": {
+        "title": "Voltooi de missie. Begin je ochtend.",
+        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "cta": "Zo kan mijn ochtend eruitzien",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "De wekker gaat",
+            "copy": "Je wekker gaat op het gekozen tijdstip."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Voltooi je missie",
+            "copy": "Voltooi een live-fotomissie of een korte quiz."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Maak het opstaan af",
+            "copy": "Na de missie is je opstaan voltooid."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Al op. Al onderweg.",
+        "copy": "Het uur dat je vroeger verloor, is weer van jou.",
+        "cta": "Mijn ochtendplan maken",
+        "gains": [
+          "Op tijd",
+          "Helder hoofd",
+          "Al onderweg",
+          "In controle"
+        ]
+      },
+      "mission": {
+        "title": "Wat zou je echt in beweging krijgen?",
+        "copy": "Kies de missie die realistisch voelt voor jouw ochtend.",
+        "cta": "Deze missie gebruiken",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto’s worden op je apparaat gecontroleerd. Galerijfoto’s tellen niet mee en missiefoto’s worden na controle verwijderd.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badkamerstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de badkamer."
+          },
+          "kitchen_start": {
+            "title": "Keukenstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de keuken."
+          },
+          "pet_check": {
+            "title": "Huisdiercheck",
+            "copy": "Fotografeer je kat of hond."
+          },
+          "study_mode": {
+            "title": "Studie-modus",
+            "copy": "Fotografeer een boek, laptop of rugzak."
+          },
+          "quick_quiz": {
+            "title": "Snelle quiz",
+            "copy": "Beantwoord enkele vragen om te bewijzen dat je wakker bent."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Hoe laat wil je morgen opstaan?",
+        "copy": "Kies het tijdstip waarop je eerste DawnVow moet afgaan.",
+        "cta": "Mijn wektijd instellen",
+        "accessibilityLabel": "Wektijd kiezen"
+      },
+      "plan": {
+        "title": "Je eerste DawnVow is klaar.",
+        "copy": "Je koos de tijd. Je koos de missie. Morgen volgt je slaperige ik het plan.",
+        "cta": "Mijn DawnVow bewaren",
+        "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
+        "labels": {
+          "wakeTime": "Wektijd",
+          "goal": "Doel",
+          "escape": "Je gebruikelijke uitweg",
+          "mission": "Je missie",
+          "rule": "Je nieuwe regel"
+        }
+      }
+    },
+    "calm": {
+      "back": "Terug",
+      "rule": "Voltooi de missie. Begin je ochtend.",
+      "timestamps": {
+        "planned": "06:30 Gepland",
+        "late": "07:30 Te laat",
+        "alreadyMoving": "06:30 · Al onderweg"
+      },
+      "painHook": {
+        "title": "Je zette de wekker uit.\nJe werd niet wakker.",
+        "copy": "Eén halfslaperige tik kostte je een uur.",
+        "cta": "Dat ben ik"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Wat wil je veranderen aan je ochtenden?",
+        "copy": "",
+        "cta": "Mijn ochtenddoel kiezen",
+        "options": {
+          "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
+          "on_time": "Op tijd op werk of in de les komen",
+          "workouts": "Tijd maken voor een ochtendtraining",
+          "routine": "Een vaste ochtendroutine opbouwen",
+          "no_rushing": "Mijn dag zonder haast beginnen"
+        }
+      },
+      "painPoints": {
+        "title": "Wat steelt meestal je ochtend?",
+        "titlesByGoal": {
+          "first_alarm": "Wat houdt je tegen om bij je eerste wekker op te staan?",
+          "on_time": "Waardoor kom je meestal te laat?",
+          "workouts": "Wat staat tussen jou en je ochtendtraining?",
+          "routine": "Wat verstoort je ochtendroutine?",
+          "no_rushing": "Wat maakt je ochtend gehaast?"
+        },
+        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "cta": "Dat herken ik",
+        "options": {
+          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
+          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
+          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
+          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
+          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Dit is geen motivatieprobleem.",
+        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "cta": "Laat zien hoe het werkt",
+        "solutions": {
+          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
+          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
+          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
+          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
+          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
+          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+        }
+      },
+      "mechanism": {
+        "title": "Voltooi de missie. Begin je ochtend.",
+        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "cta": "Zo kan mijn ochtend eruitzien",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "De wekker gaat",
+            "copy": "Je wekker gaat op het gekozen tijdstip."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Voltooi je missie",
+            "copy": "Voltooi een live-fotomissie of een korte quiz."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Maak het opstaan af",
+            "copy": "Na de missie is je opstaan voltooid."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Al op. Al onderweg.",
+        "copy": "Het uur dat je vroeger verloor, is weer van jou.",
+        "cta": "Mijn ochtendplan maken",
+        "gains": [
+          "Op tijd",
+          "Helder hoofd",
+          "Al onderweg",
+          "In controle"
+        ]
+      },
+      "mission": {
+        "title": "Wat zou je echt in beweging krijgen?",
+        "copy": "Kies de missie die realistisch voelt voor jouw ochtend.",
+        "cta": "Deze missie gebruiken",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto’s worden op je apparaat gecontroleerd. Galerijfoto’s tellen niet mee en missiefoto’s worden na controle verwijderd.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badkamerstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de badkamer."
+          },
+          "kitchen_start": {
+            "title": "Keukenstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de keuken."
+          },
+          "pet_check": {
+            "title": "Huisdiercheck",
+            "copy": "Fotografeer je kat of hond."
+          },
+          "study_mode": {
+            "title": "Studie-modus",
+            "copy": "Fotografeer een boek, laptop of rugzak."
+          },
+          "quick_quiz": {
+            "title": "Snelle quiz",
+            "copy": "Beantwoord enkele vragen om te bewijzen dat je wakker bent."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Hoe laat wil je morgen opstaan?",
+        "copy": "Kies het tijdstip waarop je eerste DawnVow moet afgaan.",
+        "cta": "Mijn wektijd instellen",
+        "accessibilityLabel": "Wektijd kiezen"
+      },
+      "plan": {
+        "title": "Je eerste DawnVow is klaar.",
+        "copy": "Je koos de tijd. Je koos de missie. Morgen volgt je slaperige ik het plan.",
+        "cta": "Mijn DawnVow bewaren",
+        "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
+        "labels": {
+          "wakeTime": "Wektijd",
+          "goal": "Doel",
+          "escape": "Je gebruikelijke uitweg",
+          "mission": "Je missie",
+          "rule": "Je nieuwe regel"
+        }
+      }
+    },
+    "bold": {
+      "back": "Terug",
+      "rule": "Voltooi de missie. Begin je ochtend.",
+      "timestamps": {
+        "planned": "06:30 Gepland",
+        "late": "07:30 Te laat",
+        "alreadyMoving": "06:30 · Al onderweg"
+      },
+      "painHook": {
+        "title": "Je zette de wekker uit.\nJe werd niet wakker.",
+        "copy": "Eén halfslaperige tik kostte je een uur.",
+        "cta": "Dat ben ik"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Wat wil je veranderen aan je ochtenden?",
+        "copy": "",
+        "cta": "Mijn ochtenddoel kiezen",
+        "options": {
+          "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
+          "on_time": "Op tijd op werk of in de les komen",
+          "workouts": "Tijd maken voor een ochtendtraining",
+          "routine": "Een vaste ochtendroutine opbouwen",
+          "no_rushing": "Mijn dag zonder haast beginnen"
+        }
+      },
+      "painPoints": {
+        "title": "Wat steelt meestal je ochtend?",
+        "titlesByGoal": {
+          "first_alarm": "Wat houdt je tegen om bij je eerste wekker op te staan?",
+          "on_time": "Waardoor kom je meestal te laat?",
+          "workouts": "Wat staat tussen jou en je ochtendtraining?",
+          "routine": "Wat verstoort je ochtendroutine?",
+          "no_rushing": "Wat maakt je ochtend gehaast?"
+        },
+        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "cta": "Dat herken ik",
+        "options": {
+          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
+          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
+          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
+          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
+          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Dit is geen motivatieprobleem.",
+        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "cta": "Laat zien hoe het werkt",
+        "solutions": {
+          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
+          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
+          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
+          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
+          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
+          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+        }
+      },
+      "mechanism": {
+        "title": "Voltooi de missie. Begin je ochtend.",
+        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "cta": "Zo kan mijn ochtend eruitzien",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "De wekker gaat",
+            "copy": "Je wekker gaat op het gekozen tijdstip."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Voltooi je missie",
+            "copy": "Voltooi een live-fotomissie of een korte quiz."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Maak het opstaan af",
+            "copy": "Na de missie is je opstaan voltooid."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Al op. Al onderweg.",
+        "copy": "Het uur dat je vroeger verloor, is weer van jou.",
+        "cta": "Mijn ochtendplan maken",
+        "gains": [
+          "Op tijd",
+          "Helder hoofd",
+          "Al onderweg",
+          "In controle"
+        ]
+      },
+      "mission": {
+        "title": "Wat zou je echt in beweging krijgen?",
+        "copy": "Kies de missie die realistisch voelt voor jouw ochtend.",
+        "cta": "Deze missie gebruiken",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto’s worden op je apparaat gecontroleerd. Galerijfoto’s tellen niet mee en missiefoto’s worden na controle verwijderd.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badkamerstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de badkamer."
+          },
+          "kitchen_start": {
+            "title": "Keukenstart",
+            "copy": "Fotografeer één essentieel voorwerp uit de keuken."
+          },
+          "pet_check": {
+            "title": "Huisdiercheck",
+            "copy": "Fotografeer je kat of hond."
+          },
+          "study_mode": {
+            "title": "Studie-modus",
+            "copy": "Fotografeer een boek, laptop of rugzak."
+          },
+          "quick_quiz": {
+            "title": "Snelle quiz",
+            "copy": "Beantwoord enkele vragen om te bewijzen dat je wakker bent."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Hoe laat wil je morgen opstaan?",
+        "copy": "Kies het tijdstip waarop je eerste DawnVow moet afgaan.",
+        "cta": "Mijn wektijd instellen",
+        "accessibilityLabel": "Wektijd kiezen"
+      },
+      "plan": {
+        "title": "Je eerste DawnVow is klaar.",
+        "copy": "Je koos de tijd. Je koos de missie. Morgen volgt je slaperige ik het plan.",
+        "cta": "Mijn DawnVow bewaren",
+        "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
+        "labels": {
+          "wakeTime": "Wektijd",
+          "goal": "Doel",
+          "escape": "Je gebruikelijke uitweg",
+          "mission": "Je missie",
+          "rule": "Je nieuwe regel"
+        }
+      }
+    }
+  }
+}

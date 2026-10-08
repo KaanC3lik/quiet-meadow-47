@@ -1,13 +1,637 @@
 {
   "source_version": 1,
-  "version": 7,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
-  "variants": { "control": {
-    "back": "Kembali",
-    "rule": "Selesaikan misi. Selesaikan pagimu.",
-    "painHook": { "title": "Kamu mematikan alarm.\nKamu tidak bangun.", "cta": "Itu aku" },
-    "goal": { "title": "Apa yang ingin kamu ubah dari pagimu?" },
-    "wakeTime": { "cta": "Atur waktu bangunku" }
-  } }
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Kembali",
+      "rule": "Selesaikan misi. Selesaikan pagimu.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Kamu mematikan alarm.\nKamu tidak bangun.",
+        "copy": "Satu ketukan setengah sadar menghabiskan satu jam.",
+        "cta": "Itu aku"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Apa yang ingin kamu ubah dari pagimu?",
+        "copy": "",
+        "cta": "Pilih kemenangan pagiku",
+        "options": {
+          "first_alarm": "Bangun saat alarm pertama berbunyi",
+          "on_time": "Tiba di kerja atau kelas tepat waktu",
+          "workouts": "Menyediakan waktu untuk olahraga pagi",
+          "routine": "Membangun rutinitas pagi yang konsisten",
+          "no_rushing": "Memulai hari tanpa terburu-buru"
+        }
+      },
+      "painPoints": {
+        "title": "Apa yang biasanya mencuri pagimu?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pilih semua yang terasa familiar.",
+        "cta": "Itu aku",
+        "options": {
+          "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
+          "dismiss_fall_asleep": "Aku mematikannya lalu tidur lagi",
+          "multiple_alarms": "Aku memasang banyak alarm dan mengabaikan semuanya",
+          "louder_background": "Alarm yang lebih keras akhirnya menjadi suara latar",
+          "sleepy_ignores": "Diriku yang mengantuk mengabaikan rencana malamku",
+          "late_frustrated": "Aku bangun terlambat dan memulai hari dengan frustrasi"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "copy": "",
+        "cta": "Lihat seperti apa pagiku",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm berbunyi",
+            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Selesaikan misimu",
+            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Selesaikan bangun",
+            "copy": "Lulus misi menandai bangunmu selesai."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Sudah bangun. Sudah bergerak.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Buat rencana bangunku",
+        "gains": [
+          "Tepat waktu",
+          "Pikiran jernih",
+          "Sudah bergerak",
+          "Memegang kendali"
+        ]
+      },
+      "mission": {
+        "title": "Apa yang benar-benar akan membuatmu bergerak?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Gunakan misi ini",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto diperiksa di perangkatmu. Foto galeri tidak dihitung dan foto misi dihapus setelah verifikasi.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Wastafel",
+          "toothbrush": "Sikat gigi",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Kulkas",
+          "cup": "Cangkir",
+          "bottle": "Botol",
+          "microwave": "Microwave",
+          "bowl": "Mangkuk",
+          "cat": "Kucing",
+          "dog": "Anjing",
+          "book": "Buku",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Ransel"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Jam berapa kamu ingin bangun besok?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Atur waktu bangunku",
+        "accessibilityLabel": "Pilih waktu bangun"
+      },
+      "plan": {
+        "title": "DawnVow pertamamu siap.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Simpan DawnVow-ku",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Waktu bangun",
+          "goal": "Tujuan",
+          "escape": "Pelarian biasanya",
+          "mission": "Misimu",
+          "rule": "Aturan barumu"
+        }
+      }
+    },
+    "calm": {
+      "back": "Kembali",
+      "rule": "Selesaikan misi. Selesaikan pagimu.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Kamu mematikan alarm.\nKamu tidak bangun.",
+        "copy": "Satu ketukan setengah sadar menghabiskan satu jam.",
+        "cta": "Itu aku"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Apa yang ingin kamu ubah dari pagimu?",
+        "copy": "",
+        "cta": "Pilih kemenangan pagiku",
+        "options": {
+          "first_alarm": "Bangun saat alarm pertama berbunyi",
+          "on_time": "Tiba di kerja atau kelas tepat waktu",
+          "workouts": "Menyediakan waktu untuk olahraga pagi",
+          "routine": "Membangun rutinitas pagi yang konsisten",
+          "no_rushing": "Memulai hari tanpa terburu-buru"
+        }
+      },
+      "painPoints": {
+        "title": "Apa yang biasanya mencuri pagimu?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pilih semua yang terasa familiar.",
+        "cta": "Itu aku",
+        "options": {
+          "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
+          "dismiss_fall_asleep": "Aku mematikannya lalu tidur lagi",
+          "multiple_alarms": "Aku memasang banyak alarm dan mengabaikan semuanya",
+          "louder_background": "Alarm yang lebih keras akhirnya menjadi suara latar",
+          "sleepy_ignores": "Diriku yang mengantuk mengabaikan rencana malamku",
+          "late_frustrated": "Aku bangun terlambat dan memulai hari dengan frustrasi"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "copy": "",
+        "cta": "Lihat seperti apa pagiku",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm berbunyi",
+            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Selesaikan misimu",
+            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Selesaikan bangun",
+            "copy": "Lulus misi menandai bangunmu selesai."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Sudah bangun. Sudah bergerak.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Buat rencana bangunku",
+        "gains": [
+          "Tepat waktu",
+          "Pikiran jernih",
+          "Sudah bergerak",
+          "Memegang kendali"
+        ]
+      },
+      "mission": {
+        "title": "Apa yang benar-benar akan membuatmu bergerak?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Gunakan misi ini",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto diperiksa di perangkatmu. Foto galeri tidak dihitung dan foto misi dihapus setelah verifikasi.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Wastafel",
+          "toothbrush": "Sikat gigi",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Kulkas",
+          "cup": "Cangkir",
+          "bottle": "Botol",
+          "microwave": "Microwave",
+          "bowl": "Mangkuk",
+          "cat": "Kucing",
+          "dog": "Anjing",
+          "book": "Buku",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Ransel"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Jam berapa kamu ingin bangun besok?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Atur waktu bangunku",
+        "accessibilityLabel": "Pilih waktu bangun"
+      },
+      "plan": {
+        "title": "DawnVow pertamamu siap.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Simpan DawnVow-ku",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Waktu bangun",
+          "goal": "Tujuan",
+          "escape": "Pelarian biasanya",
+          "mission": "Misimu",
+          "rule": "Aturan barumu"
+        }
+      }
+    },
+    "bold": {
+      "back": "Kembali",
+      "rule": "Selesaikan misi. Selesaikan pagimu.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Kamu mematikan alarm.\nKamu tidak bangun.",
+        "copy": "Satu ketukan setengah sadar menghabiskan satu jam.",
+        "cta": "Itu aku"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Apa yang ingin kamu ubah dari pagimu?",
+        "copy": "",
+        "cta": "Pilih kemenangan pagiku",
+        "options": {
+          "first_alarm": "Bangun saat alarm pertama berbunyi",
+          "on_time": "Tiba di kerja atau kelas tepat waktu",
+          "workouts": "Menyediakan waktu untuk olahraga pagi",
+          "routine": "Membangun rutinitas pagi yang konsisten",
+          "no_rushing": "Memulai hari tanpa terburu-buru"
+        }
+      },
+      "painPoints": {
+        "title": "Apa yang biasanya mencuri pagimu?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pilih semua yang terasa familiar.",
+        "cta": "Itu aku",
+        "options": {
+          "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
+          "dismiss_fall_asleep": "Aku mematikannya lalu tidur lagi",
+          "multiple_alarms": "Aku memasang banyak alarm dan mengabaikan semuanya",
+          "louder_background": "Alarm yang lebih keras akhirnya menjadi suara latar",
+          "sleepy_ignores": "Diriku yang mengantuk mengabaikan rencana malamku",
+          "late_frustrated": "Aku bangun terlambat dan memulai hari dengan frustrasi"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "copy": "",
+        "cta": "Lihat seperti apa pagiku",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm berbunyi",
+            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Selesaikan misimu",
+            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Selesaikan bangun",
+            "copy": "Lulus misi menandai bangunmu selesai."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Sudah bangun. Sudah bergerak.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Buat rencana bangunku",
+        "gains": [
+          "Tepat waktu",
+          "Pikiran jernih",
+          "Sudah bergerak",
+          "Memegang kendali"
+        ]
+      },
+      "mission": {
+        "title": "Apa yang benar-benar akan membuatmu bergerak?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Gunakan misi ini",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Foto diperiksa di perangkatmu. Foto galeri tidak dihitung dan foto misi dihapus setelah verifikasi.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Wastafel",
+          "toothbrush": "Sikat gigi",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Kulkas",
+          "cup": "Cangkir",
+          "bottle": "Botol",
+          "microwave": "Microwave",
+          "bowl": "Mangkuk",
+          "cat": "Kucing",
+          "dog": "Anjing",
+          "book": "Buku",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Ransel"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "Jam berapa kamu ingin bangun besok?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Atur waktu bangunku",
+        "accessibilityLabel": "Pilih waktu bangun"
+      },
+      "plan": {
+        "title": "DawnVow pertamamu siap.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Simpan DawnVow-ku",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Waktu bangun",
+          "goal": "Tujuan",
+          "escape": "Pelarian biasanya",
+          "mission": "Misimu",
+          "rule": "Aturan barumu"
+        }
+      }
+    }
+  }
 }

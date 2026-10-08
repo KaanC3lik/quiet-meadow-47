@@ -1,13 +1,637 @@
 {
   "source_version": 1,
-  "version": 7,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
-  "variants": { "control": {
-    "back": "رجوع",
-    "rule": "أكمل المهمة. أكمل صباحك.",
-    "painHook": { "title": "أوقفت المنبّه.\nلكنّك لم تستيقظ.", "cta": "هذا أنا" },
-    "goal": { "title": "ما الذي تريد تغييره في صباحك؟" },
-    "wakeTime": { "cta": "اضبط وقت استيقاظي" }
-  } }
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "رجوع",
+      "rule": "أكمل المهمة. أكمل صباحك.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "أوقفت المنبّه.\nلكنّك لم تستيقظ.",
+        "copy": "لمسة وأنت نصف نائم كلّفتك ساعة.",
+        "cta": "هذا أنا"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "ما الذي تريد تغييره في صباحك؟",
+        "copy": "",
+        "cta": "اختر مكسب صباحي",
+        "options": {
+          "first_alarm": "الاستيقاظ مع أول منبّه",
+          "on_time": "الوصول إلى العمل أو الدراسة في الوقت",
+          "workouts": "تخصيص وقت لتمرين صباحي",
+          "routine": "بناء روتين صباحي ثابت",
+          "no_rushing": "بدء اليوم بلا عجلة"
+        }
+      },
+      "painPoints": {
+        "title": "ما الذي يسرق صباحك عادةً؟",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "اختر كل ما ينطبق عليك.",
+        "cta": "هذا يشبهني",
+        "options": {
+          "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
+          "dismiss_fall_asleep": "أوقفه ثم أعود للنوم",
+          "multiple_alarms": "أضبط عدة منبّهات وأتجاهلها كلها",
+          "louder_background": "تصبح المنبّهات الأعلى ضجيجًا في الخلفية",
+          "sleepy_ignores": "أنا النائم أتجاهل خططي المسائية",
+          "late_frustrated": "أستيقظ متأخرًا وأبدأ يومي محبطًا"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "أكمل المهمة. أكمل صباحك.",
+        "copy": "",
+        "cta": "شاهد كيف يمكن أن يبدو صباحي",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "يرن المنبّه",
+            "copy": "يرن المنبّه في الوقت الذي اخترته."
+          },
+          {
+            "id": "complete_mission",
+            "title": "أكمل مهمتك",
+            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "أكمل الاستيقاظ",
+            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. مستيقظ. تتحرك.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "أنشئ خطة استيقاظي",
+        "gains": [
+          "في الموعد",
+          "ذهن صافٍ",
+          "بدأت الحركة",
+          "مسيطر"
+        ]
+      },
+      "mission": {
+        "title": "ما الذي سيدفعك إلى الحركة فعلًا؟",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "استخدم هذه المهمة",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "تُفحص الصور على جهازك. صور المعرض لا تُقبل وتحذف صور المهمة بعد التحقق.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "مرحاض",
+          "sink": "حوض",
+          "toothbrush": "فرشاة أسنان",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ثلاجة",
+          "cup": "كوب",
+          "bottle": "زجاجة",
+          "microwave": "Microwave",
+          "bowl": "وعاء",
+          "cat": "قطة",
+          "dog": "كلب",
+          "book": "كتاب",
+          "laptop": "حاسوب محمول",
+          "keyboard": "لوحة مفاتيح",
+          "mouse": "فأرة",
+          "backpack": "حقيبة ظهر"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "متى تريد الاستيقاظ غدًا؟",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "اضبط وقت استيقاظي",
+        "accessibilityLabel": "اختر وقت الاستيقاظ"
+      },
+      "plan": {
+        "title": "أول DawnVow جاهز.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "احتفظ بـ DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "وقت الاستيقاظ",
+          "goal": "الهدف",
+          "escape": "طريقتك المعتادة للهروب",
+          "mission": "مهمتك",
+          "rule": "قاعدتك الجديدة"
+        }
+      }
+    },
+    "calm": {
+      "back": "رجوع",
+      "rule": "أكمل المهمة. أكمل صباحك.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "أوقفت المنبّه.\nلكنّك لم تستيقظ.",
+        "copy": "لمسة وأنت نصف نائم كلّفتك ساعة.",
+        "cta": "هذا أنا"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "ما الذي تريد تغييره في صباحك؟",
+        "copy": "",
+        "cta": "اختر مكسب صباحي",
+        "options": {
+          "first_alarm": "الاستيقاظ مع أول منبّه",
+          "on_time": "الوصول إلى العمل أو الدراسة في الوقت",
+          "workouts": "تخصيص وقت لتمرين صباحي",
+          "routine": "بناء روتين صباحي ثابت",
+          "no_rushing": "بدء اليوم بلا عجلة"
+        }
+      },
+      "painPoints": {
+        "title": "ما الذي يسرق صباحك عادةً؟",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "اختر كل ما ينطبق عليك.",
+        "cta": "هذا يشبهني",
+        "options": {
+          "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
+          "dismiss_fall_asleep": "أوقفه ثم أعود للنوم",
+          "multiple_alarms": "أضبط عدة منبّهات وأتجاهلها كلها",
+          "louder_background": "تصبح المنبّهات الأعلى ضجيجًا في الخلفية",
+          "sleepy_ignores": "أنا النائم أتجاهل خططي المسائية",
+          "late_frustrated": "أستيقظ متأخرًا وأبدأ يومي محبطًا"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "أكمل المهمة. أكمل صباحك.",
+        "copy": "",
+        "cta": "شاهد كيف يمكن أن يبدو صباحي",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "يرن المنبّه",
+            "copy": "يرن المنبّه في الوقت الذي اخترته."
+          },
+          {
+            "id": "complete_mission",
+            "title": "أكمل مهمتك",
+            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "أكمل الاستيقاظ",
+            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. مستيقظ. تتحرك.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "أنشئ خطة استيقاظي",
+        "gains": [
+          "في الموعد",
+          "ذهن صافٍ",
+          "بدأت الحركة",
+          "مسيطر"
+        ]
+      },
+      "mission": {
+        "title": "ما الذي سيدفعك إلى الحركة فعلًا؟",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "استخدم هذه المهمة",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "تُفحص الصور على جهازك. صور المعرض لا تُقبل وتحذف صور المهمة بعد التحقق.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "مرحاض",
+          "sink": "حوض",
+          "toothbrush": "فرشاة أسنان",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ثلاجة",
+          "cup": "كوب",
+          "bottle": "زجاجة",
+          "microwave": "Microwave",
+          "bowl": "وعاء",
+          "cat": "قطة",
+          "dog": "كلب",
+          "book": "كتاب",
+          "laptop": "حاسوب محمول",
+          "keyboard": "لوحة مفاتيح",
+          "mouse": "فأرة",
+          "backpack": "حقيبة ظهر"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "متى تريد الاستيقاظ غدًا؟",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "اضبط وقت استيقاظي",
+        "accessibilityLabel": "اختر وقت الاستيقاظ"
+      },
+      "plan": {
+        "title": "أول DawnVow جاهز.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "احتفظ بـ DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "وقت الاستيقاظ",
+          "goal": "الهدف",
+          "escape": "طريقتك المعتادة للهروب",
+          "mission": "مهمتك",
+          "rule": "قاعدتك الجديدة"
+        }
+      }
+    },
+    "bold": {
+      "back": "رجوع",
+      "rule": "أكمل المهمة. أكمل صباحك.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "أوقفت المنبّه.\nلكنّك لم تستيقظ.",
+        "copy": "لمسة وأنت نصف نائم كلّفتك ساعة.",
+        "cta": "هذا أنا"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "ما الذي تريد تغييره في صباحك؟",
+        "copy": "",
+        "cta": "اختر مكسب صباحي",
+        "options": {
+          "first_alarm": "الاستيقاظ مع أول منبّه",
+          "on_time": "الوصول إلى العمل أو الدراسة في الوقت",
+          "workouts": "تخصيص وقت لتمرين صباحي",
+          "routine": "بناء روتين صباحي ثابت",
+          "no_rushing": "بدء اليوم بلا عجلة"
+        }
+      },
+      "painPoints": {
+        "title": "ما الذي يسرق صباحك عادةً؟",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "اختر كل ما ينطبق عليك.",
+        "cta": "هذا يشبهني",
+        "options": {
+          "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
+          "dismiss_fall_asleep": "أوقفه ثم أعود للنوم",
+          "multiple_alarms": "أضبط عدة منبّهات وأتجاهلها كلها",
+          "louder_background": "تصبح المنبّهات الأعلى ضجيجًا في الخلفية",
+          "sleepy_ignores": "أنا النائم أتجاهل خططي المسائية",
+          "late_frustrated": "أستيقظ متأخرًا وأبدأ يومي محبطًا"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "أكمل المهمة. أكمل صباحك.",
+        "copy": "",
+        "cta": "شاهد كيف يمكن أن يبدو صباحي",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "يرن المنبّه",
+            "copy": "يرن المنبّه في الوقت الذي اخترته."
+          },
+          {
+            "id": "complete_mission",
+            "title": "أكمل مهمتك",
+            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "أكمل الاستيقاظ",
+            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. مستيقظ. تتحرك.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "أنشئ خطة استيقاظي",
+        "gains": [
+          "في الموعد",
+          "ذهن صافٍ",
+          "بدأت الحركة",
+          "مسيطر"
+        ]
+      },
+      "mission": {
+        "title": "ما الذي سيدفعك إلى الحركة فعلًا؟",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "استخدم هذه المهمة",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "تُفحص الصور على جهازك. صور المعرض لا تُقبل وتحذف صور المهمة بعد التحقق.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "مرحاض",
+          "sink": "حوض",
+          "toothbrush": "فرشاة أسنان",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ثلاجة",
+          "cup": "كوب",
+          "bottle": "زجاجة",
+          "microwave": "Microwave",
+          "bowl": "وعاء",
+          "cat": "قطة",
+          "dog": "كلب",
+          "book": "كتاب",
+          "laptop": "حاسوب محمول",
+          "keyboard": "لوحة مفاتيح",
+          "mouse": "فأرة",
+          "backpack": "حقيبة ظهر"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "متى تريد الاستيقاظ غدًا؟",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "اضبط وقت استيقاظي",
+        "accessibilityLabel": "اختر وقت الاستيقاظ"
+      },
+      "plan": {
+        "title": "أول DawnVow جاهز.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "احتفظ بـ DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "وقت الاستيقاظ",
+          "goal": "الهدف",
+          "escape": "طريقتك المعتادة للهروب",
+          "mission": "مهمتك",
+          "rule": "قاعدتك الجديدة"
+        }
+      }
+    }
+  }
 }

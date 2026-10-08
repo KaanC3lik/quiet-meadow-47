@@ -1,1 +1,637 @@
-{"source_version":1,"version":11,"experiment_id":"exp_v2","assignment":{"control":100},"variants":{"control":{"back":"返回","rule":"完成任務，開始早晨。"}}}
+{
+  "source_version": 1,
+  "version": 14,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "返回",
+      "rule": "完成任務，開始早晨。",
+      "timestamps": {
+        "planned": "06:30 已排程",
+        "late": "07:30 已遲到",
+        "alreadyMoving": "06:30 · 已經行動"
+      },
+      "painHook": {
+        "title": "你關掉了鬧鐘。\n卻沒有醒來。",
+        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "cta": "這就是我"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "你想如何改變自己的早晨？",
+        "copy": "",
+        "cta": "選擇我的早晨目標",
+        "options": {
+          "first_alarm": "第一個鬧鐘響起時起床",
+          "on_time": "準時到達工作地點或課堂",
+          "workouts": "為晨間運動留出時間",
+          "routine": "建立穩定的早晨習慣",
+          "no_rushing": "不慌不忙地開始一天"
+        }
+      },
+      "painPoints": {
+        "title": "什麼通常會偷走你的早晨？",
+        "titlesByGoal": {
+          "first_alarm": "是什麼讓你無法在第一個鬧鐘響起時起床？",
+          "on_time": "你通常為什麼會遲到？",
+          "workouts": "什麼阻礙了你的晨間運動？",
+          "routine": "什麼打亂了你的早晨習慣？",
+          "no_rushing": "什麼讓你的早晨變得匆忙？"
+        },
+        "copy": "選擇所有符合的情況。",
+        "cta": "這說的就是我",
+        "options": {
+          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
+          "multiple_alarms": "我設好幾個鬧鐘，卻全部忽略",
+          "louder_background": "更響的鬧鐘最後也變成背景聲音",
+          "sleepy_ignores": "睡意中的我會忽略昨晚制定的計畫",
+          "late_frustrated": "我晚起，帶著沮喪開始一天"
+        }
+      },
+      "personalizedSolution": {
+        "title": "這不是動力問題。",
+        "copy": "你選擇的問題發生在完全清醒的大腦參與決定之前。DawnVow 會這樣改變每種模式。",
+        "cta": "看看它如何運作",
+        "solutions": {
+          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
+          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
+          "multiple_alarms": "一個需要行動的鬧鐘，取代你已學會忽略的鬧鐘鏈。",
+          "louder_background": "DawnVow 改變你的行動，而不只是把聲音調大。",
+          "sleepy_ignores": "清醒的你選擇任務，睡意中的你必須完成它。",
+          "late_frustrated": "完成第一個行動，讓你在早晨溜走前開始移動。"
+        }
+      },
+      "mechanism": {
+        "title": "完成任務，開始早晨。",
+        "copy": "DawnVow 把鬧鐘變成你前一晚選擇的簡單流程。",
+        "cta": "看看我的早晨會怎樣",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "鬧鐘響起",
+            "copy": "鬧鐘會在你選擇的時間響起。"
+          },
+          {
+            "id": "complete_mission",
+            "title": "完成任務",
+            "copy": "完成即時照片任務或快速測驗。"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "完成起床",
+            "copy": "通過任務後，起床就算完成。"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30。已經起床，已經行動。",
+        "copy": "曾經失去的那一小時，現在又屬於你。",
+        "cta": "制定我的起床計畫",
+        "gains": [
+          "準時",
+          "頭腦清醒",
+          "已經行動",
+          "掌握一切"
+        ]
+      },
+      "mission": {
+        "title": "什麼真的能讓你行動起來？",
+        "copy": "選擇一個適合你早晨的實際任務。",
+        "cta": "使用此任務",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "照片會在裝置上檢查。圖庫圖片不算，任務照片驗證後會刪除。",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "浴室啟動",
+            "copy": "拍攝一件浴室用品。"
+          },
+          "kitchen_start": {
+            "title": "廚房啟動",
+            "copy": "拍攝一件廚房用品。"
+          },
+          "pet_check": {
+            "title": "寵物檢查",
+            "copy": "拍攝你的貓或狗。"
+          },
+          "study_mode": {
+            "title": "學習模式",
+            "copy": "拍攝書、筆記型電腦或背包。"
+          },
+          "quick_quiz": {
+            "title": "快速測驗",
+            "copy": "回答幾個問題，證明你已經醒了。"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "你想明天幾點起床？",
+        "copy": "選擇第一個 DawnVow 鬧鐘響起的時間。",
+        "cta": "設定我的起床時間",
+        "accessibilityLabel": "選擇起床時間"
+      },
+      "plan": {
+        "title": "你的第一個 DawnVow 已準備好。",
+        "copy": "你選擇了時間，也選擇了任務。明天，睡意中的你會執行這份計畫。",
+        "cta": "保留我的 DawnVow",
+        "trust": "DawnVow 只會在需要時要求鬧鐘、通知和相機權限。",
+        "labels": {
+          "wakeTime": "起床時間",
+          "goal": "目標",
+          "escape": "你通常的逃避方式",
+          "mission": "你的任務",
+          "rule": "你的新規則"
+        }
+      }
+    },
+    "calm": {
+      "back": "返回",
+      "rule": "完成任務，開始早晨。",
+      "timestamps": {
+        "planned": "06:30 已排程",
+        "late": "07:30 已遲到",
+        "alreadyMoving": "06:30 · 已經行動"
+      },
+      "painHook": {
+        "title": "你關掉了鬧鐘。\n卻沒有醒來。",
+        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "cta": "這就是我"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "你想如何改變自己的早晨？",
+        "copy": "",
+        "cta": "選擇我的早晨目標",
+        "options": {
+          "first_alarm": "第一個鬧鐘響起時起床",
+          "on_time": "準時到達工作地點或課堂",
+          "workouts": "為晨間運動留出時間",
+          "routine": "建立穩定的早晨習慣",
+          "no_rushing": "不慌不忙地開始一天"
+        }
+      },
+      "painPoints": {
+        "title": "什麼通常會偷走你的早晨？",
+        "titlesByGoal": {
+          "first_alarm": "是什麼讓你無法在第一個鬧鐘響起時起床？",
+          "on_time": "你通常為什麼會遲到？",
+          "workouts": "什麼阻礙了你的晨間運動？",
+          "routine": "什麼打亂了你的早晨習慣？",
+          "no_rushing": "什麼讓你的早晨變得匆忙？"
+        },
+        "copy": "選擇所有符合的情況。",
+        "cta": "這說的就是我",
+        "options": {
+          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
+          "multiple_alarms": "我設好幾個鬧鐘，卻全部忽略",
+          "louder_background": "更響的鬧鐘最後也變成背景聲音",
+          "sleepy_ignores": "睡意中的我會忽略昨晚制定的計畫",
+          "late_frustrated": "我晚起，帶著沮喪開始一天"
+        }
+      },
+      "personalizedSolution": {
+        "title": "這不是動力問題。",
+        "copy": "你選擇的問題發生在完全清醒的大腦參與決定之前。DawnVow 會這樣改變每種模式。",
+        "cta": "看看它如何運作",
+        "solutions": {
+          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
+          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
+          "multiple_alarms": "一個需要行動的鬧鐘，取代你已學會忽略的鬧鐘鏈。",
+          "louder_background": "DawnVow 改變你的行動，而不只是把聲音調大。",
+          "sleepy_ignores": "清醒的你選擇任務，睡意中的你必須完成它。",
+          "late_frustrated": "完成第一個行動，讓你在早晨溜走前開始移動。"
+        }
+      },
+      "mechanism": {
+        "title": "完成任務，開始早晨。",
+        "copy": "DawnVow 把鬧鐘變成你前一晚選擇的簡單流程。",
+        "cta": "看看我的早晨會怎樣",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "鬧鐘響起",
+            "copy": "鬧鐘會在你選擇的時間響起。"
+          },
+          {
+            "id": "complete_mission",
+            "title": "完成任務",
+            "copy": "完成即時照片任務或快速測驗。"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "完成起床",
+            "copy": "通過任務後，起床就算完成。"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30。已經起床，已經行動。",
+        "copy": "曾經失去的那一小時，現在又屬於你。",
+        "cta": "制定我的起床計畫",
+        "gains": [
+          "準時",
+          "頭腦清醒",
+          "已經行動",
+          "掌握一切"
+        ]
+      },
+      "mission": {
+        "title": "什麼真的能讓你行動起來？",
+        "copy": "選擇一個適合你早晨的實際任務。",
+        "cta": "使用此任務",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "照片會在裝置上檢查。圖庫圖片不算，任務照片驗證後會刪除。",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "浴室啟動",
+            "copy": "拍攝一件浴室用品。"
+          },
+          "kitchen_start": {
+            "title": "廚房啟動",
+            "copy": "拍攝一件廚房用品。"
+          },
+          "pet_check": {
+            "title": "寵物檢查",
+            "copy": "拍攝你的貓或狗。"
+          },
+          "study_mode": {
+            "title": "學習模式",
+            "copy": "拍攝書、筆記型電腦或背包。"
+          },
+          "quick_quiz": {
+            "title": "快速測驗",
+            "copy": "回答幾個問題，證明你已經醒了。"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "你想明天幾點起床？",
+        "copy": "選擇第一個 DawnVow 鬧鐘響起的時間。",
+        "cta": "設定我的起床時間",
+        "accessibilityLabel": "選擇起床時間"
+      },
+      "plan": {
+        "title": "你的第一個 DawnVow 已準備好。",
+        "copy": "你選擇了時間，也選擇了任務。明天，睡意中的你會執行這份計畫。",
+        "cta": "保留我的 DawnVow",
+        "trust": "DawnVow 只會在需要時要求鬧鐘、通知和相機權限。",
+        "labels": {
+          "wakeTime": "起床時間",
+          "goal": "目標",
+          "escape": "你通常的逃避方式",
+          "mission": "你的任務",
+          "rule": "你的新規則"
+        }
+      }
+    },
+    "bold": {
+      "back": "返回",
+      "rule": "完成任務，開始早晨。",
+      "timestamps": {
+        "planned": "06:30 已排程",
+        "late": "07:30 已遲到",
+        "alreadyMoving": "06:30 · 已經行動"
+      },
+      "painHook": {
+        "title": "你關掉了鬧鐘。\n卻沒有醒來。",
+        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "cta": "這就是我"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "你想如何改變自己的早晨？",
+        "copy": "",
+        "cta": "選擇我的早晨目標",
+        "options": {
+          "first_alarm": "第一個鬧鐘響起時起床",
+          "on_time": "準時到達工作地點或課堂",
+          "workouts": "為晨間運動留出時間",
+          "routine": "建立穩定的早晨習慣",
+          "no_rushing": "不慌不忙地開始一天"
+        }
+      },
+      "painPoints": {
+        "title": "什麼通常會偷走你的早晨？",
+        "titlesByGoal": {
+          "first_alarm": "是什麼讓你無法在第一個鬧鐘響起時起床？",
+          "on_time": "你通常為什麼會遲到？",
+          "workouts": "什麼阻礙了你的晨間運動？",
+          "routine": "什麼打亂了你的早晨習慣？",
+          "no_rushing": "什麼讓你的早晨變得匆忙？"
+        },
+        "copy": "選擇所有符合的情況。",
+        "cta": "這說的就是我",
+        "options": {
+          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
+          "multiple_alarms": "我設好幾個鬧鐘，卻全部忽略",
+          "louder_background": "更響的鬧鐘最後也變成背景聲音",
+          "sleepy_ignores": "睡意中的我會忽略昨晚制定的計畫",
+          "late_frustrated": "我晚起，帶著沮喪開始一天"
+        }
+      },
+      "personalizedSolution": {
+        "title": "這不是動力問題。",
+        "copy": "你選擇的問題發生在完全清醒的大腦參與決定之前。DawnVow 會這樣改變每種模式。",
+        "cta": "看看它如何運作",
+        "solutions": {
+          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
+          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
+          "multiple_alarms": "一個需要行動的鬧鐘，取代你已學會忽略的鬧鐘鏈。",
+          "louder_background": "DawnVow 改變你的行動，而不只是把聲音調大。",
+          "sleepy_ignores": "清醒的你選擇任務，睡意中的你必須完成它。",
+          "late_frustrated": "完成第一個行動，讓你在早晨溜走前開始移動。"
+        }
+      },
+      "mechanism": {
+        "title": "完成任務，開始早晨。",
+        "copy": "DawnVow 把鬧鐘變成你前一晚選擇的簡單流程。",
+        "cta": "看看我的早晨會怎樣",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "鬧鐘響起",
+            "copy": "鬧鐘會在你選擇的時間響起。"
+          },
+          {
+            "id": "complete_mission",
+            "title": "完成任務",
+            "copy": "完成即時照片任務或快速測驗。"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "完成起床",
+            "copy": "通過任務後，起床就算完成。"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30。已經起床，已經行動。",
+        "copy": "曾經失去的那一小時，現在又屬於你。",
+        "cta": "制定我的起床計畫",
+        "gains": [
+          "準時",
+          "頭腦清醒",
+          "已經行動",
+          "掌握一切"
+        ]
+      },
+      "mission": {
+        "title": "什麼真的能讓你行動起來？",
+        "copy": "選擇一個適合你早晨的實際任務。",
+        "cta": "使用此任務",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "照片會在裝置上檢查。圖庫圖片不算，任務照片驗證後會刪除。",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "浴室啟動",
+            "copy": "拍攝一件浴室用品。"
+          },
+          "kitchen_start": {
+            "title": "廚房啟動",
+            "copy": "拍攝一件廚房用品。"
+          },
+          "pet_check": {
+            "title": "寵物檢查",
+            "copy": "拍攝你的貓或狗。"
+          },
+          "study_mode": {
+            "title": "學習模式",
+            "copy": "拍攝書、筆記型電腦或背包。"
+          },
+          "quick_quiz": {
+            "title": "快速測驗",
+            "copy": "回答幾個問題，證明你已經醒了。"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "你想明天幾點起床？",
+        "copy": "選擇第一個 DawnVow 鬧鐘響起的時間。",
+        "cta": "設定我的起床時間",
+        "accessibilityLabel": "選擇起床時間"
+      },
+      "plan": {
+        "title": "你的第一個 DawnVow 已準備好。",
+        "copy": "你選擇了時間，也選擇了任務。明天，睡意中的你會執行這份計畫。",
+        "cta": "保留我的 DawnVow",
+        "trust": "DawnVow 只會在需要時要求鬧鐘、通知和相機權限。",
+        "labels": {
+          "wakeTime": "起床時間",
+          "goal": "目標",
+          "escape": "你通常的逃避方式",
+          "mission": "你的任務",
+          "rule": "你的新規則"
+        }
+      }
+    }
+  }
+}

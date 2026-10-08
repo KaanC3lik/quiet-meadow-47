@@ -1,13 +1,637 @@
 {
   "source_version": 1,
-  "version": 7,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
-  "variants": { "control": {
-    "back": "Назад",
-    "rule": "Виконайте місію. Завершіть свій ранок.",
-    "painHook": { "title": "Ви вимкнули будильник.\nАле не прокинулися.", "cta": "Це про мене" },
-    "goal": { "title": "Що ви хочете змінити у своїх ранках?" },
-    "wakeTime": { "cta": "Встановити час пробудження" }
-  } }
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Назад",
+      "rule": "Виконайте місію. Завершіть свій ранок.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Ви вимкнули будильник.\nАле не прокинулися.",
+        "copy": "Один сонний дотик забрав у вас годину.",
+        "cta": "Це про мене"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Що ви хочете змінити у своїх ранках?",
+        "copy": "",
+        "cta": "Обрати ранкову перемогу",
+        "options": {
+          "first_alarm": "Вставати з першим будильником",
+          "on_time": "Встигати на роботу або навчання",
+          "workouts": "Знаходити час для ранкових тренувань",
+          "routine": "Створити стабільний ранковий розпорядок",
+          "no_rushing": "Починати день без поспіху"
+        }
+      },
+      "painPoints": {
+        "title": "Що зазвичай краде ваш ранок?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Оберіть усе, що вам знайоме.",
+        "cta": "Це про мене",
+        "options": {
+          "snooze_unaware": "Я натискаю повтор, не пам’ятаючи про це",
+          "dismiss_fall_asleep": "Вимикаю будильник і знову засинаю",
+          "multiple_alarms": "Ставлю кілька будильників і ігнорую всі",
+          "louder_background": "Гучніші будильники зрештою стають фоновим шумом",
+          "sleepy_ignores": "Сонний я ігнорує вечірні плани",
+          "late_frustrated": "Прокидаюся пізно й починаю день роздратованим"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Виконайте місію. Завершіть свій ранок.",
+        "copy": "",
+        "cta": "Побачити мій можливий ранок",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Будильник дзвонить",
+            "copy": "Будильник дзвонить у вибраний час."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Виконайте місію",
+            "copy": "Виконайте фотомісію або коротку вікторину."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Завершіть пробудження",
+            "copy": "Успішна місія позначає пробудження завершеним."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Уже встали. Уже рухаєтесь.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Створити план пробудження",
+        "gains": [
+          "Вчасно",
+          "Ясний розум",
+          "Уже в русі",
+          "Під контролем"
+        ]
+      },
+      "mission": {
+        "title": "Що насправді змусить вас рухатися?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Використати цю місію",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Фото перевіряються на пристрої. Фото з галереї не зараховуються й видаляються після перевірки.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Туалет",
+          "sink": "Раковина",
+          "toothbrush": "Зубна щітка",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Холодильник",
+          "cup": "Чашка",
+          "bottle": "Пляшка",
+          "microwave": "Microwave",
+          "bowl": "Миска",
+          "cat": "Кіт",
+          "dog": "Собака",
+          "book": "Книжка",
+          "laptop": "Ноутбук",
+          "keyboard": "Клавіатура",
+          "mouse": "Миша",
+          "backpack": "Рюкзак"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "О котрій ви хочете прокинутися завтра?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Встановити час пробудження",
+        "accessibilityLabel": "Обрати час пробудження"
+      },
+      "plan": {
+        "title": "Ваш перший DawnVow готовий.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Зберегти мій DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Час пробудження",
+          "goal": "Мета",
+          "escape": "Ваш звичний спосіб втечі",
+          "mission": "Ваша місія",
+          "rule": "Ваше нове правило"
+        }
+      }
+    },
+    "calm": {
+      "back": "Назад",
+      "rule": "Виконайте місію. Завершіть свій ранок.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Ви вимкнули будильник.\nАле не прокинулися.",
+        "copy": "Один сонний дотик забрав у вас годину.",
+        "cta": "Це про мене"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Що ви хочете змінити у своїх ранках?",
+        "copy": "",
+        "cta": "Обрати ранкову перемогу",
+        "options": {
+          "first_alarm": "Вставати з першим будильником",
+          "on_time": "Встигати на роботу або навчання",
+          "workouts": "Знаходити час для ранкових тренувань",
+          "routine": "Створити стабільний ранковий розпорядок",
+          "no_rushing": "Починати день без поспіху"
+        }
+      },
+      "painPoints": {
+        "title": "Що зазвичай краде ваш ранок?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Оберіть усе, що вам знайоме.",
+        "cta": "Це про мене",
+        "options": {
+          "snooze_unaware": "Я натискаю повтор, не пам’ятаючи про це",
+          "dismiss_fall_asleep": "Вимикаю будильник і знову засинаю",
+          "multiple_alarms": "Ставлю кілька будильників і ігнорую всі",
+          "louder_background": "Гучніші будильники зрештою стають фоновим шумом",
+          "sleepy_ignores": "Сонний я ігнорує вечірні плани",
+          "late_frustrated": "Прокидаюся пізно й починаю день роздратованим"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Виконайте місію. Завершіть свій ранок.",
+        "copy": "",
+        "cta": "Побачити мій можливий ранок",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Будильник дзвонить",
+            "copy": "Будильник дзвонить у вибраний час."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Виконайте місію",
+            "copy": "Виконайте фотомісію або коротку вікторину."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Завершіть пробудження",
+            "copy": "Успішна місія позначає пробудження завершеним."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Уже встали. Уже рухаєтесь.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Створити план пробудження",
+        "gains": [
+          "Вчасно",
+          "Ясний розум",
+          "Уже в русі",
+          "Під контролем"
+        ]
+      },
+      "mission": {
+        "title": "Що насправді змусить вас рухатися?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Використати цю місію",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Фото перевіряються на пристрої. Фото з галереї не зараховуються й видаляються після перевірки.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Туалет",
+          "sink": "Раковина",
+          "toothbrush": "Зубна щітка",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Холодильник",
+          "cup": "Чашка",
+          "bottle": "Пляшка",
+          "microwave": "Microwave",
+          "bowl": "Миска",
+          "cat": "Кіт",
+          "dog": "Собака",
+          "book": "Книжка",
+          "laptop": "Ноутбук",
+          "keyboard": "Клавіатура",
+          "mouse": "Миша",
+          "backpack": "Рюкзак"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "О котрій ви хочете прокинутися завтра?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Встановити час пробудження",
+        "accessibilityLabel": "Обрати час пробудження"
+      },
+      "plan": {
+        "title": "Ваш перший DawnVow готовий.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Зберегти мій DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Час пробудження",
+          "goal": "Мета",
+          "escape": "Ваш звичний спосіб втечі",
+          "mission": "Ваша місія",
+          "rule": "Ваше нове правило"
+        }
+      }
+    },
+    "bold": {
+      "back": "Назад",
+      "rule": "Виконайте місію. Завершіть свій ранок.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "Ви вимкнули будильник.\nАле не прокинулися.",
+        "copy": "Один сонний дотик забрав у вас годину.",
+        "cta": "Це про мене"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "Що ви хочете змінити у своїх ранках?",
+        "copy": "",
+        "cta": "Обрати ранкову перемогу",
+        "options": {
+          "first_alarm": "Вставати з першим будильником",
+          "on_time": "Встигати на роботу або навчання",
+          "workouts": "Знаходити час для ранкових тренувань",
+          "routine": "Створити стабільний ранковий розпорядок",
+          "no_rushing": "Починати день без поспіху"
+        }
+      },
+      "painPoints": {
+        "title": "Що зазвичай краде ваш ранок?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Оберіть усе, що вам знайоме.",
+        "cta": "Це про мене",
+        "options": {
+          "snooze_unaware": "Я натискаю повтор, не пам’ятаючи про це",
+          "dismiss_fall_asleep": "Вимикаю будильник і знову засинаю",
+          "multiple_alarms": "Ставлю кілька будильників і ігнорую всі",
+          "louder_background": "Гучніші будильники зрештою стають фоновим шумом",
+          "sleepy_ignores": "Сонний я ігнорує вечірні плани",
+          "late_frustrated": "Прокидаюся пізно й починаю день роздратованим"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Виконайте місію. Завершіть свій ранок.",
+        "copy": "",
+        "cta": "Побачити мій можливий ранок",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Будильник дзвонить",
+            "copy": "Будильник дзвонить у вибраний час."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Виконайте місію",
+            "copy": "Виконайте фотомісію або коротку вікторину."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Завершіть пробудження",
+            "copy": "Успішна місія позначає пробудження завершеним."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Уже встали. Уже рухаєтесь.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Створити план пробудження",
+        "gains": [
+          "Вчасно",
+          "Ясний розум",
+          "Уже в русі",
+          "Під контролем"
+        ]
+      },
+      "mission": {
+        "title": "Що насправді змусить вас рухатися?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Використати цю місію",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Фото перевіряються на пристрої. Фото з галереї не зараховуються й видаляються після перевірки.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Туалет",
+          "sink": "Раковина",
+          "toothbrush": "Зубна щітка",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Холодильник",
+          "cup": "Чашка",
+          "bottle": "Пляшка",
+          "microwave": "Microwave",
+          "bowl": "Миска",
+          "cat": "Кіт",
+          "dog": "Собака",
+          "book": "Книжка",
+          "laptop": "Ноутбук",
+          "keyboard": "Клавіатура",
+          "mouse": "Миша",
+          "backpack": "Рюкзак"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "О котрій ви хочете прокинутися завтра?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Встановити час пробудження",
+        "accessibilityLabel": "Обрати час пробудження"
+      },
+      "plan": {
+        "title": "Ваш перший DawnVow готовий.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Зберегти мій DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Час пробудження",
+          "goal": "Мета",
+          "escape": "Ваш звичний спосіб втечі",
+          "mission": "Ваша місія",
+          "rule": "Ваше нове правило"
+        }
+      }
+    }
+  }
 }

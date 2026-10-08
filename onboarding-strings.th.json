@@ -1,13 +1,637 @@
 {
   "source_version": 1,
-  "version": 7,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
-  "variants": { "control": {
-    "back": "ย้อนกลับ",
-    "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
-    "painHook": { "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น", "cta": "นี่แหละฉัน" },
-    "goal": { "title": "คุณอยากเปลี่ยนอะไรในยามเช้า" },
-    "wakeTime": { "cta": "ตั้งเวลาตื่นของฉัน" }
-  } }
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "ย้อนกลับ",
+      "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
+        "copy": "การแตะขณะงัวเงียทำให้คุณเสียเวลาไปหนึ่งชั่วโมง",
+        "cta": "นี่แหละฉัน"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
+        "copy": "",
+        "cta": "เลือกชัยชนะยามเช้า",
+        "options": {
+          "first_alarm": "ตื่นเมื่อการปลุกครั้งแรกดัง",
+          "on_time": "ไปทำงานหรือเข้าเรียนตรงเวลา",
+          "workouts": "มีเวลาสำหรับออกกำลังกายตอนเช้า",
+          "routine": "สร้างกิจวัตรตอนเช้าที่สม่ำเสมอ",
+          "no_rushing": "เริ่มวันโดยไม่ต้องรีบ"
+        }
+      },
+      "painPoints": {
+        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "เลือกทุกข้อที่ตรงกับคุณ",
+        "cta": "ใช่ฉันเลย",
+        "options": {
+          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
+          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
+          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
+          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
+          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
+          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+        "copy": "",
+        "cta": "ดูว่าเช้าของฉันจะเป็นอย่างไร",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "การปลุกดัง",
+            "copy": "การปลุกดังตามเวลาที่คุณเลือก"
+          },
+          {
+            "id": "complete_mission",
+            "title": "ทำภารกิจของคุณ",
+            "copy": "ทำภารกิจภาพสดหรือแบบทดสอบสั้น ๆ"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "ตื่นให้สำเร็จ",
+            "copy": "การผ่านภารกิจจะถือว่าการตื่นเสร็จสมบูรณ์"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "สร้างแผนการตื่นของฉัน",
+        "gains": [
+          "ตรงเวลา",
+          "สมองปลอดโปร่ง",
+          "เริ่มเคลื่อนไหวแล้ว",
+          "ควบคุมได้"
+        ]
+      },
+      "mission": {
+        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "ใช้ภารกิจนี้",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "ห้องน้ำ",
+          "sink": "อ่างล้างจาน",
+          "toothbrush": "แปรงสีฟัน",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ตู้เย็น",
+          "cup": "ถ้วย",
+          "bottle": "ขวด",
+          "microwave": "Microwave",
+          "bowl": "ชาม",
+          "cat": "แมว",
+          "dog": "สุนัข",
+          "book": "หนังสือ",
+          "laptop": "แล็ปท็อป",
+          "keyboard": "แป้นพิมพ์",
+          "mouse": "เมาส์",
+          "backpack": "กระเป๋าเป้"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "ตั้งเวลาตื่นของฉัน",
+        "accessibilityLabel": "เลือกเวลาตื่น"
+      },
+      "plan": {
+        "title": "DawnVow แรกของคุณพร้อมแล้ว",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "เก็บ DawnVow ของฉัน",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "เวลาตื่น",
+          "goal": "เป้าหมาย",
+          "escape": "ทางหนีเดิมของคุณ",
+          "mission": "ภารกิจของคุณ",
+          "rule": "กฎใหม่ของคุณ"
+        }
+      }
+    },
+    "calm": {
+      "back": "ย้อนกลับ",
+      "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
+        "copy": "การแตะขณะงัวเงียทำให้คุณเสียเวลาไปหนึ่งชั่วโมง",
+        "cta": "นี่แหละฉัน"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
+        "copy": "",
+        "cta": "เลือกชัยชนะยามเช้า",
+        "options": {
+          "first_alarm": "ตื่นเมื่อการปลุกครั้งแรกดัง",
+          "on_time": "ไปทำงานหรือเข้าเรียนตรงเวลา",
+          "workouts": "มีเวลาสำหรับออกกำลังกายตอนเช้า",
+          "routine": "สร้างกิจวัตรตอนเช้าที่สม่ำเสมอ",
+          "no_rushing": "เริ่มวันโดยไม่ต้องรีบ"
+        }
+      },
+      "painPoints": {
+        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "เลือกทุกข้อที่ตรงกับคุณ",
+        "cta": "ใช่ฉันเลย",
+        "options": {
+          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
+          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
+          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
+          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
+          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
+          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+        "copy": "",
+        "cta": "ดูว่าเช้าของฉันจะเป็นอย่างไร",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "การปลุกดัง",
+            "copy": "การปลุกดังตามเวลาที่คุณเลือก"
+          },
+          {
+            "id": "complete_mission",
+            "title": "ทำภารกิจของคุณ",
+            "copy": "ทำภารกิจภาพสดหรือแบบทดสอบสั้น ๆ"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "ตื่นให้สำเร็จ",
+            "copy": "การผ่านภารกิจจะถือว่าการตื่นเสร็จสมบูรณ์"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "สร้างแผนการตื่นของฉัน",
+        "gains": [
+          "ตรงเวลา",
+          "สมองปลอดโปร่ง",
+          "เริ่มเคลื่อนไหวแล้ว",
+          "ควบคุมได้"
+        ]
+      },
+      "mission": {
+        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "ใช้ภารกิจนี้",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "ห้องน้ำ",
+          "sink": "อ่างล้างจาน",
+          "toothbrush": "แปรงสีฟัน",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ตู้เย็น",
+          "cup": "ถ้วย",
+          "bottle": "ขวด",
+          "microwave": "Microwave",
+          "bowl": "ชาม",
+          "cat": "แมว",
+          "dog": "สุนัข",
+          "book": "หนังสือ",
+          "laptop": "แล็ปท็อป",
+          "keyboard": "แป้นพิมพ์",
+          "mouse": "เมาส์",
+          "backpack": "กระเป๋าเป้"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "ตั้งเวลาตื่นของฉัน",
+        "accessibilityLabel": "เลือกเวลาตื่น"
+      },
+      "plan": {
+        "title": "DawnVow แรกของคุณพร้อมแล้ว",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "เก็บ DawnVow ของฉัน",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "เวลาตื่น",
+          "goal": "เป้าหมาย",
+          "escape": "ทางหนีเดิมของคุณ",
+          "mission": "ภารกิจของคุณ",
+          "rule": "กฎใหม่ของคุณ"
+        }
+      }
+    },
+    "bold": {
+      "back": "ย้อนกลับ",
+      "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
+        "copy": "การแตะขณะงัวเงียทำให้คุณเสียเวลาไปหนึ่งชั่วโมง",
+        "cta": "นี่แหละฉัน"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
+        "copy": "",
+        "cta": "เลือกชัยชนะยามเช้า",
+        "options": {
+          "first_alarm": "ตื่นเมื่อการปลุกครั้งแรกดัง",
+          "on_time": "ไปทำงานหรือเข้าเรียนตรงเวลา",
+          "workouts": "มีเวลาสำหรับออกกำลังกายตอนเช้า",
+          "routine": "สร้างกิจวัตรตอนเช้าที่สม่ำเสมอ",
+          "no_rushing": "เริ่มวันโดยไม่ต้องรีบ"
+        }
+      },
+      "painPoints": {
+        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "เลือกทุกข้อที่ตรงกับคุณ",
+        "cta": "ใช่ฉันเลย",
+        "options": {
+          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
+          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
+          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
+          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
+          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
+          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
+        "copy": "",
+        "cta": "ดูว่าเช้าของฉันจะเป็นอย่างไร",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "การปลุกดัง",
+            "copy": "การปลุกดังตามเวลาที่คุณเลือก"
+          },
+          {
+            "id": "complete_mission",
+            "title": "ทำภารกิจของคุณ",
+            "copy": "ทำภารกิจภาพสดหรือแบบทดสอบสั้น ๆ"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "ตื่นให้สำเร็จ",
+            "copy": "การผ่านภารกิจจะถือว่าการตื่นเสร็จสมบูรณ์"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "สร้างแผนการตื่นของฉัน",
+        "gains": [
+          "ตรงเวลา",
+          "สมองปลอดโปร่ง",
+          "เริ่มเคลื่อนไหวแล้ว",
+          "ควบคุมได้"
+        ]
+      },
+      "mission": {
+        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "ใช้ภารกิจนี้",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "ห้องน้ำ",
+          "sink": "อ่างล้างจาน",
+          "toothbrush": "แปรงสีฟัน",
+          "hair drier": "Hair dryer",
+          "refrigerator": "ตู้เย็น",
+          "cup": "ถ้วย",
+          "bottle": "ขวด",
+          "microwave": "Microwave",
+          "bowl": "ชาม",
+          "cat": "แมว",
+          "dog": "สุนัข",
+          "book": "หนังสือ",
+          "laptop": "แล็ปท็อป",
+          "keyboard": "แป้นพิมพ์",
+          "mouse": "เมาส์",
+          "backpack": "กระเป๋าเป้"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "bathroom essentials"
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "kitchen essentials"
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "ตั้งเวลาตื่นของฉัน",
+        "accessibilityLabel": "เลือกเวลาตื่น"
+      },
+      "plan": {
+        "title": "DawnVow แรกของคุณพร้อมแล้ว",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "เก็บ DawnVow ของฉัน",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "เวลาตื่น",
+          "goal": "เป้าหมาย",
+          "escape": "ทางหนีเดิมของคุณ",
+          "mission": "ภารกิจของคุณ",
+          "rule": "กฎใหม่ของคุณ"
+        }
+      }
+    }
+  }
 }

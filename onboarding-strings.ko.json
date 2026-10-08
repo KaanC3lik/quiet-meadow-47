@@ -1,1 +1,637 @@
-{"source_version":1,"version":11,"experiment_id":"exp_v2","assignment":{"control":100},"variants":{"control":{"back":"뒤로","rule":"미션을 완료하세요. 아침을 시작하세요."}}}
+{
+  "source_version": 1,
+  "version": 14,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "뒤로",
+      "rule": "미션을 완료하세요. 아침을 시작하세요.",
+      "timestamps": {
+        "planned": "06:30 예정",
+        "late": "07:30 늦음",
+        "alreadyMoving": "06:30 · 이미 움직이는 중"
+      },
+      "painHook": {
+        "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
+        "copy": "반쯤 잠든 한 번의 터치가 한 시간을 빼앗았어요.",
+        "cta": "내 이야기예요"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "아침을 어떻게 바꾸고 싶나요?",
+        "copy": "",
+        "cta": "아침 목표 선택",
+        "options": {
+          "first_alarm": "첫 알람이 울릴 때 일어나기",
+          "on_time": "직장이나 수업에 제시간에 도착하기",
+          "workouts": "아침 운동 시간 만들기",
+          "routine": "꾸준한 아침 루틴 만들기",
+          "no_rushing": "서두르지 않고 하루 시작하기"
+        }
+      },
+      "painPoints": {
+        "title": "보통 무엇이 아침을 빼앗나요?",
+        "titlesByGoal": {
+          "first_alarm": "첫 알람에 일어나는 것을 막는 것은 무엇인가요?",
+          "on_time": "보통 무엇 때문에 늦나요?",
+          "workouts": "무엇이 아침 운동을 방해하나요?",
+          "routine": "무엇이 아침 루틴을 깨뜨리나요?",
+          "no_rushing": "무엇이 아침을 급하게 만드나요?"
+        },
+        "copy": "해당하는 항목을 모두 선택하세요.",
+        "cta": "내 이야기예요",
+        "options": {
+          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
+          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
+          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
+          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
+          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+        }
+      },
+      "personalizedSolution": {
+        "title": "의지의 문제가 아니에요.",
+        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "cta": "작동 방식을 보기",
+        "solutions": {
+          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
+          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
+          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
+          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
+          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
+          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+        }
+      },
+      "mechanism": {
+        "title": "미션을 완료하세요. 아침을 시작하세요.",
+        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "cta": "내 아침이 어떻게 달라질지 보기",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "알람이 울려요",
+            "copy": "선택한 시간에 알람이 울려요."
+          },
+          {
+            "id": "complete_mission",
+            "title": "미션 완료",
+            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "기상 완료",
+            "copy": "미션을 통과하면 기상이 완료돼요."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. 이미 일어났어요. 이미 움직이고 있어요.",
+        "copy": "예전에 잃었던 한 시간이 다시 내 것이 돼요.",
+        "cta": "기상 계획 만들기",
+        "gains": [
+          "제시간에",
+          "맑은 정신",
+          "이미 움직이는 중",
+          "내가 통제"
+        ]
+      },
+      "mission": {
+        "title": "무엇이 정말 움직이게 할까요?",
+        "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
+        "cta": "이 미션 사용",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "욕실 시작",
+            "copy": "욕실에 있는 물건 하나를 촬영하세요."
+          },
+          "kitchen_start": {
+            "title": "주방 시작",
+            "copy": "주방에 있는 물건 하나를 촬영하세요."
+          },
+          "pet_check": {
+            "title": "반려동물 확인",
+            "copy": "고양이나 강아지를 촬영하세요."
+          },
+          "study_mode": {
+            "title": "공부 모드",
+            "copy": "책, 노트북 또는 배낭을 촬영하세요."
+          },
+          "quick_quiz": {
+            "title": "빠른 퀴즈",
+            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "내일 몇 시에 일어나고 싶나요?",
+        "copy": "첫 DawnVow가 울릴 시간을 선택하세요.",
+        "cta": "기상 시간 설정",
+        "accessibilityLabel": "기상 시간 선택"
+      },
+      "plan": {
+        "title": "첫 DawnVow가 준비됐어요.",
+        "copy": "시간을 선택했고 미션도 선택했어요. 내일 졸린 내가 계획을 따라요.",
+        "cta": "내 DawnVow 유지",
+        "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
+        "labels": {
+          "wakeTime": "기상 시간",
+          "goal": "목표",
+          "escape": "평소의 회피 방법",
+          "mission": "미션",
+          "rule": "새로운 규칙"
+        }
+      }
+    },
+    "calm": {
+      "back": "뒤로",
+      "rule": "미션을 완료하세요. 아침을 시작하세요.",
+      "timestamps": {
+        "planned": "06:30 예정",
+        "late": "07:30 늦음",
+        "alreadyMoving": "06:30 · 이미 움직이는 중"
+      },
+      "painHook": {
+        "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
+        "copy": "반쯤 잠든 한 번의 터치가 한 시간을 빼앗았어요.",
+        "cta": "내 이야기예요"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "아침을 어떻게 바꾸고 싶나요?",
+        "copy": "",
+        "cta": "아침 목표 선택",
+        "options": {
+          "first_alarm": "첫 알람이 울릴 때 일어나기",
+          "on_time": "직장이나 수업에 제시간에 도착하기",
+          "workouts": "아침 운동 시간 만들기",
+          "routine": "꾸준한 아침 루틴 만들기",
+          "no_rushing": "서두르지 않고 하루 시작하기"
+        }
+      },
+      "painPoints": {
+        "title": "보통 무엇이 아침을 빼앗나요?",
+        "titlesByGoal": {
+          "first_alarm": "첫 알람에 일어나는 것을 막는 것은 무엇인가요?",
+          "on_time": "보통 무엇 때문에 늦나요?",
+          "workouts": "무엇이 아침 운동을 방해하나요?",
+          "routine": "무엇이 아침 루틴을 깨뜨리나요?",
+          "no_rushing": "무엇이 아침을 급하게 만드나요?"
+        },
+        "copy": "해당하는 항목을 모두 선택하세요.",
+        "cta": "내 이야기예요",
+        "options": {
+          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
+          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
+          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
+          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
+          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+        }
+      },
+      "personalizedSolution": {
+        "title": "의지의 문제가 아니에요.",
+        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "cta": "작동 방식을 보기",
+        "solutions": {
+          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
+          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
+          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
+          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
+          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
+          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+        }
+      },
+      "mechanism": {
+        "title": "미션을 완료하세요. 아침을 시작하세요.",
+        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "cta": "내 아침이 어떻게 달라질지 보기",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "알람이 울려요",
+            "copy": "선택한 시간에 알람이 울려요."
+          },
+          {
+            "id": "complete_mission",
+            "title": "미션 완료",
+            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "기상 완료",
+            "copy": "미션을 통과하면 기상이 완료돼요."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. 이미 일어났어요. 이미 움직이고 있어요.",
+        "copy": "예전에 잃었던 한 시간이 다시 내 것이 돼요.",
+        "cta": "기상 계획 만들기",
+        "gains": [
+          "제시간에",
+          "맑은 정신",
+          "이미 움직이는 중",
+          "내가 통제"
+        ]
+      },
+      "mission": {
+        "title": "무엇이 정말 움직이게 할까요?",
+        "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
+        "cta": "이 미션 사용",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "욕실 시작",
+            "copy": "욕실에 있는 물건 하나를 촬영하세요."
+          },
+          "kitchen_start": {
+            "title": "주방 시작",
+            "copy": "주방에 있는 물건 하나를 촬영하세요."
+          },
+          "pet_check": {
+            "title": "반려동물 확인",
+            "copy": "고양이나 강아지를 촬영하세요."
+          },
+          "study_mode": {
+            "title": "공부 모드",
+            "copy": "책, 노트북 또는 배낭을 촬영하세요."
+          },
+          "quick_quiz": {
+            "title": "빠른 퀴즈",
+            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "내일 몇 시에 일어나고 싶나요?",
+        "copy": "첫 DawnVow가 울릴 시간을 선택하세요.",
+        "cta": "기상 시간 설정",
+        "accessibilityLabel": "기상 시간 선택"
+      },
+      "plan": {
+        "title": "첫 DawnVow가 준비됐어요.",
+        "copy": "시간을 선택했고 미션도 선택했어요. 내일 졸린 내가 계획을 따라요.",
+        "cta": "내 DawnVow 유지",
+        "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
+        "labels": {
+          "wakeTime": "기상 시간",
+          "goal": "목표",
+          "escape": "평소의 회피 방법",
+          "mission": "미션",
+          "rule": "새로운 규칙"
+        }
+      }
+    },
+    "bold": {
+      "back": "뒤로",
+      "rule": "미션을 완료하세요. 아침을 시작하세요.",
+      "timestamps": {
+        "planned": "06:30 예정",
+        "late": "07:30 늦음",
+        "alreadyMoving": "06:30 · 이미 움직이는 중"
+      },
+      "painHook": {
+        "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
+        "copy": "반쯤 잠든 한 번의 터치가 한 시간을 빼앗았어요.",
+        "cta": "내 이야기예요"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "아침을 어떻게 바꾸고 싶나요?",
+        "copy": "",
+        "cta": "아침 목표 선택",
+        "options": {
+          "first_alarm": "첫 알람이 울릴 때 일어나기",
+          "on_time": "직장이나 수업에 제시간에 도착하기",
+          "workouts": "아침 운동 시간 만들기",
+          "routine": "꾸준한 아침 루틴 만들기",
+          "no_rushing": "서두르지 않고 하루 시작하기"
+        }
+      },
+      "painPoints": {
+        "title": "보통 무엇이 아침을 빼앗나요?",
+        "titlesByGoal": {
+          "first_alarm": "첫 알람에 일어나는 것을 막는 것은 무엇인가요?",
+          "on_time": "보통 무엇 때문에 늦나요?",
+          "workouts": "무엇이 아침 운동을 방해하나요?",
+          "routine": "무엇이 아침 루틴을 깨뜨리나요?",
+          "no_rushing": "무엇이 아침을 급하게 만드나요?"
+        },
+        "copy": "해당하는 항목을 모두 선택하세요.",
+        "cta": "내 이야기예요",
+        "options": {
+          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
+          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
+          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
+          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
+          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+        }
+      },
+      "personalizedSolution": {
+        "title": "의지의 문제가 아니에요.",
+        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "cta": "작동 방식을 보기",
+        "solutions": {
+          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
+          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
+          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
+          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
+          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
+          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+        }
+      },
+      "mechanism": {
+        "title": "미션을 완료하세요. 아침을 시작하세요.",
+        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "cta": "내 아침이 어떻게 달라질지 보기",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "알람이 울려요",
+            "copy": "선택한 시간에 알람이 울려요."
+          },
+          {
+            "id": "complete_mission",
+            "title": "미션 완료",
+            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "기상 완료",
+            "copy": "미션을 통과하면 기상이 완료돼요."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. 이미 일어났어요. 이미 움직이고 있어요.",
+        "copy": "예전에 잃었던 한 시간이 다시 내 것이 돼요.",
+        "cta": "기상 계획 만들기",
+        "gains": [
+          "제시간에",
+          "맑은 정신",
+          "이미 움직이는 중",
+          "내가 통제"
+        ]
+      },
+      "mission": {
+        "title": "무엇이 정말 움직이게 할까요?",
+        "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
+        "cta": "이 미션 사용",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hair dryer",
+          "refrigerator": "Refrigerator",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "욕실 시작",
+            "copy": "욕실에 있는 물건 하나를 촬영하세요."
+          },
+          "kitchen_start": {
+            "title": "주방 시작",
+            "copy": "주방에 있는 물건 하나를 촬영하세요."
+          },
+          "pet_check": {
+            "title": "반려동물 확인",
+            "copy": "고양이나 강아지를 촬영하세요."
+          },
+          "study_mode": {
+            "title": "공부 모드",
+            "copy": "책, 노트북 또는 배낭을 촬영하세요."
+          },
+          "quick_quiz": {
+            "title": "빠른 퀴즈",
+            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "내일 몇 시에 일어나고 싶나요?",
+        "copy": "첫 DawnVow가 울릴 시간을 선택하세요.",
+        "cta": "기상 시간 설정",
+        "accessibilityLabel": "기상 시간 선택"
+      },
+      "plan": {
+        "title": "첫 DawnVow가 준비됐어요.",
+        "copy": "시간을 선택했고 미션도 선택했어요. 내일 졸린 내가 계획을 따라요.",
+        "cta": "내 DawnVow 유지",
+        "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
+        "labels": {
+          "wakeTime": "기상 시간",
+          "goal": "목표",
+          "escape": "평소의 회피 방법",
+          "mission": "미션",
+          "rule": "새로운 규칙"
+        }
+      }
+    }
+  }
+}

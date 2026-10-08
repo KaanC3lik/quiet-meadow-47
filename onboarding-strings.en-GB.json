@@ -1,25 +1,650 @@
 {
   "source_version": 1,
-  "version": 9,
+  "version": 14,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
   },
   "variants": {
     "control": {
-      "painHook": {
-        "title": "You switched off the alarm.\nYou didn’t wake up."
+      "back": "Go back",
+      "rule": "Complete the mission. Complete the morning.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
       },
-      "goal": {
+      "painHook": {
+        "title": "You switched off the alarm.\nYou didn’t wake up.",
+        "copy": "One half-asleep tap cost you an hour.",
+        "cta": "That’s me"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
         "options": {
-          "first_alarm": "Get up when my first alarm goes off",
-          "on_time": "Get to work or school on time"
+          "yes": "Yes",
+          "not_yet": "Not yet"
         }
       },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "What do you want to change about your mornings?",
+        "copy": "",
+        "cta": "Choose my morning win",
+        "options": {
+          "first_alarm": "Get up when my first alarm goes off",
+          "on_time": "Get to work or school on time",
+          "workouts": "Make time for a morning workout",
+          "routine": "Build a consistent morning routine",
+          "no_rushing": "Start my day without rushing"
+        }
+      },
+      "painPoints": {
+        "title": "What usually steals your morning?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pick the one that hits hardest.",
+        "cta": "That sounds like me",
+        "options": {
+          "snooze_unaware": "I snooze without noticing",
+          "dismiss_fall_asleep": "I dismiss and doze off",
+          "multiple_alarms": "I set alarms I ignore",
+          "louder_background": "Louder alarms fade away",
+          "sleepy_ignores": "My sleepy self ignores plans",
+          "late_frustrated": "I start the day frustrated"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Your morning, step by step.",
+        "copy": "",
+        "cta": "See what my morning could look like",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm rings",
+            "copy": "at the time you chose"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stop it early",
+            "copy": "it rings again"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Complete your mission",
+            "copy": "photo or quiz"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Dismiss the alarm",
+            "copy": "only after it’s verified"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Already out. Already moving.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Build my wake-up plan",
+        "gains": [
+          "On time",
+          "Clear-headed",
+          "Already moving",
+          "In control"
+        ]
+      },
       "mission": {
+        "title": "What would actually get you going?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Use this mission",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
         "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
           "hair drier": "Hairdryer",
-          "refrigerator": "Fridge"
+          "refrigerator": "Fridge",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "Photograph one bathroom essential."
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "Photograph one kitchen essential."
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "What time do you want to get up tomorrow?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Set my wake-up time",
+        "accessibilityLabel": "Choose wake-up time"
+      },
+      "plan": {
+        "title": "Your first DawnVow is ready.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Keep my DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Wake-up time",
+          "goal": "Goal",
+          "escape": "Your usual escape",
+          "mission": "Your mission",
+          "rule": "Your new rule"
+        }
+      }
+    },
+    "calm": {
+      "back": "Go back",
+      "rule": "Complete the mission. Complete the morning.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "You switched off the alarm.\nYou didn’t wake up.",
+        "copy": "One half-asleep tap cost you an hour.",
+        "cta": "That’s me"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "What do you want to change about your mornings?",
+        "copy": "",
+        "cta": "Choose my morning win",
+        "options": {
+          "first_alarm": "Get up when my first alarm goes off",
+          "on_time": "Get to work or school on time",
+          "workouts": "Make time for a morning workout",
+          "routine": "Build a consistent morning routine",
+          "no_rushing": "Start my day without rushing"
+        }
+      },
+      "painPoints": {
+        "title": "What usually steals your morning?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pick the one that hits hardest.",
+        "cta": "That sounds like me",
+        "options": {
+          "snooze_unaware": "I snooze without noticing",
+          "dismiss_fall_asleep": "I dismiss and doze off",
+          "multiple_alarms": "I set alarms I ignore",
+          "louder_background": "Louder alarms fade away",
+          "sleepy_ignores": "My sleepy self ignores plans",
+          "late_frustrated": "I start the day frustrated"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Your morning, step by step.",
+        "copy": "",
+        "cta": "See what my morning could look like",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm rings",
+            "copy": "at the time you chose"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stop it early",
+            "copy": "it rings again"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Complete your mission",
+            "copy": "photo or quiz"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Dismiss the alarm",
+            "copy": "only after it’s verified"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Already out. Already moving.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Build my wake-up plan",
+        "gains": [
+          "On time",
+          "Clear-headed",
+          "Already moving",
+          "In control"
+        ]
+      },
+      "mission": {
+        "title": "What would actually get you going?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Use this mission",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hairdryer",
+          "refrigerator": "Fridge",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "Photograph one bathroom essential."
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "Photograph one kitchen essential."
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "What time do you want to get up tomorrow?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Set my wake-up time",
+        "accessibilityLabel": "Choose wake-up time"
+      },
+      "plan": {
+        "title": "Your first DawnVow is ready.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Keep my DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Wake-up time",
+          "goal": "Goal",
+          "escape": "Your usual escape",
+          "mission": "Your mission",
+          "rule": "Your new rule"
+        }
+      }
+    },
+    "bold": {
+      "back": "Go back",
+      "rule": "Complete the mission. Complete the morning.",
+      "timestamps": {
+        "planned": "06:30 Planned",
+        "late": "07:30 Late",
+        "alreadyMoving": "06:30 · Already moving"
+      },
+      "painHook": {
+        "title": "You switched off the alarm.\nYou didn’t wake up.",
+        "copy": "One half-asleep tap cost you an hour.",
+        "cta": "That’s me"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "goal": {
+        "title": "What do you want to change about your mornings?",
+        "copy": "",
+        "cta": "Choose my morning win",
+        "options": {
+          "first_alarm": "Get up when my first alarm goes off",
+          "on_time": "Get to work or school on time",
+          "workouts": "Make time for a morning workout",
+          "routine": "Build a consistent morning routine",
+          "no_rushing": "Start my day without rushing"
+        }
+      },
+      "painPoints": {
+        "title": "What usually steals your morning?",
+        "titlesByGoal": {
+          "first_alarm": "What stops you when the first alarm rings?",
+          "on_time": "What usually makes you late?",
+          "workouts": "What gets between you and your morning workout?",
+          "routine": "What breaks your morning routine?",
+          "no_rushing": "What turns your morning into a rush?"
+        },
+        "copy": "Pick the one that hits hardest.",
+        "cta": "That sounds like me",
+        "options": {
+          "snooze_unaware": "I snooze without noticing",
+          "dismiss_fall_asleep": "I dismiss and doze off",
+          "multiple_alarms": "I set alarms I ignore",
+          "louder_background": "Louder alarms fade away",
+          "sleepy_ignores": "My sleepy self ignores plans",
+          "late_frustrated": "I start the day frustrated"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Each pattern, and what beats it.",
+        "copy": "",
+        "cta": "Show me how it works",
+        "solutions": {
+          "snooze_unaware": "The mission interrupts the snooze loop",
+          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
+          "multiple_alarms": "One action-based alarm replaces the chain",
+          "louder_background": "Change what you do, not the volume",
+          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
+          "late_frustrated": "One completed action starts the morning"
+        }
+      },
+      "mechanism": {
+        "title": "Your morning, step by step.",
+        "copy": "",
+        "cta": "See what my morning could look like",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarm rings",
+            "copy": "at the time you chose"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stop it early",
+            "copy": "it rings again"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Complete your mission",
+            "copy": "photo or quiz"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Dismiss the alarm",
+            "copy": "only after it’s verified"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Already out. Already moving.",
+        "copy": "The hour you used to lose is yours again.",
+        "cta": "Build my wake-up plan",
+        "gains": [
+          "On time",
+          "Clear-headed",
+          "Already moving",
+          "In control"
+        ]
+      },
+      "mission": {
+        "title": "What would actually get you going?",
+        "copy": "Pick the mission that feels realistic for your morning.",
+        "cta": "Use this mission",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "photoDisclosure": "Photos are checked on your phone. Gallery doesn’t count.",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Sink",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Hairdryer",
+          "refrigerator": "Fridge",
+          "cup": "Cup",
+          "bottle": "Bottle",
+          "microwave": "Microwave",
+          "bowl": "Bowl",
+          "cat": "Cat",
+          "dog": "Dog",
+          "book": "Book",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Bathroom Escape",
+            "copy": "Photograph one bathroom essential."
+          },
+          "kitchen_start": {
+            "title": "Kitchen Start",
+            "copy": "Photograph one kitchen essential."
+          },
+          "pet_check": {
+            "title": "Pet Check",
+            "copy": "your cat or dog"
+          },
+          "study_mode": {
+            "title": "Study Mode",
+            "copy": "book or laptop"
+          },
+          "quick_quiz": {
+            "title": "Quick Quiz",
+            "copy": "a few questions"
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "What time do you want to get up tomorrow?",
+        "copy": "Choose the time your first DawnVow should ring.",
+        "cta": "Set my wake-up time",
+        "accessibilityLabel": "Choose wake-up time"
+      },
+      "plan": {
+        "title": "Your first DawnVow is ready.",
+        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "cta": "Keep my DawnVow",
+        "trust": "Permissions are asked only when they’re needed.",
+        "labels": {
+          "wakeTime": "Wake-up time",
+          "goal": "Goal",
+          "escape": "Your usual escape",
+          "mission": "Your mission",
+          "rule": "Your new rule"
         }
       }
     }

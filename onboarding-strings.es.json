@@ -1,22 +1,637 @@
 {
   "source_version": 1,
-  "version": 11,
+  "version": 14,
   "experiment_id": "exp_v2",
-  "assignment": { "control": 100 },
+  "assignment": {
+    "control": 100
+  },
   "variants": {
     "control": {
       "back": "Volver",
       "rule": "Completa la misión. Completa la mañana.",
-      "timestamps": { "planned": "06:30 Planificado", "late": "07:30 Tarde", "alreadyMoving": "06:30 · Ya en marcha" },
-      "painHook": { "title": "Has apagado la alarma.\nNo te has despertado.", "copy": "Un toque medio dormido te ha costado una hora.", "cta": "Soy yo" },
-      "goal": { "title": "¿Qué quieres cambiar de tus mañanas?", "copy": "", "cta": "Elegir mi objetivo matutino", "options": { "first_alarm": "Levantarme cuando suene mi primera alarma", "on_time": "Llegar puntual al trabajo o a clase", "workouts": "Tener tiempo para entrenar por la mañana", "routine": "Crear una rutina matutina constante", "no_rushing": "Empezar el día sin prisas" } },
-      "painPoints": { "title": "¿Qué suele robarte la mañana?", "titlesByGoal": { "first_alarm": "¿Qué te impide levantarte cuando suena tu primera alarma?", "on_time": "¿Qué suele hacer que llegues tarde?", "workouts": "¿Qué se interpone entre tú y tu entrenamiento matutino?", "routine": "¿Qué rompe tu rutina matutina?", "no_rushing": "¿Qué convierte tu mañana en una carrera?" }, "copy": "Selecciona todo lo que te resulte familiar.", "cta": "Me pasa", "options": { "snooze_unaware": "Pospongo la alarma sin recordarlo de verdad", "dismiss_fall_asleep": "La apago y me vuelvo a dormir", "multiple_alarms": "Pongo varias alarmas y las ignoro todas", "louder_background": "Las alarmas más fuertes acaban siendo ruido de fondo", "sleepy_ignores": "Mi yo dormido ignora los planes que hice por la noche", "late_frustrated": "Me despierto tarde y empiezo el día frustrado" } },
-      "personalizedSolution": { "title": "No es un problema de motivación.", "copy": "Los problemas que has elegido ocurren antes de que tu cerebro completamente despierto pueda decidir. Así cambia DawnVow cada patrón.", "cta": "Enséñame cómo funciona", "solutions": { "snooze_unaware": "Una misión obligatoria interrumpe el bucle automático de posponer.", "dismiss_fall_asleep": "Una misión se interpone entre un toque dormido y completar el despertar.", "multiple_alarms": "Una alarma basada en acciones sustituye una cadena que has aprendido a ignorar.", "louder_background": "DawnVow cambia lo que haces en lugar de limitarse a sonar más fuerte.", "sleepy_ignores": "Tu yo despierto elige la misión. Tu yo dormido tiene que seguirla.", "late_frustrated": "Tu primera acción completada te pone en marcha antes de que se escape la mañana." } },
-      "mechanism": { "title": "Completa la misión. Completa la mañana.", "copy": "DawnVow convierte tu alarma en una secuencia sencilla que eliges la noche anterior.", "cta": "Ver cómo podría ser mi mañana", "steps": [ { "id": "alarm_rings", "title": "Suena la alarma", "copy": "Tu alarma suena a la hora que has elegido." }, { "id": "complete_mission", "title": "Completa tu misión", "copy": "Completa una misión de foto en directo o un quiz rápido." }, { "id": "dismiss_alarm", "title": "Completa el despertar", "copy": "Superar la misión marca el despertar como completado." } ] },
-      "futureState": { "title": "06:30. Ya fuera. Ya en marcha.", "copy": "La hora que antes perdías vuelve a ser tuya.", "cta": "Crear mi plan de despertar", "gains": [ "Puntual", "Despejado", "Ya en marcha", "Al mando" ] },
-      "mission": { "title": "¿Qué te pondría realmente en marcha?", "copy": "Elige la misión que parezca realista para tu mañana.", "cta": "Usar esta misión", "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.", "targetPrompt": "Selecciona lo que tienes. Tu primera elección será la misión de mañana.", "targets": { "toilet": "Inodoro", "sink": "Fregadero", "toothbrush": "Cepillo de dientes", "hair drier": "Secador de pelo", "refrigerator": "Frigorífico", "cup": "Taza", "bottle": "Botella", "microwave": "Microondas", "bowl": "Cuenco", "cat": "Gato", "dog": "Perro", "book": "Libro", "laptop": "Portátil", "keyboard": "Teclado", "mouse": "Ratón", "backpack": "Mochila" }, "options": { "bathroom_escape": { "title": "Reto del baño", "copy": "Fotografía un objeto esencial del baño." }, "kitchen_start": { "title": "Comienzo en la cocina", "copy": "Fotografía un objeto esencial de la cocina." }, "pet_check": { "title": "Revisión de mascota", "copy": "Fotografía a tu gato o perro." }, "study_mode": { "title": "Modo estudio", "copy": "Fotografía un libro, portátil o mochila." }, "quick_quiz": { "title": "Quiz rápido", "copy": "Responde algunas preguntas para demostrar que estás despierto." } } },
-      "wakeTime": { "title": "¿A qué hora quieres levantarte mañana?", "copy": "Elige la hora a la que debe sonar tu primer DawnVow.", "cta": "Establecer mi hora de despertar", "accessibilityLabel": "Elegir hora de despertar" },
-      "plan": { "title": "Tu primer DawnVow está listo.", "copy": "Has elegido la hora. Has elegido la misión. Mañana, tu yo dormido seguirá el plan.", "cta": "Conservar mi DawnVow", "trust": "DawnVow solo pedirá acceso a alarmas, notificaciones y cámara cuando cada permiso sea necesario.", "labels": { "wakeTime": "Hora de despertar", "goal": "Objetivo", "escape": "Tu escapatoria habitual", "mission": "Tu misión", "rule": "Tu nueva regla" } }
+      "timestamps": {
+        "planned": "06:30 Planificado",
+        "late": "07:30 Tarde",
+        "alreadyMoving": "06:30 · Ya en marcha"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "painHook": {
+        "title": "Has apagado la alarma.\nNo te has despertado.",
+        "copy": "Un toque medio dormido te ha costado una hora.",
+        "cta": "Soy yo"
+      },
+      "goal": {
+        "title": "¿Qué quieres cambiar de tus mañanas?",
+        "copy": "",
+        "cta": "Elegir mi objetivo matutino",
+        "options": {
+          "first_alarm": "Levantarme cuando suene mi primera alarma",
+          "on_time": "Llegar puntual al trabajo o a clase",
+          "workouts": "Tener tiempo para entrenar por la mañana",
+          "routine": "Crear una rutina matutina constante",
+          "no_rushing": "Empezar el día sin prisas"
+        }
+      },
+      "painPoints": {
+        "title": "¿Qué suele robarte la mañana?",
+        "titlesByGoal": {
+          "first_alarm": "¿Qué te impide levantarte cuando suena tu primera alarma?",
+          "on_time": "¿Qué suele hacer que llegues tarde?",
+          "workouts": "¿Qué se interpone entre tú y tu entrenamiento matutino?",
+          "routine": "¿Qué rompe tu rutina matutina?",
+          "no_rushing": "¿Qué convierte tu mañana en una carrera?"
+        },
+        "copy": "Selecciona todo lo que te resulte familiar.",
+        "cta": "Me pasa",
+        "options": {
+          "snooze_unaware": "Pospongo la alarma sin recordarlo de verdad",
+          "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
+          "multiple_alarms": "Pongo varias alarmas y las ignoro todas",
+          "louder_background": "Las alarmas más fuertes acaban siendo ruido de fondo",
+          "sleepy_ignores": "Mi yo dormido ignora los planes que hice por la noche",
+          "late_frustrated": "Me despierto tarde y empiezo el día frustrado"
+        }
+      },
+      "personalizedSolution": {
+        "title": "No es un problema de motivación.",
+        "copy": "Los problemas que has elegido ocurren antes de que tu cerebro completamente despierto pueda decidir. Así cambia DawnVow cada patrón.",
+        "cta": "Enséñame cómo funciona",
+        "solutions": {
+          "snooze_unaware": "Una misión obligatoria interrumpe el bucle automático de posponer.",
+          "dismiss_fall_asleep": "Una misión se interpone entre un toque dormido y completar el despertar.",
+          "multiple_alarms": "Una alarma basada en acciones sustituye una cadena que has aprendido a ignorar.",
+          "louder_background": "DawnVow cambia lo que haces en lugar de limitarse a sonar más fuerte.",
+          "sleepy_ignores": "Tu yo despierto elige la misión. Tu yo dormido tiene que seguirla.",
+          "late_frustrated": "Tu primera acción completada te pone en marcha antes de que se escape la mañana."
+        }
+      },
+      "mechanism": {
+        "title": "Completa la misión. Completa la mañana.",
+        "copy": "DawnVow convierte tu alarma en una secuencia sencilla que eliges la noche anterior.",
+        "cta": "Ver cómo podría ser mi mañana",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Suena la alarma",
+            "copy": "Tu alarma suena a la hora que has elegido."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Completa tu misión",
+            "copy": "Completa una misión de foto en directo o un quiz rápido."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Completa el despertar",
+            "copy": "Superar la misión marca el despertar como completado."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Ya fuera. Ya en marcha.",
+        "copy": "La hora que antes perdías vuelve a ser tuya.",
+        "cta": "Crear mi plan de despertar",
+        "gains": [
+          "Puntual",
+          "Despejado",
+          "Ya en marcha",
+          "Al mando"
+        ]
+      },
+      "mission": {
+        "title": "¿Qué te pondría realmente en marcha?",
+        "copy": "Elige la misión que parezca realista para tu mañana.",
+        "cta": "Usar esta misión",
+        "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Inodoro",
+          "sink": "Fregadero",
+          "toothbrush": "Cepillo de dientes",
+          "hair drier": "Secador de pelo",
+          "refrigerator": "Frigorífico",
+          "cup": "Taza",
+          "bottle": "Botella",
+          "microwave": "Microondas",
+          "bowl": "Cuenco",
+          "cat": "Gato",
+          "dog": "Perro",
+          "book": "Libro",
+          "laptop": "Portátil",
+          "keyboard": "Teclado",
+          "mouse": "Ratón",
+          "backpack": "Mochila"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Reto del baño",
+            "copy": "Fotografía un objeto esencial del baño."
+          },
+          "kitchen_start": {
+            "title": "Comienzo en la cocina",
+            "copy": "Fotografía un objeto esencial de la cocina."
+          },
+          "pet_check": {
+            "title": "Revisión de mascota",
+            "copy": "Fotografía a tu gato o perro."
+          },
+          "study_mode": {
+            "title": "Modo estudio",
+            "copy": "Fotografía un libro, portátil o mochila."
+          },
+          "quick_quiz": {
+            "title": "Quiz rápido",
+            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "¿A qué hora quieres levantarte mañana?",
+        "copy": "Elige la hora a la que debe sonar tu primer DawnVow.",
+        "cta": "Establecer mi hora de despertar",
+        "accessibilityLabel": "Elegir hora de despertar"
+      },
+      "plan": {
+        "title": "Tu primer DawnVow está listo.",
+        "copy": "Has elegido la hora. Has elegido la misión. Mañana, tu yo dormido seguirá el plan.",
+        "cta": "Conservar mi DawnVow",
+        "trust": "DawnVow solo pedirá acceso a alarmas, notificaciones y cámara cuando cada permiso sea necesario.",
+        "labels": {
+          "wakeTime": "Hora de despertar",
+          "goal": "Objetivo",
+          "escape": "Tu escapatoria habitual",
+          "mission": "Tu misión",
+          "rule": "Tu nueva regla"
+        }
+      }
+    },
+    "calm": {
+      "back": "Volver",
+      "rule": "Completa la misión. Completa la mañana.",
+      "timestamps": {
+        "planned": "06:30 Planificado",
+        "late": "07:30 Tarde",
+        "alreadyMoving": "06:30 · Ya en marcha"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "painHook": {
+        "title": "Has apagado la alarma.\nNo te has despertado.",
+        "copy": "Un toque medio dormido te ha costado una hora.",
+        "cta": "Soy yo"
+      },
+      "goal": {
+        "title": "¿Qué quieres cambiar de tus mañanas?",
+        "copy": "",
+        "cta": "Elegir mi objetivo matutino",
+        "options": {
+          "first_alarm": "Levantarme cuando suene mi primera alarma",
+          "on_time": "Llegar puntual al trabajo o a clase",
+          "workouts": "Tener tiempo para entrenar por la mañana",
+          "routine": "Crear una rutina matutina constante",
+          "no_rushing": "Empezar el día sin prisas"
+        }
+      },
+      "painPoints": {
+        "title": "¿Qué suele robarte la mañana?",
+        "titlesByGoal": {
+          "first_alarm": "¿Qué te impide levantarte cuando suena tu primera alarma?",
+          "on_time": "¿Qué suele hacer que llegues tarde?",
+          "workouts": "¿Qué se interpone entre tú y tu entrenamiento matutino?",
+          "routine": "¿Qué rompe tu rutina matutina?",
+          "no_rushing": "¿Qué convierte tu mañana en una carrera?"
+        },
+        "copy": "Selecciona todo lo que te resulte familiar.",
+        "cta": "Me pasa",
+        "options": {
+          "snooze_unaware": "Pospongo la alarma sin recordarlo de verdad",
+          "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
+          "multiple_alarms": "Pongo varias alarmas y las ignoro todas",
+          "louder_background": "Las alarmas más fuertes acaban siendo ruido de fondo",
+          "sleepy_ignores": "Mi yo dormido ignora los planes que hice por la noche",
+          "late_frustrated": "Me despierto tarde y empiezo el día frustrado"
+        }
+      },
+      "personalizedSolution": {
+        "title": "No es un problema de motivación.",
+        "copy": "Los problemas que has elegido ocurren antes de que tu cerebro completamente despierto pueda decidir. Así cambia DawnVow cada patrón.",
+        "cta": "Enséñame cómo funciona",
+        "solutions": {
+          "snooze_unaware": "Una misión obligatoria interrumpe el bucle automático de posponer.",
+          "dismiss_fall_asleep": "Una misión se interpone entre un toque dormido y completar el despertar.",
+          "multiple_alarms": "Una alarma basada en acciones sustituye una cadena que has aprendido a ignorar.",
+          "louder_background": "DawnVow cambia lo que haces en lugar de limitarse a sonar más fuerte.",
+          "sleepy_ignores": "Tu yo despierto elige la misión. Tu yo dormido tiene que seguirla.",
+          "late_frustrated": "Tu primera acción completada te pone en marcha antes de que se escape la mañana."
+        }
+      },
+      "mechanism": {
+        "title": "Completa la misión. Completa la mañana.",
+        "copy": "DawnVow convierte tu alarma en una secuencia sencilla que eliges la noche anterior.",
+        "cta": "Ver cómo podría ser mi mañana",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Suena la alarma",
+            "copy": "Tu alarma suena a la hora que has elegido."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Completa tu misión",
+            "copy": "Completa una misión de foto en directo o un quiz rápido."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Completa el despertar",
+            "copy": "Superar la misión marca el despertar como completado."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Ya fuera. Ya en marcha.",
+        "copy": "La hora que antes perdías vuelve a ser tuya.",
+        "cta": "Crear mi plan de despertar",
+        "gains": [
+          "Puntual",
+          "Despejado",
+          "Ya en marcha",
+          "Al mando"
+        ]
+      },
+      "mission": {
+        "title": "¿Qué te pondría realmente en marcha?",
+        "copy": "Elige la misión que parezca realista para tu mañana.",
+        "cta": "Usar esta misión",
+        "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Inodoro",
+          "sink": "Fregadero",
+          "toothbrush": "Cepillo de dientes",
+          "hair drier": "Secador de pelo",
+          "refrigerator": "Frigorífico",
+          "cup": "Taza",
+          "bottle": "Botella",
+          "microwave": "Microondas",
+          "bowl": "Cuenco",
+          "cat": "Gato",
+          "dog": "Perro",
+          "book": "Libro",
+          "laptop": "Portátil",
+          "keyboard": "Teclado",
+          "mouse": "Ratón",
+          "backpack": "Mochila"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Reto del baño",
+            "copy": "Fotografía un objeto esencial del baño."
+          },
+          "kitchen_start": {
+            "title": "Comienzo en la cocina",
+            "copy": "Fotografía un objeto esencial de la cocina."
+          },
+          "pet_check": {
+            "title": "Revisión de mascota",
+            "copy": "Fotografía a tu gato o perro."
+          },
+          "study_mode": {
+            "title": "Modo estudio",
+            "copy": "Fotografía un libro, portátil o mochila."
+          },
+          "quick_quiz": {
+            "title": "Quiz rápido",
+            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "¿A qué hora quieres levantarte mañana?",
+        "copy": "Elige la hora a la que debe sonar tu primer DawnVow.",
+        "cta": "Establecer mi hora de despertar",
+        "accessibilityLabel": "Elegir hora de despertar"
+      },
+      "plan": {
+        "title": "Tu primer DawnVow está listo.",
+        "copy": "Has elegido la hora. Has elegido la misión. Mañana, tu yo dormido seguirá el plan.",
+        "cta": "Conservar mi DawnVow",
+        "trust": "DawnVow solo pedirá acceso a alarmas, notificaciones y cámara cuando cada permiso sea necesario.",
+        "labels": {
+          "wakeTime": "Hora de despertar",
+          "goal": "Objetivo",
+          "escape": "Tu escapatoria habitual",
+          "mission": "Tu misión",
+          "rule": "Tu nueva regla"
+        }
+      }
+    },
+    "bold": {
+      "back": "Volver",
+      "rule": "Completa la misión. Completa la mañana.",
+      "timestamps": {
+        "planned": "06:30 Planificado",
+        "late": "07:30 Tarde",
+        "alreadyMoving": "06:30 · Ya en marcha"
+      },
+      "identity": {
+        "title": "Are you a morning person?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "not_yet": "Not yet"
+        }
+      },
+      "alarmCount": {
+        "title": "How many alarms do you set?",
+        "cta": "Continue",
+        "options": {
+          "one": "One",
+          "two_or_three": "Two or three",
+          "four_plus": "Four or more"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Would one alarm actually wake you?",
+        "cta": "Continue",
+        "options": {
+          "yes": "Yes",
+          "sometimes": "Sometimes",
+          "no": "No"
+        }
+      },
+      "insight": {
+        "title": "This isn’t a motivation problem.",
+        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "cta": "Continue"
+      },
+      "painHook": {
+        "title": "Has apagado la alarma.\nNo te has despertado.",
+        "copy": "Un toque medio dormido te ha costado una hora.",
+        "cta": "Soy yo"
+      },
+      "goal": {
+        "title": "¿Qué quieres cambiar de tus mañanas?",
+        "copy": "",
+        "cta": "Elegir mi objetivo matutino",
+        "options": {
+          "first_alarm": "Levantarme cuando suene mi primera alarma",
+          "on_time": "Llegar puntual al trabajo o a clase",
+          "workouts": "Tener tiempo para entrenar por la mañana",
+          "routine": "Crear una rutina matutina constante",
+          "no_rushing": "Empezar el día sin prisas"
+        }
+      },
+      "painPoints": {
+        "title": "¿Qué suele robarte la mañana?",
+        "titlesByGoal": {
+          "first_alarm": "¿Qué te impide levantarte cuando suena tu primera alarma?",
+          "on_time": "¿Qué suele hacer que llegues tarde?",
+          "workouts": "¿Qué se interpone entre tú y tu entrenamiento matutino?",
+          "routine": "¿Qué rompe tu rutina matutina?",
+          "no_rushing": "¿Qué convierte tu mañana en una carrera?"
+        },
+        "copy": "Selecciona todo lo que te resulte familiar.",
+        "cta": "Me pasa",
+        "options": {
+          "snooze_unaware": "Pospongo la alarma sin recordarlo de verdad",
+          "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
+          "multiple_alarms": "Pongo varias alarmas y las ignoro todas",
+          "louder_background": "Las alarmas más fuertes acaban siendo ruido de fondo",
+          "sleepy_ignores": "Mi yo dormido ignora los planes que hice por la noche",
+          "late_frustrated": "Me despierto tarde y empiezo el día frustrado"
+        }
+      },
+      "personalizedSolution": {
+        "title": "No es un problema de motivación.",
+        "copy": "Los problemas que has elegido ocurren antes de que tu cerebro completamente despierto pueda decidir. Así cambia DawnVow cada patrón.",
+        "cta": "Enséñame cómo funciona",
+        "solutions": {
+          "snooze_unaware": "Una misión obligatoria interrumpe el bucle automático de posponer.",
+          "dismiss_fall_asleep": "Una misión se interpone entre un toque dormido y completar el despertar.",
+          "multiple_alarms": "Una alarma basada en acciones sustituye una cadena que has aprendido a ignorar.",
+          "louder_background": "DawnVow cambia lo que haces en lugar de limitarse a sonar más fuerte.",
+          "sleepy_ignores": "Tu yo despierto elige la misión. Tu yo dormido tiene que seguirla.",
+          "late_frustrated": "Tu primera acción completada te pone en marcha antes de que se escape la mañana."
+        }
+      },
+      "mechanism": {
+        "title": "Completa la misión. Completa la mañana.",
+        "copy": "DawnVow convierte tu alarma en una secuencia sencilla que eliges la noche anterior.",
+        "cta": "Ver cómo podría ser mi mañana",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Suena la alarma",
+            "copy": "Tu alarma suena a la hora que has elegido."
+          },
+          {
+            "id": "complete_mission",
+            "title": "Completa tu misión",
+            "copy": "Completa una misión de foto en directo o un quiz rápido."
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Completa el despertar",
+            "copy": "Superar la misión marca el despertar como completado."
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Ya fuera. Ya en marcha.",
+        "copy": "La hora que antes perdías vuelve a ser tuya.",
+        "cta": "Crear mi plan de despertar",
+        "gains": [
+          "Puntual",
+          "Despejado",
+          "Ya en marcha",
+          "Al mando"
+        ]
+      },
+      "mission": {
+        "title": "¿Qué te pondría realmente en marcha?",
+        "copy": "Elige la misión que parezca realista para tu mañana.",
+        "cta": "Usar esta misión",
+        "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
+        "targetTitle": "Which ones do you actually have?",
+        "targetCta": "These are mine",
+        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targets": {
+          "toilet": "Inodoro",
+          "sink": "Fregadero",
+          "toothbrush": "Cepillo de dientes",
+          "hair drier": "Secador de pelo",
+          "refrigerator": "Frigorífico",
+          "cup": "Taza",
+          "bottle": "Botella",
+          "microwave": "Microondas",
+          "bowl": "Cuenco",
+          "cat": "Gato",
+          "dog": "Perro",
+          "book": "Libro",
+          "laptop": "Portátil",
+          "keyboard": "Teclado",
+          "mouse": "Ratón",
+          "backpack": "Mochila"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Reto del baño",
+            "copy": "Fotografía un objeto esencial del baño."
+          },
+          "kitchen_start": {
+            "title": "Comienzo en la cocina",
+            "copy": "Fotografía un objeto esencial de la cocina."
+          },
+          "pet_check": {
+            "title": "Revisión de mascota",
+            "copy": "Fotografía a tu gato o perro."
+          },
+          "study_mode": {
+            "title": "Modo estudio",
+            "copy": "Fotografía un libro, portátil o mochila."
+          },
+          "quick_quiz": {
+            "title": "Quiz rápido",
+            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+          }
+        }
+      },
+      "quizTopic": {
+        "title": "Pick your quiz topic.",
+        "cta": "Continue",
+        "options": {
+          "general": "General",
+          "math": "Math",
+          "geography": "Geography"
+        }
+      },
+      "quizDifficulty": {
+        "title": "How hard should it be?",
+        "cta": "Continue",
+        "options": {
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard"
+        }
+      },
+      "wakeTime": {
+        "title": "¿A qué hora quieres levantarte mañana?",
+        "copy": "Elige la hora a la que debe sonar tu primer DawnVow.",
+        "cta": "Establecer mi hora de despertar",
+        "accessibilityLabel": "Elegir hora de despertar"
+      },
+      "plan": {
+        "title": "Tu primer DawnVow está listo.",
+        "copy": "Has elegido la hora. Has elegido la misión. Mañana, tu yo dormido seguirá el plan.",
+        "cta": "Conservar mi DawnVow",
+        "trust": "DawnVow solo pedirá acceso a alarmas, notificaciones y cámara cuando cada permiso sea necesario.",
+        "labels": {
+          "wakeTime": "Hora de despertar",
+          "goal": "Objetivo",
+          "escape": "Tu escapatoria habitual",
+          "mission": "Tu misión",
+          "rule": "Tu nueva regla"
+        }
+      }
     }
   }
 }
