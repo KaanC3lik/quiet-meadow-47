@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 9,
+  "version": 10,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -64,7 +64,7 @@
       },
       "painPoints": {
         "title": "What usually steals your morning?",
-        "copy": "Select everything that sounds familiar.",
+        "copy": "Pick the one that hits hardest.",
         "cta": "That sounds like me",
         "options": {
           "snooze_unaware": "I snooze without really remembering it",
