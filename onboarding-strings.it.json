@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Seleziona tutto ciò che ti è familiare.",
+        "copy": "Scegli quello che ti colpisce di più.",
         "cta": "È proprio così",
         "options": {
           "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Non è un problema di motivazione.",
-        "copy": "I problemi che hai scelto arrivano prima che il tuo cervello completamente sveglio possa decidere. Ecco come DawnVow cambia ogni schema.",
+        "title": "Ogni schema e cosa lo batte.",
+        "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
           "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Completa la missione. Completa la mattina.",
-        "copy": "DawnVow trasforma la sveglia in una sequenza semplice scelta la sera prima.",
+        "title": "La tua mattina, passo dopo passo.",
+        "copy": "",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {
             "id": "alarm_rings",
-            "title": "Suona la sveglia",
-            "copy": "La sveglia suona all’ora scelta."
+            "title": "La sveglia suona",
+            "copy": "all’ora che hai scelto"
+          },
+          {
+            "id": "retry_chain",
+            "title": "La fermi troppo presto",
+            "copy": "suona di nuovo"
           },
           {
             "id": "complete_mission",
-            "title": "Completa la missione",
-            "copy": "Completa una missione fotografica dal vivo o un quiz rapido."
+            "title": "Completa la tua missione",
+            "copy": "foto o quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Completa il risveglio",
-            "copy": "Superare la missione segna il risveglio come completato."
+            "title": "Spegni la sveglia",
+            "copy": "solo dopo la verifica"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Seleziona tutto ciò che ti è familiare.",
+        "copy": "Scegli quello che ti colpisce di più.",
         "cta": "È proprio così",
         "options": {
           "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Non è un problema di motivazione.",
-        "copy": "I problemi che hai scelto arrivano prima che il tuo cervello completamente sveglio possa decidere. Ecco come DawnVow cambia ogni schema.",
+        "title": "Ogni schema e cosa lo batte.",
+        "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
           "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Completa la missione. Completa la mattina.",
-        "copy": "DawnVow trasforma la sveglia in una sequenza semplice scelta la sera prima.",
+        "title": "La tua mattina, passo dopo passo.",
+        "copy": "",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {
             "id": "alarm_rings",
-            "title": "Suona la sveglia",
-            "copy": "La sveglia suona all’ora scelta."
+            "title": "La sveglia suona",
+            "copy": "all’ora che hai scelto"
+          },
+          {
+            "id": "retry_chain",
+            "title": "La fermi troppo presto",
+            "copy": "suona di nuovo"
           },
           {
             "id": "complete_mission",
-            "title": "Completa la missione",
-            "copy": "Completa una missione fotografica dal vivo o un quiz rapido."
+            "title": "Completa la tua missione",
+            "copy": "foto o quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Completa il risveglio",
-            "copy": "Superare la missione segna il risveglio come completato."
+            "title": "Spegni la sveglia",
+            "copy": "solo dopo la verifica"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Seleziona tutto ciò che ti è familiare.",
+        "copy": "Scegli quello che ti colpisce di più.",
         "cta": "È proprio così",
         "options": {
           "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Non è un problema di motivazione.",
-        "copy": "I problemi che hai scelto arrivano prima che il tuo cervello completamente sveglio possa decidere. Ecco come DawnVow cambia ogni schema.",
+        "title": "Ogni schema e cosa lo batte.",
+        "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
           "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Completa la missione. Completa la mattina.",
-        "copy": "DawnVow trasforma la sveglia in una sequenza semplice scelta la sera prima.",
+        "title": "La tua mattina, passo dopo passo.",
+        "copy": "",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {
             "id": "alarm_rings",
-            "title": "Suona la sveglia",
-            "copy": "La sveglia suona all’ora scelta."
+            "title": "La sveglia suona",
+            "copy": "all’ora che hai scelto"
+          },
+          {
+            "id": "retry_chain",
+            "title": "La fermi troppo presto",
+            "copy": "suona di nuovo"
           },
           {
             "id": "complete_mission",
-            "title": "Completa la missione",
-            "copy": "Completa una missione fotografica dal vivo o un quiz rapido."
+            "title": "Completa la tua missione",
+            "copy": "foto o quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Completa il risveglio",
-            "copy": "Superare la missione segna il risveglio come completato."
+            "title": "Spegni la sveglia",
+            "copy": "solo dopo la verifica"
           }
         ]
       },

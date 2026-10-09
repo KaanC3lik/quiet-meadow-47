@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Selecione tudo que parece familiar.",
+        "copy": "Escolha o que mais combina com você.",
         "cta": "Isso acontece comigo",
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Não é um problema de motivação.",
-        "copy": "Os problemas que você escolheu acontecem antes que seu cérebro totalmente desperto possa decidir. Veja como o DawnVow muda cada padrão.",
+        "title": "Cada padrão e o que o vence.",
+        "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Conclua a missão. Conclua a manhã.",
-        "copy": "O DawnVow transforma seu alarme em uma sequência simples escolhida na noite anterior.",
+        "title": "Sua manhã, passo a passo.",
+        "copy": "",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "O alarme toca",
-            "copy": "Seu alarme toca no horário escolhido."
+            "copy": "na hora que você escolheu"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Parou cedo demais",
+            "copy": "ele toca de novo"
           },
           {
             "id": "complete_mission",
-            "title": "Conclua sua missão",
-            "copy": "Conclua uma missão de foto ao vivo ou um quiz rápido."
+            "title": "Complete sua missão",
+            "copy": "foto ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Conclua o despertar",
-            "copy": "Passar na missão marca o despertar como concluído."
+            "title": "Desligue o alarme",
+            "copy": "só depois de verificado"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Selecione tudo que parece familiar.",
+        "copy": "Escolha o que mais combina com você.",
         "cta": "Isso acontece comigo",
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Não é um problema de motivação.",
-        "copy": "Os problemas que você escolheu acontecem antes que seu cérebro totalmente desperto possa decidir. Veja como o DawnVow muda cada padrão.",
+        "title": "Cada padrão e o que o vence.",
+        "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Conclua a missão. Conclua a manhã.",
-        "copy": "O DawnVow transforma seu alarme em uma sequência simples escolhida na noite anterior.",
+        "title": "Sua manhã, passo a passo.",
+        "copy": "",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "O alarme toca",
-            "copy": "Seu alarme toca no horário escolhido."
+            "copy": "na hora que você escolheu"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Parou cedo demais",
+            "copy": "ele toca de novo"
           },
           {
             "id": "complete_mission",
-            "title": "Conclua sua missão",
-            "copy": "Conclua uma missão de foto ao vivo ou um quiz rápido."
+            "title": "Complete sua missão",
+            "copy": "foto ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Conclua o despertar",
-            "copy": "Passar na missão marca o despertar como concluído."
+            "title": "Desligue o alarme",
+            "copy": "só depois de verificado"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Selecione tudo que parece familiar.",
+        "copy": "Escolha o que mais combina com você.",
         "cta": "Isso acontece comigo",
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Não é um problema de motivação.",
-        "copy": "Os problemas que você escolheu acontecem antes que seu cérebro totalmente desperto possa decidir. Veja como o DawnVow muda cada padrão.",
+        "title": "Cada padrão e o que o vence.",
+        "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Conclua a missão. Conclua a manhã.",
-        "copy": "O DawnVow transforma seu alarme em uma sequência simples escolhida na noite anterior.",
+        "title": "Sua manhã, passo a passo.",
+        "copy": "",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "O alarme toca",
-            "copy": "Seu alarme toca no horário escolhido."
+            "copy": "na hora que você escolheu"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Parou cedo demais",
+            "copy": "ele toca de novo"
           },
           {
             "id": "complete_mission",
-            "title": "Conclua sua missão",
-            "copy": "Conclua uma missão de foto ao vivo ou um quiz rápido."
+            "title": "Complete sua missão",
+            "copy": "foto ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Conclua o despertar",
-            "copy": "Passar na missão marca o despertar como concluído."
+            "title": "Desligue o alarme",
+            "copy": "só depois de verificado"
           }
         ]
       },

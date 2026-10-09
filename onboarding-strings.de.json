@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "Was bringt deine Morgenroutine durcheinander?",
           "no_rushing": "Was macht deinen Morgen hektisch?"
         },
-        "copy": "Wähle alles aus, was auf dich zutrifft.",
+        "copy": "Wähle, was dich am härtesten trifft.",
         "cta": "Das kenne ich",
         "options": {
           "snooze_unaware": "Ich drücke auf Schlummern, ohne mich wirklich daran zu erinnern",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Das ist kein Motivationsproblem.",
-        "copy": "Die von dir ausgewählten Probleme entstehen, bevor dein vollständig waches Gehirn mitentscheiden kann. So verändert DawnVow jedes Muster.",
+        "title": "Jedes Muster und was es besiegt.",
+        "copy": "",
         "cta": "Zeig mir, wie es funktioniert",
         "solutions": {
           "snooze_unaware": "Eine notwendige Mission unterbricht die automatische Schlummer-Schleife.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Schließe die Mission ab. Starte den Morgen.",
-        "copy": "DawnVow verwandelt deinen Wecker in eine einfache Abfolge, die du am Vorabend festlegst.",
+        "title": "Dein Morgen, Schritt für Schritt.",
+        "copy": "",
         "cta": "So könnte mein Morgen aussehen",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Wecker klingelt",
-            "copy": "Dein Wecker klingelt zur gewählten Zeit."
+            "copy": "zur von dir gewählten Zeit"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Zu früh gestoppt",
+            "copy": "er klingelt wieder"
           },
           {
             "id": "complete_mission",
             "title": "Schließe deine Mission ab",
-            "copy": "Schließe eine Live-Fotomission oder ein kurzes Quiz ab."
+            "copy": "Foto oder Quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Schließe das Aufstehen ab",
-            "copy": "Nach bestandener Mission gilt dein Aufstehen als abgeschlossen."
+            "title": "Beende den Alarm",
+            "copy": "erst nach der Bestätigung"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "Was bringt deine Morgenroutine durcheinander?",
           "no_rushing": "Was macht deinen Morgen hektisch?"
         },
-        "copy": "Wähle alles aus, was auf dich zutrifft.",
+        "copy": "Wähle, was dich am härtesten trifft.",
         "cta": "Das kenne ich",
         "options": {
           "snooze_unaware": "Ich drücke auf Schlummern, ohne mich wirklich daran zu erinnern",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Das ist kein Motivationsproblem.",
-        "copy": "Die von dir ausgewählten Probleme entstehen, bevor dein vollständig waches Gehirn mitentscheiden kann. So verändert DawnVow jedes Muster.",
+        "title": "Jedes Muster und was es besiegt.",
+        "copy": "",
         "cta": "Zeig mir, wie es funktioniert",
         "solutions": {
           "snooze_unaware": "Eine notwendige Mission unterbricht die automatische Schlummer-Schleife.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Schließe die Mission ab. Starte den Morgen.",
-        "copy": "DawnVow verwandelt deinen Wecker in eine einfache Abfolge, die du am Vorabend festlegst.",
+        "title": "Dein Morgen, Schritt für Schritt.",
+        "copy": "",
         "cta": "So könnte mein Morgen aussehen",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Wecker klingelt",
-            "copy": "Dein Wecker klingelt zur gewählten Zeit."
+            "copy": "zur von dir gewählten Zeit"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Zu früh gestoppt",
+            "copy": "er klingelt wieder"
           },
           {
             "id": "complete_mission",
             "title": "Schließe deine Mission ab",
-            "copy": "Schließe eine Live-Fotomission oder ein kurzes Quiz ab."
+            "copy": "Foto oder Quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Schließe das Aufstehen ab",
-            "copy": "Nach bestandener Mission gilt dein Aufstehen als abgeschlossen."
+            "title": "Beende den Alarm",
+            "copy": "erst nach der Bestätigung"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "Was bringt deine Morgenroutine durcheinander?",
           "no_rushing": "Was macht deinen Morgen hektisch?"
         },
-        "copy": "Wähle alles aus, was auf dich zutrifft.",
+        "copy": "Wähle, was dich am härtesten trifft.",
         "cta": "Das kenne ich",
         "options": {
           "snooze_unaware": "Ich drücke auf Schlummern, ohne mich wirklich daran zu erinnern",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Das ist kein Motivationsproblem.",
-        "copy": "Die von dir ausgewählten Probleme entstehen, bevor dein vollständig waches Gehirn mitentscheiden kann. So verändert DawnVow jedes Muster.",
+        "title": "Jedes Muster und was es besiegt.",
+        "copy": "",
         "cta": "Zeig mir, wie es funktioniert",
         "solutions": {
           "snooze_unaware": "Eine notwendige Mission unterbricht die automatische Schlummer-Schleife.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Schließe die Mission ab. Starte den Morgen.",
-        "copy": "DawnVow verwandelt deinen Wecker in eine einfache Abfolge, die du am Vorabend festlegst.",
+        "title": "Dein Morgen, Schritt für Schritt.",
+        "copy": "",
         "cta": "So könnte mein Morgen aussehen",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Wecker klingelt",
-            "copy": "Dein Wecker klingelt zur gewählten Zeit."
+            "copy": "zur von dir gewählten Zeit"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Zu früh gestoppt",
+            "copy": "er klingelt wieder"
           },
           {
             "id": "complete_mission",
             "title": "Schließe deine Mission ab",
-            "copy": "Schließe eine Live-Fotomission oder ein kurzes Quiz ab."
+            "copy": "Foto oder Quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Schließe das Aufstehen ab",
-            "copy": "Nach bestandener Mission gilt dein Aufstehen als abgeschlossen."
+            "title": "Beende den Alarm",
+            "copy": "erst nach der Bestätigung"
           }
         ]
       },

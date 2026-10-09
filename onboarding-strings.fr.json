@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Sélectionnez tout ce qui vous ressemble.",
+        "copy": "Choisissez celui qui vous ressemble le plus.",
         "cta": "C’est bien moi",
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Ce n’est pas un problème de motivation.",
-        "copy": "Les problèmes choisis arrivent avant que votre cerveau pleinement réveillé puisse décider. Voici comment DawnVow change chaque schéma.",
+        "title": "Chaque schéma, et ce qui le bat.",
+        "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Terminez la mission. Réussissez votre matinée.",
-        "copy": "DawnVow transforme votre alarme en une séquence simple choisie la veille au soir.",
+        "title": "Votre matin, étape par étape.",
+        "copy": "",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "L’alarme sonne",
-            "copy": "Votre alarme sonne à l’heure choisie."
+            "copy": "à l’heure choisie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vous l’arrêtez trop tôt",
+            "copy": "elle sonne à nouveau"
           },
           {
             "id": "complete_mission",
-            "title": "Terminez votre mission",
-            "copy": "Terminez une mission photo en direct ou un quiz rapide."
+            "title": "Complétez votre mission",
+            "copy": "photo ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Terminez le réveil",
-            "copy": "Réussir la mission valide votre réveil."
+            "title": "Éteignez l’alarme",
+            "copy": "seulement après vérification"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Sélectionnez tout ce qui vous ressemble.",
+        "copy": "Choisissez celui qui vous ressemble le plus.",
         "cta": "C’est bien moi",
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Ce n’est pas un problème de motivation.",
-        "copy": "Les problèmes choisis arrivent avant que votre cerveau pleinement réveillé puisse décider. Voici comment DawnVow change chaque schéma.",
+        "title": "Chaque schéma, et ce qui le bat.",
+        "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Terminez la mission. Réussissez votre matinée.",
-        "copy": "DawnVow transforme votre alarme en une séquence simple choisie la veille au soir.",
+        "title": "Votre matin, étape par étape.",
+        "copy": "",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "L’alarme sonne",
-            "copy": "Votre alarme sonne à l’heure choisie."
+            "copy": "à l’heure choisie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vous l’arrêtez trop tôt",
+            "copy": "elle sonne à nouveau"
           },
           {
             "id": "complete_mission",
-            "title": "Terminez votre mission",
-            "copy": "Terminez une mission photo en direct ou un quiz rapide."
+            "title": "Complétez votre mission",
+            "copy": "photo ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Terminez le réveil",
-            "copy": "Réussir la mission valide votre réveil."
+            "title": "Éteignez l’alarme",
+            "copy": "seulement après vérification"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Sélectionnez tout ce qui vous ressemble.",
+        "copy": "Choisissez celui qui vous ressemble le plus.",
         "cta": "C’est bien moi",
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Ce n’est pas un problème de motivation.",
-        "copy": "Les problèmes choisis arrivent avant que votre cerveau pleinement réveillé puisse décider. Voici comment DawnVow change chaque schéma.",
+        "title": "Chaque schéma, et ce qui le bat.",
+        "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Terminez la mission. Réussissez votre matinée.",
-        "copy": "DawnVow transforme votre alarme en une séquence simple choisie la veille au soir.",
+        "title": "Votre matin, étape par étape.",
+        "copy": "",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "L’alarme sonne",
-            "copy": "Votre alarme sonne à l’heure choisie."
+            "copy": "à l’heure choisie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vous l’arrêtez trop tôt",
+            "copy": "elle sonne à nouveau"
           },
           {
             "id": "complete_mission",
-            "title": "Terminez votre mission",
-            "copy": "Terminez une mission photo en direct ou un quiz rapide."
+            "title": "Complétez votre mission",
+            "copy": "photo ou quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Terminez le réveil",
-            "copy": "Réussir la mission valide votre réveil."
+            "title": "Éteignez l’alarme",
+            "copy": "seulement après vérification"
           }
         ]
       },

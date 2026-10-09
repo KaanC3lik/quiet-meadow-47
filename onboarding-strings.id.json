@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Pilih semua yang terasa familiar.",
+        "copy": "Pilih yang paling cocok untukmu.",
         "cta": "Itu aku",
         "options": {
           "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "title": "Pagimu, langkah demi langkah.",
         "copy": "",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm berbunyi",
-            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+            "copy": "pada waktu yang kamu pilih"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Dimatikan lebih awal",
+            "copy": "akan berbunyi lagi"
           },
           {
             "id": "complete_mission",
             "title": "Selesaikan misimu",
-            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+            "copy": "foto atau kuis"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Selesaikan bangun",
-            "copy": "Lulus misi menandai bangunmu selesai."
+            "title": "Matikan alarm",
+            "copy": "hanya setelah terverifikasi"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Pilih semua yang terasa familiar.",
+        "copy": "Pilih yang paling cocok untukmu.",
         "cta": "Itu aku",
         "options": {
           "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "title": "Pagimu, langkah demi langkah.",
         "copy": "",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm berbunyi",
-            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+            "copy": "pada waktu yang kamu pilih"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Dimatikan lebih awal",
+            "copy": "akan berbunyi lagi"
           },
           {
             "id": "complete_mission",
             "title": "Selesaikan misimu",
-            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+            "copy": "foto atau kuis"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Selesaikan bangun",
-            "copy": "Lulus misi menandai bangunmu selesai."
+            "title": "Matikan alarm",
+            "copy": "hanya setelah terverifikasi"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Pilih semua yang terasa familiar.",
+        "copy": "Pilih yang paling cocok untukmu.",
         "cta": "Itu aku",
         "options": {
           "snooze_unaware": "Aku menekan tunda tanpa benar-benar ingat",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Selesaikan misi. Selesaikan pagimu.",
+        "title": "Pagimu, langkah demi langkah.",
         "copy": "",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm berbunyi",
-            "copy": "Alarm berbunyi pada waktu yang kamu pilih."
+            "copy": "pada waktu yang kamu pilih"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Dimatikan lebih awal",
+            "copy": "akan berbunyi lagi"
           },
           {
             "id": "complete_mission",
             "title": "Selesaikan misimu",
-            "copy": "Selesaikan misi foto langsung atau kuis singkat."
+            "copy": "foto atau kuis"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Selesaikan bangun",
-            "copy": "Lulus misi menandai bangunmu selesai."
+            "title": "Matikan alarm",
+            "copy": "hanya setelah terverifikasi"
           }
         ]
       },

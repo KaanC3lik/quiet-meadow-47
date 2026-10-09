@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "اختر كل ما ينطبق عليك.",
+        "copy": "اختر النمط الذي يؤثر فيك أكثر.",
         "cta": "هذا يشبهني",
         "options": {
           "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "أكمل المهمة. أكمل صباحك.",
+        "title": "صباحك، خطوة بخطوة.",
         "copy": "",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "يرن المنبّه",
-            "copy": "يرن المنبّه في الوقت الذي اخترته."
+            "copy": "في الوقت الذي اخترته"
+          },
+          {
+            "id": "retry_chain",
+            "title": "أوقفه مبكرًا",
+            "copy": "سيرن مرة أخرى"
           },
           {
             "id": "complete_mission",
             "title": "أكمل مهمتك",
-            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+            "copy": "صورة أو اختبار"
           },
           {
             "id": "dismiss_alarm",
-            "title": "أكمل الاستيقاظ",
-            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+            "title": "أنهِ المنبّه",
+            "copy": "فقط بعد التحقق"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "اختر كل ما ينطبق عليك.",
+        "copy": "اختر النمط الذي يؤثر فيك أكثر.",
         "cta": "هذا يشبهني",
         "options": {
           "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "أكمل المهمة. أكمل صباحك.",
+        "title": "صباحك، خطوة بخطوة.",
         "copy": "",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "يرن المنبّه",
-            "copy": "يرن المنبّه في الوقت الذي اخترته."
+            "copy": "في الوقت الذي اخترته"
+          },
+          {
+            "id": "retry_chain",
+            "title": "أوقفه مبكرًا",
+            "copy": "سيرن مرة أخرى"
           },
           {
             "id": "complete_mission",
             "title": "أكمل مهمتك",
-            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+            "copy": "صورة أو اختبار"
           },
           {
             "id": "dismiss_alarm",
-            "title": "أكمل الاستيقاظ",
-            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+            "title": "أنهِ المنبّه",
+            "copy": "فقط بعد التحقق"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "اختر كل ما ينطبق عليك.",
+        "copy": "اختر النمط الذي يؤثر فيك أكثر.",
         "cta": "هذا يشبهني",
         "options": {
           "snooze_unaware": "أضغط الغفوة دون أن أتذكر",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "أكمل المهمة. أكمل صباحك.",
+        "title": "صباحك، خطوة بخطوة.",
         "copy": "",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "يرن المنبّه",
-            "copy": "يرن المنبّه في الوقت الذي اخترته."
+            "copy": "في الوقت الذي اخترته"
+          },
+          {
+            "id": "retry_chain",
+            "title": "أوقفه مبكرًا",
+            "copy": "سيرن مرة أخرى"
           },
           {
             "id": "complete_mission",
             "title": "أكمل مهمتك",
-            "copy": "أكمل مهمة صورة مباشرة أو اختبارًا سريعًا."
+            "copy": "صورة أو اختبار"
           },
           {
             "id": "dismiss_alarm",
-            "title": "أكمل الاستيقاظ",
-            "copy": "اجتياز المهمة يجعل الاستيقاظ مكتملًا."
+            "title": "أنهِ المنبّه",
+            "copy": "فقط بعد التحقق"
           }
         ]
       },

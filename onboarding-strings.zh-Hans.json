@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "什么打乱了你的早晨习惯？",
           "no_rushing": "什么让你的早晨变得匆忙？"
         },
-        "copy": "选择所有符合的情况。",
+        "copy": "选择最符合你的一项。",
         "cta": "这说的就是我",
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "这不是动力问题。",
-        "copy": "你选择的问题发生在完全清醒的大脑参与决定之前。DawnVow 会这样改变每种模式。",
+        "title": "每一种模式，以及它的破解方式。",
+        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "完成任务，开启早晨。",
-        "copy": "DawnVow 把闹钟变成你前一晚选择的简单流程。",
+        "title": "你的早晨，一步一步。",
+        "copy": "",
         "cta": "看看我的早晨会怎样",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "闹钟响起",
-            "copy": "闹钟会在你选择的时间响起。"
+            "copy": "在你选择的时间"
+          },
+          {
+            "id": "retry_chain",
+            "title": "提前关掉",
+            "copy": "它会再次响起"
           },
           {
             "id": "complete_mission",
             "title": "完成任务",
-            "copy": "完成实时照片任务或快速测验。"
+            "copy": "照片或测验"
           },
           {
             "id": "dismiss_alarm",
-            "title": "完成起床",
-            "copy": "通过任务后，起床就算完成。"
+            "title": "关闭闹钟",
+            "copy": "验证之后才能关"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "什么打乱了你的早晨习惯？",
           "no_rushing": "什么让你的早晨变得匆忙？"
         },
-        "copy": "选择所有符合的情况。",
+        "copy": "选择最符合你的一项。",
         "cta": "这说的就是我",
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "这不是动力问题。",
-        "copy": "你选择的问题发生在完全清醒的大脑参与决定之前。DawnVow 会这样改变每种模式。",
+        "title": "每一种模式，以及它的破解方式。",
+        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "完成任务，开启早晨。",
-        "copy": "DawnVow 把闹钟变成你前一晚选择的简单流程。",
+        "title": "你的早晨，一步一步。",
+        "copy": "",
         "cta": "看看我的早晨会怎样",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "闹钟响起",
-            "copy": "闹钟会在你选择的时间响起。"
+            "copy": "在你选择的时间"
+          },
+          {
+            "id": "retry_chain",
+            "title": "提前关掉",
+            "copy": "它会再次响起"
           },
           {
             "id": "complete_mission",
             "title": "完成任务",
-            "copy": "完成实时照片任务或快速测验。"
+            "copy": "照片或测验"
           },
           {
             "id": "dismiss_alarm",
-            "title": "完成起床",
-            "copy": "通过任务后，起床就算完成。"
+            "title": "关闭闹钟",
+            "copy": "验证之后才能关"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "什么打乱了你的早晨习惯？",
           "no_rushing": "什么让你的早晨变得匆忙？"
         },
-        "copy": "选择所有符合的情况。",
+        "copy": "选择最符合你的一项。",
         "cta": "这说的就是我",
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "这不是动力问题。",
-        "copy": "你选择的问题发生在完全清醒的大脑参与决定之前。DawnVow 会这样改变每种模式。",
+        "title": "每一种模式，以及它的破解方式。",
+        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "完成任务，开启早晨。",
-        "copy": "DawnVow 把闹钟变成你前一晚选择的简单流程。",
+        "title": "你的早晨，一步一步。",
+        "copy": "",
         "cta": "看看我的早晨会怎样",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "闹钟响起",
-            "copy": "闹钟会在你选择的时间响起。"
+            "copy": "在你选择的时间"
+          },
+          {
+            "id": "retry_chain",
+            "title": "提前关掉",
+            "copy": "它会再次响起"
           },
           {
             "id": "complete_mission",
             "title": "完成任务",
-            "copy": "完成实时照片任务或快速测验。"
+            "copy": "照片或测验"
           },
           {
             "id": "dismiss_alarm",
-            "title": "完成起床",
-            "copy": "通过任务后，起床就算完成。"
+            "title": "关闭闹钟",
+            "copy": "验证之后才能关"
           }
         ]
       },

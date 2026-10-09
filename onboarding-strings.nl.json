@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "copy": "Kies degene die het meest herkenbaar is.",
         "cta": "Dat herken ik",
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Dit is geen motivatieprobleem.",
-        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "title": "Elk patroon en wat het verslaat.",
+        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Voltooi de missie. Begin je ochtend.",
-        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "title": "Je ochtend, stap voor stap.",
+        "copy": "",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Je wekker gaat op het gekozen tijdstip."
+            "copy": "op de tijd die je koos"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Te vroeg gestopt",
+            "copy": "hij gaat weer af"
           },
           {
             "id": "complete_mission",
             "title": "Voltooi je missie",
-            "copy": "Voltooi een live-fotomissie of een korte quiz."
+            "copy": "foto of quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Maak het opstaan af",
-            "copy": "Na de missie is je opstaan voltooid."
+            "title": "Zet de wekker uit",
+            "copy": "pas na de controle"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "copy": "Kies degene die het meest herkenbaar is.",
         "cta": "Dat herken ik",
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Dit is geen motivatieprobleem.",
-        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "title": "Elk patroon en wat het verslaat.",
+        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Voltooi de missie. Begin je ochtend.",
-        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "title": "Je ochtend, stap voor stap.",
+        "copy": "",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Je wekker gaat op het gekozen tijdstip."
+            "copy": "op de tijd die je koos"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Te vroeg gestopt",
+            "copy": "hij gaat weer af"
           },
           {
             "id": "complete_mission",
             "title": "Voltooi je missie",
-            "copy": "Voltooi een live-fotomissie of een korte quiz."
+            "copy": "foto of quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Maak het opstaan af",
-            "copy": "Na de missie is je opstaan voltooid."
+            "title": "Zet de wekker uit",
+            "copy": "pas na de controle"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Selecteer alles wat herkenbaar klinkt.",
+        "copy": "Kies degene die het meest herkenbaar is.",
         "cta": "Dat herken ik",
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "Dit is geen motivatieprobleem.",
-        "copy": "De problemen die je koos ontstaan voordat je volledig wakkere brein kan beslissen. Zo verandert DawnVow elk patroon.",
+        "title": "Elk patroon en wat het verslaat.",
+        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Voltooi de missie. Begin je ochtend.",
-        "copy": "DawnVow maakt van je wekker een eenvoudige reeks die je de avond ervoor kiest.",
+        "title": "Je ochtend, stap voor stap.",
+        "copy": "",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Je wekker gaat op het gekozen tijdstip."
+            "copy": "op de tijd die je koos"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Te vroeg gestopt",
+            "copy": "hij gaat weer af"
           },
           {
             "id": "complete_mission",
             "title": "Voltooi je missie",
-            "copy": "Voltooi een live-fotomissie of een korte quiz."
+            "copy": "foto of quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Maak het opstaan af",
-            "copy": "Na de missie is je opstaan voltooid."
+            "title": "Zet de wekker uit",
+            "copy": "pas na de controle"
           }
         ]
       },

@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "Co przerywa twoją poranną rutynę?",
           "no_rushing": "Co zamienia twój poranek w pośpiech?"
         },
-        "copy": "Zaznacz wszystko, co brzmi znajomo.",
+        "copy": "Wybierz ten, który najbardziej do ciebie pasuje.",
         "cta": "To brzmi jak ja",
         "options": {
           "snooze_unaware": "Włączam drzemkę, nawet tego nie pamiętając",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "To nie problem z motywacją.",
-        "copy": "Wybrane problemy pojawiają się, zanim w pełni obudzony mózg zdąży zdecydować. Tak DawnVow zmienia każdy wzorzec.",
+        "title": "Każdy wzorzec i to, co go pokonuje.",
+        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Obowiązkowa misja przerywa automatyczną pętlę drzemki.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Ukończ misję. Zacznij poranek.",
-        "copy": "DawnVow zmienia alarm w prostą sekwencję wybraną poprzedniego wieczoru.",
+        "title": "Twój poranek, krok po kroku.",
+        "copy": "",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Alarm dzwoni o wybranej godzinie."
+            "copy": "o wybranej godzinie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Wyłączysz go za wcześnie",
+            "copy": "zadzwoni ponownie"
           },
           {
             "id": "complete_mission",
-            "title": "Ukończ misję",
-            "copy": "Ukończ misję ze zdjęciem na żywo lub krótki quiz."
+            "title": "Wykonaj misję",
+            "copy": "zdjęcie lub quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Dokończ pobudkę",
-            "copy": "Zaliczenie misji oznacza pobudkę jako ukończoną."
+            "title": "Wyłącz alarm",
+            "copy": "dopiero po weryfikacji"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "Co przerywa twoją poranną rutynę?",
           "no_rushing": "Co zamienia twój poranek w pośpiech?"
         },
-        "copy": "Zaznacz wszystko, co brzmi znajomo.",
+        "copy": "Wybierz ten, który najbardziej do ciebie pasuje.",
         "cta": "To brzmi jak ja",
         "options": {
           "snooze_unaware": "Włączam drzemkę, nawet tego nie pamiętając",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "To nie problem z motywacją.",
-        "copy": "Wybrane problemy pojawiają się, zanim w pełni obudzony mózg zdąży zdecydować. Tak DawnVow zmienia każdy wzorzec.",
+        "title": "Każdy wzorzec i to, co go pokonuje.",
+        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Obowiązkowa misja przerywa automatyczną pętlę drzemki.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Ukończ misję. Zacznij poranek.",
-        "copy": "DawnVow zmienia alarm w prostą sekwencję wybraną poprzedniego wieczoru.",
+        "title": "Twój poranek, krok po kroku.",
+        "copy": "",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Alarm dzwoni o wybranej godzinie."
+            "copy": "o wybranej godzinie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Wyłączysz go za wcześnie",
+            "copy": "zadzwoni ponownie"
           },
           {
             "id": "complete_mission",
-            "title": "Ukończ misję",
-            "copy": "Ukończ misję ze zdjęciem na żywo lub krótki quiz."
+            "title": "Wykonaj misję",
+            "copy": "zdjęcie lub quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Dokończ pobudkę",
-            "copy": "Zaliczenie misji oznacza pobudkę jako ukończoną."
+            "title": "Wyłącz alarm",
+            "copy": "dopiero po weryfikacji"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "Co przerywa twoją poranną rutynę?",
           "no_rushing": "Co zamienia twój poranek w pośpiech?"
         },
-        "copy": "Zaznacz wszystko, co brzmi znajomo.",
+        "copy": "Wybierz ten, który najbardziej do ciebie pasuje.",
         "cta": "To brzmi jak ja",
         "options": {
           "snooze_unaware": "Włączam drzemkę, nawet tego nie pamiętając",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "To nie problem z motywacją.",
-        "copy": "Wybrane problemy pojawiają się, zanim w pełni obudzony mózg zdąży zdecydować. Tak DawnVow zmienia każdy wzorzec.",
+        "title": "Każdy wzorzec i to, co go pokonuje.",
+        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Obowiązkowa misja przerywa automatyczną pętlę drzemki.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Ukończ misję. Zacznij poranek.",
-        "copy": "DawnVow zmienia alarm w prostą sekwencję wybraną poprzedniego wieczoru.",
+        "title": "Twój poranek, krok po kroku.",
+        "copy": "",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Alarm dzwoni o wybranej godzinie."
+            "copy": "o wybranej godzinie"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Wyłączysz go za wcześnie",
+            "copy": "zadzwoni ponownie"
           },
           {
             "id": "complete_mission",
-            "title": "Ukończ misję",
-            "copy": "Ukończ misję ze zdjęciem na żywo lub krótki quiz."
+            "title": "Wykonaj misję",
+            "copy": "zdjęcie lub quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Dokończ pobudkę",
-            "copy": "Zaliczenie misji oznacza pobudkę jako ukończoną."
+            "title": "Wyłącz alarm",
+            "copy": "dopiero po weryfikacji"
           }
         ]
       },

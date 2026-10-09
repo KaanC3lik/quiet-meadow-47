@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Chọn tất cả điều phù hợp.",
+        "copy": "Chọn điều đúng nhất với bạn.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
+        "title": "Buổi sáng của bạn, từng bước một.",
         "copy": "",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Báo thức reo",
-            "copy": "Báo thức reo vào thời gian bạn chọn."
+            "copy": "vào thời gian bạn chọn"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Tắt quá sớm",
+            "copy": "nó sẽ reo lại"
           },
           {
             "id": "complete_mission",
             "title": "Hoàn thành nhiệm vụ",
-            "copy": "Hoàn thành nhiệm vụ ảnh trực tiếp hoặc quiz nhanh."
+            "copy": "ảnh hoặc quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Hoàn tất thức dậy",
-            "copy": "Vượt qua nhiệm vụ sẽ đánh dấu việc thức dậy hoàn tất."
+            "title": "Tắt báo thức",
+            "copy": "chỉ sau khi xác minh"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Chọn tất cả điều phù hợp.",
+        "copy": "Chọn điều đúng nhất với bạn.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
+        "title": "Buổi sáng của bạn, từng bước một.",
         "copy": "",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Báo thức reo",
-            "copy": "Báo thức reo vào thời gian bạn chọn."
+            "copy": "vào thời gian bạn chọn"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Tắt quá sớm",
+            "copy": "nó sẽ reo lại"
           },
           {
             "id": "complete_mission",
             "title": "Hoàn thành nhiệm vụ",
-            "copy": "Hoàn thành nhiệm vụ ảnh trực tiếp hoặc quiz nhanh."
+            "copy": "ảnh hoặc quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Hoàn tất thức dậy",
-            "copy": "Vượt qua nhiệm vụ sẽ đánh dấu việc thức dậy hoàn tất."
+            "title": "Tắt báo thức",
+            "copy": "chỉ sau khi xác minh"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "Chọn tất cả điều phù hợp.",
+        "copy": "Chọn điều đúng nhất với bạn.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
+        "title": "Buổi sáng của bạn, từng bước một.",
         "copy": "",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Báo thức reo",
-            "copy": "Báo thức reo vào thời gian bạn chọn."
+            "copy": "vào thời gian bạn chọn"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Tắt quá sớm",
+            "copy": "nó sẽ reo lại"
           },
           {
             "id": "complete_mission",
             "title": "Hoàn thành nhiệm vụ",
-            "copy": "Hoàn thành nhiệm vụ ảnh trực tiếp hoặc quiz nhanh."
+            "copy": "ảnh hoặc quiz"
           },
           {
             "id": "dismiss_alarm",
-            "title": "Hoàn tất thức dậy",
-            "copy": "Vượt qua nhiệm vụ sẽ đánh dấu việc thức dậy hoàn tất."
+            "title": "Tắt báo thức",
+            "copy": "chỉ sau khi xác minh"
           }
         ]
       },

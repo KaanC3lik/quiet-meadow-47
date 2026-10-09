@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 16,
+  "version": 17,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -81,7 +81,7 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "해당하는 항목을 모두 선택하세요.",
+        "copy": "가장 와닿는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
@@ -90,8 +90,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "의지의 문제가 아니에요.",
-        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "title": "각 패턴과, 그걸 이기는 방법.",
+        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
@@ -100,24 +100,29 @@
         }
       },
       "mechanism": {
-        "title": "미션을 완료하세요. 아침을 시작하세요.",
-        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "title": "당신의 아침을, 한 단계씩.",
+        "copy": "",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에 알람이 울려요."
+            "copy": "선택한 시간에"
+          },
+          {
+            "id": "retry_chain",
+            "title": "일찍 끄면",
+            "copy": "다시 울려요"
           },
           {
             "id": "complete_mission",
-            "title": "미션 완료",
-            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+            "title": "미션을 완료해요",
+            "copy": "사진 또는 퀴즈"
           },
           {
             "id": "dismiss_alarm",
-            "title": "기상 완료",
-            "copy": "미션을 통과하면 기상이 완료돼요."
+            "title": "알람을 꺼요",
+            "copy": "확인된 후에만"
           }
         ]
       },
@@ -292,7 +297,7 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "해당하는 항목을 모두 선택하세요.",
+        "copy": "가장 와닿는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
@@ -301,8 +306,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "의지의 문제가 아니에요.",
-        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "title": "각 패턴과, 그걸 이기는 방법.",
+        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
@@ -311,24 +316,29 @@
         }
       },
       "mechanism": {
-        "title": "미션을 완료하세요. 아침을 시작하세요.",
-        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "title": "당신의 아침을, 한 단계씩.",
+        "copy": "",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에 알람이 울려요."
+            "copy": "선택한 시간에"
+          },
+          {
+            "id": "retry_chain",
+            "title": "일찍 끄면",
+            "copy": "다시 울려요"
           },
           {
             "id": "complete_mission",
-            "title": "미션 완료",
-            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+            "title": "미션을 완료해요",
+            "copy": "사진 또는 퀴즈"
           },
           {
             "id": "dismiss_alarm",
-            "title": "기상 완료",
-            "copy": "미션을 통과하면 기상이 완료돼요."
+            "title": "알람을 꺼요",
+            "copy": "확인된 후에만"
           }
         ]
       },
@@ -503,7 +513,7 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "해당하는 항목을 모두 선택하세요.",
+        "copy": "가장 와닿는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
@@ -512,8 +522,8 @@
         }
       },
       "personalizedSolution": {
-        "title": "의지의 문제가 아니에요.",
-        "copy": "선택한 문제는 완전히 깨어난 뇌가 결정하기 전에 일어나요. DawnVow는 각 패턴을 이렇게 바꿔요.",
+        "title": "각 패턴과, 그걸 이기는 방법.",
+        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
@@ -522,24 +532,29 @@
         }
       },
       "mechanism": {
-        "title": "미션을 완료하세요. 아침을 시작하세요.",
-        "copy": "DawnVow는 전날 밤 선택한 간단한 순서로 알람을 바꿔요.",
+        "title": "당신의 아침을, 한 단계씩.",
+        "copy": "",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에 알람이 울려요."
+            "copy": "선택한 시간에"
+          },
+          {
+            "id": "retry_chain",
+            "title": "일찍 끄면",
+            "copy": "다시 울려요"
           },
           {
             "id": "complete_mission",
-            "title": "미션 완료",
-            "copy": "실시간 사진 미션이나 간단한 퀴즈를 완료해요."
+            "title": "미션을 완료해요",
+            "copy": "사진 또는 퀴즈"
           },
           {
             "id": "dismiss_alarm",
-            "title": "기상 완료",
-            "copy": "미션을 통과하면 기상이 완료돼요."
+            "title": "알람을 꺼요",
+            "copy": "확인된 후에만"
           }
         ]
       },
