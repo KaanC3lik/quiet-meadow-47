@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -48,7 +48,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "multiple_alarms": "我设好几个闹钟，却全部忽略",
-          "louder_background": "更响的闹钟最终也变成背景声音",
-          "sleepy_ignores": "困倦的我会忽略昨晚制定的计划",
-          "late_frustrated": "我晚起，然后带着沮丧开始一天"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
           "dismiss_fall_asleep": "任务会阻止一次困倦的点击，让你真正完成起床。",
-          "multiple_alarms": "一个需要行动的闹钟，替代你已经学会忽略的闹钟链。",
-          "louder_background": "DawnVow 改变你的行动，而不只是把声音调大。",
-          "sleepy_ignores": "清醒的你选择任务，困倦的你必须完成它。",
-          "late_frustrated": "完成第一个行动，让你在早晨溜走前开始移动。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "DawnVow 只会在需要时请求闹钟、通知和相机权限。",
         "labels": {
           "wakeTime": "起床时间",
-          "goal": "目标",
-          "escape": "你通常的逃避方式",
           "mission": "你的任务",
           "rule": "你的新规则"
         }
@@ -257,7 +259,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "multiple_alarms": "我设好几个闹钟，却全部忽略",
-          "louder_background": "更响的闹钟最终也变成背景声音",
-          "sleepy_ignores": "困倦的我会忽略昨晚制定的计划",
-          "late_frustrated": "我晚起，然后带着沮丧开始一天"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
           "dismiss_fall_asleep": "任务会阻止一次困倦的点击，让你真正完成起床。",
-          "multiple_alarms": "一个需要行动的闹钟，替代你已经学会忽略的闹钟链。",
-          "louder_background": "DawnVow 改变你的行动，而不只是把声音调大。",
-          "sleepy_ignores": "清醒的你选择任务，困倦的你必须完成它。",
-          "late_frustrated": "完成第一个行动，让你在早晨溜走前开始移动。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "DawnVow 只会在需要时请求闹钟、通知和相机权限。",
         "labels": {
           "wakeTime": "起床时间",
-          "goal": "目标",
-          "escape": "你通常的逃避方式",
           "mission": "你的任务",
           "rule": "你的新规则"
         }
@@ -466,7 +470,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "我会在不知不觉中点下稍后提醒",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "multiple_alarms": "我设好几个闹钟，却全部忽略",
-          "louder_background": "更响的闹钟最终也变成背景声音",
-          "sleepy_ignores": "困倦的我会忽略昨晚制定的计划",
-          "late_frustrated": "我晚起，然后带着沮丧开始一天"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "必须完成的任务会打断自动稍后提醒循环。",
           "dismiss_fall_asleep": "任务会阻止一次困倦的点击，让你真正完成起床。",
-          "multiple_alarms": "一个需要行动的闹钟，替代你已经学会忽略的闹钟链。",
-          "louder_background": "DawnVow 改变你的行动，而不只是把声音调大。",
-          "sleepy_ignores": "清醒的你选择任务，困倦的你必须完成它。",
-          "late_frustrated": "完成第一个行动，让你在早晨溜走前开始移动。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "DawnVow 只会在需要时请求闹钟、通知和相机权限。",
         "labels": {
           "wakeTime": "起床时间",
-          "goal": "目标",
-          "escape": "你通常的逃避方式",
           "mission": "你的任务",
           "rule": "你的新规则"
         }

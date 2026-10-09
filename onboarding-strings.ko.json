@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -48,7 +48,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
-          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
-          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
-          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
           "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
-          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
-          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
-          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
         "labels": {
           "wakeTime": "기상 시간",
-          "goal": "목표",
-          "escape": "평소의 회피 방법",
           "mission": "미션",
           "rule": "새로운 규칙"
         }
@@ -257,7 +259,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
-          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
-          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
-          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
           "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
-          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
-          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
-          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
         "labels": {
           "wakeTime": "기상 시간",
-          "goal": "목표",
-          "escape": "평소의 회피 방법",
           "mission": "미션",
           "rule": "새로운 규칙"
         }
@@ -466,7 +470,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "multiple_alarms": "알람을 여러 개 맞추고 모두 무시해요",
-          "louder_background": "더 큰 알람도 결국 배경 소리가 돼요",
-          "sleepy_ignores": "졸린 내가 전날 밤의 계획을 무시해요",
-          "late_frustrated": "늦게 일어나 답답한 마음으로 하루를 시작해요"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
           "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "multiple_alarms": "행동이 필요한 하나의 알람이 무시하게 된 알람 연쇄를 대신해요.",
-          "louder_background": "DawnVow는 소리만 키우지 않고 행동을 바꿔요.",
-          "sleepy_ignores": "깨어 있는 내가 미션을 선택하고, 졸린 내가 따라야 해요.",
-          "late_frustrated": "첫 행동을 완료하면 아침이 지나가기 전에 움직이기 시작해요."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "DawnVow는 알람, 알림, 카메라 권한이 필요할 때만 요청합니다.",
         "labels": {
           "wakeTime": "기상 시간",
-          "goal": "목표",
-          "escape": "평소의 회피 방법",
           "mission": "미션",
           "rule": "새로운 규칙"
         }

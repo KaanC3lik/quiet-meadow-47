@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -43,7 +43,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "覚えていないままスヌーズしてしまう",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "multiple_alarms": "複数のアラームを設定して全部無視する",
-          "louder_background": "大きなアラームも最後は雑音になる",
-          "sleepy_ignores": "眠い自分が夜に立てた計画を無視する",
-          "late_frustrated": "遅く起きて、イライラしたまま一日を始める"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
           "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "multiple_alarms": "行動が必要な1つのアラームが、無視するようになった連続アラームに代わります。",
-          "louder_background": "DawnVowは音量だけでなく、あなたの行動を変えます。",
-          "sleepy_ignores": "起きているあなたがミッションを選び、眠いあなたが実行します。",
-          "late_frustrated": "最初の行動を完了することで、朝が過ぎる前に動き始められます。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "DawnVowは、必要になった時だけアラーム、通知、カメラへのアクセスを求めます。",
         "labels": {
           "wakeTime": "起床時刻",
-          "goal": "目標",
-          "escape": "いつもの逃げ道",
           "mission": "ミッション",
           "rule": "新しいルール"
         }
@@ -252,7 +254,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "覚えていないままスヌーズしてしまう",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "multiple_alarms": "複数のアラームを設定して全部無視する",
-          "louder_background": "大きなアラームも最後は雑音になる",
-          "sleepy_ignores": "眠い自分が夜に立てた計画を無視する",
-          "late_frustrated": "遅く起きて、イライラしたまま一日を始める"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
           "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "multiple_alarms": "行動が必要な1つのアラームが、無視するようになった連続アラームに代わります。",
-          "louder_background": "DawnVowは音量だけでなく、あなたの行動を変えます。",
-          "sleepy_ignores": "起きているあなたがミッションを選び、眠いあなたが実行します。",
-          "late_frustrated": "最初の行動を完了することで、朝が過ぎる前に動き始められます。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "DawnVowは、必要になった時だけアラーム、通知、カメラへのアクセスを求めます。",
         "labels": {
           "wakeTime": "起床時刻",
-          "goal": "目標",
-          "escape": "いつもの逃げ道",
           "mission": "ミッション",
           "rule": "新しいルール"
         }
@@ -461,7 +465,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "覚えていないままスヌーズしてしまう",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "multiple_alarms": "複数のアラームを設定して全部無視する",
-          "louder_background": "大きなアラームも最後は雑音になる",
-          "sleepy_ignores": "眠い自分が夜に立てた計画を無視する",
-          "late_frustrated": "遅く起きて、イライラしたまま一日を始める"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
           "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "multiple_alarms": "行動が必要な1つのアラームが、無視するようになった連続アラームに代わります。",
-          "louder_background": "DawnVowは音量だけでなく、あなたの行動を変えます。",
-          "sleepy_ignores": "起きているあなたがミッションを選び、眠いあなたが実行します。",
-          "late_frustrated": "最初の行動を完了することで、朝が過ぎる前に動き始められます。"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "DawnVowは、必要になった時だけアラーム、通知、カメラへのアクセスを求めます。",
         "labels": {
           "wakeTime": "起床時刻",
-          "goal": "目標",
-          "escape": "いつもの逃げ道",
           "mission": "ミッション",
           "rule": "新しいルール"
         }

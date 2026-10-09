@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -48,7 +48,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
           "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
-          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
-          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
-          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -119,7 +123,7 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "สร้างแผนการตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
@@ -208,8 +212,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "เวลาตื่น",
-          "goal": "เป้าหมาย",
-          "escape": "ทางหนีเดิมของคุณ",
           "mission": "ภารกิจของคุณ",
           "rule": "กฎใหม่ของคุณ"
         }
@@ -257,7 +259,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
           "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
-          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
-          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
-          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -328,7 +334,7 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "สร้างแผนการตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
@@ -417,8 +423,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "เวลาตื่น",
-          "goal": "เป้าหมาย",
-          "escape": "ทางหนีเดิมของคุณ",
           "mission": "ภารกิจของคุณ",
           "rule": "กฎใหม่ของคุณ"
         }
@@ -466,7 +470,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "คุณอยากเปลี่ยนอะไรในยามเช้า",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่รู้ตัว",
           "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "multiple_alarms": "ฉันตั้งหลายการปลุกและไม่สนใจทั้งหมด",
-          "louder_background": "เสียงปลุกที่ดังขึ้นก็กลายเป็นเสียงพื้นหลัง",
-          "sleepy_ignores": "ตัวฉันตอนง่วงไม่ทำตามแผนเมื่อคืน",
-          "late_frustrated": "ฉันตื่นสายและเริ่มวันด้วยความหงุดหงิด"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -537,7 +545,7 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "สร้างแผนการตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
@@ -626,8 +634,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "เวลาตื่น",
-          "goal": "เป้าหมาย",
-          "escape": "ทางหนีเดิมของคุณ",
           "mission": "ภารกิจของคุณ",
           "rule": "กฎใหม่ของคุณ"
         }

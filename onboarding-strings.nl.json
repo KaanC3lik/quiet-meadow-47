@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -48,7 +48,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
-          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
-          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
-          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
-          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
           "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
-          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
-          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
-          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
         "labels": {
           "wakeTime": "Wektijd",
-          "goal": "Doel",
-          "escape": "Je gebruikelijke uitweg",
           "mission": "Je missie",
           "rule": "Je nieuwe regel"
         }
@@ -257,7 +259,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
-          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
-          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
-          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
-          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
           "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
-          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
-          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
-          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
         "labels": {
           "wakeTime": "Wektijd",
-          "goal": "Doel",
-          "escape": "Je gebruikelijke uitweg",
           "mission": "Je missie",
           "rule": "Je nieuwe regel"
         }
@@ -466,7 +470,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "Ik snooze zonder het echt te onthouden",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
-          "multiple_alarms": "Ik zet meerdere wekkers en negeer ze allemaal",
-          "louder_background": "Hardere wekkers worden uiteindelijk achtergrondgeluid",
-          "sleepy_ignores": "Mijn slaperige ik negeert de plannen van de avond ervoor",
-          "late_frustrated": "Ik word laat wakker en begin gefrustreerd aan de dag"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
           "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "multiple_alarms": "Eén alarm met actie vervangt een reeks die je hebt leren negeren.",
-          "louder_background": "DawnVow verandert wat je doet in plaats van alleen harder te klinken.",
-          "sleepy_ignores": "Je wakkere ik kiest de missie. Je slaperige ik moet die volgen.",
-          "late_frustrated": "Je eerste voltooide actie brengt je in beweging voordat de ochtend wegglipt."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "DawnVow vraagt alleen om alarm-, meldings- en cameratoegang wanneer dat nodig is.",
         "labels": {
           "wakeTime": "Wektijd",
-          "goal": "Doel",
-          "escape": "Je gebruikelijke uitweg",
           "mission": "Je missie",
           "rule": "Je nieuwe regel"
         }

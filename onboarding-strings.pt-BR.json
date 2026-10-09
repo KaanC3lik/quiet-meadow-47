@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -43,7 +43,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
-          "multiple_alarms": "Coloco vários alarmes e ignoro todos",
-          "louder_background": "Alarmes mais altos acabam virando ruído de fundo",
-          "sleepy_ignores": "Meu eu sonolento ignora os planos que fiz à noite",
-          "late_frustrated": "Acordo tarde e começo o dia frustrado"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
           "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "multiple_alarms": "Um alarme baseado em ação substitui uma sequência que você aprendeu a ignorar.",
-          "louder_background": "O DawnVow muda o que você faz em vez de apenas ficar mais alto.",
-          "sleepy_ignores": "Seu eu acordado escolhe a missão. Seu eu sonolento precisa cumpri-la.",
-          "late_frustrated": "Sua primeira ação concluída coloca você em movimento antes que a manhã escape."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "O DawnVow pedirá acesso a alarmes, notificações e câmera somente quando cada permissão for necessária.",
         "labels": {
           "wakeTime": "Horário de despertar",
-          "goal": "Objetivo",
-          "escape": "Sua fuga habitual",
           "mission": "Sua missão",
           "rule": "Sua nova regra"
         }
@@ -252,7 +254,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
-          "multiple_alarms": "Coloco vários alarmes e ignoro todos",
-          "louder_background": "Alarmes mais altos acabam virando ruído de fundo",
-          "sleepy_ignores": "Meu eu sonolento ignora os planos que fiz à noite",
-          "late_frustrated": "Acordo tarde e começo o dia frustrado"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
           "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "multiple_alarms": "Um alarme baseado em ação substitui uma sequência que você aprendeu a ignorar.",
-          "louder_background": "O DawnVow muda o que você faz em vez de apenas ficar mais alto.",
-          "sleepy_ignores": "Seu eu acordado escolhe a missão. Seu eu sonolento precisa cumpri-la.",
-          "late_frustrated": "Sua primeira ação concluída coloca você em movimento antes que a manhã escape."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "O DawnVow pedirá acesso a alarmes, notificações e câmera somente quando cada permissão for necessária.",
         "labels": {
           "wakeTime": "Horário de despertar",
-          "goal": "Objetivo",
-          "escape": "Sua fuga habitual",
           "mission": "Sua missão",
           "rule": "Sua nova regra"
         }
@@ -461,7 +465,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "Adio o alarme sem realmente lembrar",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
-          "multiple_alarms": "Coloco vários alarmes e ignoro todos",
-          "louder_background": "Alarmes mais altos acabam virando ruído de fundo",
-          "sleepy_ignores": "Meu eu sonolento ignora os planos que fiz à noite",
-          "late_frustrated": "Acordo tarde e começo o dia frustrado"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
           "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "multiple_alarms": "Um alarme baseado em ação substitui uma sequência que você aprendeu a ignorar.",
-          "louder_background": "O DawnVow muda o que você faz em vez de apenas ficar mais alto.",
-          "sleepy_ignores": "Seu eu acordado escolhe a missão. Seu eu sonolento precisa cumpri-la.",
-          "late_frustrated": "Sua primeira ação concluída coloca você em movimento antes que a manhã escape."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "O DawnVow pedirá acesso a alarmes, notificações e câmera somente quando cada permissão for necessária.",
         "labels": {
           "wakeTime": "Horário de despertar",
-          "goal": "Objetivo",
-          "escape": "Sua fuga habitual",
           "mission": "Sua missão",
           "rule": "Sua nova regra"
         }

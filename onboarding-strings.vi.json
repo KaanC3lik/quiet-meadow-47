@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -48,7 +48,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
           "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "multiple_alarms": "Tôi đặt nhiều báo thức và phớt lờ tất cả",
-          "louder_background": "Báo thức to hơn rồi cũng thành tiếng nền",
-          "sleepy_ignores": "Tôi lúc buồn ngủ phớt lờ kế hoạch ban đêm",
-          "late_frustrated": "Tôi dậy muộn và bắt đầu ngày mới đầy bực bội"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -119,7 +123,7 @@
       },
       "futureState": {
         "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "Lập kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
@@ -208,8 +212,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "goal": "Mục tiêu",
-          "escape": "Cách trốn quen thuộc",
           "mission": "Nhiệm vụ",
           "rule": "Quy tắc mới"
         }
@@ -257,7 +259,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
           "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "multiple_alarms": "Tôi đặt nhiều báo thức và phớt lờ tất cả",
-          "louder_background": "Báo thức to hơn rồi cũng thành tiếng nền",
-          "sleepy_ignores": "Tôi lúc buồn ngủ phớt lờ kế hoạch ban đêm",
-          "late_frustrated": "Tôi dậy muộn và bắt đầu ngày mới đầy bực bội"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -328,7 +334,7 @@
       },
       "futureState": {
         "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "Lập kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
@@ -417,8 +423,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "goal": "Mục tiêu",
-          "escape": "Cách trốn quen thuộc",
           "mission": "Nhiệm vụ",
           "rule": "Quy tắc mới"
         }
@@ -466,7 +470,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "Tôi nhấn báo lại mà không nhớ",
           "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "multiple_alarms": "Tôi đặt nhiều báo thức và phớt lờ tất cả",
-          "louder_background": "Báo thức to hơn rồi cũng thành tiếng nền",
-          "sleepy_ignores": "Tôi lúc buồn ngủ phớt lờ kế hoạch ban đêm",
-          "late_frustrated": "Tôi dậy muộn và bắt đầu ngày mới đầy bực bội"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "The mission interrupts the snooze loop",
           "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "multiple_alarms": "One action-based alarm replaces the chain",
-          "louder_background": "Change what you do, not the volume",
-          "sleepy_ignores": "Awake-you chooses; sleepy-you follows",
-          "late_frustrated": "One completed action starts the morning"
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -537,7 +545,7 @@
       },
       "futureState": {
         "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The hour you used to lose is yours again.",
+        "copy": "The first hour belongs to you.",
         "cta": "Lập kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
@@ -626,8 +634,6 @@
         "trust": "Permissions are asked only when they’re needed.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "goal": "Mục tiêu",
-          "escape": "Cách trốn quen thuộc",
           "mission": "Nhiệm vụ",
           "rule": "Quy tắc mới"
         }

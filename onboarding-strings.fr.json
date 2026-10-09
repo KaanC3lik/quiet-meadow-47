@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 14,
+  "version": 15,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -43,7 +43,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
@@ -76,10 +86,7 @@
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
-          "multiple_alarms": "Je règle plusieurs alarmes et les ignore toutes",
-          "louder_background": "Les alarmes plus fortes finissent par devenir un bruit de fond",
-          "sleepy_ignores": "Mon moi endormi ignore les plans préparés le soir",
-          "late_frustrated": "Je me réveille tard et commence la journée frustré"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -89,10 +96,7 @@
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
           "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "multiple_alarms": "Une alarme fondée sur l’action remplace une chaîne que vous avez appris à ignorer.",
-          "louder_background": "DawnVow change ce que vous faites au lieu de simplement sonner plus fort.",
-          "sleepy_ignores": "Votre moi éveillé choisit la mission. Votre moi endormi doit la suivre.",
-          "late_frustrated": "Votre première action terminée vous met en mouvement avant que la matinée ne file."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -208,8 +212,6 @@
         "trust": "DawnVow demandera l’accès aux alarmes, aux notifications et à la caméra uniquement lorsque nécessaire.",
         "labels": {
           "wakeTime": "Heure de réveil",
-          "goal": "Objectif",
-          "escape": "Votre échappatoire habituelle",
           "mission": "Votre mission",
           "rule": "Votre nouvelle règle"
         }
@@ -252,7 +254,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
@@ -285,10 +297,7 @@
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
-          "multiple_alarms": "Je règle plusieurs alarmes et les ignore toutes",
-          "louder_background": "Les alarmes plus fortes finissent par devenir un bruit de fond",
-          "sleepy_ignores": "Mon moi endormi ignore les plans préparés le soir",
-          "late_frustrated": "Je me réveille tard et commence la journée frustré"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -298,10 +307,7 @@
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
           "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "multiple_alarms": "Une alarme fondée sur l’action remplace une chaîne que vous avez appris à ignorer.",
-          "louder_background": "DawnVow change ce que vous faites au lieu de simplement sonner plus fort.",
-          "sleepy_ignores": "Votre moi éveillé choisit la mission. Votre moi endormi doit la suivre.",
-          "late_frustrated": "Votre première action terminée vous met en mouvement avant que la matinée ne file."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -417,8 +423,6 @@
         "trust": "DawnVow demandera l’accès aux alarmes, aux notifications et à la caméra uniquement lorsque nécessaire.",
         "labels": {
           "wakeTime": "Heure de réveil",
-          "goal": "Objectif",
-          "escape": "Votre échappatoire habituelle",
           "mission": "Votre mission",
           "rule": "Votre nouvelle règle"
         }
@@ -461,7 +465,17 @@
       "insight": {
         "title": "This isn’t a motivation problem.",
         "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
-        "cta": "Continue"
+        "cta": "Continue",
+        "byTrust": {
+          "yes": {
+            "title": "Waking up isn’t the finish line.",
+            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
+          },
+          "sometimes": {
+            "title": "Motivation is a coin flip.",
+            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+          }
+        }
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
@@ -494,10 +508,7 @@
         "options": {
           "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
-          "multiple_alarms": "Je règle plusieurs alarmes et les ignore toutes",
-          "louder_background": "Les alarmes plus fortes finissent par devenir un bruit de fond",
-          "sleepy_ignores": "Mon moi endormi ignore les plans préparés le soir",
-          "late_frustrated": "Je me réveille tard et commence la journée frustré"
+          "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
@@ -507,10 +518,7 @@
         "solutions": {
           "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
           "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "multiple_alarms": "Une alarme fondée sur l’action remplace une chaîne que vous avez appris à ignorer.",
-          "louder_background": "DawnVow change ce que vous faites au lieu de simplement sonner plus fort.",
-          "sleepy_ignores": "Votre moi éveillé choisit la mission. Votre moi endormi doit la suivre.",
-          "late_frustrated": "Votre première action terminée vous met en mouvement avant que la matinée ne file."
+          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
         }
       },
       "mechanism": {
@@ -626,8 +634,6 @@
         "trust": "DawnVow demandera l’accès aux alarmes, aux notifications et à la caméra uniquement lorsque nécessaire.",
         "labels": {
           "wakeTime": "Heure de réveil",
-          "goal": "Objectif",
-          "escape": "Votre échappatoire habituelle",
           "mission": "Votre mission",
           "rule": "Votre nouvelle règle"
         }
