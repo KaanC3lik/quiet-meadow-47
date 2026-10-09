@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 15,
+  "version": 16,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -123,7 +123,7 @@
       },
       "futureState": {
         "title": "06:30. Już wstałeś. Już działasz.",
-        "copy": "Godzina, którą dawniej traciłeś, znów należy do ciebie.",
+        "copy": "Pierwsza godzina należy do ciebie.",
         "cta": "Zbuduj mój plan pobudki",
         "gains": [
           "Na czas",
@@ -334,7 +334,7 @@
       },
       "futureState": {
         "title": "06:30. Już wstałeś. Już działasz.",
-        "copy": "Godzina, którą dawniej traciłeś, znów należy do ciebie.",
+        "copy": "Pierwsza godzina należy do ciebie.",
         "cta": "Zbuduj mój plan pobudki",
         "gains": [
           "Na czas",
@@ -545,7 +545,7 @@
       },
       "futureState": {
         "title": "06:30. Już wstałeś. Już działasz.",
-        "copy": "Godzina, którą dawniej traciłeś, znów należy do ciebie.",
+        "copy": "Pierwsza godzina należy do ciebie.",
         "cta": "Zbuduj mój plan pobudki",
         "gains": [
           "Na czas",

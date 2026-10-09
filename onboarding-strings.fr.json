@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 15,
+  "version": 16,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -123,7 +123,7 @@
       },
       "futureState": {
         "title": "06:30. Déjà debout. Déjà en mouvement.",
-        "copy": "L’heure que vous perdiez autrefois vous appartient à nouveau.",
+        "copy": "La première heure vous appartient.",
         "cta": "Créer mon plan de réveil",
         "gains": [
           "À l’heure",
@@ -334,7 +334,7 @@
       },
       "futureState": {
         "title": "06:30. Déjà debout. Déjà en mouvement.",
-        "copy": "L’heure que vous perdiez autrefois vous appartient à nouveau.",
+        "copy": "La première heure vous appartient.",
         "cta": "Créer mon plan de réveil",
         "gains": [
           "À l’heure",
@@ -545,7 +545,7 @@
       },
       "futureState": {
         "title": "06:30. Déjà debout. Déjà en mouvement.",
-        "copy": "L’heure que vous perdiez autrefois vous appartient à nouveau.",
+        "copy": "La première heure vous appartient.",
         "cta": "Créer mon plan de réveil",
         "gains": [
           "À l’heure",

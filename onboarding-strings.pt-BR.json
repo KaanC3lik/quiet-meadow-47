@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 15,
+  "version": 16,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -123,7 +123,7 @@
       },
       "futureState": {
         "title": "06:30. Já de pé. Já em movimento.",
-        "copy": "A hora que você costumava perder é sua novamente.",
+        "copy": "A primeira hora é sua.",
         "cta": "Criar meu plano de despertar",
         "gains": [
           "No horário",
@@ -334,7 +334,7 @@
       },
       "futureState": {
         "title": "06:30. Já de pé. Já em movimento.",
-        "copy": "A hora que você costumava perder é sua novamente.",
+        "copy": "A primeira hora é sua.",
         "cta": "Criar meu plano de despertar",
         "gains": [
           "No horário",
@@ -545,7 +545,7 @@
       },
       "futureState": {
         "title": "06:30. Já de pé. Já em movimento.",
-        "copy": "A hora que você costumava perder é sua novamente.",
+        "copy": "A primeira hora é sua.",
         "cta": "Criar meu plano de despertar",
         "gains": [
           "No horário",
