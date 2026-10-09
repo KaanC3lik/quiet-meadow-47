@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -46,17 +46,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,33 +77,33 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Kies degene die het meest herkenbaar is.",
+        "copy": "Kies degene die steeds terugkomt.",
         "cta": "Dat herken ik",
         "options": {
-          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "snooze_unaware": "Ik snooze zonder na te denken.",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Elk patroon en wat het verslaat.",
+        "title": "Waarom het gebeurt. Hoe het stopt.",
         "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
-          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
-          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "De snooze-loop stopt bij de missie.",
+          "dismiss_fall_asleep": "Eén tik is niet genoeg.",
+          "up_not_moving": "De missie krijgt je uit bed voordat de wekker zwijgt."
         }
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "op de tijd die je koos"
+            "copy": "Om echt wakker te worden, moet je opstaan."
           },
           {
             "id": "retry_chain",
@@ -262,17 +258,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,33 +289,33 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Kies degene die het meest herkenbaar is.",
+        "copy": "Kies degene die steeds terugkomt.",
         "cta": "Dat herken ik",
         "options": {
-          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "snooze_unaware": "Ik snooze zonder na te denken.",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Elk patroon en wat het verslaat.",
+        "title": "Waarom het gebeurt. Hoe het stopt.",
         "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
-          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
-          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "De snooze-loop stopt bij de missie.",
+          "dismiss_fall_asleep": "Eén tik is niet genoeg.",
+          "up_not_moving": "De missie krijgt je uit bed voordat de wekker zwijgt."
         }
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "op de tijd die je koos"
+            "copy": "Om echt wakker te worden, moet je opstaan."
           },
           {
             "id": "retry_chain",
@@ -478,17 +470,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,33 +501,33 @@
           "routine": "Wat verstoort je ochtendroutine?",
           "no_rushing": "Wat maakt je ochtend gehaast?"
         },
-        "copy": "Kies degene die het meest herkenbaar is.",
+        "copy": "Kies degene die steeds terugkomt.",
         "cta": "Dat herken ik",
         "options": {
-          "snooze_unaware": "Ik snooze zonder het echt te onthouden",
+          "snooze_unaware": "Ik snooze zonder na te denken.",
           "dismiss_fall_asleep": "Ik zet hem uit en val weer in slaap",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Elk patroon en wat het verslaat.",
+        "title": "Waarom het gebeurt. Hoe het stopt.",
         "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
-          "snooze_unaware": "Een verplichte missie onderbreekt de automatische snooze-lus.",
-          "dismiss_fall_asleep": "Een missie staat tussen een slaperige tik en echt opstaan.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "De snooze-loop stopt bij de missie.",
+          "dismiss_fall_asleep": "Eén tik is niet genoeg.",
+          "up_not_moving": "De missie krijgt je uit bed voordat de wekker zwijgt."
         }
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "op de tijd die je koos"
+            "copy": "Om echt wakker te worden, moet je opstaan."
           },
           {
             "id": "retry_chain",

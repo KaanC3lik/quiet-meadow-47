@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -41,17 +41,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,27 +77,27 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Choisissez celui qui vous ressemble le plus.",
+        "copy": "Choisissez celui qui revient toujours.",
         "cta": "C’est bien moi",
         "options": {
-          "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
+          "snooze_unaware": "Je snooze sans réfléchir.",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Chaque schéma, et ce qui le bat.",
+        "title": "Pourquoi cela arrive. Comment cela s’arrête.",
         "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
-          "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
-          "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "La boucle du snooze s’arrête à la mission.",
+          "dismiss_fall_asleep": "Un simple geste ne suffit plus.",
+          "up_not_moving": "La mission vous lève avant que l’alarme se taise."
         }
       },
       "mechanism": {
         "title": "Votre matin, étape par étape.",
-        "copy": "",
+        "copy": "Pour vraiment vous réveiller, vous devez vous lever.",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {
@@ -257,17 +253,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,27 +289,27 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Choisissez celui qui vous ressemble le plus.",
+        "copy": "Choisissez celui qui revient toujours.",
         "cta": "C’est bien moi",
         "options": {
-          "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
+          "snooze_unaware": "Je snooze sans réfléchir.",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Chaque schéma, et ce qui le bat.",
+        "title": "Pourquoi cela arrive. Comment cela s’arrête.",
         "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
-          "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
-          "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "La boucle du snooze s’arrête à la mission.",
+          "dismiss_fall_asleep": "Un simple geste ne suffit plus.",
+          "up_not_moving": "La mission vous lève avant que l’alarme se taise."
         }
       },
       "mechanism": {
         "title": "Votre matin, étape par étape.",
-        "copy": "",
+        "copy": "Pour vraiment vous réveiller, vous devez vous lever.",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {
@@ -473,17 +465,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,27 +501,27 @@
           "routine": "Qu’est-ce qui perturbe votre routine matinale ?",
           "no_rushing": "Qu’est-ce qui transforme votre matinée en course ?"
         },
-        "copy": "Choisissez celui qui vous ressemble le plus.",
+        "copy": "Choisissez celui qui revient toujours.",
         "cta": "C’est bien moi",
         "options": {
-          "snooze_unaware": "Je reporte l’alarme sans vraiment m’en souvenir",
+          "snooze_unaware": "Je snooze sans réfléchir.",
           "dismiss_fall_asleep": "Je l’éteins et me rendors",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Chaque schéma, et ce qui le bat.",
+        "title": "Pourquoi cela arrive. Comment cela s’arrête.",
         "copy": "",
         "cta": "Montrez-moi comment ça marche",
         "solutions": {
-          "snooze_unaware": "Une mission obligatoire interrompt le cycle automatique du report.",
-          "dismiss_fall_asleep": "Une mission s’interpose entre un geste endormi et un réveil terminé.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "La boucle du snooze s’arrête à la mission.",
+          "dismiss_fall_asleep": "Un simple geste ne suffit plus.",
+          "up_not_moving": "La mission vous lève avant que l’alarme se taise."
         }
       },
       "mechanism": {
         "title": "Votre matin, étape par étape.",
-        "copy": "",
+        "copy": "Pour vraiment vous réveiller, vous devez vous lever.",
         "cta": "Voir à quoi ma matinée pourrait ressembler",
         "steps": [
           {

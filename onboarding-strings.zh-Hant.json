@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -46,17 +46,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,33 +77,33 @@
           "routine": "什麼打亂了你的早晨習慣？",
           "no_rushing": "什麼讓你的早晨變得匆忙？"
         },
-        "copy": "選擇最符合你的一項。",
+        "copy": "選擇最常發生的一項。",
         "cta": "這說的就是我",
         "options": {
-          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "snooze_unaware": "我想都沒想就按下稍後提醒。",
           "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "每一種模式，以及它的破解方式。",
+        "title": "為什麼會發生。怎樣停下來。",
         "copy": "",
         "cta": "看看它如何運作",
         "solutions": {
-          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
-          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "貪睡循環在任務處結束。",
+          "dismiss_fall_asleep": "輕輕一點是不夠的。",
+          "up_not_moving": "鬧鐘安靜前，任務讓你起身。"
         }
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "在你選擇的時間"
+            "copy": "真正醒來，先要起身。"
           },
           {
             "id": "retry_chain",
@@ -262,17 +258,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,33 +289,33 @@
           "routine": "什麼打亂了你的早晨習慣？",
           "no_rushing": "什麼讓你的早晨變得匆忙？"
         },
-        "copy": "選擇最符合你的一項。",
+        "copy": "選擇最常發生的一項。",
         "cta": "這說的就是我",
         "options": {
-          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "snooze_unaware": "我想都沒想就按下稍後提醒。",
           "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "每一種模式，以及它的破解方式。",
+        "title": "為什麼會發生。怎樣停下來。",
         "copy": "",
         "cta": "看看它如何運作",
         "solutions": {
-          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
-          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "貪睡循環在任務處結束。",
+          "dismiss_fall_asleep": "輕輕一點是不夠的。",
+          "up_not_moving": "鬧鐘安靜前，任務讓你起身。"
         }
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "在你選擇的時間"
+            "copy": "真正醒來，先要起身。"
           },
           {
             "id": "retry_chain",
@@ -478,17 +470,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,33 +501,33 @@
           "routine": "什麼打亂了你的早晨習慣？",
           "no_rushing": "什麼讓你的早晨變得匆忙？"
         },
-        "copy": "選擇最符合你的一項。",
+        "copy": "選擇最常發生的一項。",
         "cta": "這說的就是我",
         "options": {
-          "snooze_unaware": "我會在不知不覺中按下稍後提醒",
+          "snooze_unaware": "我想都沒想就按下稍後提醒。",
           "dismiss_fall_asleep": "我關掉鬧鐘後又睡著了",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "每一種模式，以及它的破解方式。",
+        "title": "為什麼會發生。怎樣停下來。",
         "copy": "",
         "cta": "看看它如何運作",
         "solutions": {
-          "snooze_unaware": "必須完成的任務會打斷自動稍後提醒循環。",
-          "dismiss_fall_asleep": "任務會阻止一次睡意中的點擊，讓你真正完成起床。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "貪睡循環在任務處結束。",
+          "dismiss_fall_asleep": "輕輕一點是不夠的。",
+          "up_not_moving": "鬧鐘安靜前，任務讓你起身。"
         }
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "在你選擇的時間"
+            "copy": "真正醒來，先要起身。"
           },
           {
             "id": "retry_chain",

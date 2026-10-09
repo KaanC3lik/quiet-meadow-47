@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -46,17 +46,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,33 +77,33 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "가장 와닿는 하나를 선택하세요.",
+        "copy": "자꾸 반복되는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
-          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "각 패턴과, 그걸 이기는 방법.",
+        "title": "왜 생기는지. 어떻게 멈추는지.",
         "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
-          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
-          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",
+          "dismiss_fall_asleep": "한 번의 터치로는 끝나지 않아요.",
+          "up_not_moving": "알람이 조용해지기 전에 미션이 일으켜요."
         }
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에"
+            "copy": "진짜로 깨어나려면, 일어나야 해요."
           },
           {
             "id": "retry_chain",
@@ -262,17 +258,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,33 +289,33 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "가장 와닿는 하나를 선택하세요.",
+        "copy": "자꾸 반복되는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
-          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "각 패턴과, 그걸 이기는 방법.",
+        "title": "왜 생기는지. 어떻게 멈추는지.",
         "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
-          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
-          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",
+          "dismiss_fall_asleep": "한 번의 터치로는 끝나지 않아요.",
+          "up_not_moving": "알람이 조용해지기 전에 미션이 일으켜요."
         }
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에"
+            "copy": "진짜로 깨어나려면, 일어나야 해요."
           },
           {
             "id": "retry_chain",
@@ -478,17 +470,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,33 +501,33 @@
           "routine": "무엇이 아침 루틴을 깨뜨리나요?",
           "no_rushing": "무엇이 아침을 급하게 만드나요?"
         },
-        "copy": "가장 와닿는 하나를 선택하세요.",
+        "copy": "자꾸 반복되는 하나를 선택하세요.",
         "cta": "내 이야기예요",
         "options": {
-          "snooze_unaware": "기억도 못 한 채 다시 알림을 눌러요",
+          "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "각 패턴과, 그걸 이기는 방법.",
+        "title": "왜 생기는지. 어떻게 멈추는지.",
         "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
-          "snooze_unaware": "필수 미션이 자동 다시 알림의 반복을 끊어요.",
-          "dismiss_fall_asleep": "미션이 졸린 한 번의 터치와 완전한 기상 사이에 놓여요.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",
+          "dismiss_fall_asleep": "한 번의 터치로는 끝나지 않아요.",
+          "up_not_moving": "알람이 조용해지기 전에 미션이 일으켜요."
         }
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "선택한 시간에"
+            "copy": "진짜로 깨어나려면, 일어나야 해요."
           },
           {
             "id": "retry_chain",

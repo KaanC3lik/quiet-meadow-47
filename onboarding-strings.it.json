@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -41,17 +41,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,27 +77,27 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Scegli quello che ti colpisce di più.",
+        "copy": "Scegli quello che si ripete.",
         "cta": "È proprio così",
         "options": {
-          "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
+          "snooze_unaware": "Posticipo senza pensarci.",
           "dismiss_fall_asleep": "La spengo e mi riaddormento",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Ogni schema e cosa lo batte.",
+        "title": "Perché succede. Come si ferma.",
         "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
-          "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
-          "dismiss_fall_asleep": "Una missione si mette tra un tocco assonnato e un risveglio completato.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "Il loop del posticipo finisce con la missione.",
+          "dismiss_fall_asleep": "Un tocco da solo non basta.",
+          "up_not_moving": "La missione ti alza prima che la sveglia taccia."
         }
       },
       "mechanism": {
         "title": "La tua mattina, passo dopo passo.",
-        "copy": "",
+        "copy": "Per svegliarti davvero, devi alzarti.",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {
@@ -257,17 +253,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,27 +289,27 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Scegli quello che ti colpisce di più.",
+        "copy": "Scegli quello che si ripete.",
         "cta": "È proprio così",
         "options": {
-          "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
+          "snooze_unaware": "Posticipo senza pensarci.",
           "dismiss_fall_asleep": "La spengo e mi riaddormento",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Ogni schema e cosa lo batte.",
+        "title": "Perché succede. Come si ferma.",
         "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
-          "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
-          "dismiss_fall_asleep": "Una missione si mette tra un tocco assonnato e un risveglio completato.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "Il loop del posticipo finisce con la missione.",
+          "dismiss_fall_asleep": "Un tocco da solo non basta.",
+          "up_not_moving": "La missione ti alza prima che la sveglia taccia."
         }
       },
       "mechanism": {
         "title": "La tua mattina, passo dopo passo.",
-        "copy": "",
+        "copy": "Per svegliarti davvero, devi alzarti.",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {
@@ -473,17 +465,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,27 +501,27 @@
           "routine": "Cosa interrompe la tua routine mattutina?",
           "no_rushing": "Cosa trasforma la tua mattina in una corsa?"
         },
-        "copy": "Scegli quello che ti colpisce di più.",
+        "copy": "Scegli quello che si ripete.",
         "cta": "È proprio così",
         "options": {
-          "snooze_unaware": "Rimando la sveglia senza ricordarmene davvero",
+          "snooze_unaware": "Posticipo senza pensarci.",
           "dismiss_fall_asleep": "La spengo e mi riaddormento",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Ogni schema e cosa lo batte.",
+        "title": "Perché succede. Come si ferma.",
         "copy": "",
         "cta": "Fammi vedere come funziona",
         "solutions": {
-          "snooze_unaware": "Una missione obbligatoria interrompe il ciclo automatico del rinvio.",
-          "dismiss_fall_asleep": "Una missione si mette tra un tocco assonnato e un risveglio completato.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "Il loop del posticipo finisce con la missione.",
+          "dismiss_fall_asleep": "Un tocco da solo non basta.",
+          "up_not_moving": "La missione ti alza prima che la sveglia taccia."
         }
       },
       "mechanism": {
         "title": "La tua mattina, passo dopo passo.",
-        "copy": "",
+        "copy": "Per svegliarti davvero, devi alzarti.",
         "cta": "Scopri come potrebbe essere la mia mattina",
         "steps": [
           {

@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -41,17 +41,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,27 +77,27 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Escolha o que mais combina com você.",
+        "copy": "Escolha o que mais se repete.",
         "cta": "Isso acontece comigo",
         "options": {
-          "snooze_unaware": "Adio o alarme sem realmente lembrar",
+          "snooze_unaware": "Eu soneco sem pensar.",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Cada padrão e o que o vence.",
+        "title": "Por que acontece. Como para.",
         "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
-          "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
-          "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "O ciclo de soneca termina na missão.",
+          "dismiss_fall_asleep": "Um toque só não resolve.",
+          "up_not_moving": "A missão te levanta antes do alarme silenciar."
         }
       },
       "mechanism": {
         "title": "Sua manhã, passo a passo.",
-        "copy": "",
+        "copy": "Para acordar de verdade, você precisa levantar.",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {
@@ -257,17 +253,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,27 +289,27 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Escolha o que mais combina com você.",
+        "copy": "Escolha o que mais se repete.",
         "cta": "Isso acontece comigo",
         "options": {
-          "snooze_unaware": "Adio o alarme sem realmente lembrar",
+          "snooze_unaware": "Eu soneco sem pensar.",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Cada padrão e o que o vence.",
+        "title": "Por que acontece. Como para.",
         "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
-          "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
-          "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "O ciclo de soneca termina na missão.",
+          "dismiss_fall_asleep": "Um toque só não resolve.",
+          "up_not_moving": "A missão te levanta antes do alarme silenciar."
         }
       },
       "mechanism": {
         "title": "Sua manhã, passo a passo.",
-        "copy": "",
+        "copy": "Para acordar de verdade, você precisa levantar.",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {
@@ -473,17 +465,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,27 +501,27 @@
           "routine": "O que quebra sua rotina matinal?",
           "no_rushing": "O que transforma sua manhã em correria?"
         },
-        "copy": "Escolha o que mais combina com você.",
+        "copy": "Escolha o que mais se repete.",
         "cta": "Isso acontece comigo",
         "options": {
-          "snooze_unaware": "Adio o alarme sem realmente lembrar",
+          "snooze_unaware": "Eu soneco sem pensar.",
           "dismiss_fall_asleep": "Desligo e volto a dormir",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Cada padrão e o que o vence.",
+        "title": "Por que acontece. Como para.",
         "copy": "",
         "cta": "Mostrar como funciona",
         "solutions": {
-          "snooze_unaware": "Uma missão obrigatória interrompe o ciclo automático de adiar.",
-          "dismiss_fall_asleep": "Uma missão fica entre um toque sonolento e um despertar completo.",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "O ciclo de soneca termina na missão.",
+          "dismiss_fall_asleep": "Um toque só não resolve.",
+          "up_not_moving": "A missão te levanta antes do alarme silenciar."
         }
       },
       "mechanism": {
         "title": "Sua manhã, passo a passo.",
-        "copy": "",
+        "copy": "Para acordar de verdade, você precisa levantar.",
         "cta": "Ver como minha manhã poderia ser",
         "steps": [
           {

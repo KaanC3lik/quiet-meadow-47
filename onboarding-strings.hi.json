@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -46,17 +46,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,27 +77,27 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "जो सबसे ज़्यादा मेल खाए, वह चुनें।",
+        "copy": "जो बार-बार होता है, वह चुनें।",
         "cta": "यह मैं हूं",
         "options": {
-          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "snooze_unaware": "मैं बिना सोचे स्नूज़ दबा देता हूं।",
           "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Each pattern, and what beats it.",
+        "title": "Why it happens. How it stops.",
         "copy": "",
         "cta": "Show me how it works",
         "solutions": {
-          "snooze_unaware": "The mission interrupts the snooze loop",
-          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "The snooze loop ends at the mission.",
+          "dismiss_fall_asleep": "The tap can’t finish the job.",
+          "up_not_moving": "The mission gets you up before the alarm goes quiet."
         }
       },
       "mechanism": {
         "title": "आपकी सुबह, कदम दर कदम।",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "देखें मेरी सुबह कैसी हो सकती है",
         "steps": [
           {
@@ -262,17 +258,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,27 +289,27 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "जो सबसे ज़्यादा मेल खाए, वह चुनें।",
+        "copy": "जो बार-बार होता है, वह चुनें।",
         "cta": "यह मैं हूं",
         "options": {
-          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "snooze_unaware": "मैं बिना सोचे स्नूज़ दबा देता हूं।",
           "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Each pattern, and what beats it.",
+        "title": "Why it happens. How it stops.",
         "copy": "",
         "cta": "Show me how it works",
         "solutions": {
-          "snooze_unaware": "The mission interrupts the snooze loop",
-          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "The snooze loop ends at the mission.",
+          "dismiss_fall_asleep": "The tap can’t finish the job.",
+          "up_not_moving": "The mission gets you up before the alarm goes quiet."
         }
       },
       "mechanism": {
         "title": "आपकी सुबह, कदम दर कदम।",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "देखें मेरी सुबह कैसी हो सकती है",
         "steps": [
           {
@@ -478,17 +470,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,27 +501,27 @@
           "routine": "What breaks your morning routine?",
           "no_rushing": "What turns your morning into a rush?"
         },
-        "copy": "जो सबसे ज़्यादा मेल खाए, वह चुनें।",
+        "copy": "जो बार-बार होता है, वह चुनें।",
         "cta": "यह मैं हूं",
         "options": {
-          "snooze_unaware": "मैं बिना याद रखे स्नूज़ दबा देता हूं",
+          "snooze_unaware": "मैं बिना सोचे स्नूज़ दबा देता हूं।",
           "dismiss_fall_asleep": "मैं इसे बंद करके फिर सो जाता हूं",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "Each pattern, and what beats it.",
+        "title": "Why it happens. How it stops.",
         "copy": "",
         "cta": "Show me how it works",
         "solutions": {
-          "snooze_unaware": "The mission interrupts the snooze loop",
-          "dismiss_fall_asleep": "The tap alone can’t end the wake-up",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "The snooze loop ends at the mission.",
+          "dismiss_fall_asleep": "The tap can’t finish the job.",
+          "up_not_moving": "The mission gets you up before the alarm goes quiet."
         }
       },
       "mechanism": {
         "title": "आपकी सुबह, कदम दर कदम।",
-        "copy": "",
+        "copy": "To wake up, you have to get up.",
         "cta": "देखें मेरी सुबह कैसी हो सकती है",
         "steps": [
           {

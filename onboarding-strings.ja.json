@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 17,
+  "version": 18,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -41,17 +41,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -81,27 +77,27 @@
           "routine": "朝の習慣を崩すものは何ですか？",
           "no_rushing": "朝を慌ただしくするものは何ですか？"
         },
-        "copy": "一番当てはまるものを選んでください。",
+        "copy": "繰り返しているものを選んでください。",
         "cta": "自分に当てはまる",
         "options": {
-          "snooze_unaware": "覚えていないままスヌーズしてしまう",
+          "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "それぞれのパターンと、その攻略法。",
+        "title": "なぜ起きるのか。どう止めるのか。",
         "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
-          "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
-          "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "スヌーズのループはミッションで終わる。",
+          "dismiss_fall_asleep": "ひと押しでは終わらない。",
+          "up_not_moving": "アラームが止まる前に、ミッションが起こす。"
         }
       },
       "mechanism": {
         "title": "あなたの朝を、一歩ずつ。",
-        "copy": "",
+        "copy": "本当に目覚めるには、起き上がること。",
         "cta": "朝の流れを見る",
         "steps": [
           {
@@ -257,17 +253,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -297,27 +289,27 @@
           "routine": "朝の習慣を崩すものは何ですか？",
           "no_rushing": "朝を慌ただしくするものは何ですか？"
         },
-        "copy": "一番当てはまるものを選んでください。",
+        "copy": "繰り返しているものを選んでください。",
         "cta": "自分に当てはまる",
         "options": {
-          "snooze_unaware": "覚えていないままスヌーズしてしまう",
+          "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "それぞれのパターンと、その攻略法。",
+        "title": "なぜ起きるのか。どう止めるのか。",
         "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
-          "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
-          "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "スヌーズのループはミッションで終わる。",
+          "dismiss_fall_asleep": "ひと押しでは終わらない。",
+          "up_not_moving": "アラームが止まる前に、ミッションが起こす。"
         }
       },
       "mechanism": {
         "title": "あなたの朝を、一歩ずつ。",
-        "copy": "",
+        "copy": "本当に目覚めるには、起き上がること。",
         "cta": "朝の流れを見る",
         "steps": [
           {
@@ -473,17 +465,13 @@
         }
       },
       "insight": {
-        "title": "This isn’t a motivation problem.",
-        "copy": "When the alarm rings, your brain is still waking up. That’s why half-asleep taps win.",
+        "title": "You’re not lazy. You’re half-asleep.",
+        "copy": "The tap wins before your brain wakes up.",
         "cta": "Continue",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t the finish line.",
-            "copy": "One alarm gets you up — the first hour is where mornings are won. A mission before dismissal turns ‘up’ into ‘moving’."
-          },
-          "sometimes": {
-            "title": "Motivation is a coin flip.",
-            "copy": "Some mornings you win, some the tap does. A mission takes the coin flip out of your morning."
+            "title": "Waking up isn’t your problem.",
+            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
           }
         }
       },
@@ -513,27 +501,27 @@
           "routine": "朝の習慣を崩すものは何ですか？",
           "no_rushing": "朝を慌ただしくするものは何ですか？"
         },
-        "copy": "一番当てはまるものを選んでください。",
+        "copy": "繰り返しているものを選んでください。",
         "cta": "自分に当てはまる",
         "options": {
-          "snooze_unaware": "覚えていないままスヌーズしてしまう",
+          "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
           "up_not_moving": "I’m awake, but I can’t get up"
         }
       },
       "personalizedSolution": {
-        "title": "それぞれのパターンと、その攻略法。",
+        "title": "なぜ起きるのか。どう止めるのか。",
         "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
-          "snooze_unaware": "必須ミッションが自動的なスヌーズのループを中断します。",
-          "dismiss_fall_asleep": "眠ったままのタップと起床完了の間にミッションを置きます。",
-          "up_not_moving": "The mission gets you moving before the alarm goes quiet"
+          "snooze_unaware": "スヌーズのループはミッションで終わる。",
+          "dismiss_fall_asleep": "ひと押しでは終わらない。",
+          "up_not_moving": "アラームが止まる前に、ミッションが起こす。"
         }
       },
       "mechanism": {
         "title": "あなたの朝を、一歩ずつ。",
-        "copy": "",
+        "copy": "本当に目覚めるには、起き上がること。",
         "cta": "朝の流れを見る",
         "steps": [
           {
