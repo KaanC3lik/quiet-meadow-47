@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 19,
+  "version": 20,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,13 +97,13 @@
       },
       "mechanism": {
         "title": "Twój poranek, krok po kroku.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Żeby naprawdę się obudzić, musisz wstać.",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Żeby naprawdę się obudzić, musisz wstać."
+            "copy": "o wybranej godzinie"
           },
           {
             "id": "retry_chain",
@@ -309,13 +309,13 @@
       },
       "mechanism": {
         "title": "Twój poranek, krok po kroku.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Żeby naprawdę się obudzić, musisz wstać.",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Żeby naprawdę się obudzić, musisz wstać."
+            "copy": "o wybranej godzinie"
           },
           {
             "id": "retry_chain",
@@ -521,13 +521,13 @@
       },
       "mechanism": {
         "title": "Twój poranek, krok po kroku.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Żeby naprawdę się obudzić, musisz wstać.",
         "cta": "Zobacz mój możliwy poranek",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "Alarm dzwoni",
-            "copy": "Żeby naprawdę się obudzić, musisz wstać."
+            "copy": "o wybranej godzinie"
           },
           {
             "id": "retry_chain",

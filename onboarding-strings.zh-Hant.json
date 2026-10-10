@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 19,
+  "version": 20,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,13 +97,13 @@
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "To wake up, you have to get up.",
+        "copy": "真正醒來，先要起身。",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "真正醒來，先要起身。"
+            "copy": "在你選擇的時間"
           },
           {
             "id": "retry_chain",
@@ -309,13 +309,13 @@
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "To wake up, you have to get up.",
+        "copy": "真正醒來，先要起身。",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "真正醒來，先要起身。"
+            "copy": "在你選擇的時間"
           },
           {
             "id": "retry_chain",
@@ -521,13 +521,13 @@
       },
       "mechanism": {
         "title": "你的早晨，一步一步。",
-        "copy": "To wake up, you have to get up.",
+        "copy": "真正醒來，先要起身。",
         "cta": "看看我的早晨會怎樣",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "鬧鐘響起",
-            "copy": "真正醒來，先要起身。"
+            "copy": "在你選擇的時間"
           },
           {
             "id": "retry_chain",

@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 19,
+  "version": 20,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,13 +97,13 @@
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Om echt wakker te worden, moet je opstaan.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Om echt wakker te worden, moet je opstaan."
+            "copy": "op de tijd die je koos"
           },
           {
             "id": "retry_chain",
@@ -309,13 +309,13 @@
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Om echt wakker te worden, moet je opstaan.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Om echt wakker te worden, moet je opstaan."
+            "copy": "op de tijd die je koos"
           },
           {
             "id": "retry_chain",
@@ -521,13 +521,13 @@
       },
       "mechanism": {
         "title": "Je ochtend, stap voor stap.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Om echt wakker te worden, moet je opstaan.",
         "cta": "Zo kan mijn ochtend eruitzien",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "De wekker gaat",
-            "copy": "Om echt wakker te worden, moet je opstaan."
+            "copy": "op de tijd die je koos"
           },
           {
             "id": "retry_chain",

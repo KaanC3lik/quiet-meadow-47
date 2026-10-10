@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 19,
+  "version": 20,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,13 +97,13 @@
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "진짜로 깨어나려면, 일어나야 해요.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "진짜로 깨어나려면, 일어나야 해요."
+            "copy": "선택한 시간에"
           },
           {
             "id": "retry_chain",
@@ -309,13 +309,13 @@
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "진짜로 깨어나려면, 일어나야 해요.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "진짜로 깨어나려면, 일어나야 해요."
+            "copy": "선택한 시간에"
           },
           {
             "id": "retry_chain",
@@ -521,13 +521,13 @@
       },
       "mechanism": {
         "title": "당신의 아침을, 한 단계씩.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "진짜로 깨어나려면, 일어나야 해요.",
         "cta": "내 아침이 어떻게 달라질지 보기",
         "steps": [
           {
             "id": "alarm_rings",
             "title": "알람이 울려요",
-            "copy": "진짜로 깨어나려면, 일어나야 해요."
+            "copy": "선택한 시간에"
           },
           {
             "id": "retry_chain",
