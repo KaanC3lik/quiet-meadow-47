@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 20,
+  "version": 21,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,7 +97,7 @@
       },
       "mechanism": {
         "title": "صباحك، خطوة بخطوة.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "لتصحو حقًا، عليك أن تنهض.",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {
@@ -309,7 +309,7 @@
       },
       "mechanism": {
         "title": "صباحك، خطوة بخطوة.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "لتصحو حقًا، عليك أن تنهض.",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {
@@ -521,7 +521,7 @@
       },
       "mechanism": {
         "title": "صباحك، خطوة بخطوة.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "لتصحو حقًا، عليك أن تنهض.",
         "cta": "شاهد كيف يمكن أن يبدو صباحي",
         "steps": [
           {

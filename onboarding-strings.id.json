@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 20,
+  "version": 21,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,7 +97,7 @@
       },
       "mechanism": {
         "title": "Pagimu, langkah demi langkah.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Untuk benar-benar bangun, kamu harus beranjak.",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {
@@ -309,7 +309,7 @@
       },
       "mechanism": {
         "title": "Pagimu, langkah demi langkah.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Untuk benar-benar bangun, kamu harus beranjak.",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {
@@ -521,7 +521,7 @@
       },
       "mechanism": {
         "title": "Pagimu, langkah demi langkah.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Untuk benar-benar bangun, kamu harus beranjak.",
         "cta": "Lihat seperti apa pagiku",
         "steps": [
           {

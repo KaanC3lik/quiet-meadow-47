@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 20,
+  "version": 21,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,7 +97,7 @@
       },
       "mechanism": {
         "title": "Ваш ранок, крок за кроком.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Щоб справді прокинутися, треба встати.",
         "cta": "Побачити мій можливий ранок",
         "steps": [
           {
@@ -309,7 +309,7 @@
       },
       "mechanism": {
         "title": "Ваш ранок, крок за кроком.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Щоб справді прокинутися, треба встати.",
         "cta": "Побачити мій можливий ранок",
         "steps": [
           {
@@ -521,7 +521,7 @@
       },
       "mechanism": {
         "title": "Ваш ранок, крок за кроком.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Щоб справді прокинутися, треба встати.",
         "cta": "Побачити мій можливий ранок",
         "steps": [
           {

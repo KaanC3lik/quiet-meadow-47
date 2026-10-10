@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 20,
+  "version": 21,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -97,7 +97,7 @@
       },
       "mechanism": {
         "title": "Buổi sáng của bạn, từng bước một.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Để thật sự thức dậy, bạn phải ra khỏi giường.",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
@@ -309,7 +309,7 @@
       },
       "mechanism": {
         "title": "Buổi sáng của bạn, từng bước một.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Để thật sự thức dậy, bạn phải ra khỏi giường.",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
@@ -521,7 +521,7 @@
       },
       "mechanism": {
         "title": "Buổi sáng của bạn, từng bước một.",
-        "copy": "To wake up, you have to get up.",
+        "copy": "Để thật sự thức dậy, bạn phải ra khỏi giường.",
         "cta": "Xem buổi sáng của tôi có thể như thế nào",
         "steps": [
           {
