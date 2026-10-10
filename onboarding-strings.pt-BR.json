@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,7 +11,7 @@
       "rule": "Conclua a missão. Conclua a manhã.",
       "timestamps": {
         "planned": "06:30 Planejado",
-        "late": "07:30 Atrasado",
+        "late": "12:00 Atrasado",
         "alreadyMoving": "06:30 · Já em movimento"
       },
       "identity": {
@@ -53,7 +53,7 @@
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
-        "copy": "Um toque meio dormindo custou uma hora do seu dia.",
+        "copy": "Um toque meio dormindo custou sua manhã.",
         "cta": "Sou eu"
       },
       "goal": {
@@ -223,7 +223,7 @@
       "rule": "Conclua a missão. Conclua a manhã.",
       "timestamps": {
         "planned": "06:30 Planejado",
-        "late": "07:30 Atrasado",
+        "late": "12:00 Atrasado",
         "alreadyMoving": "06:30 · Já em movimento"
       },
       "identity": {
@@ -265,7 +265,7 @@
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
-        "copy": "Um toque meio dormindo custou uma hora do seu dia.",
+        "copy": "Um toque meio dormindo custou sua manhã.",
         "cta": "Sou eu"
       },
       "goal": {
@@ -435,7 +435,7 @@
       "rule": "Conclua a missão. Conclua a manhã.",
       "timestamps": {
         "planned": "06:30 Planejado",
-        "late": "07:30 Atrasado",
+        "late": "12:00 Atrasado",
         "alreadyMoving": "06:30 · Já em movimento"
       },
       "identity": {
@@ -477,7 +477,7 @@
       },
       "painHook": {
         "title": "Você desligou o alarme.\nNão acordou.",
-        "copy": "Um toque meio dormindo custou uma hora do seu dia.",
+        "copy": "Um toque meio dormindo custou sua manhã.",
         "cta": "Sou eu"
       },
       "goal": {

@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,7 +11,7 @@
       "rule": "Terminez la mission. Réussissez votre matinée.",
       "timestamps": {
         "planned": "06:30 Prévu",
-        "late": "07:30 En retard",
+        "late": "12:00 En retard",
         "alreadyMoving": "06:30 · Déjà en mouvement"
       },
       "identity": {
@@ -53,7 +53,7 @@
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
-        "copy": "Un geste à moitié endormi vous a coûté une heure.",
+        "copy": "Un geste à moitié endormi vous a coûté toute la matinée.",
         "cta": "C’est moi"
       },
       "goal": {
@@ -223,7 +223,7 @@
       "rule": "Terminez la mission. Réussissez votre matinée.",
       "timestamps": {
         "planned": "06:30 Prévu",
-        "late": "07:30 En retard",
+        "late": "12:00 En retard",
         "alreadyMoving": "06:30 · Déjà en mouvement"
       },
       "identity": {
@@ -265,7 +265,7 @@
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
-        "copy": "Un geste à moitié endormi vous a coûté une heure.",
+        "copy": "Un geste à moitié endormi vous a coûté toute la matinée.",
         "cta": "C’est moi"
       },
       "goal": {
@@ -435,7 +435,7 @@
       "rule": "Terminez la mission. Réussissez votre matinée.",
       "timestamps": {
         "planned": "06:30 Prévu",
-        "late": "07:30 En retard",
+        "late": "12:00 En retard",
         "alreadyMoving": "06:30 · Déjà en mouvement"
       },
       "identity": {
@@ -477,7 +477,7 @@
       },
       "painHook": {
         "title": "Vous avez éteint l’alarme.\nVous ne vous êtes pas réveillé.",
-        "copy": "Un geste à moitié endormi vous a coûté une heure.",
+        "copy": "Un geste à moitié endormi vous a coûté toute la matinée.",
         "cta": "C’est moi"
       },
       "goal": {

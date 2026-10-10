@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,12 +11,12 @@
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất một giờ của bạn.",
+        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {
@@ -223,12 +223,12 @@
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất một giờ của bạn.",
+        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {
@@ -435,12 +435,12 @@
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất một giờ của bạn.",
+        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {

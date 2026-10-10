@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,12 +11,12 @@
       "rule": "完成任務，開始早晨。",
       "timestamps": {
         "planned": "06:30 已排程",
-        "late": "07:30 已遲到",
+        "late": "12:00 已遲到",
         "alreadyMoving": "06:30 · 已經行動"
       },
       "painHook": {
         "title": "你關掉了鬧鐘。\n卻沒有醒來。",
-        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "copy": "半睡半醒的一次點擊，讓你失去了整個早晨。",
         "cta": "這就是我"
       },
       "identity": {
@@ -223,12 +223,12 @@
       "rule": "完成任務，開始早晨。",
       "timestamps": {
         "planned": "06:30 已排程",
-        "late": "07:30 已遲到",
+        "late": "12:00 已遲到",
         "alreadyMoving": "06:30 · 已經行動"
       },
       "painHook": {
         "title": "你關掉了鬧鐘。\n卻沒有醒來。",
-        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "copy": "半睡半醒的一次點擊，讓你失去了整個早晨。",
         "cta": "這就是我"
       },
       "identity": {
@@ -435,12 +435,12 @@
       "rule": "完成任務，開始早晨。",
       "timestamps": {
         "planned": "06:30 已排程",
-        "late": "07:30 已遲到",
+        "late": "12:00 已遲到",
         "alreadyMoving": "06:30 · 已經行動"
       },
       "painHook": {
         "title": "你關掉了鬧鐘。\n卻沒有醒來。",
-        "copy": "半睡半醒的一次點擊，讓你失去了一小時。",
+        "copy": "半睡半醒的一次點擊，讓你失去了整個早晨。",
         "cta": "這就是我"
       },
       "identity": {

@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,12 +11,12 @@
       "rule": "Виконайте місію. Завершіть свій ранок.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Ви вимкнули будильник.\nАле не прокинулися.",
-        "copy": "Один сонний дотик забрав у вас годину.",
+        "copy": "Один сонний дотик забрав у вас ранок.",
         "cta": "Це про мене"
       },
       "identity": {
@@ -223,12 +223,12 @@
       "rule": "Виконайте місію. Завершіть свій ранок.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Ви вимкнули будильник.\nАле не прокинулися.",
-        "copy": "Один сонний дотик забрав у вас годину.",
+        "copy": "Один сонний дотик забрав у вас ранок.",
         "cta": "Це про мене"
       },
       "identity": {
@@ -435,12 +435,12 @@
       "rule": "Виконайте місію. Завершіть свій ранок.",
       "timestamps": {
         "planned": "06:30 Planned",
-        "late": "07:30 Late",
+        "late": "12:00 Late",
         "alreadyMoving": "06:30 · Already moving"
       },
       "painHook": {
         "title": "Ви вимкнули будильник.\nАле не прокинулися.",
-        "copy": "Один сонний дотик забрав у вас годину.",
+        "copy": "Один сонний дотик забрав у вас ранок.",
         "cta": "Це про мене"
       },
       "identity": {

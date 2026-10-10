@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 18,
+  "version": 19,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -11,12 +11,12 @@
       "rule": "Ukończ misję. Zacznij poranek.",
       "timestamps": {
         "planned": "06:30 Zaplanowano",
-        "late": "07:30 Za późno",
+        "late": "12:00 Za późno",
         "alreadyMoving": "06:30 · Już w ruchu"
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię godzinę.",
+        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
@@ -223,12 +223,12 @@
       "rule": "Ukończ misję. Zacznij poranek.",
       "timestamps": {
         "planned": "06:30 Zaplanowano",
-        "late": "07:30 Za późno",
+        "late": "12:00 Za późno",
         "alreadyMoving": "06:30 · Już w ruchu"
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię godzinę.",
+        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
@@ -435,12 +435,12 @@
       "rule": "Ukończ misję. Zacznij poranek.",
       "timestamps": {
         "planned": "06:30 Zaplanowano",
-        "late": "07:30 Za późno",
+        "late": "12:00 Za późno",
         "alreadyMoving": "06:30 · Już w ruchu"
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię godzinę.",
+        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
