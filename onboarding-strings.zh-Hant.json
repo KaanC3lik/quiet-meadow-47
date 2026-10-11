@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 21,
+  "version": 22,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -180,15 +180,6 @@
             "title": "快速測驗",
             "copy": "回答幾個問題，證明你已經醒了。"
           }
-        }
-      },
-      "quizTopic": {
-        "title": "Pick your quiz topic.",
-        "cta": "Continue",
-        "options": {
-          "general": "General",
-          "math": "Math",
-          "geography": "Geography"
         }
       },
       "quizDifficulty": {
@@ -394,15 +385,6 @@
           }
         }
       },
-      "quizTopic": {
-        "title": "Pick your quiz topic.",
-        "cta": "Continue",
-        "options": {
-          "general": "General",
-          "math": "Math",
-          "geography": "Geography"
-        }
-      },
       "quizDifficulty": {
         "title": "How hard should it be?",
         "cta": "Continue",
@@ -604,15 +586,6 @@
             "title": "快速測驗",
             "copy": "回答幾個問題，證明你已經醒了。"
           }
-        }
-      },
-      "quizTopic": {
-        "title": "Pick your quiz topic.",
-        "cta": "Continue",
-        "options": {
-          "general": "General",
-          "math": "Math",
-          "geography": "Geography"
         }
       },
       "quizDifficulty": {
