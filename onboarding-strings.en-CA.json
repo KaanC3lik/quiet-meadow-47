@@ -1,6 +1,6 @@
 {
   "source_version": 1,
-  "version": 22,
+  "version": 23,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -113,7 +113,7 @@
           {
             "id": "complete_mission",
             "title": "Complete your mission",
-            "copy": "photo or quiz"
+            "copy": "photo or math quiz"
           },
           {
             "id": "dismiss_alarm",
@@ -177,8 +177,8 @@
             "copy": "book or laptop"
           },
           "quick_quiz": {
-            "title": "Quick Quiz",
-            "copy": "a few questions"
+            "title": "Math Quiz",
+            "copy": "a few math questions"
           }
         }
       },
@@ -316,7 +316,7 @@
           {
             "id": "complete_mission",
             "title": "Complete your mission",
-            "copy": "photo or quiz"
+            "copy": "photo or math quiz"
           },
           {
             "id": "dismiss_alarm",
@@ -380,8 +380,8 @@
             "copy": "book or laptop"
           },
           "quick_quiz": {
-            "title": "Quick Quiz",
-            "copy": "a few questions"
+            "title": "Math Quiz",
+            "copy": "a few math questions"
           }
         }
       },
@@ -519,7 +519,7 @@
           {
             "id": "complete_mission",
             "title": "Complete your mission",
-            "copy": "photo or quiz"
+            "copy": "photo or math quiz"
           },
           {
             "id": "dismiss_alarm",
@@ -583,8 +583,8 @@
             "copy": "book or laptop"
           },
           "quick_quiz": {
-            "title": "Quick Quiz",
-            "copy": "a few questions"
+            "title": "Math Quiz",
+            "copy": "a few math questions"
           }
         }
       },
