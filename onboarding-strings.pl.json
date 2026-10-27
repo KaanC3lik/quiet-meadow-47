@@ -19,54 +19,54 @@
         "cta": "To o mnie"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Jesteś rannym ptakiem?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Tak",
+          "not_yet": "Jeszcze nie"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Pomożesz nam mierzyć reklamy?",
+        "copy": "Dzięki temu widzimy, które reklamy przyprowadzają ludzi do DawnVow. Używamy identyfikatora urządzenia — nigdy Twoich alarmów, misji ani odpowiedzi.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Mierzy tylko reklamy",
+          "Nigdy Twoje alarmy ani misje",
+          "Można wyłączyć w Ustawieniach"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Zezwól na pomiar",
+        "notNow": "Nie teraz"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Ile alarmów ustawiasz?",
+        "cta": "Dalej",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Jeden",
+          "two_or_three": "Dwa lub trzy",
+          "four_plus": "Cztery lub więcej"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Czy jeden alarm naprawdę Cię obudzi?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Tak",
+          "sometimes": "Czasami",
+          "no": "Nie"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Nie jesteś leniwy. Jesteś w połowie senny.",
+        "copy": "Dotknięcie wygrywa, zanim mózg się obudzi.",
+        "cta": "Dalej",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Budzenie się to nie Twój problem.",
+            "copy": "Jeden alarm Cię budzi. Trudne jest wstanie z łóżka."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Czasami to rzut monetą.",
+            "copy": "W poranki, gdy idzie źle, wygrywa dotknięcie w półśnie."
           }
         }
       },
@@ -95,7 +95,7 @@
         "options": {
           "snooze_unaware": "Wyciszam budzik bez myślenia.",
           "dismiss_fall_asleep": "Wyłączam alarm i znowu zasypiam",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Jestem obudzony, ale nie mogę wstać"
         }
       },
       "personalizedSolution": {
@@ -149,27 +149,27 @@
         "title": "Co naprawdę pomogłoby ci ruszyć?",
         "copy": "Wybierz misję realistyczną dla twojego poranka.",
         "cta": "Użyj tej misji",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Które naprawdę masz?",
+        "targetCta": "Te są moje",
         "photoDisclosure": "Zdjęcia są sprawdzane na urządzeniu. Zdjęcia z galerii się nie liczą, a zdjęcia misji są usuwane po weryfikacji.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow wybiera jeden z nich, gdy dzwoni alarm.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
+          "toilet": "Toaleta",
+          "sink": "Zlew",
+          "toothbrush": "Szczoteczka do zębów",
+          "hair drier": "Suszarka do włosów",
+          "refrigerator": "Lodówka",
+          "cup": "Kubek",
+          "bottle": "Butelka",
+          "microwave": "Mikrofalówka",
+          "bowl": "Miska",
+          "cat": "Kot",
+          "dog": "Pies",
+          "book": "Książka",
           "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "keyboard": "Klawiatura",
+          "mouse": "Mysz",
+          "backpack": "Plecak"
         },
         "options": {
           "bathroom_escape": {
@@ -189,18 +189,18 @@
             "copy": "Zrób zdjęcie książki, laptopa lub plecaka."
           },
           "quick_quiz": {
-            "title": "Szybki quiz",
-            "copy": "Odpowiedz na kilka pytań, aby pokazać, że nie śpisz."
+            "title": "Quiz matematyczny",
+            "copy": "Odpowiedz na kilka pytań matematycznych, aby udowodnić, że nie śpisz."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Jaki poziom trudności?",
+        "cta": "Dalej",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Łatwy",
+          "medium": "Średni",
+          "hard": "Trudny"
         }
       },
       "wakeTime": {
@@ -234,54 +234,54 @@
         "cta": "To o mnie"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Jesteś rannym ptakiem?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Tak",
+          "not_yet": "Jeszcze nie"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Pomożesz nam mierzyć reklamy?",
+        "copy": "Dzięki temu widzimy, które reklamy przyprowadzają ludzi do DawnVow. Używamy identyfikatora urządzenia — nigdy Twoich alarmów, misji ani odpowiedzi.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Mierzy tylko reklamy",
+          "Nigdy Twoje alarmy ani misje",
+          "Można wyłączyć w Ustawieniach"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Zezwól na pomiar",
+        "notNow": "Nie teraz"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Ile alarmów ustawiasz?",
+        "cta": "Dalej",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Jeden",
+          "two_or_three": "Dwa lub trzy",
+          "four_plus": "Cztery lub więcej"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Czy jeden alarm naprawdę Cię obudzi?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Tak",
+          "sometimes": "Czasami",
+          "no": "Nie"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Nie jesteś leniwy. Jesteś w połowie senny.",
+        "copy": "Dotknięcie wygrywa, zanim mózg się obudzi.",
+        "cta": "Dalej",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Budzenie się to nie Twój problem.",
+            "copy": "Jeden alarm Cię budzi. Trudne jest wstanie z łóżka."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Czasami to rzut monetą.",
+            "copy": "W poranki, gdy idzie źle, wygrywa dotknięcie w półśnie."
           }
         }
       },
@@ -310,7 +310,7 @@
         "options": {
           "snooze_unaware": "Wyciszam budzik bez myślenia.",
           "dismiss_fall_asleep": "Wyłączam alarm i znowu zasypiam",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Jestem obudzony, ale nie mogę wstać"
         }
       },
       "personalizedSolution": {
@@ -364,27 +364,27 @@
         "title": "Co naprawdę pomogłoby ci ruszyć?",
         "copy": "Wybierz misję realistyczną dla twojego poranka.",
         "cta": "Użyj tej misji",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Które naprawdę masz?",
+        "targetCta": "Te są moje",
         "photoDisclosure": "Zdjęcia są sprawdzane na urządzeniu. Zdjęcia z galerii się nie liczą, a zdjęcia misji są usuwane po weryfikacji.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow wybiera jeden z nich, gdy dzwoni alarm.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
+          "toilet": "Toaleta",
+          "sink": "Zlew",
+          "toothbrush": "Szczoteczka do zębów",
+          "hair drier": "Suszarka do włosów",
+          "refrigerator": "Lodówka",
+          "cup": "Kubek",
+          "bottle": "Butelka",
+          "microwave": "Mikrofalówka",
+          "bowl": "Miska",
+          "cat": "Kot",
+          "dog": "Pies",
+          "book": "Książka",
           "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "keyboard": "Klawiatura",
+          "mouse": "Mysz",
+          "backpack": "Plecak"
         },
         "options": {
           "bathroom_escape": {
@@ -404,18 +404,18 @@
             "copy": "Zrób zdjęcie książki, laptopa lub plecaka."
           },
           "quick_quiz": {
-            "title": "Szybki quiz",
-            "copy": "Odpowiedz na kilka pytań, aby pokazać, że nie śpisz."
+            "title": "Quiz matematyczny",
+            "copy": "Odpowiedz na kilka pytań matematycznych, aby udowodnić, że nie śpisz."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Jaki poziom trudności?",
+        "cta": "Dalej",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Łatwy",
+          "medium": "Średni",
+          "hard": "Trudny"
         }
       },
       "wakeTime": {
@@ -449,54 +449,54 @@
         "cta": "To o mnie"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Jesteś rannym ptakiem?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Tak",
+          "not_yet": "Jeszcze nie"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Pomożesz nam mierzyć reklamy?",
+        "copy": "Dzięki temu widzimy, które reklamy przyprowadzają ludzi do DawnVow. Używamy identyfikatora urządzenia — nigdy Twoich alarmów, misji ani odpowiedzi.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Mierzy tylko reklamy",
+          "Nigdy Twoje alarmy ani misje",
+          "Można wyłączyć w Ustawieniach"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Zezwól na pomiar",
+        "notNow": "Nie teraz"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Ile alarmów ustawiasz?",
+        "cta": "Dalej",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Jeden",
+          "two_or_three": "Dwa lub trzy",
+          "four_plus": "Cztery lub więcej"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Czy jeden alarm naprawdę Cię obudzi?",
+        "cta": "Dalej",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Tak",
+          "sometimes": "Czasami",
+          "no": "Nie"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Nie jesteś leniwy. Jesteś w połowie senny.",
+        "copy": "Dotknięcie wygrywa, zanim mózg się obudzi.",
+        "cta": "Dalej",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Budzenie się to nie Twój problem.",
+            "copy": "Jeden alarm Cię budzi. Trudne jest wstanie z łóżka."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Czasami to rzut monetą.",
+            "copy": "W poranki, gdy idzie źle, wygrywa dotknięcie w półśnie."
           }
         }
       },
@@ -525,7 +525,7 @@
         "options": {
           "snooze_unaware": "Wyciszam budzik bez myślenia.",
           "dismiss_fall_asleep": "Wyłączam alarm i znowu zasypiam",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Jestem obudzony, ale nie mogę wstać"
         }
       },
       "personalizedSolution": {
@@ -579,27 +579,27 @@
         "title": "Co naprawdę pomogłoby ci ruszyć?",
         "copy": "Wybierz misję realistyczną dla twojego poranka.",
         "cta": "Użyj tej misji",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Które naprawdę masz?",
+        "targetCta": "Te są moje",
         "photoDisclosure": "Zdjęcia są sprawdzane na urządzeniu. Zdjęcia z galerii się nie liczą, a zdjęcia misji są usuwane po weryfikacji.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow wybiera jeden z nich, gdy dzwoni alarm.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
+          "toilet": "Toaleta",
+          "sink": "Zlew",
+          "toothbrush": "Szczoteczka do zębów",
+          "hair drier": "Suszarka do włosów",
+          "refrigerator": "Lodówka",
+          "cup": "Kubek",
+          "bottle": "Butelka",
+          "microwave": "Mikrofalówka",
+          "bowl": "Miska",
+          "cat": "Kot",
+          "dog": "Pies",
+          "book": "Książka",
           "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "keyboard": "Klawiatura",
+          "mouse": "Mysz",
+          "backpack": "Plecak"
         },
         "options": {
           "bathroom_escape": {
@@ -619,18 +619,18 @@
             "copy": "Zrób zdjęcie książki, laptopa lub plecaka."
           },
           "quick_quiz": {
-            "title": "Szybki quiz",
-            "copy": "Odpowiedz na kilka pytań, aby pokazać, że nie śpisz."
+            "title": "Quiz matematyczny",
+            "copy": "Odpowiedz na kilka pytań matematycznych, aby udowodnić, że nie śpisz."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Jaki poziom trudności?",
+        "cta": "Dalej",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Łatwy",
+          "medium": "Średni",
+          "hard": "Trudny"
         }
       },
       "wakeTime": {
