@@ -10,63 +10,63 @@
       "back": "Quay lại",
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Dự kiến",
+        "late": "12:00 Trễ",
+        "alreadyMoving": "06:30 · Đã di chuyển"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
         "cta": "Đúng là tôi"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Bạn có phải người buổi sáng?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Có",
+          "not_yet": "Chưa"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Giúp chúng tôi đo lường quảng cáo?",
+        "copy": "Điều này cho biết quảng cáo nào mang người đến DawnVow. Chúng tôi dùng mã nhận diện thiết bị — không phải báo thức, nhiệm vụ hay câu trả lời của bạn.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Chỉ đo quảng cáo",
+          "Không bao giờ báo thức hay nhiệm vụ của bạn",
+          "Có thể tắt trong Cài đặt"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Cho phép đo lường",
+        "notNow": "Để sau"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Bạn đặt bao nhiêu báo thức?",
+        "cta": "Tiếp tục",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Một",
+          "two_or_three": "Hai hoặc ba",
+          "four_plus": "Bốn trở lên"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Một báo thức có thực sự đánh thức bạn?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Có",
+          "sometimes": "Đôi khi",
+          "no": "Không"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Bạn không lười. Bạn đang ngủ nửa vời.",
+        "copy": "Cú chạm thắng trước khi não bạn thức.",
+        "cta": "Tiếp tục",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Thức dậy không phải vấn đề của bạn.",
+            "copy": "Một báo thức đánh thức bạn. Khó là ra khỏi giường."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Đôi khi như tung đồng xu.",
+            "copy": "Vào buổi sáng sai, một cú chạm nửa tỉnh thắng."
           }
         }
       },
@@ -84,27 +84,27 @@
       "painPoints": {
         "title": "Điều gì thường đánh cắp buổi sáng của bạn?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Điều gì cản bạn dậy khi báo thức đầu tiên reo?",
+          "on_time": "Điều gì thường khiến bạn trễ?",
+          "workouts": "Điều gì cản trở bài tập buổi sáng?",
+          "routine": "Điều gì phá vỡ thói quen buổi sáng?",
+          "no_rushing": "Điều gì khiến buổi sáng vội vã?"
         },
-        "copy": "Chọn điều hay lặp lại nhất.",
+        "copy": "Chọn điều thường lặp lại.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi bấm báo lại mà không nghĩ.",
-          "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "dismiss_fall_asleep": "Tôi tắt nó và ngủ lại",
+          "up_not_moving": "Tôi đã thức nhưng không thể ra khỏi giường"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Vì sao xảy ra. Cách chấm dứt.",
+        "cta": "Cho tôi xem cách hoạt động",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Vòng lặp báo lại kết thúc ở nhiệm vụ.",
+          "dismiss_fall_asleep": "Chỉ một cú chạm là không đủ.",
+          "up_not_moving": "Nhiệm vụ kéo bạn dậy trước khi báo thức im."
         }
       },
       "mechanism": {
@@ -135,33 +135,33 @@
         ]
       },
       "futureState": {
-        "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Lập kế hoạch thức dậy",
+        "title": "06:30. Đã dậy. Đã di chuyển.",
+        "copy": "Giờ đầu tiên thuộc về bạn.",
+        "cta": "Tạo kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
-          "Đầu óc tỉnh táo",
-          "Đã bắt đầu",
+          "Đầu óc sáng suốt",
+          "Đã di chuyển",
           "Làm chủ"
         ]
       },
       "mission": {
         "title": "Điều gì thực sự khiến bạn bắt đầu?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "copy": "Chọn nhiệm vụ phù hợp với buổi sáng của bạn.",
         "cta": "Dùng nhiệm vụ này",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ sẽ bị xóa sau khi xác minh.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "Bạn thực sự có những món nào?",
+        "targetCta": "Đây là của tôi",
+        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ bị xóa sau khi xác minh.",
+        "targetPrompt": "DawnVow chọn một trong số này khi báo thức reo.",
         "targets": {
           "toilet": "Nhà vệ sinh",
           "sink": "Bồn rửa",
           "toothbrush": "Bàn chải đánh răng",
-          "hair drier": "Hair dryer",
+          "hair drier": "Máy sấy tóc",
           "refrigerator": "Tủ lạnh",
           "cup": "Cốc",
           "bottle": "Chai",
-          "microwave": "Microwave",
+          "microwave": "Lò vi sóng",
           "bowl": "Bát",
           "cat": "Mèo",
           "dog": "Chó",
@@ -173,51 +173,51 @@
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Thử thách phòng tắm",
+            "copy": "Chụp một vật cần thiết trong phòng tắm."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Bắt đầu ở bếp",
+            "copy": "Chụp một vật cần thiết trong bếp."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Kiểm tra thú cưng",
+            "copy": "Chụp mèo hoặc chó của bạn."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Chế độ học",
+            "copy": "Chụp sách, laptop hoặc ba lô."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Quiz toán",
+            "copy": "Trả lời vài câu hỏi toán để chứng minh bạn đã thức."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Độ khó thế nào?",
+        "cta": "Tiếp tục",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Dễ",
+          "medium": "Trung bình",
+          "hard": "Khó"
         }
       },
       "wakeTime": {
-        "title": "Ngày mai bạn muốn dậy lúc mấy giờ?",
-        "copy": "Choose the time your first DawnVow should ring.",
+        "title": "Bạn muốn thức dậy lúc mấy giờ mai?",
+        "copy": "Chọn thời gian báo thức DawnVow đầu tiên reo.",
         "cta": "Đặt giờ thức dậy",
         "accessibilityLabel": "Chọn giờ thức dậy"
       },
       "plan": {
         "title": "DawnVow đầu tiên đã sẵn sàng.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Mai, bạn lúc buồn ngủ sẽ theo kế hoạch.",
         "cta": "Giữ DawnVow của tôi",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Quyền chỉ được hỏi khi cần.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "mission": "Nhiệm vụ",
-          "rule": "Quy tắc mới"
+          "mission": "Nhiệm vụ của bạn",
+          "rule": "Quy tắc mới của bạn"
         }
       }
     },
@@ -225,63 +225,63 @@
       "back": "Quay lại",
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Dự kiến",
+        "late": "12:00 Trễ",
+        "alreadyMoving": "06:30 · Đã di chuyển"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
         "cta": "Đúng là tôi"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Bạn có phải người buổi sáng?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Có",
+          "not_yet": "Chưa"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Giúp chúng tôi đo lường quảng cáo?",
+        "copy": "Điều này cho biết quảng cáo nào mang người đến DawnVow. Chúng tôi dùng mã nhận diện thiết bị — không phải báo thức, nhiệm vụ hay câu trả lời của bạn.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Chỉ đo quảng cáo",
+          "Không bao giờ báo thức hay nhiệm vụ của bạn",
+          "Có thể tắt trong Cài đặt"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Cho phép đo lường",
+        "notNow": "Để sau"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Bạn đặt bao nhiêu báo thức?",
+        "cta": "Tiếp tục",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Một",
+          "two_or_three": "Hai hoặc ba",
+          "four_plus": "Bốn trở lên"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Một báo thức có thực sự đánh thức bạn?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Có",
+          "sometimes": "Đôi khi",
+          "no": "Không"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Bạn không lười. Bạn đang ngủ nửa vời.",
+        "copy": "Cú chạm thắng trước khi não bạn thức.",
+        "cta": "Tiếp tục",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Thức dậy không phải vấn đề của bạn.",
+            "copy": "Một báo thức đánh thức bạn. Khó là ra khỏi giường."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Đôi khi như tung đồng xu.",
+            "copy": "Vào buổi sáng sai, một cú chạm nửa tỉnh thắng."
           }
         }
       },
@@ -299,27 +299,27 @@
       "painPoints": {
         "title": "Điều gì thường đánh cắp buổi sáng của bạn?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Điều gì cản bạn dậy khi báo thức đầu tiên reo?",
+          "on_time": "Điều gì thường khiến bạn trễ?",
+          "workouts": "Điều gì cản trở bài tập buổi sáng?",
+          "routine": "Điều gì phá vỡ thói quen buổi sáng?",
+          "no_rushing": "Điều gì khiến buổi sáng vội vã?"
         },
-        "copy": "Chọn điều hay lặp lại nhất.",
+        "copy": "Chọn điều thường lặp lại.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi bấm báo lại mà không nghĩ.",
-          "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "dismiss_fall_asleep": "Tôi tắt nó và ngủ lại",
+          "up_not_moving": "Tôi đã thức nhưng không thể ra khỏi giường"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Vì sao xảy ra. Cách chấm dứt.",
+        "cta": "Cho tôi xem cách hoạt động",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Vòng lặp báo lại kết thúc ở nhiệm vụ.",
+          "dismiss_fall_asleep": "Chỉ một cú chạm là không đủ.",
+          "up_not_moving": "Nhiệm vụ kéo bạn dậy trước khi báo thức im."
         }
       },
       "mechanism": {
@@ -350,33 +350,33 @@
         ]
       },
       "futureState": {
-        "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Lập kế hoạch thức dậy",
+        "title": "06:30. Đã dậy. Đã di chuyển.",
+        "copy": "Giờ đầu tiên thuộc về bạn.",
+        "cta": "Tạo kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
-          "Đầu óc tỉnh táo",
-          "Đã bắt đầu",
+          "Đầu óc sáng suốt",
+          "Đã di chuyển",
           "Làm chủ"
         ]
       },
       "mission": {
         "title": "Điều gì thực sự khiến bạn bắt đầu?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "copy": "Chọn nhiệm vụ phù hợp với buổi sáng của bạn.",
         "cta": "Dùng nhiệm vụ này",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ sẽ bị xóa sau khi xác minh.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "Bạn thực sự có những món nào?",
+        "targetCta": "Đây là của tôi",
+        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ bị xóa sau khi xác minh.",
+        "targetPrompt": "DawnVow chọn một trong số này khi báo thức reo.",
         "targets": {
           "toilet": "Nhà vệ sinh",
           "sink": "Bồn rửa",
           "toothbrush": "Bàn chải đánh răng",
-          "hair drier": "Hair dryer",
+          "hair drier": "Máy sấy tóc",
           "refrigerator": "Tủ lạnh",
           "cup": "Cốc",
           "bottle": "Chai",
-          "microwave": "Microwave",
+          "microwave": "Lò vi sóng",
           "bowl": "Bát",
           "cat": "Mèo",
           "dog": "Chó",
@@ -388,51 +388,51 @@
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Thử thách phòng tắm",
+            "copy": "Chụp một vật cần thiết trong phòng tắm."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Bắt đầu ở bếp",
+            "copy": "Chụp một vật cần thiết trong bếp."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Kiểm tra thú cưng",
+            "copy": "Chụp mèo hoặc chó của bạn."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Chế độ học",
+            "copy": "Chụp sách, laptop hoặc ba lô."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Quiz toán",
+            "copy": "Trả lời vài câu hỏi toán để chứng minh bạn đã thức."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Độ khó thế nào?",
+        "cta": "Tiếp tục",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Dễ",
+          "medium": "Trung bình",
+          "hard": "Khó"
         }
       },
       "wakeTime": {
-        "title": "Ngày mai bạn muốn dậy lúc mấy giờ?",
-        "copy": "Choose the time your first DawnVow should ring.",
+        "title": "Bạn muốn thức dậy lúc mấy giờ mai?",
+        "copy": "Chọn thời gian báo thức DawnVow đầu tiên reo.",
         "cta": "Đặt giờ thức dậy",
         "accessibilityLabel": "Chọn giờ thức dậy"
       },
       "plan": {
         "title": "DawnVow đầu tiên đã sẵn sàng.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Mai, bạn lúc buồn ngủ sẽ theo kế hoạch.",
         "cta": "Giữ DawnVow của tôi",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Quyền chỉ được hỏi khi cần.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "mission": "Nhiệm vụ",
-          "rule": "Quy tắc mới"
+          "mission": "Nhiệm vụ của bạn",
+          "rule": "Quy tắc mới của bạn"
         }
       }
     },
@@ -440,63 +440,63 @@
       "back": "Quay lại",
       "rule": "Hoàn thành nhiệm vụ. Hoàn thành buổi sáng.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Dự kiến",
+        "late": "12:00 Trễ",
+        "alreadyMoving": "06:30 · Đã di chuyển"
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
         "cta": "Đúng là tôi"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Bạn có phải người buổi sáng?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Có",
+          "not_yet": "Chưa"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Giúp chúng tôi đo lường quảng cáo?",
+        "copy": "Điều này cho biết quảng cáo nào mang người đến DawnVow. Chúng tôi dùng mã nhận diện thiết bị — không phải báo thức, nhiệm vụ hay câu trả lời của bạn.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Chỉ đo quảng cáo",
+          "Không bao giờ báo thức hay nhiệm vụ của bạn",
+          "Có thể tắt trong Cài đặt"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Cho phép đo lường",
+        "notNow": "Để sau"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Bạn đặt bao nhiêu báo thức?",
+        "cta": "Tiếp tục",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Một",
+          "two_or_three": "Hai hoặc ba",
+          "four_plus": "Bốn trở lên"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Một báo thức có thực sự đánh thức bạn?",
+        "cta": "Tiếp tục",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Có",
+          "sometimes": "Đôi khi",
+          "no": "Không"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Bạn không lười. Bạn đang ngủ nửa vời.",
+        "copy": "Cú chạm thắng trước khi não bạn thức.",
+        "cta": "Tiếp tục",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Thức dậy không phải vấn đề của bạn.",
+            "copy": "Một báo thức đánh thức bạn. Khó là ra khỏi giường."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Đôi khi như tung đồng xu.",
+            "copy": "Vào buổi sáng sai, một cú chạm nửa tỉnh thắng."
           }
         }
       },
@@ -514,27 +514,27 @@
       "painPoints": {
         "title": "Điều gì thường đánh cắp buổi sáng của bạn?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Điều gì cản bạn dậy khi báo thức đầu tiên reo?",
+          "on_time": "Điều gì thường khiến bạn trễ?",
+          "workouts": "Điều gì cản trở bài tập buổi sáng?",
+          "routine": "Điều gì phá vỡ thói quen buổi sáng?",
+          "no_rushing": "Điều gì khiến buổi sáng vội vã?"
         },
-        "copy": "Chọn điều hay lặp lại nhất.",
+        "copy": "Chọn điều thường lặp lại.",
         "cta": "Đúng là tôi",
         "options": {
           "snooze_unaware": "Tôi bấm báo lại mà không nghĩ.",
-          "dismiss_fall_asleep": "Tôi tắt rồi ngủ lại",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "dismiss_fall_asleep": "Tôi tắt nó và ngủ lại",
+          "up_not_moving": "Tôi đã thức nhưng không thể ra khỏi giường"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Vì sao xảy ra. Cách chấm dứt.",
+        "cta": "Cho tôi xem cách hoạt động",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Vòng lặp báo lại kết thúc ở nhiệm vụ.",
+          "dismiss_fall_asleep": "Chỉ một cú chạm là không đủ.",
+          "up_not_moving": "Nhiệm vụ kéo bạn dậy trước khi báo thức im."
         }
       },
       "mechanism": {
@@ -565,33 +565,33 @@
         ]
       },
       "futureState": {
-        "title": "06:30. Đã dậy. Đã bắt đầu.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Lập kế hoạch thức dậy",
+        "title": "06:30. Đã dậy. Đã di chuyển.",
+        "copy": "Giờ đầu tiên thuộc về bạn.",
+        "cta": "Tạo kế hoạch thức dậy",
         "gains": [
           "Đúng giờ",
-          "Đầu óc tỉnh táo",
-          "Đã bắt đầu",
+          "Đầu óc sáng suốt",
+          "Đã di chuyển",
           "Làm chủ"
         ]
       },
       "mission": {
         "title": "Điều gì thực sự khiến bạn bắt đầu?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "copy": "Chọn nhiệm vụ phù hợp với buổi sáng của bạn.",
         "cta": "Dùng nhiệm vụ này",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ sẽ bị xóa sau khi xác minh.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "Bạn thực sự có những món nào?",
+        "targetCta": "Đây là của tôi",
+        "photoDisclosure": "Ảnh được kiểm tra trên thiết bị. Ảnh trong thư viện không được tính và ảnh nhiệm vụ bị xóa sau khi xác minh.",
+        "targetPrompt": "DawnVow chọn một trong số này khi báo thức reo.",
         "targets": {
           "toilet": "Nhà vệ sinh",
           "sink": "Bồn rửa",
           "toothbrush": "Bàn chải đánh răng",
-          "hair drier": "Hair dryer",
+          "hair drier": "Máy sấy tóc",
           "refrigerator": "Tủ lạnh",
           "cup": "Cốc",
           "bottle": "Chai",
-          "microwave": "Microwave",
+          "microwave": "Lò vi sóng",
           "bowl": "Bát",
           "cat": "Mèo",
           "dog": "Chó",
@@ -603,51 +603,51 @@
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Thử thách phòng tắm",
+            "copy": "Chụp một vật cần thiết trong phòng tắm."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Bắt đầu ở bếp",
+            "copy": "Chụp một vật cần thiết trong bếp."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Kiểm tra thú cưng",
+            "copy": "Chụp mèo hoặc chó của bạn."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Chế độ học",
+            "copy": "Chụp sách, laptop hoặc ba lô."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Quiz toán",
+            "copy": "Trả lời vài câu hỏi toán để chứng minh bạn đã thức."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Độ khó thế nào?",
+        "cta": "Tiếp tục",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Dễ",
+          "medium": "Trung bình",
+          "hard": "Khó"
         }
       },
       "wakeTime": {
-        "title": "Ngày mai bạn muốn dậy lúc mấy giờ?",
-        "copy": "Choose the time your first DawnVow should ring.",
+        "title": "Bạn muốn thức dậy lúc mấy giờ mai?",
+        "copy": "Chọn thời gian báo thức DawnVow đầu tiên reo.",
         "cta": "Đặt giờ thức dậy",
         "accessibilityLabel": "Chọn giờ thức dậy"
       },
       "plan": {
         "title": "DawnVow đầu tiên đã sẵn sàng.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Mai, bạn lúc buồn ngủ sẽ theo kế hoạch.",
         "cta": "Giữ DawnVow của tôi",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Quyền chỉ được hỏi khi cần.",
         "labels": {
           "wakeTime": "Giờ thức dậy",
-          "mission": "Nhiệm vụ",
-          "rule": "Quy tắc mới"
+          "mission": "Nhiệm vụ của bạn",
+          "rule": "Quy tắc mới của bạn"
         }
       }
     }
