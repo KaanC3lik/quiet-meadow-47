@@ -10,63 +10,63 @@
       "back": "ย้อนกลับ",
       "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 วางแผน",
+        "late": "12:00 สาย",
+        "alreadyMoving": "06:30 · เริ่มเคลื่อนไหว"
       },
       "painHook": {
         "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
         "cta": "นี่แหละฉัน"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "คุณเป็นคนชอบเช้าไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "ใช่",
+          "not_yet": "ยังไม่"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "ช่วยเราวัดผลโฆษณาไหม",
+        "copy": "สิ่งนี้บอกว่าโฆษณาใดพาคนมาที่ DawnVow เราใช้ตัวระบุอุปกรณ์ ไม่ใช่นาฬิกาปลุก ภารกิจ หรือคำตอบของคุณ",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "วัดเฉพาะโฆษณา",
+          "ไม่ใช่นาฬิกาปลุกหรือภารกิจของคุณ",
+          "ปิดได้ทุกเมื่อในการตั้งค่า"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "อนุญาตการวัดผล",
+        "notNow": "ไว้ทีหลัง"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "คุณตั้งนาฬิกาปลุกกี่อัน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "หนึ่ง",
+          "two_or_three": "สองหรือสาม",
+          "four_plus": "สี่ขึ้นไป"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "นาฬิกาปลุกอันเดียวปลุกคุณได้จริงไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "ใช่",
+          "sometimes": "บางครั้ง",
+          "no": "ไม่"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "คุณไม่ได้ขี้เกียจ คุณแค่ครึ่งหลับ",
+        "copy": "การแตะชนะก่อนสมองคุณตื่น",
+        "cta": "ดำเนินการต่อ",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "การตื่นไม่ใช่ปัญหาของคุณ",
+            "copy": "นาฬิกาปลุกอันเดียวปลุกคุณ สิ่งที่ยากคือการลุกจากเตียง"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "บางครั้งมันเหมือนโยนเหรียญ",
+            "copy": "ในเช้าที่ผิด การแตะครึ่งหลับชนะ"
           }
         }
       },
@@ -82,29 +82,29 @@
         }
       },
       "painPoints": {
-        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "title": "อะไรมักขโมยเช้าของคุณ",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "อะไรขัดขวางคุณเมื่อนาฬิกาปลุกแรกดัง",
+          "on_time": "อะไรทำให้คุณสายเป็นประจำ",
+          "workouts": "อะไรขวางการออกกำลังกายตอนเช้า",
+          "routine": "อะไรทำลายกิจวัตรเช้าของคุณ",
+          "no_rushing": "อะไรทำให้เช้าของคุณเร่งรีบ"
         },
-        "copy": "เลือกข้อที่เกิดขึ้นบ่อยที่สุด",
-        "cta": "ใช่ฉันเลย",
+        "copy": "เลือกสิ่งที่เกิดซ้ำบ่อยที่สุด",
+        "cta": "นั่นคือฉัน",
         "options": {
-          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่คิด",
-          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "ฉันกดเลื่อนโดยไม่คิด",
+          "dismiss_fall_asleep": "ฉันปิดมันแล้วหลับต่อ",
+          "up_not_moving": "ฉันตื่นแล้วแต่ลุกไม่ได้"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "ทำไมมันเกิดขึ้น มันหยุดอย่างไร",
+        "cta": "แสดงวิธีทำงาน",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "วงจรเลื่อนจบที่ภารกิจ",
+          "dismiss_fall_asleep": "แค่แตะไม่พอ",
+          "up_not_moving": "ภารกิจทำให้คุณลุกก่อนนาฬิกาปลุกเงียบ"
         }
       },
       "mechanism": {
@@ -136,84 +136,84 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The first hour belongs to you.",
-        "cta": "สร้างแผนการตื่นของฉัน",
+        "copy": "ชั่วโมงแรกเป็นของคุณ",
+        "cta": "สร้างแผนตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
-          "สมองปลอดโปร่ง",
+          "ใจปลอดโปร่ง",
           "เริ่มเคลื่อนไหวแล้ว",
           "ควบคุมได้"
         ]
       },
       "mission": {
-        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "อะไรจะทำให้คุณเริ่มจริงๆ",
+        "copy": "เลือกภารกิจที่รู้สึกเป็นไปได้สำหรับเช้าของคุณ",
         "cta": "ใช้ภารกิจนี้",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "คุณมีสิ่งไหนจริงๆ",
+        "targetCta": "นี่คือของฉัน",
+        "photoDisclosure": "รูปถูกตรวจบนอุปกรณ์ รูปจากแกลเลอรีไม่นับ และรูปภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow เลือกหนึ่งอย่างเมื่อนาฬิกาปลุกดัง",
         "targets": {
           "toilet": "ห้องน้ำ",
           "sink": "อ่างล้างจาน",
           "toothbrush": "แปรงสีฟัน",
-          "hair drier": "Hair dryer",
+          "hair drier": "ไดร์เป่าผม",
           "refrigerator": "ตู้เย็น",
           "cup": "ถ้วย",
           "bottle": "ขวด",
-          "microwave": "Microwave",
+          "microwave": "ไมโครเวฟ",
           "bowl": "ชาม",
           "cat": "แมว",
-          "dog": "สุนัข",
+          "dog": "หมา",
           "book": "หนังสือ",
           "laptop": "แล็ปท็อป",
-          "keyboard": "แป้นพิมพ์",
+          "keyboard": "คีย์บอร์ด",
           "mouse": "เมาส์",
           "backpack": "กระเป๋าเป้"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "ภารกิจห้องน้ำ",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในห้องน้ำ"
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "เริ่มที่ห้องครัว",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในครัว"
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "ตรวจสัตว์เลี้ยง",
+            "copy": "ถ่ายรูปแมวหรือหมาของคุณ"
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "โหมดเรียน",
+            "copy": "ถ่ายรูปหนังสือ แล็ปท็อป หรือกระเป๋าเป้"
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "ควิซคณิต",
+            "copy": "ตอบคำถามคณิตศาสตร์สองสามข้อเพื่อพิสูจน์ว่าคุณตื่นแล้ว"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "ยากแค่ไหน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "ง่าย",
+          "medium": "ปานกลาง",
+          "hard": "ยาก"
         }
       },
       "wakeTime": {
         "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "ตั้งเวลาตื่นของฉัน",
+        "copy": "เลือกเวลาที่นาฬิกาปลุก DawnVow อันแรกจะดัง",
+        "cta": "ตั้งเวลาตื่น",
         "accessibilityLabel": "เลือกเวลาตื่น"
       },
       "plan": {
-        "title": "DawnVow แรกของคุณพร้อมแล้ว",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "title": "DawnVow อันแรกพร้อมแล้ว",
+        "copy": "พรุ่งนี้ตัวคุณที่ง่วงจะทำตามแผน",
         "cta": "เก็บ DawnVow ของฉัน",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "สิทธิ์จะถูกขอเมื่อจำเป็นเท่านั้น",
         "labels": {
           "wakeTime": "เวลาตื่น",
           "mission": "ภารกิจของคุณ",
@@ -225,63 +225,63 @@
       "back": "ย้อนกลับ",
       "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 วางแผน",
+        "late": "12:00 สาย",
+        "alreadyMoving": "06:30 · เริ่มเคลื่อนไหว"
       },
       "painHook": {
         "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
         "cta": "นี่แหละฉัน"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "คุณเป็นคนชอบเช้าไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "ใช่",
+          "not_yet": "ยังไม่"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "ช่วยเราวัดผลโฆษณาไหม",
+        "copy": "สิ่งนี้บอกว่าโฆษณาใดพาคนมาที่ DawnVow เราใช้ตัวระบุอุปกรณ์ ไม่ใช่นาฬิกาปลุก ภารกิจ หรือคำตอบของคุณ",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "วัดเฉพาะโฆษณา",
+          "ไม่ใช่นาฬิกาปลุกหรือภารกิจของคุณ",
+          "ปิดได้ทุกเมื่อในการตั้งค่า"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "อนุญาตการวัดผล",
+        "notNow": "ไว้ทีหลัง"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "คุณตั้งนาฬิกาปลุกกี่อัน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "หนึ่ง",
+          "two_or_three": "สองหรือสาม",
+          "four_plus": "สี่ขึ้นไป"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "นาฬิกาปลุกอันเดียวปลุกคุณได้จริงไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "ใช่",
+          "sometimes": "บางครั้ง",
+          "no": "ไม่"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "คุณไม่ได้ขี้เกียจ คุณแค่ครึ่งหลับ",
+        "copy": "การแตะชนะก่อนสมองคุณตื่น",
+        "cta": "ดำเนินการต่อ",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "การตื่นไม่ใช่ปัญหาของคุณ",
+            "copy": "นาฬิกาปลุกอันเดียวปลุกคุณ สิ่งที่ยากคือการลุกจากเตียง"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "บางครั้งมันเหมือนโยนเหรียญ",
+            "copy": "ในเช้าที่ผิด การแตะครึ่งหลับชนะ"
           }
         }
       },
@@ -297,29 +297,29 @@
         }
       },
       "painPoints": {
-        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "title": "อะไรมักขโมยเช้าของคุณ",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "อะไรขัดขวางคุณเมื่อนาฬิกาปลุกแรกดัง",
+          "on_time": "อะไรทำให้คุณสายเป็นประจำ",
+          "workouts": "อะไรขวางการออกกำลังกายตอนเช้า",
+          "routine": "อะไรทำลายกิจวัตรเช้าของคุณ",
+          "no_rushing": "อะไรทำให้เช้าของคุณเร่งรีบ"
         },
-        "copy": "เลือกข้อที่เกิดขึ้นบ่อยที่สุด",
-        "cta": "ใช่ฉันเลย",
+        "copy": "เลือกสิ่งที่เกิดซ้ำบ่อยที่สุด",
+        "cta": "นั่นคือฉัน",
         "options": {
-          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่คิด",
-          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "ฉันกดเลื่อนโดยไม่คิด",
+          "dismiss_fall_asleep": "ฉันปิดมันแล้วหลับต่อ",
+          "up_not_moving": "ฉันตื่นแล้วแต่ลุกไม่ได้"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "ทำไมมันเกิดขึ้น มันหยุดอย่างไร",
+        "cta": "แสดงวิธีทำงาน",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "วงจรเลื่อนจบที่ภารกิจ",
+          "dismiss_fall_asleep": "แค่แตะไม่พอ",
+          "up_not_moving": "ภารกิจทำให้คุณลุกก่อนนาฬิกาปลุกเงียบ"
         }
       },
       "mechanism": {
@@ -351,84 +351,84 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The first hour belongs to you.",
-        "cta": "สร้างแผนการตื่นของฉัน",
+        "copy": "ชั่วโมงแรกเป็นของคุณ",
+        "cta": "สร้างแผนตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
-          "สมองปลอดโปร่ง",
+          "ใจปลอดโปร่ง",
           "เริ่มเคลื่อนไหวแล้ว",
           "ควบคุมได้"
         ]
       },
       "mission": {
-        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "อะไรจะทำให้คุณเริ่มจริงๆ",
+        "copy": "เลือกภารกิจที่รู้สึกเป็นไปได้สำหรับเช้าของคุณ",
         "cta": "ใช้ภารกิจนี้",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "คุณมีสิ่งไหนจริงๆ",
+        "targetCta": "นี่คือของฉัน",
+        "photoDisclosure": "รูปถูกตรวจบนอุปกรณ์ รูปจากแกลเลอรีไม่นับ และรูปภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow เลือกหนึ่งอย่างเมื่อนาฬิกาปลุกดัง",
         "targets": {
           "toilet": "ห้องน้ำ",
           "sink": "อ่างล้างจาน",
           "toothbrush": "แปรงสีฟัน",
-          "hair drier": "Hair dryer",
+          "hair drier": "ไดร์เป่าผม",
           "refrigerator": "ตู้เย็น",
           "cup": "ถ้วย",
           "bottle": "ขวด",
-          "microwave": "Microwave",
+          "microwave": "ไมโครเวฟ",
           "bowl": "ชาม",
           "cat": "แมว",
-          "dog": "สุนัข",
+          "dog": "หมา",
           "book": "หนังสือ",
           "laptop": "แล็ปท็อป",
-          "keyboard": "แป้นพิมพ์",
+          "keyboard": "คีย์บอร์ด",
           "mouse": "เมาส์",
           "backpack": "กระเป๋าเป้"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "ภารกิจห้องน้ำ",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในห้องน้ำ"
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "เริ่มที่ห้องครัว",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในครัว"
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "ตรวจสัตว์เลี้ยง",
+            "copy": "ถ่ายรูปแมวหรือหมาของคุณ"
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "โหมดเรียน",
+            "copy": "ถ่ายรูปหนังสือ แล็ปท็อป หรือกระเป๋าเป้"
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "ควิซคณิต",
+            "copy": "ตอบคำถามคณิตศาสตร์สองสามข้อเพื่อพิสูจน์ว่าคุณตื่นแล้ว"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "ยากแค่ไหน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "ง่าย",
+          "medium": "ปานกลาง",
+          "hard": "ยาก"
         }
       },
       "wakeTime": {
         "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "ตั้งเวลาตื่นของฉัน",
+        "copy": "เลือกเวลาที่นาฬิกาปลุก DawnVow อันแรกจะดัง",
+        "cta": "ตั้งเวลาตื่น",
         "accessibilityLabel": "เลือกเวลาตื่น"
       },
       "plan": {
-        "title": "DawnVow แรกของคุณพร้อมแล้ว",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "title": "DawnVow อันแรกพร้อมแล้ว",
+        "copy": "พรุ่งนี้ตัวคุณที่ง่วงจะทำตามแผน",
         "cta": "เก็บ DawnVow ของฉัน",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "สิทธิ์จะถูกขอเมื่อจำเป็นเท่านั้น",
         "labels": {
           "wakeTime": "เวลาตื่น",
           "mission": "ภารกิจของคุณ",
@@ -440,63 +440,63 @@
       "back": "ย้อนกลับ",
       "rule": "ทำภารกิจให้สำเร็จ ทำให้เช้าของคุณสำเร็จ",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 วางแผน",
+        "late": "12:00 สาย",
+        "alreadyMoving": "06:30 · เริ่มเคลื่อนไหว"
       },
       "painHook": {
         "title": "คุณปิดการปลุกแล้ว\nแต่ยังไม่ตื่น",
         "cta": "นี่แหละฉัน"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "คุณเป็นคนชอบเช้าไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "ใช่",
+          "not_yet": "ยังไม่"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "ช่วยเราวัดผลโฆษณาไหม",
+        "copy": "สิ่งนี้บอกว่าโฆษณาใดพาคนมาที่ DawnVow เราใช้ตัวระบุอุปกรณ์ ไม่ใช่นาฬิกาปลุก ภารกิจ หรือคำตอบของคุณ",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "วัดเฉพาะโฆษณา",
+          "ไม่ใช่นาฬิกาปลุกหรือภารกิจของคุณ",
+          "ปิดได้ทุกเมื่อในการตั้งค่า"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "อนุญาตการวัดผล",
+        "notNow": "ไว้ทีหลัง"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "คุณตั้งนาฬิกาปลุกกี่อัน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "หนึ่ง",
+          "two_or_three": "สองหรือสาม",
+          "four_plus": "สี่ขึ้นไป"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "นาฬิกาปลุกอันเดียวปลุกคุณได้จริงไหม",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "ใช่",
+          "sometimes": "บางครั้ง",
+          "no": "ไม่"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "คุณไม่ได้ขี้เกียจ คุณแค่ครึ่งหลับ",
+        "copy": "การแตะชนะก่อนสมองคุณตื่น",
+        "cta": "ดำเนินการต่อ",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "การตื่นไม่ใช่ปัญหาของคุณ",
+            "copy": "นาฬิกาปลุกอันเดียวปลุกคุณ สิ่งที่ยากคือการลุกจากเตียง"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "บางครั้งมันเหมือนโยนเหรียญ",
+            "copy": "ในเช้าที่ผิด การแตะครึ่งหลับชนะ"
           }
         }
       },
@@ -512,29 +512,29 @@
         }
       },
       "painPoints": {
-        "title": "อะไรที่มักขโมยเวลายามเช้าของคุณ",
+        "title": "อะไรมักขโมยเช้าของคุณ",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "อะไรขัดขวางคุณเมื่อนาฬิกาปลุกแรกดัง",
+          "on_time": "อะไรทำให้คุณสายเป็นประจำ",
+          "workouts": "อะไรขวางการออกกำลังกายตอนเช้า",
+          "routine": "อะไรทำลายกิจวัตรเช้าของคุณ",
+          "no_rushing": "อะไรทำให้เช้าของคุณเร่งรีบ"
         },
-        "copy": "เลือกข้อที่เกิดขึ้นบ่อยที่สุด",
-        "cta": "ใช่ฉันเลย",
+        "copy": "เลือกสิ่งที่เกิดซ้ำบ่อยที่สุด",
+        "cta": "นั่นคือฉัน",
         "options": {
-          "snooze_unaware": "ฉันกดเลื่อนปลุกโดยไม่คิด",
-          "dismiss_fall_asleep": "ฉันปิดแล้วหลับต่อ",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "ฉันกดเลื่อนโดยไม่คิด",
+          "dismiss_fall_asleep": "ฉันปิดมันแล้วหลับต่อ",
+          "up_not_moving": "ฉันตื่นแล้วแต่ลุกไม่ได้"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "ทำไมมันเกิดขึ้น มันหยุดอย่างไร",
+        "cta": "แสดงวิธีทำงาน",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "วงจรเลื่อนจบที่ภารกิจ",
+          "dismiss_fall_asleep": "แค่แตะไม่พอ",
+          "up_not_moving": "ภารกิจทำให้คุณลุกก่อนนาฬิกาปลุกเงียบ"
         }
       },
       "mechanism": {
@@ -566,84 +566,84 @@
       },
       "futureState": {
         "title": "06:30 ตื่นแล้ว เริ่มเคลื่อนไหวแล้ว",
-        "copy": "The first hour belongs to you.",
-        "cta": "สร้างแผนการตื่นของฉัน",
+        "copy": "ชั่วโมงแรกเป็นของคุณ",
+        "cta": "สร้างแผนตื่นของฉัน",
         "gains": [
           "ตรงเวลา",
-          "สมองปลอดโปร่ง",
+          "ใจปลอดโปร่ง",
           "เริ่มเคลื่อนไหวแล้ว",
           "ควบคุมได้"
         ]
       },
       "mission": {
-        "title": "อะไรจะทำให้คุณลุกขึ้นได้จริง",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "อะไรจะทำให้คุณเริ่มจริงๆ",
+        "copy": "เลือกภารกิจที่รู้สึกเป็นไปได้สำหรับเช้าของคุณ",
         "cta": "ใช้ภารกิจนี้",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "photoDisclosure": "ตรวจสอบภาพบนอุปกรณ์ของคุณ ภาพจากแกลเลอรีใช้ไม่ได้และภาพภารกิจจะถูกลบหลังตรวจสอบ",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "คุณมีสิ่งไหนจริงๆ",
+        "targetCta": "นี่คือของฉัน",
+        "photoDisclosure": "รูปถูกตรวจบนอุปกรณ์ รูปจากแกลเลอรีไม่นับ และรูปภารกิจจะถูกลบหลังตรวจสอบ",
+        "targetPrompt": "DawnVow เลือกหนึ่งอย่างเมื่อนาฬิกาปลุกดัง",
         "targets": {
           "toilet": "ห้องน้ำ",
           "sink": "อ่างล้างจาน",
           "toothbrush": "แปรงสีฟัน",
-          "hair drier": "Hair dryer",
+          "hair drier": "ไดร์เป่าผม",
           "refrigerator": "ตู้เย็น",
           "cup": "ถ้วย",
           "bottle": "ขวด",
-          "microwave": "Microwave",
+          "microwave": "ไมโครเวฟ",
           "bowl": "ชาม",
           "cat": "แมว",
-          "dog": "สุนัข",
+          "dog": "หมา",
           "book": "หนังสือ",
           "laptop": "แล็ปท็อป",
-          "keyboard": "แป้นพิมพ์",
+          "keyboard": "คีย์บอร์ด",
           "mouse": "เมาส์",
           "backpack": "กระเป๋าเป้"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "ภารกิจห้องน้ำ",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในห้องน้ำ"
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "เริ่มที่ห้องครัว",
+            "copy": "ถ่ายรูปของจำเป็นหนึ่งอย่างในครัว"
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "ตรวจสัตว์เลี้ยง",
+            "copy": "ถ่ายรูปแมวหรือหมาของคุณ"
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "โหมดเรียน",
+            "copy": "ถ่ายรูปหนังสือ แล็ปท็อป หรือกระเป๋าเป้"
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "ควิซคณิต",
+            "copy": "ตอบคำถามคณิตศาสตร์สองสามข้อเพื่อพิสูจน์ว่าคุณตื่นแล้ว"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "ยากแค่ไหน",
+        "cta": "ดำเนินการต่อ",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "ง่าย",
+          "medium": "ปานกลาง",
+          "hard": "ยาก"
         }
       },
       "wakeTime": {
         "title": "พรุ่งนี้คุณอยากตื่นกี่โมง",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "ตั้งเวลาตื่นของฉัน",
+        "copy": "เลือกเวลาที่นาฬิกาปลุก DawnVow อันแรกจะดัง",
+        "cta": "ตั้งเวลาตื่น",
         "accessibilityLabel": "เลือกเวลาตื่น"
       },
       "plan": {
-        "title": "DawnVow แรกของคุณพร้อมแล้ว",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "title": "DawnVow อันแรกพร้อมแล้ว",
+        "copy": "พรุ่งนี้ตัวคุณที่ง่วงจะทำตามแผน",
         "cta": "เก็บ DawnVow ของฉัน",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "สิทธิ์จะถูกขอเมื่อจำเป็นเท่านั้น",
         "labels": {
           "wakeTime": "เวลาตื่น",
           "mission": "ภารกิจของคุณ",
