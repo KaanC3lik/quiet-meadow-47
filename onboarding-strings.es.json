@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -15,61 +15,63 @@
         "alreadyMoving": "06:30 · Ya en marcha"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "¿Eres una persona mañanera?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Sí",
+          "not_yet": "Todavía no"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "¿Nos ayudas a medir nuestros anuncios?",
+        "copy": "Así vemos qué anuncios traen gente a DawnVow. Usa un identificador del dispositivo, nunca tus alarmas, misiones o respuestas.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Solo mide los anuncios",
+          "Nunca tus alarmas ni misiones",
+          "Se puede desactivar en Ajustes"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Permitir medición",
+        "notNow": "Ahora no"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "¿Cuántas alarmas pones?",
+        "cta": "Continuar",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Una",
+          "two_or_three": "Dos o tres",
+          "four_plus": "Cuatro o más"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "¿Una sola alarma te despertaría de verdad?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
+          "yes": "Sí",
+          "sometimes": "A veces",
           "no": "No"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "No eres perezoso. Estás medio dormido.",
+        "copy": "El toque gana antes de que tu cerebro despierte.",
+        "cta": "Continuar",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Despertarte no es tu problema.",
+            "copy": "Una alarma te despierta. Lo difícil es salir de la cama."
+          },
+          "sometimes": {
+            "title": "A veces es una moneda al aire.",
+            "copy": "Las mañanas en las que sale mal, gana un toque medio dormido."
           }
         }
       },
       "painHook": {
         "title": "Has apagado la alarma.\nNo te has despertado.",
-        "copy": "Un toque medio dormido te ha costado la mañana.",
         "cta": "Soy yo"
       },
       "goal": {
         "title": "¿Qué quieres cambiar de tus mañanas?",
-        "copy": "",
         "cta": "Elegir mi objetivo matutino",
         "options": {
           "first_alarm": "Levantarme cuando suene mi primera alarma",
@@ -93,12 +95,11 @@
         "options": {
           "snooze_unaware": "Pospongo sin pensar.",
           "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Estoy despierto, pero no puedo levantarme"
         }
       },
       "personalizedSolution": {
         "title": "Por qué pasa. Cómo se detiene.",
-        "copy": "",
         "cta": "Enséñame cómo funciona",
         "solutions": {
           "snooze_unaware": "El bucle de posponer termina en la misión.",
@@ -149,9 +150,9 @@
         "copy": "Elige la misión que parezca realista para tu mañana.",
         "cta": "Usar esta misión",
         "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "¿Cuáles tienes de verdad?",
+        "targetCta": "Estos son los míos",
+        "targetPrompt": "DawnVow elige uno de estos cuando suena tu alarma.",
         "targets": {
           "toilet": "Inodoro",
           "sink": "Fregadero",
@@ -188,18 +189,18 @@
             "copy": "Fotografía un libro, portátil o mochila."
           },
           "quick_quiz": {
-            "title": "Quiz rápido",
-            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+            "title": "Quiz de matemáticas",
+            "copy": "Responde algunas preguntas de matemáticas para demostrar que estás despierto."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "¿Qué dificultad quieres?",
+        "cta": "Continuar",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Fácil",
+          "medium": "Media",
+          "hard": "Difícil"
         }
       },
       "wakeTime": {
@@ -229,61 +230,63 @@
         "alreadyMoving": "06:30 · Ya en marcha"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "¿Eres una persona mañanera?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Sí",
+          "not_yet": "Todavía no"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "¿Nos ayudas a medir nuestros anuncios?",
+        "copy": "Así vemos qué anuncios traen gente a DawnVow. Usa un identificador del dispositivo, nunca tus alarmas, misiones o respuestas.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Solo mide los anuncios",
+          "Nunca tus alarmas ni misiones",
+          "Se puede desactivar en Ajustes"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Permitir medición",
+        "notNow": "Ahora no"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "¿Cuántas alarmas pones?",
+        "cta": "Continuar",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Una",
+          "two_or_three": "Dos o tres",
+          "four_plus": "Cuatro o más"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "¿Una sola alarma te despertaría de verdad?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
+          "yes": "Sí",
+          "sometimes": "A veces",
           "no": "No"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "No eres perezoso. Estás medio dormido.",
+        "copy": "El toque gana antes de que tu cerebro despierte.",
+        "cta": "Continuar",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Despertarte no es tu problema.",
+            "copy": "Una alarma te despierta. Lo difícil es salir de la cama."
+          },
+          "sometimes": {
+            "title": "A veces es una moneda al aire.",
+            "copy": "Las mañanas en las que sale mal, gana un toque medio dormido."
           }
         }
       },
       "painHook": {
         "title": "Has apagado la alarma.\nNo te has despertado.",
-        "copy": "Un toque medio dormido te ha costado la mañana.",
         "cta": "Soy yo"
       },
       "goal": {
         "title": "¿Qué quieres cambiar de tus mañanas?",
-        "copy": "",
         "cta": "Elegir mi objetivo matutino",
         "options": {
           "first_alarm": "Levantarme cuando suene mi primera alarma",
@@ -307,12 +310,11 @@
         "options": {
           "snooze_unaware": "Pospongo sin pensar.",
           "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Estoy despierto, pero no puedo levantarme"
         }
       },
       "personalizedSolution": {
         "title": "Por qué pasa. Cómo se detiene.",
-        "copy": "",
         "cta": "Enséñame cómo funciona",
         "solutions": {
           "snooze_unaware": "El bucle de posponer termina en la misión.",
@@ -363,9 +365,9 @@
         "copy": "Elige la misión que parezca realista para tu mañana.",
         "cta": "Usar esta misión",
         "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "¿Cuáles tienes de verdad?",
+        "targetCta": "Estos son los míos",
+        "targetPrompt": "DawnVow elige uno de estos cuando suena tu alarma.",
         "targets": {
           "toilet": "Inodoro",
           "sink": "Fregadero",
@@ -402,18 +404,18 @@
             "copy": "Fotografía un libro, portátil o mochila."
           },
           "quick_quiz": {
-            "title": "Quiz rápido",
-            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+            "title": "Quiz de matemáticas",
+            "copy": "Responde algunas preguntas de matemáticas para demostrar que estás despierto."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "¿Qué dificultad quieres?",
+        "cta": "Continuar",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Fácil",
+          "medium": "Media",
+          "hard": "Difícil"
         }
       },
       "wakeTime": {
@@ -443,61 +445,63 @@
         "alreadyMoving": "06:30 · Ya en marcha"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "¿Eres una persona mañanera?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Sí",
+          "not_yet": "Todavía no"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "¿Nos ayudas a medir nuestros anuncios?",
+        "copy": "Así vemos qué anuncios traen gente a DawnVow. Usa un identificador del dispositivo, nunca tus alarmas, misiones o respuestas.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Solo mide los anuncios",
+          "Nunca tus alarmas ni misiones",
+          "Se puede desactivar en Ajustes"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Permitir medición",
+        "notNow": "Ahora no"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "¿Cuántas alarmas pones?",
+        "cta": "Continuar",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Una",
+          "two_or_three": "Dos o tres",
+          "four_plus": "Cuatro o más"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "¿Una sola alarma te despertaría de verdad?",
+        "cta": "Continuar",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
+          "yes": "Sí",
+          "sometimes": "A veces",
           "no": "No"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "No eres perezoso. Estás medio dormido.",
+        "copy": "El toque gana antes de que tu cerebro despierte.",
+        "cta": "Continuar",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Despertarte no es tu problema.",
+            "copy": "Una alarma te despierta. Lo difícil es salir de la cama."
+          },
+          "sometimes": {
+            "title": "A veces es una moneda al aire.",
+            "copy": "Las mañanas en las que sale mal, gana un toque medio dormido."
           }
         }
       },
       "painHook": {
         "title": "Has apagado la alarma.\nNo te has despertado.",
-        "copy": "Un toque medio dormido te ha costado la mañana.",
         "cta": "Soy yo"
       },
       "goal": {
         "title": "¿Qué quieres cambiar de tus mañanas?",
-        "copy": "",
         "cta": "Elegir mi objetivo matutino",
         "options": {
           "first_alarm": "Levantarme cuando suene mi primera alarma",
@@ -521,12 +525,11 @@
         "options": {
           "snooze_unaware": "Pospongo sin pensar.",
           "dismiss_fall_asleep": "La apago y me vuelvo a dormir",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "Estoy despierto, pero no puedo levantarme"
         }
       },
       "personalizedSolution": {
         "title": "Por qué pasa. Cómo se detiene.",
-        "copy": "",
         "cta": "Enséñame cómo funciona",
         "solutions": {
           "snooze_unaware": "El bucle de posponer termina en la misión.",
@@ -577,9 +580,9 @@
         "copy": "Elige la misión que parezca realista para tu mañana.",
         "cta": "Usar esta misión",
         "photoDisclosure": "Las fotos se comprueban en tu dispositivo. Las imágenes de la galería no cuentan y las fotos de misión se eliminan después de verificarlas.",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "¿Cuáles tienes de verdad?",
+        "targetCta": "Estos son los míos",
+        "targetPrompt": "DawnVow elige uno de estos cuando suena tu alarma.",
         "targets": {
           "toilet": "Inodoro",
           "sink": "Fregadero",
@@ -616,18 +619,18 @@
             "copy": "Fotografía un libro, portátil o mochila."
           },
           "quick_quiz": {
-            "title": "Quiz rápido",
-            "copy": "Responde algunas preguntas para demostrar que estás despierto."
+            "title": "Quiz de matemáticas",
+            "copy": "Responde algunas preguntas de matemáticas para demostrar que estás despierto."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "¿Qué dificultad quieres?",
+        "cta": "Continuar",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Fácil",
+          "medium": "Media",
+          "hard": "Difícil"
         }
       },
       "wakeTime": {

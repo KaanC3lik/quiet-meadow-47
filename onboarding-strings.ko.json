@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -16,7 +16,6 @@
       },
       "painHook": {
         "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
-        "copy": "반쯤 잠든 한 번의 터치가 아침을 빼앗았어요.",
         "cta": "내 이야기예요"
       },
       "identity": {
@@ -64,12 +63,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
-        "copy": "",
         "cta": "아침 목표 선택",
         "options": {
           "first_alarm": "첫 알람이 울릴 때 일어나기",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "왜 생기는지. 어떻게 멈추는지.",
-        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",
@@ -230,7 +231,6 @@
       },
       "painHook": {
         "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
-        "copy": "반쯤 잠든 한 번의 터치가 아침을 빼앗았어요.",
         "cta": "내 이야기예요"
       },
       "identity": {
@@ -278,12 +278,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
-        "copy": "",
         "cta": "아침 목표 선택",
         "options": {
           "first_alarm": "첫 알람이 울릴 때 일어나기",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "왜 생기는지. 어떻게 멈추는지.",
-        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",
@@ -444,7 +446,6 @@
       },
       "painHook": {
         "title": "알람을 껐어요.\n잠에서 깨지 않았어요.",
-        "copy": "반쯤 잠든 한 번의 터치가 아침을 빼앗았어요.",
         "cta": "내 이야기예요"
       },
       "identity": {
@@ -492,12 +493,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "아침을 어떻게 바꾸고 싶나요?",
-        "copy": "",
         "cta": "아침 목표 선택",
         "options": {
           "first_alarm": "첫 알람이 울릴 때 일어나기",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "왜 생기는지. 어떻게 멈추는지.",
-        "copy": "",
         "cta": "작동 방식을 보기",
         "solutions": {
           "snooze_unaware": "스누즈 고리는 미션에서 끝나요.",

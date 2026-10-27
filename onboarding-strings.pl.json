@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -16,7 +16,6 @@
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
@@ -64,12 +63,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Co chcesz zmienić w swoich porankach?",
-        "copy": "",
         "cta": "Wybierz mój poranny cel",
         "options": {
           "first_alarm": "Wstawać przy pierwszym alarmie",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "Dlaczego się zdarza. Jak to zatrzymać.",
-        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Pętla drzemki kończy się na misji.",
@@ -230,7 +231,6 @@
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
@@ -278,12 +278,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Co chcesz zmienić w swoich porankach?",
-        "copy": "",
         "cta": "Wybierz mój poranny cel",
         "options": {
           "first_alarm": "Wstawać przy pierwszym alarmie",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "Dlaczego się zdarza. Jak to zatrzymać.",
-        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Pętla drzemki kończy się na misji.",
@@ -444,7 +446,6 @@
       },
       "painHook": {
         "title": "Wyłączyłeś alarm.\nNie obudziłeś się.",
-        "copy": "Jedno półprzytomne stuknięcie kosztowało cię cały poranek.",
         "cta": "To o mnie"
       },
       "identity": {
@@ -492,12 +493,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Co chcesz zmienić w swoich porankach?",
-        "copy": "",
         "cta": "Wybierz mój poranny cel",
         "options": {
           "first_alarm": "Wstawać przy pierwszym alarmie",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "Dlaczego się zdarza. Jak to zatrzymać.",
-        "copy": "",
         "cta": "Pokaż, jak to działa",
         "solutions": {
           "snooze_unaware": "Pętla drzemki kończy się na misji.",

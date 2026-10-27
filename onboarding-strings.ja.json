@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -59,17 +59,19 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
-        "copy": "半分眠ったままのタップで、朝を失いました。",
         "cta": "自分のことだ"
       },
       "goal": {
         "title": "朝の何を変えたいですか？",
-        "copy": "",
         "cta": "朝の目標を選ぶ",
         "options": {
           "first_alarm": "最初のアラームで起きる",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "なぜ起きるのか。どう止めるのか。",
-        "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
           "snooze_unaware": "スヌーズのループはミッションで終わる。",
@@ -273,17 +274,19 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
-        "copy": "半分眠ったままのタップで、朝を失いました。",
         "cta": "自分のことだ"
       },
       "goal": {
         "title": "朝の何を変えたいですか？",
-        "copy": "",
         "cta": "朝の目標を選ぶ",
         "options": {
           "first_alarm": "最初のアラームで起きる",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "なぜ起きるのか。どう止めるのか。",
-        "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
           "snooze_unaware": "スヌーズのループはミッションで終わる。",
@@ -487,17 +489,19 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "painHook": {
         "title": "アラームを止めました。\n目を覚ましませんでした。",
-        "copy": "半分眠ったままのタップで、朝を失いました。",
         "cta": "自分のことだ"
       },
       "goal": {
         "title": "朝の何を変えたいですか？",
-        "copy": "",
         "cta": "朝の目標を選ぶ",
         "options": {
           "first_alarm": "最初のアラームで起きる",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "なぜ起きるのか。どう止めるのか。",
-        "copy": "",
         "cta": "仕組みを見る",
         "solutions": {
           "snooze_unaware": "スヌーズのループはミッションで終わる。",

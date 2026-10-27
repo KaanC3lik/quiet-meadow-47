@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -16,7 +16,6 @@
       },
       "painHook": {
         "title": "你关掉了闹钟。\n却没有醒来。",
-        "copy": "半睡半醒的一次点击，让你失去了整个早晨。",
         "cta": "这就是我"
       },
       "identity": {
@@ -64,12 +63,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
-        "copy": "",
         "cta": "选择我的早晨目标",
         "options": {
           "first_alarm": "第一个闹钟响起时起床",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "为什么会发生。怎样停下来。",
-        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "贪睡循环在任务处结束。",
@@ -230,7 +231,6 @@
       },
       "painHook": {
         "title": "你关掉了闹钟。\n却没有醒来。",
-        "copy": "半睡半醒的一次点击，让你失去了整个早晨。",
         "cta": "这就是我"
       },
       "identity": {
@@ -278,12 +278,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
-        "copy": "",
         "cta": "选择我的早晨目标",
         "options": {
           "first_alarm": "第一个闹钟响起时起床",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "为什么会发生。怎样停下来。",
-        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "贪睡循环在任务处结束。",
@@ -444,7 +446,6 @@
       },
       "painHook": {
         "title": "你关掉了闹钟。\n却没有醒来。",
-        "copy": "半睡半醒的一次点击，让你失去了整个早晨。",
         "cta": "这就是我"
       },
       "identity": {
@@ -492,12 +493,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "你想怎样改变自己的早晨？",
-        "copy": "",
         "cta": "选择我的早晨目标",
         "options": {
           "first_alarm": "第一个闹钟响起时起床",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "为什么会发生。怎样停下来。",
-        "copy": "",
         "cta": "看看它如何工作",
         "solutions": {
           "snooze_unaware": "贪睡循环在任务处结束。",

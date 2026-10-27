@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -16,7 +16,6 @@
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {
@@ -64,12 +63,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
-        "copy": "",
         "cta": "Chọn chiến thắng buổi sáng",
         "options": {
           "first_alarm": "Dậy khi báo thức đầu tiên reo",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "Why it happens. How it stops.",
-        "copy": "",
         "cta": "Show me how it works",
         "solutions": {
           "snooze_unaware": "The snooze loop ends at the mission.",
@@ -230,7 +231,6 @@
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {
@@ -278,12 +278,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
-        "copy": "",
         "cta": "Chọn chiến thắng buổi sáng",
         "options": {
           "first_alarm": "Dậy khi báo thức đầu tiên reo",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "Why it happens. How it stops.",
-        "copy": "",
         "cta": "Show me how it works",
         "solutions": {
           "snooze_unaware": "The snooze loop ends at the mission.",
@@ -444,7 +446,6 @@
       },
       "painHook": {
         "title": "Bạn đã tắt báo thức.\nBạn vẫn chưa thức dậy.",
-        "copy": "Một cú chạm trong lúc ngái ngủ đã lấy mất cả buổi sáng của bạn.",
         "cta": "Đúng là tôi"
       },
       "identity": {
@@ -492,12 +493,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Bạn muốn thay đổi điều gì trong buổi sáng?",
-        "copy": "",
         "cta": "Chọn chiến thắng buổi sáng",
         "options": {
           "first_alarm": "Dậy khi báo thức đầu tiên reo",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "Why it happens. How it stops.",
-        "copy": "",
         "cta": "Show me how it works",
         "solutions": {
           "snooze_unaware": "The snooze loop ends at the mission.",

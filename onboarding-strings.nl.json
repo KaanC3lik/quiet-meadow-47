@@ -1,6 +1,6 @@
 {
   "source_version": 2,
-  "version": 25,
+  "version": 26,
   "experiment_id": "exp_v2",
   "assignment": {
     "control": 100
@@ -16,7 +16,6 @@
       },
       "painHook": {
         "title": "Je zette de wekker uit.\nJe werd niet wakker.",
-        "copy": "Eén halfslaperige tik kostte je je ochtend.",
         "cta": "Dat ben ik"
       },
       "identity": {
@@ -64,12 +63,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
-        "copy": "",
         "cta": "Mijn ochtenddoel kiezen",
         "options": {
           "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
@@ -98,7 +100,6 @@
       },
       "personalizedSolution": {
         "title": "Waarom het gebeurt. Hoe het stopt.",
-        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "De snooze-loop stopt bij de missie.",
@@ -230,7 +231,6 @@
       },
       "painHook": {
         "title": "Je zette de wekker uit.\nJe werd niet wakker.",
-        "copy": "Eén halfslaperige tik kostte je je ochtend.",
         "cta": "Dat ben ik"
       },
       "identity": {
@@ -278,12 +278,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
-        "copy": "",
         "cta": "Mijn ochtenddoel kiezen",
         "options": {
           "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
@@ -312,7 +315,6 @@
       },
       "personalizedSolution": {
         "title": "Waarom het gebeurt. Hoe het stopt.",
-        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "De snooze-loop stopt bij de missie.",
@@ -444,7 +446,6 @@
       },
       "painHook": {
         "title": "Je zette de wekker uit.\nJe werd niet wakker.",
-        "copy": "Eén halfslaperige tik kostte je je ochtend.",
         "cta": "Dat ben ik"
       },
       "identity": {
@@ -492,12 +493,15 @@
           "yes": {
             "title": "Waking up isn’t your problem.",
             "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+          },
+          "sometimes": {
+            "title": "Sometimes is a coin flip.",
+            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
           }
         }
       },
       "goal": {
         "title": "Wat wil je veranderen aan je ochtenden?",
-        "copy": "",
         "cta": "Mijn ochtenddoel kiezen",
         "options": {
           "first_alarm": "Opstaan wanneer mijn eerste wekker gaat",
@@ -526,7 +530,6 @@
       },
       "personalizedSolution": {
         "title": "Waarom het gebeurt. Hoe het stopt.",
-        "copy": "",
         "cta": "Laat zien hoe het werkt",
         "solutions": {
           "snooze_unaware": "De snooze-loop stopt bij de missie.",
