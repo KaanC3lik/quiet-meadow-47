@@ -10,63 +10,63 @@
       "back": "Kembali",
       "rule": "Lengkapkan misi. Lengkapkan pagi anda.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Direncanakan",
+        "late": "12:00 Lewat",
+        "alreadyMoving": "06:30 · Sudah bergerak"
       },
       "painHook": {
         "title": "Anda mematikan penggera.\nAnda tidak bangun.",
         "cta": "Itu saya"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Adakah anda orang pagi?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Ya",
+          "not_yet": "Belum"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Bantu kami mengukur iklan?",
+        "copy": "Ini menunjukkan iklan mana yang membawa orang ke DawnVow. Kami menggunakan pengecam peranti — bukan penggera, misi atau jawapan anda.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Hanya mengukur iklan",
+          "Tidak pernah penggera atau misi anda",
+          "Boleh dimatikan di Tetapan"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Benarkan pengukuran",
+        "notNow": "Bukan sekarang"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Berapa banyak penggera yang anda pasang?",
+        "cta": "Teruskan",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Satu",
+          "two_or_three": "Dua atau tiga",
+          "four_plus": "Empat atau lebih"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Adakah satu penggera benar-benar boleh membangunkan anda?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Ya",
+          "sometimes": "Kadang-kadang",
+          "no": "Tidak"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Anda bukan malas. Anda separuh tidur.",
+        "copy": "Sentuhan menang sebelum otak anda bangun.",
+        "cta": "Teruskan",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Bangun bukan masalah anda.",
+            "copy": "Satu penggera membangunkan anda. Yang sukar ialah keluar dari katil."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Kadang-kadang ia seperti lambungan syiling.",
+            "copy": "Pada pagi yang silap, sentuhan separuh tidur menang."
           }
         }
       },
@@ -82,29 +82,29 @@
         }
       },
       "painPoints": {
-        "title": "Apakah yang biasanya mencuri pagi anda?",
+        "title": "Apa yang biasanya mencuri pagi anda?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Apa yang menghalang anda bangun apabila penggera pertama berbunyi?",
+          "on_time": "Apa yang biasanya membuat anda lewat?",
+          "workouts": "Apa yang menghalang senaman pagi anda?",
+          "routine": "Apa yang merosakkan rutin pagi anda?",
+          "no_rushing": "Apa yang membuat pagi anda tergesa-gesa?"
         },
-        "copy": "Pilih yang selalu berulang.",
+        "copy": "Pilih yang paling kerap berlaku.",
         "cta": "Itu saya",
         "options": {
-          "snooze_unaware": "Saya tekan tunda tanpa fikir.",
-          "dismiss_fall_asleep": "Saya mematikannya lalu tidur semula",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "Saya menekan tunda tanpa berfikir.",
+          "dismiss_fall_asleep": "Saya mematikannya dan tidur semula",
+          "up_not_moving": "Saya sudah bangun, tetapi tidak boleh beranjak"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Mengapa ia berlaku. Bagaimana ia berhenti.",
+        "cta": "Tunjukkan cara ia berfungsi",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Gelung tunda berakhir pada misi.",
+          "dismiss_fall_asleep": "Sentuhan sahaja tidak cukup.",
+          "up_not_moving": "Misi membuat anda bangun sebelum penggera senyap."
         }
       },
       "mechanism": {
@@ -136,86 +136,86 @@
       },
       "futureState": {
         "title": "06:30. Sudah bangun. Sudah bergerak.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Bina rancangan bangun saya",
+        "copy": "Jam pertama milik anda.",
+        "cta": "Buat pelan bangun saya",
         "gains": [
           "Tepat masa",
-          "Fikiran jelas",
+          "Fikiran jernih",
           "Sudah bergerak",
-          "Terkawal"
+          "Dalam kawalan"
         ]
       },
       "mission": {
-        "title": "Apakah yang benar-benar akan membuat anda bergerak?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "Apa yang benar-benar akan membuat anda bergerak?",
+        "copy": "Pilih misi yang terasa realistik untuk pagi anda.",
         "cta": "Gunakan misi ini",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Mana yang benar-benar anda ada?",
+        "targetCta": "Ini milik saya",
         "photoDisclosure": "Foto diperiksa pada peranti anda. Foto galeri tidak dikira dan foto misi dipadam selepas pengesahan.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow memilih salah satunya apabila penggera berbunyi.",
         "targets": {
           "toilet": "Tandas",
-          "sink": "Singki",
+          "sink": "Sinki",
           "toothbrush": "Berus gigi",
-          "hair drier": "Hair dryer",
+          "hair drier": "Pengering rambut",
           "refrigerator": "Peti sejuk",
           "cup": "Cawan",
           "bottle": "Botol",
-          "microwave": "Microwave",
+          "microwave": "Ketuhar gelombang mikro",
           "bowl": "Mangkuk",
           "cat": "Kucing",
           "dog": "Anjing",
           "book": "Buku",
-          "laptop": "Komputer riba",
+          "laptop": "Laptop",
           "keyboard": "Papan kekunci",
           "mouse": "Tetikus",
           "backpack": "Beg galas"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Cabaran bilik mandi",
+            "copy": "Foto satu barang penting di bilik mandi."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Mula di dapur",
+            "copy": "Foto satu barang penting di dapur."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Semak haiwan peliharaan",
+            "copy": "Foto kucing atau anjing anda."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Mod belajar",
+            "copy": "Foto buku, laptop atau beg galas."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Kuiz matematik",
+            "copy": "Jawab beberapa soalan matematik untuk membuktikan anda sudah bangun."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Berapa sukar?",
+        "cta": "Teruskan",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Mudah",
+          "medium": "Sederhana",
+          "hard": "Sukar"
         }
       },
       "wakeTime": {
         "title": "Pukul berapa anda mahu bangun esok?",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "Tetapkan masa bangun saya",
-        "accessibilityLabel": "Pilih masa bangun"
+        "copy": "Pilih masa penggera DawnVow pertama anda berbunyi.",
+        "cta": "Tetapkan waktu bangun saya",
+        "accessibilityLabel": "Pilih waktu bangun"
       },
       "plan": {
         "title": "DawnVow pertama anda sudah sedia.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Esok, diri anda yang mengantuk akan mengikut pelan.",
         "cta": "Simpan DawnVow saya",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Kebenaran hanya diminta apabila diperlukan.",
         "labels": {
-          "wakeTime": "Masa bangun",
+          "wakeTime": "Waktu bangun",
           "mission": "Misi anda",
           "rule": "Peraturan baharu anda"
         }
@@ -225,63 +225,63 @@
       "back": "Kembali",
       "rule": "Lengkapkan misi. Lengkapkan pagi anda.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Direncanakan",
+        "late": "12:00 Lewat",
+        "alreadyMoving": "06:30 · Sudah bergerak"
       },
       "painHook": {
         "title": "Anda mematikan penggera.\nAnda tidak bangun.",
         "cta": "Itu saya"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Adakah anda orang pagi?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Ya",
+          "not_yet": "Belum"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Bantu kami mengukur iklan?",
+        "copy": "Ini menunjukkan iklan mana yang membawa orang ke DawnVow. Kami menggunakan pengecam peranti — bukan penggera, misi atau jawapan anda.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Hanya mengukur iklan",
+          "Tidak pernah penggera atau misi anda",
+          "Boleh dimatikan di Tetapan"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Benarkan pengukuran",
+        "notNow": "Bukan sekarang"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Berapa banyak penggera yang anda pasang?",
+        "cta": "Teruskan",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Satu",
+          "two_or_three": "Dua atau tiga",
+          "four_plus": "Empat atau lebih"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Adakah satu penggera benar-benar boleh membangunkan anda?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Ya",
+          "sometimes": "Kadang-kadang",
+          "no": "Tidak"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Anda bukan malas. Anda separuh tidur.",
+        "copy": "Sentuhan menang sebelum otak anda bangun.",
+        "cta": "Teruskan",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Bangun bukan masalah anda.",
+            "copy": "Satu penggera membangunkan anda. Yang sukar ialah keluar dari katil."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Kadang-kadang ia seperti lambungan syiling.",
+            "copy": "Pada pagi yang silap, sentuhan separuh tidur menang."
           }
         }
       },
@@ -297,29 +297,29 @@
         }
       },
       "painPoints": {
-        "title": "Apakah yang biasanya mencuri pagi anda?",
+        "title": "Apa yang biasanya mencuri pagi anda?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Apa yang menghalang anda bangun apabila penggera pertama berbunyi?",
+          "on_time": "Apa yang biasanya membuat anda lewat?",
+          "workouts": "Apa yang menghalang senaman pagi anda?",
+          "routine": "Apa yang merosakkan rutin pagi anda?",
+          "no_rushing": "Apa yang membuat pagi anda tergesa-gesa?"
         },
-        "copy": "Pilih yang selalu berulang.",
+        "copy": "Pilih yang paling kerap berlaku.",
         "cta": "Itu saya",
         "options": {
-          "snooze_unaware": "Saya tekan tunda tanpa fikir.",
-          "dismiss_fall_asleep": "Saya mematikannya lalu tidur semula",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "Saya menekan tunda tanpa berfikir.",
+          "dismiss_fall_asleep": "Saya mematikannya dan tidur semula",
+          "up_not_moving": "Saya sudah bangun, tetapi tidak boleh beranjak"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Mengapa ia berlaku. Bagaimana ia berhenti.",
+        "cta": "Tunjukkan cara ia berfungsi",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Gelung tunda berakhir pada misi.",
+          "dismiss_fall_asleep": "Sentuhan sahaja tidak cukup.",
+          "up_not_moving": "Misi membuat anda bangun sebelum penggera senyap."
         }
       },
       "mechanism": {
@@ -351,86 +351,86 @@
       },
       "futureState": {
         "title": "06:30. Sudah bangun. Sudah bergerak.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Bina rancangan bangun saya",
+        "copy": "Jam pertama milik anda.",
+        "cta": "Buat pelan bangun saya",
         "gains": [
           "Tepat masa",
-          "Fikiran jelas",
+          "Fikiran jernih",
           "Sudah bergerak",
-          "Terkawal"
+          "Dalam kawalan"
         ]
       },
       "mission": {
-        "title": "Apakah yang benar-benar akan membuat anda bergerak?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "Apa yang benar-benar akan membuat anda bergerak?",
+        "copy": "Pilih misi yang terasa realistik untuk pagi anda.",
         "cta": "Gunakan misi ini",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Mana yang benar-benar anda ada?",
+        "targetCta": "Ini milik saya",
         "photoDisclosure": "Foto diperiksa pada peranti anda. Foto galeri tidak dikira dan foto misi dipadam selepas pengesahan.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow memilih salah satunya apabila penggera berbunyi.",
         "targets": {
           "toilet": "Tandas",
-          "sink": "Singki",
+          "sink": "Sinki",
           "toothbrush": "Berus gigi",
-          "hair drier": "Hair dryer",
+          "hair drier": "Pengering rambut",
           "refrigerator": "Peti sejuk",
           "cup": "Cawan",
           "bottle": "Botol",
-          "microwave": "Microwave",
+          "microwave": "Ketuhar gelombang mikro",
           "bowl": "Mangkuk",
           "cat": "Kucing",
           "dog": "Anjing",
           "book": "Buku",
-          "laptop": "Komputer riba",
+          "laptop": "Laptop",
           "keyboard": "Papan kekunci",
           "mouse": "Tetikus",
           "backpack": "Beg galas"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Cabaran bilik mandi",
+            "copy": "Foto satu barang penting di bilik mandi."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Mula di dapur",
+            "copy": "Foto satu barang penting di dapur."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Semak haiwan peliharaan",
+            "copy": "Foto kucing atau anjing anda."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Mod belajar",
+            "copy": "Foto buku, laptop atau beg galas."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Kuiz matematik",
+            "copy": "Jawab beberapa soalan matematik untuk membuktikan anda sudah bangun."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Berapa sukar?",
+        "cta": "Teruskan",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Mudah",
+          "medium": "Sederhana",
+          "hard": "Sukar"
         }
       },
       "wakeTime": {
         "title": "Pukul berapa anda mahu bangun esok?",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "Tetapkan masa bangun saya",
-        "accessibilityLabel": "Pilih masa bangun"
+        "copy": "Pilih masa penggera DawnVow pertama anda berbunyi.",
+        "cta": "Tetapkan waktu bangun saya",
+        "accessibilityLabel": "Pilih waktu bangun"
       },
       "plan": {
         "title": "DawnVow pertama anda sudah sedia.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Esok, diri anda yang mengantuk akan mengikut pelan.",
         "cta": "Simpan DawnVow saya",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Kebenaran hanya diminta apabila diperlukan.",
         "labels": {
-          "wakeTime": "Masa bangun",
+          "wakeTime": "Waktu bangun",
           "mission": "Misi anda",
           "rule": "Peraturan baharu anda"
         }
@@ -440,63 +440,63 @@
       "back": "Kembali",
       "rule": "Lengkapkan misi. Lengkapkan pagi anda.",
       "timestamps": {
-        "planned": "06:30 Planned",
-        "late": "12:00 Late",
-        "alreadyMoving": "06:30 · Already moving"
+        "planned": "06:30 Direncanakan",
+        "late": "12:00 Lewat",
+        "alreadyMoving": "06:30 · Sudah bergerak"
       },
       "painHook": {
         "title": "Anda mematikan penggera.\nAnda tidak bangun.",
         "cta": "Itu saya"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "Adakah anda orang pagi?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "Ya",
+          "not_yet": "Belum"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "Bantu kami mengukur iklan?",
+        "copy": "Ini menunjukkan iklan mana yang membawa orang ke DawnVow. Kami menggunakan pengecam peranti — bukan penggera, misi atau jawapan anda.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "Hanya mengukur iklan",
+          "Tidak pernah penggera atau misi anda",
+          "Boleh dimatikan di Tetapan"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "Benarkan pengukuran",
+        "notNow": "Bukan sekarang"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "Berapa banyak penggera yang anda pasang?",
+        "cta": "Teruskan",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "Satu",
+          "two_or_three": "Dua atau tiga",
+          "four_plus": "Empat atau lebih"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "Adakah satu penggera benar-benar boleh membangunkan anda?",
+        "cta": "Teruskan",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "Ya",
+          "sometimes": "Kadang-kadang",
+          "no": "Tidak"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "Anda bukan malas. Anda separuh tidur.",
+        "copy": "Sentuhan menang sebelum otak anda bangun.",
+        "cta": "Teruskan",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "Bangun bukan masalah anda.",
+            "copy": "Satu penggera membangunkan anda. Yang sukar ialah keluar dari katil."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "Kadang-kadang ia seperti lambungan syiling.",
+            "copy": "Pada pagi yang silap, sentuhan separuh tidur menang."
           }
         }
       },
@@ -512,29 +512,29 @@
         }
       },
       "painPoints": {
-        "title": "Apakah yang biasanya mencuri pagi anda?",
+        "title": "Apa yang biasanya mencuri pagi anda?",
         "titlesByGoal": {
-          "first_alarm": "What stops you when the first alarm rings?",
-          "on_time": "What usually makes you late?",
-          "workouts": "What gets between you and your morning workout?",
-          "routine": "What breaks your morning routine?",
-          "no_rushing": "What turns your morning into a rush?"
+          "first_alarm": "Apa yang menghalang anda bangun apabila penggera pertama berbunyi?",
+          "on_time": "Apa yang biasanya membuat anda lewat?",
+          "workouts": "Apa yang menghalang senaman pagi anda?",
+          "routine": "Apa yang merosakkan rutin pagi anda?",
+          "no_rushing": "Apa yang membuat pagi anda tergesa-gesa?"
         },
-        "copy": "Pilih yang selalu berulang.",
+        "copy": "Pilih yang paling kerap berlaku.",
         "cta": "Itu saya",
         "options": {
-          "snooze_unaware": "Saya tekan tunda tanpa fikir.",
-          "dismiss_fall_asleep": "Saya mematikannya lalu tidur semula",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "snooze_unaware": "Saya menekan tunda tanpa berfikir.",
+          "dismiss_fall_asleep": "Saya mematikannya dan tidur semula",
+          "up_not_moving": "Saya sudah bangun, tetapi tidak boleh beranjak"
         }
       },
       "personalizedSolution": {
-        "title": "Why it happens. How it stops.",
-        "cta": "Show me how it works",
+        "title": "Mengapa ia berlaku. Bagaimana ia berhenti.",
+        "cta": "Tunjukkan cara ia berfungsi",
         "solutions": {
-          "snooze_unaware": "The snooze loop ends at the mission.",
-          "dismiss_fall_asleep": "The tap can’t finish the job.",
-          "up_not_moving": "The mission gets you up before the alarm goes quiet."
+          "snooze_unaware": "Gelung tunda berakhir pada misi.",
+          "dismiss_fall_asleep": "Sentuhan sahaja tidak cukup.",
+          "up_not_moving": "Misi membuat anda bangun sebelum penggera senyap."
         }
       },
       "mechanism": {
@@ -566,86 +566,86 @@
       },
       "futureState": {
         "title": "06:30. Sudah bangun. Sudah bergerak.",
-        "copy": "The first hour belongs to you.",
-        "cta": "Bina rancangan bangun saya",
+        "copy": "Jam pertama milik anda.",
+        "cta": "Buat pelan bangun saya",
         "gains": [
           "Tepat masa",
-          "Fikiran jelas",
+          "Fikiran jernih",
           "Sudah bergerak",
-          "Terkawal"
+          "Dalam kawalan"
         ]
       },
       "mission": {
-        "title": "Apakah yang benar-benar akan membuat anda bergerak?",
-        "copy": "Pick the mission that feels realistic for your morning.",
+        "title": "Apa yang benar-benar akan membuat anda bergerak?",
+        "copy": "Pilih misi yang terasa realistik untuk pagi anda.",
         "cta": "Gunakan misi ini",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "Mana yang benar-benar anda ada?",
+        "targetCta": "Ini milik saya",
         "photoDisclosure": "Foto diperiksa pada peranti anda. Foto galeri tidak dikira dan foto misi dipadam selepas pengesahan.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "DawnVow memilih salah satunya apabila penggera berbunyi.",
         "targets": {
           "toilet": "Tandas",
-          "sink": "Singki",
+          "sink": "Sinki",
           "toothbrush": "Berus gigi",
-          "hair drier": "Hair dryer",
+          "hair drier": "Pengering rambut",
           "refrigerator": "Peti sejuk",
           "cup": "Cawan",
           "bottle": "Botol",
-          "microwave": "Microwave",
+          "microwave": "Ketuhar gelombang mikro",
           "bowl": "Mangkuk",
           "cat": "Kucing",
           "dog": "Anjing",
           "book": "Buku",
-          "laptop": "Komputer riba",
+          "laptop": "Laptop",
           "keyboard": "Papan kekunci",
           "mouse": "Tetikus",
           "backpack": "Beg galas"
         },
         "options": {
           "bathroom_escape": {
-            "title": "Bathroom Escape",
-            "copy": "bathroom essentials"
+            "title": "Cabaran bilik mandi",
+            "copy": "Foto satu barang penting di bilik mandi."
           },
           "kitchen_start": {
-            "title": "Kitchen Start",
-            "copy": "kitchen essentials"
+            "title": "Mula di dapur",
+            "copy": "Foto satu barang penting di dapur."
           },
           "pet_check": {
-            "title": "Pet Check",
-            "copy": "your cat or dog"
+            "title": "Semak haiwan peliharaan",
+            "copy": "Foto kucing atau anjing anda."
           },
           "study_mode": {
-            "title": "Study Mode",
-            "copy": "book or laptop"
+            "title": "Mod belajar",
+            "copy": "Foto buku, laptop atau beg galas."
           },
           "quick_quiz": {
-            "title": "Math Quiz",
-            "copy": "a few math questions"
+            "title": "Kuiz matematik",
+            "copy": "Jawab beberapa soalan matematik untuk membuktikan anda sudah bangun."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "Berapa sukar?",
+        "cta": "Teruskan",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "Mudah",
+          "medium": "Sederhana",
+          "hard": "Sukar"
         }
       },
       "wakeTime": {
         "title": "Pukul berapa anda mahu bangun esok?",
-        "copy": "Choose the time your first DawnVow should ring.",
-        "cta": "Tetapkan masa bangun saya",
-        "accessibilityLabel": "Pilih masa bangun"
+        "copy": "Pilih masa penggera DawnVow pertama anda berbunyi.",
+        "cta": "Tetapkan waktu bangun saya",
+        "accessibilityLabel": "Pilih waktu bangun"
       },
       "plan": {
         "title": "DawnVow pertama anda sudah sedia.",
-        "copy": "Tomorrow, sleepy-you follows the plan.",
+        "copy": "Esok, diri anda yang mengantuk akan mengikut pelan.",
         "cta": "Simpan DawnVow saya",
-        "trust": "Permissions are asked only when they’re needed.",
+        "trust": "Kebenaran hanya diminta apabila diperlukan.",
         "labels": {
-          "wakeTime": "Masa bangun",
+          "wakeTime": "Waktu bangun",
           "mission": "Misi anda",
           "rule": "Peraturan baharu anda"
         }
