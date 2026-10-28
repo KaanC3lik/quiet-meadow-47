@@ -19,54 +19,54 @@
         "cta": "내 이야기예요"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "아침형 인간인가요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "예",
+          "not_yet": "아직"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "광고 측정을 도와주시겠어요?",
+        "copy": "어떤 광고가 사람들을 DawnVow로 데려오는지 보여줍니다. 기기 식별자를 사용하며 알람, 미션, 답변은 사용하지 않습니다.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "광고만 측정",
+          "알람이나 미션은 사용하지 않음",
+          "설정에서 언제든 끌 수 있음"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "측정 허용",
+        "notNow": "나중에"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "알람을 몇 개 설정하나요?",
+        "cta": "계속",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "하나",
+          "two_or_three": "둘 또는 셋",
+          "four_plus": "넷 이상"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "알람 하나로 정말 일어날 수 있나요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "예",
+          "sometimes": "가끔",
+          "no": "아니요"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "게으른 게 아니라 반쯤 잠든 겁니다.",
+        "copy": "뇌가 깨기 전에 탭이 이깁니다.",
+        "cta": "계속",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "일어나는 게 문제가 아닙니다.",
+            "copy": "알람 하나로 눈은 떠집니다. 어려운 건 침대에서 나오는 것입니다."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "가끔은 동전 던지기입니다.",
+            "copy": "잘못되는 아침에는 반쯤 잠든 탭이 이깁니다."
           }
         }
       },
@@ -95,7 +95,7 @@
         "options": {
           "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "깨어 있지만 일어날 수 없습니다"
         }
       },
       "personalizedSolution": {
@@ -149,27 +149,27 @@
         "title": "무엇이 정말 움직이게 할까요?",
         "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
         "cta": "이 미션 사용",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "실제로 가지고 있는 것은?",
+        "targetCta": "이게 있어요",
         "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "알람이 울리면 DawnVow가 하나를 선택합니다.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "변기",
+          "sink": "싱크대",
+          "toothbrush": "칫솔",
+          "hair drier": "헤어드라이어",
+          "refrigerator": "냉장고",
+          "cup": "컵",
+          "bottle": "병",
+          "microwave": "전자레인지",
+          "bowl": "그릇",
+          "cat": "고양이",
+          "dog": "개",
+          "book": "책",
+          "laptop": "노트북",
+          "keyboard": "키보드",
+          "mouse": "마우스",
+          "backpack": "백팩"
         },
         "options": {
           "bathroom_escape": {
@@ -189,18 +189,18 @@
             "copy": "책, 노트북 또는 배낭을 촬영하세요."
           },
           "quick_quiz": {
-            "title": "빠른 퀴즈",
-            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+            "title": "수학 퀴즈",
+            "copy": "수학 문제 몇 개를 풀어 깨어 있음을 증명하세요."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "난이도는?",
+        "cta": "계속",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "쉬움",
+          "medium": "보통",
+          "hard": "어려움"
         }
       },
       "wakeTime": {
@@ -234,54 +234,54 @@
         "cta": "내 이야기예요"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "아침형 인간인가요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "예",
+          "not_yet": "아직"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "광고 측정을 도와주시겠어요?",
+        "copy": "어떤 광고가 사람들을 DawnVow로 데려오는지 보여줍니다. 기기 식별자를 사용하며 알람, 미션, 답변은 사용하지 않습니다.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "광고만 측정",
+          "알람이나 미션은 사용하지 않음",
+          "설정에서 언제든 끌 수 있음"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "측정 허용",
+        "notNow": "나중에"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "알람을 몇 개 설정하나요?",
+        "cta": "계속",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "하나",
+          "two_or_three": "둘 또는 셋",
+          "four_plus": "넷 이상"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "알람 하나로 정말 일어날 수 있나요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "예",
+          "sometimes": "가끔",
+          "no": "아니요"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "게으른 게 아니라 반쯤 잠든 겁니다.",
+        "copy": "뇌가 깨기 전에 탭이 이깁니다.",
+        "cta": "계속",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "일어나는 게 문제가 아닙니다.",
+            "copy": "알람 하나로 눈은 떠집니다. 어려운 건 침대에서 나오는 것입니다."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "가끔은 동전 던지기입니다.",
+            "copy": "잘못되는 아침에는 반쯤 잠든 탭이 이깁니다."
           }
         }
       },
@@ -310,7 +310,7 @@
         "options": {
           "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "깨어 있지만 일어날 수 없습니다"
         }
       },
       "personalizedSolution": {
@@ -364,27 +364,27 @@
         "title": "무엇이 정말 움직이게 할까요?",
         "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
         "cta": "이 미션 사용",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "실제로 가지고 있는 것은?",
+        "targetCta": "이게 있어요",
         "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "알람이 울리면 DawnVow가 하나를 선택합니다.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "변기",
+          "sink": "싱크대",
+          "toothbrush": "칫솔",
+          "hair drier": "헤어드라이어",
+          "refrigerator": "냉장고",
+          "cup": "컵",
+          "bottle": "병",
+          "microwave": "전자레인지",
+          "bowl": "그릇",
+          "cat": "고양이",
+          "dog": "개",
+          "book": "책",
+          "laptop": "노트북",
+          "keyboard": "키보드",
+          "mouse": "마우스",
+          "backpack": "백팩"
         },
         "options": {
           "bathroom_escape": {
@@ -404,18 +404,18 @@
             "copy": "책, 노트북 또는 배낭을 촬영하세요."
           },
           "quick_quiz": {
-            "title": "빠른 퀴즈",
-            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+            "title": "수학 퀴즈",
+            "copy": "수학 문제 몇 개를 풀어 깨어 있음을 증명하세요."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "난이도는?",
+        "cta": "계속",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "쉬움",
+          "medium": "보통",
+          "hard": "어려움"
         }
       },
       "wakeTime": {
@@ -449,54 +449,54 @@
         "cta": "내 이야기예요"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "아침형 인간인가요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "예",
+          "not_yet": "아직"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "광고 측정을 도와주시겠어요?",
+        "copy": "어떤 광고가 사람들을 DawnVow로 데려오는지 보여줍니다. 기기 식별자를 사용하며 알람, 미션, 답변은 사용하지 않습니다.",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "광고만 측정",
+          "알람이나 미션은 사용하지 않음",
+          "설정에서 언제든 끌 수 있음"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "측정 허용",
+        "notNow": "나중에"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "알람을 몇 개 설정하나요?",
+        "cta": "계속",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "하나",
+          "two_or_three": "둘 또는 셋",
+          "four_plus": "넷 이상"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "알람 하나로 정말 일어날 수 있나요?",
+        "cta": "계속",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "예",
+          "sometimes": "가끔",
+          "no": "아니요"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "게으른 게 아니라 반쯤 잠든 겁니다.",
+        "copy": "뇌가 깨기 전에 탭이 이깁니다.",
+        "cta": "계속",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "일어나는 게 문제가 아닙니다.",
+            "copy": "알람 하나로 눈은 떠집니다. 어려운 건 침대에서 나오는 것입니다."
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "가끔은 동전 던지기입니다.",
+            "copy": "잘못되는 아침에는 반쯤 잠든 탭이 이깁니다."
           }
         }
       },
@@ -525,7 +525,7 @@
         "options": {
           "snooze_unaware": "생각 없이 스누즈를 눌러요.",
           "dismiss_fall_asleep": "알람을 끄고 다시 잠들어요",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "깨어 있지만 일어날 수 없습니다"
         }
       },
       "personalizedSolution": {
@@ -579,27 +579,27 @@
         "title": "무엇이 정말 움직이게 할까요?",
         "copy": "아침에 현실적으로 할 수 있는 미션을 선택하세요.",
         "cta": "이 미션 사용",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "실제로 가지고 있는 것은?",
+        "targetCta": "이게 있어요",
         "photoDisclosure": "사진은 기기에서 확인됩니다. 갤러리 사진은 인정되지 않으며 미션 사진은 확인 후 삭제됩니다.",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "알람이 울리면 DawnVow가 하나를 선택합니다.",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "변기",
+          "sink": "싱크대",
+          "toothbrush": "칫솔",
+          "hair drier": "헤어드라이어",
+          "refrigerator": "냉장고",
+          "cup": "컵",
+          "bottle": "병",
+          "microwave": "전자레인지",
+          "bowl": "그릇",
+          "cat": "고양이",
+          "dog": "개",
+          "book": "책",
+          "laptop": "노트북",
+          "keyboard": "키보드",
+          "mouse": "마우스",
+          "backpack": "백팩"
         },
         "options": {
           "bathroom_escape": {
@@ -619,18 +619,18 @@
             "copy": "책, 노트북 또는 배낭을 촬영하세요."
           },
           "quick_quiz": {
-            "title": "빠른 퀴즈",
-            "copy": "깨어 있다는 것을 보여 주도록 몇 가지 질문에 답하세요."
+            "title": "수학 퀴즈",
+            "copy": "수학 문제 몇 개를 풀어 깨어 있음을 증명하세요."
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "난이도는?",
+        "cta": "계속",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "쉬움",
+          "medium": "보통",
+          "hard": "어려움"
         }
       },
       "wakeTime": {
