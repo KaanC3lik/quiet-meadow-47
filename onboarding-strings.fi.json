@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 29,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Takaisin",
+      "rule": "Suorita tehtävä. Suorita aamu.",
+      "timestamps": {
+        "planned": "06:30 Suunniteltu",
+        "late": "12:00 Myöhässä",
+        "alreadyMoving": "06:30 · Jo liikkeellä"
+      },
+      "painHook": {
+        "title": "Sammutit herätyksen.\nEt herännyt.",
+        "cta": "Tämä olen minä"
+      },
+      "identity": {
+        "title": "Oletko aamuihminen?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "not_yet": "Ei vielä"
+        }
+      },
+      "consent": {
+        "title": "Auta meitä mittaamaan mainoksia?",
+        "copy": "Se näyttää, mitkä mainokset tuovat ihmisiä DawnVow’hun. Se käyttää laitetunnistetta — ei koskaan herätyksiäsi, tehtäviäsi tai vastauksiasi.",
+        "benefits": [
+          "Mittaa vain mainoksia",
+          "Ei koskaan herätyksiäsi tai tehtäviäsi",
+          "Voit sulkea asetuksissa milloin tahansa"
+        ],
+        "allow": "Salli mittaus",
+        "notNow": "Ei nyt"
+      },
+      "alarmCount": {
+        "title": "Montako herätystä asetat?",
+        "cta": "Jatka",
+        "options": {
+          "one": "Yhden",
+          "two_or_three": "Kaksi tai kolme",
+          "four_plus": "Neljä tai enemmän"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Herättäisikö yksi herätys sinut?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "sometimes": "Joskus",
+          "no": "Ei"
+        }
+      },
+      "insight": {
+        "title": "Et ole laiska. Olet puoliksi unessa.",
+        "copy": "Napautus voittaa ennen kuin aivot heräävät.",
+        "cta": "Jatka",
+        "byTrust": {
+          "yes": {
+            "title": "Herääminen ei ole ongelmasi.",
+            "copy": "Yksi herätys herättää sinut. Vaikeinta on nousta sängystä."
+          },
+          "sometimes": {
+            "title": "Joskus on kuin kolikonheitto.",
+            "copy": "Aamuina, joina se osuu väärin, puoliunessa tehty napautus voittaa."
+          }
+        }
+      },
+      "goal": {
+        "title": "Mitä haluat muuttaa aamuissasi?",
+        "cta": "Valitse aamuvoittoni",
+        "options": {
+          "first_alarm": "Nousta ensimmäisellä herätyksellä",
+          "on_time": "Ehtiä töihin tai kouluun ajoissa",
+          "workouts": "Löytää aikaa aamutreenille",
+          "routine": "Rakentaa tasainen aamurutiini",
+          "no_rushing": "Aloittaa päivä ilman kiirettä"
+        }
+      },
+      "painPoints": {
+        "title": "Mikä yleensä varastaa aamusi?",
+        "titlesByGoal": {
+          "first_alarm": "Mikä pysäyttää sinut, kun ensimmäinen herätys soi?",
+          "on_time": "Mikä yleensä myöhästyttää sinut?",
+          "workouts": "Mikä on sinun ja aamutreenin välissä?",
+          "routine": "Mikä rikkoo aamurutiinisi?",
+          "no_rushing": "Mikä tekee aamustasi kiireen?"
+        },
+        "copy": "Valitse se, mikä toistuu.",
+        "cta": "Tuo kuulostaa minulta",
+        "options": {
+          "snooze_unaware": "Torkutan ajattelematta",
+          "dismiss_fall_asleep": "Sammutan ja nukahdan uudelleen",
+          "up_not_moving": "Olen hereillä, mutta en pääse ylös"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miksi se tapahtuu. Miten se loppuu.",
+        "cta": "Näytä, miten se toimii",
+        "solutions": {
+          "snooze_unaware": "Torkkusilmukka päättyy tehtävään.",
+          "dismiss_fall_asleep": "Napautus ei riitä tehtävän suorittamiseen.",
+          "up_not_moving": "Tehtävä nostaa sinut ylös ennen kuin herätys hiljenee."
+        }
+      },
+      "mechanism": {
+        "title": "Aamusi, askel askeleelta.",
+        "copy": "Jotta heräät, sinun on noustava.",
+        "cta": "Näytä, millainen aamustani voisi tulla",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Herätys soi",
+            "copy": "valitsemanasi aikana"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sammuta se aikaisin",
+            "copy": "se soi uudelleen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Suorita tehtävä",
+            "copy": "kuva tai matematiikka"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sammuta herätys",
+            "copy": "vasta vahvistuksen jälkeen"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Jo ylhäällä. Jo liikkeellä.",
+        "copy": "Ensimmäinen tunti on sinun.",
+        "cta": "Rakenna heräämissuunnitelmani",
+        "gains": [
+          "Ajoissa",
+          "Kirkas pää",
+          "Jo liikkeellä",
+          "Hallinnassa"
+        ]
+      },
+      "mission": {
+        "title": "Mikä saisi sinut oikeasti liikkeelle?",
+        "copy": "Valitse tehtävä, joka tuntuu realistiselta aamuusi.",
+        "cta": "Käytä tätä tehtävää",
+        "targetTitle": "Mitkä näistä sinulla oikeasti on?",
+        "targetCta": "Nämä ovat minun",
+        "photoDisclosure": "Kuvat tarkistetaan puhelimessa. Galleria ei kelpaa.",
+        "targetPrompt": "DawnVow valitsee yhden niistä, kun herätys soi.",
+        "targets": {
+          "toilet": "WC-istuin",
+          "sink": "Pesuallas",
+          "toothbrush": "Hammasharja",
+          "hair drier": "Hiustenkuivaaja",
+          "refrigerator": "Jääkaappi",
+          "cup": "Kuppi",
+          "bottle": "Pullo",
+          "microwave": "Mikroaaltouuni",
+          "bowl": "Kulho",
+          "cat": "Kissa",
+          "dog": "Koira",
+          "book": "Kirja",
+          "laptop": "Kannettava tietokone",
+          "keyboard": "Näppäimistö",
+          "mouse": "Hiiri",
+          "backpack": "Reppu"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kylpyhuonepako",
+            "copy": "kylpyhuoneen esineet"
+          },
+          "kitchen_start": {
+            "title": "Keittiöstartti",
+            "copy": "keittiön esineet"
+          },
+          "pet_check": {
+            "title": "Lemmikkitarkistus",
+            "copy": "kissasi tai koirasi"
+          },
+          "study_mode": {
+            "title": "Opiskelutila",
+            "copy": "kirja tai kannettava"
+          },
+          "quick_quiz": {
+            "title": "Matematiikka",
+            "copy": "muutama matematiikkatehtävä"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Kuinka vaikeaa sen pitäisi olla?",
+        "cta": "Jatka",
+        "options": {
+          "easy": "Helppo",
+          "medium": "Keskitaso",
+          "hard": "Vaikea"
+        }
+      },
+      "wakeTime": {
+        "title": "Mihin aikaan haluat nousta huomenna?",
+        "copy": "Valitse aika, jolloin ensimmäinen DawnVow soi.",
+        "cta": "Aseta heräämisaikani",
+        "accessibilityLabel": "Valitse heräämisaika"
+      },
+      "plan": {
+        "title": "Ensimmäinen DawnVow’si on valmis.",
+        "copy": "Huomenna uninen sinä seuraa suunnitelmaa.",
+        "cta": "Pidä DawnVow’ni",
+        "trust": "Käyttöoikeuksia pyydetään vain, kun niitä tarvitaan.",
+        "labels": {
+          "wakeTime": "Heräämisaika",
+          "mission": "Tehtäväsi",
+          "rule": "Uusi sääntösi"
+        }
+      }
+    },
+    "calm": {
+      "back": "Takaisin",
+      "rule": "Suorita tehtävä. Suorita aamu.",
+      "timestamps": {
+        "planned": "06:30 Suunniteltu",
+        "late": "12:00 Myöhässä",
+        "alreadyMoving": "06:30 · Jo liikkeellä"
+      },
+      "painHook": {
+        "title": "Sammutit herätyksen.\nEt herännyt.",
+        "cta": "Tämä olen minä"
+      },
+      "identity": {
+        "title": "Oletko aamuihminen?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "not_yet": "Ei vielä"
+        }
+      },
+      "consent": {
+        "title": "Auta meitä mittaamaan mainoksia?",
+        "copy": "Se näyttää, mitkä mainokset tuovat ihmisiä DawnVow’hun. Se käyttää laitetunnistetta — ei koskaan herätyksiäsi, tehtäviäsi tai vastauksiasi.",
+        "benefits": [
+          "Mittaa vain mainoksia",
+          "Ei koskaan herätyksiäsi tai tehtäviäsi",
+          "Voit sulkea asetuksissa milloin tahansa"
+        ],
+        "allow": "Salli mittaus",
+        "notNow": "Ei nyt"
+      },
+      "alarmCount": {
+        "title": "Montako herätystä asetat?",
+        "cta": "Jatka",
+        "options": {
+          "one": "Yhden",
+          "two_or_three": "Kaksi tai kolme",
+          "four_plus": "Neljä tai enemmän"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Herättäisikö yksi herätys sinut?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "sometimes": "Joskus",
+          "no": "Ei"
+        }
+      },
+      "insight": {
+        "title": "Et ole laiska. Olet puoliksi unessa.",
+        "copy": "Napautus voittaa ennen kuin aivot heräävät.",
+        "cta": "Jatka",
+        "byTrust": {
+          "yes": {
+            "title": "Herääminen ei ole ongelmasi.",
+            "copy": "Yksi herätys herättää sinut. Vaikeinta on nousta sängystä."
+          },
+          "sometimes": {
+            "title": "Joskus on kuin kolikonheitto.",
+            "copy": "Aamuina, joina se osuu väärin, puoliunessa tehty napautus voittaa."
+          }
+        }
+      },
+      "goal": {
+        "title": "Mitä haluat muuttaa aamuissasi?",
+        "cta": "Valitse aamuvoittoni",
+        "options": {
+          "first_alarm": "Nousta ensimmäisellä herätyksellä",
+          "on_time": "Ehtiä töihin tai kouluun ajoissa",
+          "workouts": "Löytää aikaa aamutreenille",
+          "routine": "Rakentaa tasainen aamurutiini",
+          "no_rushing": "Aloittaa päivä ilman kiirettä"
+        }
+      },
+      "painPoints": {
+        "title": "Mikä yleensä varastaa aamusi?",
+        "titlesByGoal": {
+          "first_alarm": "Mikä pysäyttää sinut, kun ensimmäinen herätys soi?",
+          "on_time": "Mikä yleensä myöhästyttää sinut?",
+          "workouts": "Mikä on sinun ja aamutreenin välissä?",
+          "routine": "Mikä rikkoo aamurutiinisi?",
+          "no_rushing": "Mikä tekee aamustasi kiireen?"
+        },
+        "copy": "Valitse se, mikä toistuu.",
+        "cta": "Tuo kuulostaa minulta",
+        "options": {
+          "snooze_unaware": "Torkutan ajattelematta",
+          "dismiss_fall_asleep": "Sammutan ja nukahdan uudelleen",
+          "up_not_moving": "Olen hereillä, mutta en pääse ylös"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miksi se tapahtuu. Miten se loppuu.",
+        "cta": "Näytä, miten se toimii",
+        "solutions": {
+          "snooze_unaware": "Torkkusilmukka päättyy tehtävään.",
+          "dismiss_fall_asleep": "Napautus ei riitä tehtävän suorittamiseen.",
+          "up_not_moving": "Tehtävä nostaa sinut ylös ennen kuin herätys hiljenee."
+        }
+      },
+      "mechanism": {
+        "title": "Aamusi, askel askeleelta.",
+        "copy": "Jotta heräät, sinun on noustava.",
+        "cta": "Näytä, millainen aamustani voisi tulla",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Herätys soi",
+            "copy": "valitsemanasi aikana"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sammuta se aikaisin",
+            "copy": "se soi uudelleen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Suorita tehtävä",
+            "copy": "kuva tai matematiikka"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sammuta herätys",
+            "copy": "vasta vahvistuksen jälkeen"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Jo ylhäällä. Jo liikkeellä.",
+        "copy": "Ensimmäinen tunti on sinun.",
+        "cta": "Rakenna heräämissuunnitelmani",
+        "gains": [
+          "Ajoissa",
+          "Kirkas pää",
+          "Jo liikkeellä",
+          "Hallinnassa"
+        ]
+      },
+      "mission": {
+        "title": "Mikä saisi sinut oikeasti liikkeelle?",
+        "copy": "Valitse tehtävä, joka tuntuu realistiselta aamuusi.",
+        "cta": "Käytä tätä tehtävää",
+        "targetTitle": "Mitkä näistä sinulla oikeasti on?",
+        "targetCta": "Nämä ovat minun",
+        "photoDisclosure": "Kuvat tarkistetaan puhelimessa. Galleria ei kelpaa.",
+        "targetPrompt": "DawnVow valitsee yhden niistä, kun herätys soi.",
+        "targets": {
+          "toilet": "WC-istuin",
+          "sink": "Pesuallas",
+          "toothbrush": "Hammasharja",
+          "hair drier": "Hiustenkuivaaja",
+          "refrigerator": "Jääkaappi",
+          "cup": "Kuppi",
+          "bottle": "Pullo",
+          "microwave": "Mikroaaltouuni",
+          "bowl": "Kulho",
+          "cat": "Kissa",
+          "dog": "Koira",
+          "book": "Kirja",
+          "laptop": "Kannettava tietokone",
+          "keyboard": "Näppäimistö",
+          "mouse": "Hiiri",
+          "backpack": "Reppu"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kylpyhuonepako",
+            "copy": "kylpyhuoneen esineet"
+          },
+          "kitchen_start": {
+            "title": "Keittiöstartti",
+            "copy": "keittiön esineet"
+          },
+          "pet_check": {
+            "title": "Lemmikkitarkistus",
+            "copy": "kissasi tai koirasi"
+          },
+          "study_mode": {
+            "title": "Opiskelutila",
+            "copy": "kirja tai kannettava"
+          },
+          "quick_quiz": {
+            "title": "Matematiikka",
+            "copy": "muutama matematiikkatehtävä"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Kuinka vaikeaa sen pitäisi olla?",
+        "cta": "Jatka",
+        "options": {
+          "easy": "Helppo",
+          "medium": "Keskitaso",
+          "hard": "Vaikea"
+        }
+      },
+      "wakeTime": {
+        "title": "Mihin aikaan haluat nousta huomenna?",
+        "copy": "Valitse aika, jolloin ensimmäinen DawnVow soi.",
+        "cta": "Aseta heräämisaikani",
+        "accessibilityLabel": "Valitse heräämisaika"
+      },
+      "plan": {
+        "title": "Ensimmäinen DawnVow’si on valmis.",
+        "copy": "Huomenna uninen sinä seuraa suunnitelmaa.",
+        "cta": "Pidä DawnVow’ni",
+        "trust": "Käyttöoikeuksia pyydetään vain, kun niitä tarvitaan.",
+        "labels": {
+          "wakeTime": "Heräämisaika",
+          "mission": "Tehtäväsi",
+          "rule": "Uusi sääntösi"
+        }
+      }
+    },
+    "bold": {
+      "back": "Takaisin",
+      "rule": "Suorita tehtävä. Suorita aamu.",
+      "timestamps": {
+        "planned": "06:30 Suunniteltu",
+        "late": "12:00 Myöhässä",
+        "alreadyMoving": "06:30 · Jo liikkeellä"
+      },
+      "painHook": {
+        "title": "Sammutit herätyksen.\nEt herännyt.",
+        "cta": "Tämä olen minä"
+      },
+      "identity": {
+        "title": "Oletko aamuihminen?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "not_yet": "Ei vielä"
+        }
+      },
+      "consent": {
+        "title": "Auta meitä mittaamaan mainoksia?",
+        "copy": "Se näyttää, mitkä mainokset tuovat ihmisiä DawnVow’hun. Se käyttää laitetunnistetta — ei koskaan herätyksiäsi, tehtäviäsi tai vastauksiasi.",
+        "benefits": [
+          "Mittaa vain mainoksia",
+          "Ei koskaan herätyksiäsi tai tehtäviäsi",
+          "Voit sulkea asetuksissa milloin tahansa"
+        ],
+        "allow": "Salli mittaus",
+        "notNow": "Ei nyt"
+      },
+      "alarmCount": {
+        "title": "Montako herätystä asetat?",
+        "cta": "Jatka",
+        "options": {
+          "one": "Yhden",
+          "two_or_three": "Kaksi tai kolme",
+          "four_plus": "Neljä tai enemmän"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Herättäisikö yksi herätys sinut?",
+        "cta": "Jatka",
+        "options": {
+          "yes": "Kyllä",
+          "sometimes": "Joskus",
+          "no": "Ei"
+        }
+      },
+      "insight": {
+        "title": "Et ole laiska. Olet puoliksi unessa.",
+        "copy": "Napautus voittaa ennen kuin aivot heräävät.",
+        "cta": "Jatka",
+        "byTrust": {
+          "yes": {
+            "title": "Herääminen ei ole ongelmasi.",
+            "copy": "Yksi herätys herättää sinut. Vaikeinta on nousta sängystä."
+          },
+          "sometimes": {
+            "title": "Joskus on kuin kolikonheitto.",
+            "copy": "Aamuina, joina se osuu väärin, puoliunessa tehty napautus voittaa."
+          }
+        }
+      },
+      "goal": {
+        "title": "Mitä haluat muuttaa aamuissasi?",
+        "cta": "Valitse aamuvoittoni",
+        "options": {
+          "first_alarm": "Nousta ensimmäisellä herätyksellä",
+          "on_time": "Ehtiä töihin tai kouluun ajoissa",
+          "workouts": "Löytää aikaa aamutreenille",
+          "routine": "Rakentaa tasainen aamurutiini",
+          "no_rushing": "Aloittaa päivä ilman kiirettä"
+        }
+      },
+      "painPoints": {
+        "title": "Mikä yleensä varastaa aamusi?",
+        "titlesByGoal": {
+          "first_alarm": "Mikä pysäyttää sinut, kun ensimmäinen herätys soi?",
+          "on_time": "Mikä yleensä myöhästyttää sinut?",
+          "workouts": "Mikä on sinun ja aamutreenin välissä?",
+          "routine": "Mikä rikkoo aamurutiinisi?",
+          "no_rushing": "Mikä tekee aamustasi kiireen?"
+        },
+        "copy": "Valitse se, mikä toistuu.",
+        "cta": "Tuo kuulostaa minulta",
+        "options": {
+          "snooze_unaware": "Torkutan ajattelematta",
+          "dismiss_fall_asleep": "Sammutan ja nukahdan uudelleen",
+          "up_not_moving": "Olen hereillä, mutta en pääse ylös"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miksi se tapahtuu. Miten se loppuu.",
+        "cta": "Näytä, miten se toimii",
+        "solutions": {
+          "snooze_unaware": "Torkkusilmukka päättyy tehtävään.",
+          "dismiss_fall_asleep": "Napautus ei riitä tehtävän suorittamiseen.",
+          "up_not_moving": "Tehtävä nostaa sinut ylös ennen kuin herätys hiljenee."
+        }
+      },
+      "mechanism": {
+        "title": "Aamusi, askel askeleelta.",
+        "copy": "Jotta heräät, sinun on noustava.",
+        "cta": "Näytä, millainen aamustani voisi tulla",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Herätys soi",
+            "copy": "valitsemanasi aikana"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sammuta se aikaisin",
+            "copy": "se soi uudelleen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Suorita tehtävä",
+            "copy": "kuva tai matematiikka"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sammuta herätys",
+            "copy": "vasta vahvistuksen jälkeen"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Jo ylhäällä. Jo liikkeellä.",
+        "copy": "Ensimmäinen tunti on sinun.",
+        "cta": "Rakenna heräämissuunnitelmani",
+        "gains": [
+          "Ajoissa",
+          "Kirkas pää",
+          "Jo liikkeellä",
+          "Hallinnassa"
+        ]
+      },
+      "mission": {
+        "title": "Mikä saisi sinut oikeasti liikkeelle?",
+        "copy": "Valitse tehtävä, joka tuntuu realistiselta aamuusi.",
+        "cta": "Käytä tätä tehtävää",
+        "targetTitle": "Mitkä näistä sinulla oikeasti on?",
+        "targetCta": "Nämä ovat minun",
+        "photoDisclosure": "Kuvat tarkistetaan puhelimessa. Galleria ei kelpaa.",
+        "targetPrompt": "DawnVow valitsee yhden niistä, kun herätys soi.",
+        "targets": {
+          "toilet": "WC-istuin",
+          "sink": "Pesuallas",
+          "toothbrush": "Hammasharja",
+          "hair drier": "Hiustenkuivaaja",
+          "refrigerator": "Jääkaappi",
+          "cup": "Kuppi",
+          "bottle": "Pullo",
+          "microwave": "Mikroaaltouuni",
+          "bowl": "Kulho",
+          "cat": "Kissa",
+          "dog": "Koira",
+          "book": "Kirja",
+          "laptop": "Kannettava tietokone",
+          "keyboard": "Näppäimistö",
+          "mouse": "Hiiri",
+          "backpack": "Reppu"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kylpyhuonepako",
+            "copy": "kylpyhuoneen esineet"
+          },
+          "kitchen_start": {
+            "title": "Keittiöstartti",
+            "copy": "keittiön esineet"
+          },
+          "pet_check": {
+            "title": "Lemmikkitarkistus",
+            "copy": "kissasi tai koirasi"
+          },
+          "study_mode": {
+            "title": "Opiskelutila",
+            "copy": "kirja tai kannettava"
+          },
+          "quick_quiz": {
+            "title": "Matematiikka",
+            "copy": "muutama matematiikkatehtävä"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Kuinka vaikeaa sen pitäisi olla?",
+        "cta": "Jatka",
+        "options": {
+          "easy": "Helppo",
+          "medium": "Keskitaso",
+          "hard": "Vaikea"
+        }
+      },
+      "wakeTime": {
+        "title": "Mihin aikaan haluat nousta huomenna?",
+        "copy": "Valitse aika, jolloin ensimmäinen DawnVow soi.",
+        "cta": "Aseta heräämisaikani",
+        "accessibilityLabel": "Valitse heräämisaika"
+      },
+      "plan": {
+        "title": "Ensimmäinen DawnVow’si on valmis.",
+        "copy": "Huomenna uninen sinä seuraa suunnitelmaa.",
+        "cta": "Pidä DawnVow’ni",
+        "trust": "Käyttöoikeuksia pyydetään vain, kun niitä tarvitaan.",
+        "labels": {
+          "wakeTime": "Heräämisaika",
+          "mission": "Tehtäväsi",
+          "rule": "Uusi sääntösi"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 29,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Tilbage",
+      "rule": "Fuldfør missionen. Fuldfør morgenen.",
+      "timestamps": {
+        "planned": "06:30 Planlagt",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Allerede i gang"
+      },
+      "painHook": {
+        "title": "Du slukkede alarmen.\nDu vågnede ikke.",
+        "cta": "Det er mig"
+      },
+      "identity": {
+        "title": "Er du et morgenmenneske?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Ikke endnu"
+        }
+      },
+      "consent": {
+        "title": "Hjælper du os med at måle annoncer?",
+        "copy": "Det viser, hvilke annoncer der fører folk til DawnVow. Det bruger en enhedsidentifikator — aldrig dine alarmer, missioner eller svar.",
+        "benefits": [
+          "Måler kun annoncerne",
+          "Aldrig dine alarmer eller missioner",
+          "Kan slås fra i Indstillinger"
+        ],
+        "allow": "Tillad måling",
+        "notNow": "Ikke nu"
+      },
+      "alarmCount": {
+        "title": "Hvor mange alarmer stiller du?",
+        "cta": "Fortsæt",
+        "options": {
+          "one": "Én",
+          "two_or_three": "To eller tre",
+          "four_plus": "Fire eller flere"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Ville én alarm vække dig?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Nogle gange",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du er ikke doven. Du er halvt i søvne.",
+        "copy": "Trykket vinder, før hjernen vågner.",
+        "cta": "Fortsæt",
+        "byTrust": {
+          "yes": {
+            "title": "At vågne er ikke dit problem.",
+            "copy": "Én alarm vækker dig. Det svære er at komme ud af sengen."
+          },
+          "sometimes": {
+            "title": "„Nogle gange” er som at slå plat eller krone.",
+            "copy": "De morgener, hvor det falder forkert, vinder et halvsovende tryk."
+          }
+        }
+      },
+      "goal": {
+        "title": "Hvad vil du ændre ved dine morgener?",
+        "cta": "Vælg min morgensejr",
+        "options": {
+          "first_alarm": "Stå op på den første alarm",
+          "on_time": "Komme til tiden på arbejde eller i skole",
+          "workouts": "Få tid til en morgentræning",
+          "routine": "Bygge en fast morgenrutine",
+          "no_rushing": "Starte dagen uden stress"
+        }
+      },
+      "painPoints": {
+        "title": "Hvad stjæler normalt din morgen?",
+        "titlesByGoal": {
+          "first_alarm": "Hvad stopper dig, når den første alarm ringer?",
+          "on_time": "Hvad gør dig normalt forsinket?",
+          "workouts": "Hvad står mellem dig og morgentræningen?",
+          "routine": "Hvad bryder din morgenrutine?",
+          "no_rushing": "Hvad gør din morgen til et kapløb?"
+        },
+        "copy": "Vælg det, der sker igen og igen.",
+        "cta": "Det lyder som mig",
+        "options": {
+          "snooze_unaware": "Jeg snoozer uden at tænke",
+          "dismiss_fall_asleep": "Jeg slukker og falder i søvn igen",
+          "up_not_moving": "Jeg er vågen, men kan ikke komme op"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Hvorfor det sker. Hvordan det stopper.",
+        "cta": "Vis mig, hvordan det virker",
+        "solutions": {
+          "snooze_unaware": "Snooze-løkken slutter ved missionen.",
+          "dismiss_fall_asleep": "Et tryk klarer ikke arbejdet.",
+          "up_not_moving": "Missionen får dig op, før alarmen tier."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgen, trin for trin.",
+        "copy": "For at vågne skal du op.",
+        "cta": "Se, hvordan min morgen kan blive",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarmen ringer",
+            "copy": "på det tidspunkt, du valgte"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sluk den tidligt",
+            "copy": "den ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Fuldfør missionen",
+            "copy": "foto eller matematik"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sluk alarmen",
+            "copy": "først når den er bekræftet"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Allerede oppe. Allerede i gang.",
+        "copy": "Den første time er din.",
+        "cta": "Byg min vækkeplan",
+        "gains": [
+          "Til tiden",
+          "Klar i hovedet",
+          "Allerede i gang",
+          "I kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Hvad ville faktisk få dig i gang?",
+        "copy": "Vælg den mission, der føles realistisk for din morgen.",
+        "cta": "Brug denne mission",
+        "targetTitle": "Hvilke af disse har du faktisk?",
+        "targetCta": "De er mine",
+        "photoDisclosure": "Billeder tjekkes på telefonen. Galleriet tæller ikke.",
+        "targetPrompt": "DawnVow vælger en af dem, når alarmen ringer.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Vask",
+          "toothbrush": "Tandbørste",
+          "hair drier": "Hårtørrer",
+          "refrigerator": "Køleskab",
+          "cup": "Kop",
+          "bottle": "Flaske",
+          "microwave": "Mikroovn",
+          "bowl": "Skål",
+          "cat": "Kat",
+          "dog": "Hund",
+          "book": "Bog",
+          "laptop": "Laptop",
+          "keyboard": "Tastatur",
+          "mouse": "Mus",
+          "backpack": "Rygsæk"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badeværelsesflugt",
+            "copy": "badeværelses ting"
+          },
+          "kitchen_start": {
+            "title": "Køkkenstart",
+            "copy": "køkkenting"
+          },
+          "pet_check": {
+            "title": "Kæledyrstjek",
+            "copy": "din kat eller hund"
+          },
+          "study_mode": {
+            "title": "Studietilstand",
+            "copy": "bog eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematik",
+            "copy": "et par matematikopgaver"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hvor svært skal det være?",
+        "cta": "Fortsæt",
+        "options": {
+          "easy": "Let",
+          "medium": "Mellem",
+          "hard": "Svært"
+        }
+      },
+      "wakeTime": {
+        "title": "Hvornår vil du op i morgen?",
+        "copy": "Vælg det tidspunkt, hvor din første DawnVow skal ringe.",
+        "cta": "Sæt min vækketid",
+        "accessibilityLabel": "Vælg vækketid"
+      },
+      "plan": {
+        "title": "Din første DawnVow er klar.",
+        "copy": "I morgen følger det søvnige dig planen.",
+        "cta": "Behold min DawnVow",
+        "trust": "Tilladelser spørges kun om, når de er nødvendige.",
+        "labels": {
+          "wakeTime": "Vækketid",
+          "mission": "Din mission",
+          "rule": "Din nye regel"
+        }
+      }
+    },
+    "calm": {
+      "back": "Tilbage",
+      "rule": "Fuldfør missionen. Fuldfør morgenen.",
+      "timestamps": {
+        "planned": "06:30 Planlagt",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Allerede i gang"
+      },
+      "painHook": {
+        "title": "Du slukkede alarmen.\nDu vågnede ikke.",
+        "cta": "Det er mig"
+      },
+      "identity": {
+        "title": "Er du et morgenmenneske?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Ikke endnu"
+        }
+      },
+      "consent": {
+        "title": "Hjælper du os med at måle annoncer?",
+        "copy": "Det viser, hvilke annoncer der fører folk til DawnVow. Det bruger en enhedsidentifikator — aldrig dine alarmer, missioner eller svar.",
+        "benefits": [
+          "Måler kun annoncerne",
+          "Aldrig dine alarmer eller missioner",
+          "Kan slås fra i Indstillinger"
+        ],
+        "allow": "Tillad måling",
+        "notNow": "Ikke nu"
+      },
+      "alarmCount": {
+        "title": "Hvor mange alarmer stiller du?",
+        "cta": "Fortsæt",
+        "options": {
+          "one": "Én",
+          "two_or_three": "To eller tre",
+          "four_plus": "Fire eller flere"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Ville én alarm vække dig?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Nogle gange",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du er ikke doven. Du er halvt i søvne.",
+        "copy": "Trykket vinder, før hjernen vågner.",
+        "cta": "Fortsæt",
+        "byTrust": {
+          "yes": {
+            "title": "At vågne er ikke dit problem.",
+            "copy": "Én alarm vækker dig. Det svære er at komme ud af sengen."
+          },
+          "sometimes": {
+            "title": "„Nogle gange” er som at slå plat eller krone.",
+            "copy": "De morgener, hvor det falder forkert, vinder et halvsovende tryk."
+          }
+        }
+      },
+      "goal": {
+        "title": "Hvad vil du ændre ved dine morgener?",
+        "cta": "Vælg min morgensejr",
+        "options": {
+          "first_alarm": "Stå op på den første alarm",
+          "on_time": "Komme til tiden på arbejde eller i skole",
+          "workouts": "Få tid til en morgentræning",
+          "routine": "Bygge en fast morgenrutine",
+          "no_rushing": "Starte dagen uden stress"
+        }
+      },
+      "painPoints": {
+        "title": "Hvad stjæler normalt din morgen?",
+        "titlesByGoal": {
+          "first_alarm": "Hvad stopper dig, når den første alarm ringer?",
+          "on_time": "Hvad gør dig normalt forsinket?",
+          "workouts": "Hvad står mellem dig og morgentræningen?",
+          "routine": "Hvad bryder din morgenrutine?",
+          "no_rushing": "Hvad gør din morgen til et kapløb?"
+        },
+        "copy": "Vælg det, der sker igen og igen.",
+        "cta": "Det lyder som mig",
+        "options": {
+          "snooze_unaware": "Jeg snoozer uden at tænke",
+          "dismiss_fall_asleep": "Jeg slukker og falder i søvn igen",
+          "up_not_moving": "Jeg er vågen, men kan ikke komme op"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Hvorfor det sker. Hvordan det stopper.",
+        "cta": "Vis mig, hvordan det virker",
+        "solutions": {
+          "snooze_unaware": "Snooze-løkken slutter ved missionen.",
+          "dismiss_fall_asleep": "Et tryk klarer ikke arbejdet.",
+          "up_not_moving": "Missionen får dig op, før alarmen tier."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgen, trin for trin.",
+        "copy": "For at vågne skal du op.",
+        "cta": "Se, hvordan min morgen kan blive",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarmen ringer",
+            "copy": "på det tidspunkt, du valgte"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sluk den tidligt",
+            "copy": "den ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Fuldfør missionen",
+            "copy": "foto eller matematik"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sluk alarmen",
+            "copy": "først når den er bekræftet"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Allerede oppe. Allerede i gang.",
+        "copy": "Den første time er din.",
+        "cta": "Byg min vækkeplan",
+        "gains": [
+          "Til tiden",
+          "Klar i hovedet",
+          "Allerede i gang",
+          "I kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Hvad ville faktisk få dig i gang?",
+        "copy": "Vælg den mission, der føles realistisk for din morgen.",
+        "cta": "Brug denne mission",
+        "targetTitle": "Hvilke af disse har du faktisk?",
+        "targetCta": "De er mine",
+        "photoDisclosure": "Billeder tjekkes på telefonen. Galleriet tæller ikke.",
+        "targetPrompt": "DawnVow vælger en af dem, når alarmen ringer.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Vask",
+          "toothbrush": "Tandbørste",
+          "hair drier": "Hårtørrer",
+          "refrigerator": "Køleskab",
+          "cup": "Kop",
+          "bottle": "Flaske",
+          "microwave": "Mikroovn",
+          "bowl": "Skål",
+          "cat": "Kat",
+          "dog": "Hund",
+          "book": "Bog",
+          "laptop": "Laptop",
+          "keyboard": "Tastatur",
+          "mouse": "Mus",
+          "backpack": "Rygsæk"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badeværelsesflugt",
+            "copy": "badeværelses ting"
+          },
+          "kitchen_start": {
+            "title": "Køkkenstart",
+            "copy": "køkkenting"
+          },
+          "pet_check": {
+            "title": "Kæledyrstjek",
+            "copy": "din kat eller hund"
+          },
+          "study_mode": {
+            "title": "Studietilstand",
+            "copy": "bog eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematik",
+            "copy": "et par matematikopgaver"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hvor svært skal det være?",
+        "cta": "Fortsæt",
+        "options": {
+          "easy": "Let",
+          "medium": "Mellem",
+          "hard": "Svært"
+        }
+      },
+      "wakeTime": {
+        "title": "Hvornår vil du op i morgen?",
+        "copy": "Vælg det tidspunkt, hvor din første DawnVow skal ringe.",
+        "cta": "Sæt min vækketid",
+        "accessibilityLabel": "Vælg vækketid"
+      },
+      "plan": {
+        "title": "Din første DawnVow er klar.",
+        "copy": "I morgen følger det søvnige dig planen.",
+        "cta": "Behold min DawnVow",
+        "trust": "Tilladelser spørges kun om, når de er nødvendige.",
+        "labels": {
+          "wakeTime": "Vækketid",
+          "mission": "Din mission",
+          "rule": "Din nye regel"
+        }
+      }
+    },
+    "bold": {
+      "back": "Tilbage",
+      "rule": "Fuldfør missionen. Fuldfør morgenen.",
+      "timestamps": {
+        "planned": "06:30 Planlagt",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Allerede i gang"
+      },
+      "painHook": {
+        "title": "Du slukkede alarmen.\nDu vågnede ikke.",
+        "cta": "Det er mig"
+      },
+      "identity": {
+        "title": "Er du et morgenmenneske?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Ikke endnu"
+        }
+      },
+      "consent": {
+        "title": "Hjælper du os med at måle annoncer?",
+        "copy": "Det viser, hvilke annoncer der fører folk til DawnVow. Det bruger en enhedsidentifikator — aldrig dine alarmer, missioner eller svar.",
+        "benefits": [
+          "Måler kun annoncerne",
+          "Aldrig dine alarmer eller missioner",
+          "Kan slås fra i Indstillinger"
+        ],
+        "allow": "Tillad måling",
+        "notNow": "Ikke nu"
+      },
+      "alarmCount": {
+        "title": "Hvor mange alarmer stiller du?",
+        "cta": "Fortsæt",
+        "options": {
+          "one": "Én",
+          "two_or_three": "To eller tre",
+          "four_plus": "Fire eller flere"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Ville én alarm vække dig?",
+        "cta": "Fortsæt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Nogle gange",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du er ikke doven. Du er halvt i søvne.",
+        "copy": "Trykket vinder, før hjernen vågner.",
+        "cta": "Fortsæt",
+        "byTrust": {
+          "yes": {
+            "title": "At vågne er ikke dit problem.",
+            "copy": "Én alarm vækker dig. Det svære er at komme ud af sengen."
+          },
+          "sometimes": {
+            "title": "„Nogle gange” er som at slå plat eller krone.",
+            "copy": "De morgener, hvor det falder forkert, vinder et halvsovende tryk."
+          }
+        }
+      },
+      "goal": {
+        "title": "Hvad vil du ændre ved dine morgener?",
+        "cta": "Vælg min morgensejr",
+        "options": {
+          "first_alarm": "Stå op på den første alarm",
+          "on_time": "Komme til tiden på arbejde eller i skole",
+          "workouts": "Få tid til en morgentræning",
+          "routine": "Bygge en fast morgenrutine",
+          "no_rushing": "Starte dagen uden stress"
+        }
+      },
+      "painPoints": {
+        "title": "Hvad stjæler normalt din morgen?",
+        "titlesByGoal": {
+          "first_alarm": "Hvad stopper dig, når den første alarm ringer?",
+          "on_time": "Hvad gør dig normalt forsinket?",
+          "workouts": "Hvad står mellem dig og morgentræningen?",
+          "routine": "Hvad bryder din morgenrutine?",
+          "no_rushing": "Hvad gør din morgen til et kapløb?"
+        },
+        "copy": "Vælg det, der sker igen og igen.",
+        "cta": "Det lyder som mig",
+        "options": {
+          "snooze_unaware": "Jeg snoozer uden at tænke",
+          "dismiss_fall_asleep": "Jeg slukker og falder i søvn igen",
+          "up_not_moving": "Jeg er vågen, men kan ikke komme op"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Hvorfor det sker. Hvordan det stopper.",
+        "cta": "Vis mig, hvordan det virker",
+        "solutions": {
+          "snooze_unaware": "Snooze-løkken slutter ved missionen.",
+          "dismiss_fall_asleep": "Et tryk klarer ikke arbejdet.",
+          "up_not_moving": "Missionen får dig op, før alarmen tier."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgen, trin for trin.",
+        "copy": "For at vågne skal du op.",
+        "cta": "Se, hvordan min morgen kan blive",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Alarmen ringer",
+            "copy": "på det tidspunkt, du valgte"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Sluk den tidligt",
+            "copy": "den ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Fuldfør missionen",
+            "copy": "foto eller matematik"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Sluk alarmen",
+            "copy": "først når den er bekræftet"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Allerede oppe. Allerede i gang.",
+        "copy": "Den første time er din.",
+        "cta": "Byg min vækkeplan",
+        "gains": [
+          "Til tiden",
+          "Klar i hovedet",
+          "Allerede i gang",
+          "I kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Hvad ville faktisk få dig i gang?",
+        "copy": "Vælg den mission, der føles realistisk for din morgen.",
+        "cta": "Brug denne mission",
+        "targetTitle": "Hvilke af disse har du faktisk?",
+        "targetCta": "De er mine",
+        "photoDisclosure": "Billeder tjekkes på telefonen. Galleriet tæller ikke.",
+        "targetPrompt": "DawnVow vælger en af dem, når alarmen ringer.",
+        "targets": {
+          "toilet": "Toilet",
+          "sink": "Vask",
+          "toothbrush": "Tandbørste",
+          "hair drier": "Hårtørrer",
+          "refrigerator": "Køleskab",
+          "cup": "Kop",
+          "bottle": "Flaske",
+          "microwave": "Mikroovn",
+          "bowl": "Skål",
+          "cat": "Kat",
+          "dog": "Hund",
+          "book": "Bog",
+          "laptop": "Laptop",
+          "keyboard": "Tastatur",
+          "mouse": "Mus",
+          "backpack": "Rygsæk"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badeværelsesflugt",
+            "copy": "badeværelses ting"
+          },
+          "kitchen_start": {
+            "title": "Køkkenstart",
+            "copy": "køkkenting"
+          },
+          "pet_check": {
+            "title": "Kæledyrstjek",
+            "copy": "din kat eller hund"
+          },
+          "study_mode": {
+            "title": "Studietilstand",
+            "copy": "bog eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematik",
+            "copy": "et par matematikopgaver"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hvor svært skal det være?",
+        "cta": "Fortsæt",
+        "options": {
+          "easy": "Let",
+          "medium": "Mellem",
+          "hard": "Svært"
+        }
+      },
+      "wakeTime": {
+        "title": "Hvornår vil du op i morgen?",
+        "copy": "Vælg det tidspunkt, hvor din første DawnVow skal ringe.",
+        "cta": "Sæt min vækketid",
+        "accessibilityLabel": "Vælg vækketid"
+      },
+      "plan": {
+        "title": "Din første DawnVow er klar.",
+        "copy": "I morgen følger det søvnige dig planen.",
+        "cta": "Behold min DawnVow",
+        "trust": "Tilladelser spørges kun om, når de er nødvendige.",
+        "labels": {
+          "wakeTime": "Vækketid",
+          "mission": "Din mission",
+          "rule": "Din nye regel"
+        }
+      }
+    }
+  }
+}

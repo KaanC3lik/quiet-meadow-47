@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 29,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Tillbaka",
+      "rule": "Slutför uppdraget. Slutför morgonen.",
+      "timestamps": {
+        "planned": "06:30 Planerat",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Redan igång"
+      },
+      "painHook": {
+        "title": "Du stängde av larmet.\nDu vaknade inte.",
+        "cta": "Det är jag"
+      },
+      "identity": {
+        "title": "Är du en morgonmänniska?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Inte än"
+        }
+      },
+      "consent": {
+        "title": "Hjälper du oss mäta annonser?",
+        "copy": "Det visar vilka annonser som leder folk till DawnVow. Det använder en enhetsidentifierare — aldrig dina larm, uppdrag eller svar.",
+        "benefits": [
+          "Mäter bara annonserna",
+          "Aldrig dina larm eller uppdrag",
+          "Går att stänga av i Inställningar"
+        ],
+        "allow": "Tillåt mätning",
+        "notNow": "Inte nu"
+      },
+      "alarmCount": {
+        "title": "Hur många larm ställer du?",
+        "cta": "Fortsätt",
+        "options": {
+          "one": "Ett",
+          "two_or_three": "Två eller tre",
+          "four_plus": "Fyra eller fler"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Skulle ett larm väcka dig?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Ibland",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du är inte lat. Du är halvsovande.",
+        "copy": "Tryckningen vinner innan hjärnan vaknar.",
+        "cta": "Fortsätt",
+        "byTrust": {
+          "yes": {
+            "title": "Att vakna är inte ditt problem.",
+            "copy": "Ett larm väcker dig. Det svåra är att gå upp ur sängen."
+          },
+          "sometimes": {
+            "title": "Ibland är som att singla slant.",
+            "copy": "De morgnar det faller fel vinner en halvsovande tryckning."
+          }
+        }
+      },
+      "goal": {
+        "title": "Vad vill du ändra med dina morgnar?",
+        "cta": "Välj min morgonvinst",
+        "options": {
+          "first_alarm": "Gå upp på första larmet",
+          "on_time": "Komma i tid till jobb eller skola",
+          "workouts": "Få tid till ett morgonpass",
+          "routine": "Bygga en jämn morgonrutin",
+          "no_rushing": "Börja dagen utan stress"
+        }
+      },
+      "painPoints": {
+        "title": "Vad stjäl oftast din morgon?",
+        "titlesByGoal": {
+          "first_alarm": "Vad stoppar dig när första larmet ringer?",
+          "on_time": "Vad gör att du oftast är sen?",
+          "workouts": "Vad står mellan dig och morgonpasset?",
+          "routine": "Vad bryter din morgonrutin?",
+          "no_rushing": "Vad gör din morgon till en stress?"
+        },
+        "copy": "Välj det som händer om och om igen.",
+        "cta": "Det låter som jag",
+        "options": {
+          "snooze_unaware": "Jag snoozar utan att tänka",
+          "dismiss_fall_asleep": "Jag stänger av och somnar om",
+          "up_not_moving": "Jag är vaken men kan inte gå upp"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Varför det händer. Hur det slutar.",
+        "cta": "Visa hur det fungerar",
+        "solutions": {
+          "snooze_unaware": "Snooze-loopen tar slut vid uppdraget.",
+          "dismiss_fall_asleep": "En tryckning klarar inte jobbet.",
+          "up_not_moving": "Uppdraget får dig upp innan larmet tystnar."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgon, steg för steg.",
+        "copy": "För att vakna måste du gå upp.",
+        "cta": "Se hur min morgon kan bli",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Larmet ringer",
+            "copy": "vid tiden du valde"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stäng av det tidigt",
+            "copy": "det ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Slutför uppdraget",
+            "copy": "foto eller matte"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Stäng av larmet",
+            "copy": "först när det är verifierat"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Redan uppe. Redan igång.",
+        "copy": "Den första timmen är din.",
+        "cta": "Bygg min väckningsplan",
+        "gains": [
+          "I tid",
+          "Klar i huvudet",
+          "Redan igång",
+          "I kontroll"
+        ]
+      },
+      "mission": {
+        "title": "Vad skulle faktiskt få dig igång?",
+        "copy": "Välj uppdraget som känns realistiskt för din morgon.",
+        "cta": "Använd det här uppdraget",
+        "targetTitle": "Vilka av dessa har du faktiskt?",
+        "targetCta": "De här är mina",
+        "photoDisclosure": "Bilder kontrolleras på telefonen. Galleriet räknas inte.",
+        "targetPrompt": "DawnVow väljer en av dem när larmet ringer.",
+        "targets": {
+          "toilet": "Toalett",
+          "sink": "Vask",
+          "toothbrush": "Tandborste",
+          "hair drier": "Hårtork",
+          "refrigerator": "Kylskåp",
+          "cup": "Mugg",
+          "bottle": "Flaska",
+          "microwave": "Mikrovågsugn",
+          "bowl": "Skål",
+          "cat": "Katt",
+          "dog": "Hund",
+          "book": "Bok",
+          "laptop": "Laptop",
+          "keyboard": "Tangentbord",
+          "mouse": "Mus",
+          "backpack": "Ryggsäck"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badrumsflykt",
+            "copy": "badrumssaker"
+          },
+          "kitchen_start": {
+            "title": "Köksstart",
+            "copy": "kökssaker"
+          },
+          "pet_check": {
+            "title": "Husdjurskoll",
+            "copy": "din katt eller hund"
+          },
+          "study_mode": {
+            "title": "Studieläge",
+            "copy": "bok eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matte",
+            "copy": "några mattefrågor"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hur svårt ska det vara?",
+        "cta": "Fortsätt",
+        "options": {
+          "easy": "Lätt",
+          "medium": "Medel",
+          "hard": "Svårt"
+        }
+      },
+      "wakeTime": {
+        "title": "Vilken tid vill du gå upp imorgon?",
+        "copy": "Välj tiden då din första DawnVow ska ringa.",
+        "cta": "Ställ in min väckningstid",
+        "accessibilityLabel": "Välj väckningstid"
+      },
+      "plan": {
+        "title": "Din första DawnVow är redo.",
+        "copy": "Imorgon följer sömniga du planen.",
+        "cta": "Behåll min DawnVow",
+        "trust": "Behörigheter frågas bara om när de behövs.",
+        "labels": {
+          "wakeTime": "Väckningstid",
+          "mission": "Ditt uppdrag",
+          "rule": "Din nya regel"
+        }
+      }
+    },
+    "calm": {
+      "back": "Tillbaka",
+      "rule": "Slutför uppdraget. Slutför morgonen.",
+      "timestamps": {
+        "planned": "06:30 Planerat",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Redan igång"
+      },
+      "painHook": {
+        "title": "Du stängde av larmet.\nDu vaknade inte.",
+        "cta": "Det är jag"
+      },
+      "identity": {
+        "title": "Är du en morgonmänniska?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Inte än"
+        }
+      },
+      "consent": {
+        "title": "Hjälper du oss mäta annonser?",
+        "copy": "Det visar vilka annonser som leder folk till DawnVow. Det använder en enhetsidentifierare — aldrig dina larm, uppdrag eller svar.",
+        "benefits": [
+          "Mäter bara annonserna",
+          "Aldrig dina larm eller uppdrag",
+          "Går att stänga av i Inställningar"
+        ],
+        "allow": "Tillåt mätning",
+        "notNow": "Inte nu"
+      },
+      "alarmCount": {
+        "title": "Hur många larm ställer du?",
+        "cta": "Fortsätt",
+        "options": {
+          "one": "Ett",
+          "two_or_three": "Två eller tre",
+          "four_plus": "Fyra eller fler"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Skulle ett larm väcka dig?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Ibland",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du är inte lat. Du är halvsovande.",
+        "copy": "Tryckningen vinner innan hjärnan vaknar.",
+        "cta": "Fortsätt",
+        "byTrust": {
+          "yes": {
+            "title": "Att vakna är inte ditt problem.",
+            "copy": "Ett larm väcker dig. Det svåra är att gå upp ur sängen."
+          },
+          "sometimes": {
+            "title": "Ibland är som att singla slant.",
+            "copy": "De morgnar det faller fel vinner en halvsovande tryckning."
+          }
+        }
+      },
+      "goal": {
+        "title": "Vad vill du ändra med dina morgnar?",
+        "cta": "Välj min morgonvinst",
+        "options": {
+          "first_alarm": "Gå upp på första larmet",
+          "on_time": "Komma i tid till jobb eller skola",
+          "workouts": "Få tid till ett morgonpass",
+          "routine": "Bygga en jämn morgonrutin",
+          "no_rushing": "Börja dagen utan stress"
+        }
+      },
+      "painPoints": {
+        "title": "Vad stjäl oftast din morgon?",
+        "titlesByGoal": {
+          "first_alarm": "Vad stoppar dig när första larmet ringer?",
+          "on_time": "Vad gör att du oftast är sen?",
+          "workouts": "Vad står mellan dig och morgonpasset?",
+          "routine": "Vad bryter din morgonrutin?",
+          "no_rushing": "Vad gör din morgon till en stress?"
+        },
+        "copy": "Välj det som händer om och om igen.",
+        "cta": "Det låter som jag",
+        "options": {
+          "snooze_unaware": "Jag snoozar utan att tänka",
+          "dismiss_fall_asleep": "Jag stänger av och somnar om",
+          "up_not_moving": "Jag är vaken men kan inte gå upp"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Varför det händer. Hur det slutar.",
+        "cta": "Visa hur det fungerar",
+        "solutions": {
+          "snooze_unaware": "Snooze-loopen tar slut vid uppdraget.",
+          "dismiss_fall_asleep": "En tryckning klarar inte jobbet.",
+          "up_not_moving": "Uppdraget får dig upp innan larmet tystnar."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgon, steg för steg.",
+        "copy": "För att vakna måste du gå upp.",
+        "cta": "Se hur min morgon kan bli",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Larmet ringer",
+            "copy": "vid tiden du valde"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stäng av det tidigt",
+            "copy": "det ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Slutför uppdraget",
+            "copy": "foto eller matte"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Stäng av larmet",
+            "copy": "först när det är verifierat"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Redan uppe. Redan igång.",
+        "copy": "Den första timmen är din.",
+        "cta": "Bygg min väckningsplan",
+        "gains": [
+          "I tid",
+          "Klar i huvudet",
+          "Redan igång",
+          "I kontroll"
+        ]
+      },
+      "mission": {
+        "title": "Vad skulle faktiskt få dig igång?",
+        "copy": "Välj uppdraget som känns realistiskt för din morgon.",
+        "cta": "Använd det här uppdraget",
+        "targetTitle": "Vilka av dessa har du faktiskt?",
+        "targetCta": "De här är mina",
+        "photoDisclosure": "Bilder kontrolleras på telefonen. Galleriet räknas inte.",
+        "targetPrompt": "DawnVow väljer en av dem när larmet ringer.",
+        "targets": {
+          "toilet": "Toalett",
+          "sink": "Vask",
+          "toothbrush": "Tandborste",
+          "hair drier": "Hårtork",
+          "refrigerator": "Kylskåp",
+          "cup": "Mugg",
+          "bottle": "Flaska",
+          "microwave": "Mikrovågsugn",
+          "bowl": "Skål",
+          "cat": "Katt",
+          "dog": "Hund",
+          "book": "Bok",
+          "laptop": "Laptop",
+          "keyboard": "Tangentbord",
+          "mouse": "Mus",
+          "backpack": "Ryggsäck"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badrumsflykt",
+            "copy": "badrumssaker"
+          },
+          "kitchen_start": {
+            "title": "Köksstart",
+            "copy": "kökssaker"
+          },
+          "pet_check": {
+            "title": "Husdjurskoll",
+            "copy": "din katt eller hund"
+          },
+          "study_mode": {
+            "title": "Studieläge",
+            "copy": "bok eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matte",
+            "copy": "några mattefrågor"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hur svårt ska det vara?",
+        "cta": "Fortsätt",
+        "options": {
+          "easy": "Lätt",
+          "medium": "Medel",
+          "hard": "Svårt"
+        }
+      },
+      "wakeTime": {
+        "title": "Vilken tid vill du gå upp imorgon?",
+        "copy": "Välj tiden då din första DawnVow ska ringa.",
+        "cta": "Ställ in min väckningstid",
+        "accessibilityLabel": "Välj väckningstid"
+      },
+      "plan": {
+        "title": "Din första DawnVow är redo.",
+        "copy": "Imorgon följer sömniga du planen.",
+        "cta": "Behåll min DawnVow",
+        "trust": "Behörigheter frågas bara om när de behövs.",
+        "labels": {
+          "wakeTime": "Väckningstid",
+          "mission": "Ditt uppdrag",
+          "rule": "Din nya regel"
+        }
+      }
+    },
+    "bold": {
+      "back": "Tillbaka",
+      "rule": "Slutför uppdraget. Slutför morgonen.",
+      "timestamps": {
+        "planned": "06:30 Planerat",
+        "late": "12:00 Sent",
+        "alreadyMoving": "06:30 · Redan igång"
+      },
+      "painHook": {
+        "title": "Du stängde av larmet.\nDu vaknade inte.",
+        "cta": "Det är jag"
+      },
+      "identity": {
+        "title": "Är du en morgonmänniska?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "not_yet": "Inte än"
+        }
+      },
+      "consent": {
+        "title": "Hjälper du oss mäta annonser?",
+        "copy": "Det visar vilka annonser som leder folk till DawnVow. Det använder en enhetsidentifierare — aldrig dina larm, uppdrag eller svar.",
+        "benefits": [
+          "Mäter bara annonserna",
+          "Aldrig dina larm eller uppdrag",
+          "Går att stänga av i Inställningar"
+        ],
+        "allow": "Tillåt mätning",
+        "notNow": "Inte nu"
+      },
+      "alarmCount": {
+        "title": "Hur många larm ställer du?",
+        "cta": "Fortsätt",
+        "options": {
+          "one": "Ett",
+          "two_or_three": "Två eller tre",
+          "four_plus": "Fyra eller fler"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Skulle ett larm väcka dig?",
+        "cta": "Fortsätt",
+        "options": {
+          "yes": "Ja",
+          "sometimes": "Ibland",
+          "no": "Nej"
+        }
+      },
+      "insight": {
+        "title": "Du är inte lat. Du är halvsovande.",
+        "copy": "Tryckningen vinner innan hjärnan vaknar.",
+        "cta": "Fortsätt",
+        "byTrust": {
+          "yes": {
+            "title": "Att vakna är inte ditt problem.",
+            "copy": "Ett larm väcker dig. Det svåra är att gå upp ur sängen."
+          },
+          "sometimes": {
+            "title": "Ibland är som att singla slant.",
+            "copy": "De morgnar det faller fel vinner en halvsovande tryckning."
+          }
+        }
+      },
+      "goal": {
+        "title": "Vad vill du ändra med dina morgnar?",
+        "cta": "Välj min morgonvinst",
+        "options": {
+          "first_alarm": "Gå upp på första larmet",
+          "on_time": "Komma i tid till jobb eller skola",
+          "workouts": "Få tid till ett morgonpass",
+          "routine": "Bygga en jämn morgonrutin",
+          "no_rushing": "Börja dagen utan stress"
+        }
+      },
+      "painPoints": {
+        "title": "Vad stjäl oftast din morgon?",
+        "titlesByGoal": {
+          "first_alarm": "Vad stoppar dig när första larmet ringer?",
+          "on_time": "Vad gör att du oftast är sen?",
+          "workouts": "Vad står mellan dig och morgonpasset?",
+          "routine": "Vad bryter din morgonrutin?",
+          "no_rushing": "Vad gör din morgon till en stress?"
+        },
+        "copy": "Välj det som händer om och om igen.",
+        "cta": "Det låter som jag",
+        "options": {
+          "snooze_unaware": "Jag snoozar utan att tänka",
+          "dismiss_fall_asleep": "Jag stänger av och somnar om",
+          "up_not_moving": "Jag är vaken men kan inte gå upp"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Varför det händer. Hur det slutar.",
+        "cta": "Visa hur det fungerar",
+        "solutions": {
+          "snooze_unaware": "Snooze-loopen tar slut vid uppdraget.",
+          "dismiss_fall_asleep": "En tryckning klarar inte jobbet.",
+          "up_not_moving": "Uppdraget får dig upp innan larmet tystnar."
+        }
+      },
+      "mechanism": {
+        "title": "Din morgon, steg för steg.",
+        "copy": "För att vakna måste du gå upp.",
+        "cta": "Se hur min morgon kan bli",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Larmet ringer",
+            "copy": "vid tiden du valde"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Stäng av det tidigt",
+            "copy": "det ringer igen"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Slutför uppdraget",
+            "copy": "foto eller matte"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Stäng av larmet",
+            "copy": "först när det är verifierat"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Redan uppe. Redan igång.",
+        "copy": "Den första timmen är din.",
+        "cta": "Bygg min väckningsplan",
+        "gains": [
+          "I tid",
+          "Klar i huvudet",
+          "Redan igång",
+          "I kontroll"
+        ]
+      },
+      "mission": {
+        "title": "Vad skulle faktiskt få dig igång?",
+        "copy": "Välj uppdraget som känns realistiskt för din morgon.",
+        "cta": "Använd det här uppdraget",
+        "targetTitle": "Vilka av dessa har du faktiskt?",
+        "targetCta": "De här är mina",
+        "photoDisclosure": "Bilder kontrolleras på telefonen. Galleriet räknas inte.",
+        "targetPrompt": "DawnVow väljer en av dem när larmet ringer.",
+        "targets": {
+          "toilet": "Toalett",
+          "sink": "Vask",
+          "toothbrush": "Tandborste",
+          "hair drier": "Hårtork",
+          "refrigerator": "Kylskåp",
+          "cup": "Mugg",
+          "bottle": "Flaska",
+          "microwave": "Mikrovågsugn",
+          "bowl": "Skål",
+          "cat": "Katt",
+          "dog": "Hund",
+          "book": "Bok",
+          "laptop": "Laptop",
+          "keyboard": "Tangentbord",
+          "mouse": "Mus",
+          "backpack": "Ryggsäck"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Badrumsflykt",
+            "copy": "badrumssaker"
+          },
+          "kitchen_start": {
+            "title": "Köksstart",
+            "copy": "kökssaker"
+          },
+          "pet_check": {
+            "title": "Husdjurskoll",
+            "copy": "din katt eller hund"
+          },
+          "study_mode": {
+            "title": "Studieläge",
+            "copy": "bok eller laptop"
+          },
+          "quick_quiz": {
+            "title": "Matte",
+            "copy": "några mattefrågor"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Hur svårt ska det vara?",
+        "cta": "Fortsätt",
+        "options": {
+          "easy": "Lätt",
+          "medium": "Medel",
+          "hard": "Svårt"
+        }
+      },
+      "wakeTime": {
+        "title": "Vilken tid vill du gå upp imorgon?",
+        "copy": "Välj tiden då din första DawnVow ska ringa.",
+        "cta": "Ställ in min väckningstid",
+        "accessibilityLabel": "Välj väckningstid"
+      },
+      "plan": {
+        "title": "Din första DawnVow är redo.",
+        "copy": "Imorgon följer sömniga du planen.",
+        "cta": "Behåll min DawnVow",
+        "trust": "Behörigheter frågas bara om när de behövs.",
+        "labels": {
+          "wakeTime": "Väckningstid",
+          "mission": "Ditt uppdrag",
+          "rule": "Din nya regel"
+        }
+      }
+    }
+  }
+}
