@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 28,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Vissza",
+      "rule": "Teljesítsd a küldetést. Teljesítsd a reggelt.",
+      "timestamps": {
+        "planned": "06:30 Tervezett",
+        "late": "12:00 Késő",
+        "alreadyMoving": "06:30 · Már mozgásban"
+      },
+      "painHook": {
+        "title": "Kikapcsoltad az ébresztőt.\nNem ébredtél fel.",
+        "cta": "Ez én vagyok"
+      },
+      "identity": {
+        "title": "Reggeli ember vagy?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "not_yet": "Még nem"
+        }
+      },
+      "consent": {
+        "title": "Segítesz mérni a hirdetéseket?",
+        "copy": "Ebből látjuk, mely hirdetések hoznak embereket a DawnVow-ba. Eszközazonosítót használ — soha nem az ébresztőidet, küldetéseidet vagy válaszaidat.",
+        "benefits": [
+          "Csak a hirdetéseket méri",
+          "Soha nem az ébresztőidet vagy küldetéseidet",
+          "A beállításokban bármikor kikapcsolható"
+        ],
+        "allow": "Mérés engedélyezése",
+        "notNow": "Most nem"
+      },
+      "alarmCount": {
+        "title": "Hány ébresztőt állítasz be?",
+        "cta": "Folytatás",
+        "options": {
+          "one": "Egyet",
+          "two_or_three": "Kettőt vagy hármat",
+          "four_plus": "Négyet vagy többet"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Felébresztene egyetlen ébresztő?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "sometimes": "Néha",
+          "no": "Nem"
+        }
+      },
+      "insight": {
+        "title": "Nem vagy lusta. Félig alszol.",
+        "copy": "A koppintás győz, mielőtt az agy felébred.",
+        "cta": "Folytatás",
+        "byTrust": {
+          "yes": {
+            "title": "A felébredés nem a te problémád.",
+            "copy": "Egy ébresztő felébreszt. Az a nehéz, hogy kikelj az ágyból."
+          },
+          "sometimes": {
+            "title": "A „néha” olyan, mint az érmedobás.",
+            "copy": "Azokon a reggeleken, amikor rosszra fordul, egy félálomban tett koppintás győz."
+          }
+        }
+      },
+      "goal": {
+        "title": "Min szeretnél változtatni a reggeleiden?",
+        "cta": "Választom a reggeli győzelmemet",
+        "options": {
+          "first_alarm": "Keljek fel az első ébresztőre",
+          "on_time": "Érjek be időben a munkába vagy az iskolába",
+          "workouts": "Legyen időm reggeli edzésre",
+          "routine": "Építsek ki egy állandó reggeli rutint",
+          "no_rushing": "Kezdjem a napot kapkodás nélkül"
+        }
+      },
+      "painPoints": {
+        "title": "Mi lopja el általában a reggeledet?",
+        "titlesByGoal": {
+          "first_alarm": "Mi állít meg, amikor megszólal az első ébresztő?",
+          "on_time": "Mi miatt késel általában?",
+          "workouts": "Mi áll közéd és a reggeli edzés közé?",
+          "routine": "Mi töri meg a reggeli rutinodat?",
+          "no_rushing": "Mi teszi kapkodássá a reggeledet?"
+        },
+        "copy": "Válaszd azt, ami újra meg újra megtörténik.",
+        "cta": "Ez én vagyok",
+        "options": {
+          "snooze_unaware": "Gondolkodás nélkül szundizok",
+          "dismiss_fall_asleep": "Kikapcsolom, és visszaalszom",
+          "up_not_moving": "Ébren vagyok, de nem tudok felkelni"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miért történik. Hogyan áll meg.",
+        "cta": "Mutasd, hogyan működik",
+        "solutions": {
+          "snooze_unaware": "A szundi hurok a küldetésnél véget ér.",
+          "dismiss_fall_asleep": "A koppintás nem tudja végigvinni a feladatot.",
+          "up_not_moving": "A küldetés felállít, mielőtt az ébresztő elhallgat."
+        }
+      },
+      "mechanism": {
+        "title": "A reggeled, lépésről lépésre.",
+        "copy": "Ahhoz, hogy felébredj, fel kell kelned.",
+        "cta": "Mutasd, milyen lehetne a reggelem",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Megszólal az ébresztő",
+            "copy": "a választott időben"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Kapcsold ki korán",
+            "copy": "újra megszólal"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Teljesítsd a küldetést",
+            "copy": "fotó vagy matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Kapcsold ki az ébresztőt",
+            "copy": "csak ellenőrzés után"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Már fent. Már mozgásban.",
+        "copy": "Az első óra a tiéd.",
+        "cta": "Építsd meg az ébredési tervem",
+        "gains": [
+          "Időben",
+          "Tiszta fejjel",
+          "Már mozgásban",
+          "Kontroll alatt"
+        ]
+      },
+      "mission": {
+        "title": "Mi indítana el igazán?",
+        "copy": "Válaszd azt a küldetést, ami reálisnak tűnik a reggeledhez.",
+        "cta": "Ezt a küldetést használom",
+        "targetTitle": "Melyikek vannak valóban meg neked?",
+        "targetCta": "Ezek az enyéim",
+        "photoDisclosure": "A fotókat a telefonod ellenőrzi. A galéria nem számít.",
+        "targetPrompt": "A DawnVow egyet kiválaszt ezek közül, amikor megszólal az ébresztő.",
+        "targets": {
+          "toilet": "WC",
+          "sink": "Mosogató",
+          "toothbrush": "Fogkefe",
+          "hair drier": "Hajszárító",
+          "refrigerator": "Hűtőszekrény",
+          "cup": "Bögre",
+          "bottle": "Palack",
+          "microwave": "Mikrohullámú sütő",
+          "bowl": "Tál",
+          "cat": "Macska",
+          "dog": "Kutya",
+          "book": "Könyv",
+          "laptop": "Laptop",
+          "keyboard": "Billentyűzet",
+          "mouse": "Egér",
+          "backpack": "Hátizsák"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Fürdőszobai menekülés",
+            "copy": "fürdőszobai dolgok"
+          },
+          "kitchen_start": {
+            "title": "Konyhai start",
+            "copy": "konyhai dolgok"
+          },
+          "pet_check": {
+            "title": "Kedvenc-ellenőrzés",
+            "copy": "a macskád vagy a kutyád"
+          },
+          "study_mode": {
+            "title": "Tanulómód",
+            "copy": "könyv vagy laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "néhány matekpélda"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Mennyire legyen nehéz?",
+        "cta": "Folytatás",
+        "options": {
+          "easy": "Könnyű",
+          "medium": "Közepes",
+          "hard": "Nehéz"
+        }
+      },
+      "wakeTime": {
+        "title": "Hánykor szeretnél felkelni holnap?",
+        "copy": "Válaszd ki az időt, amikor az első DawnVow megszólal.",
+        "cta": "Ébredési idő beállítása",
+        "accessibilityLabel": "Ébredési idő kiválasztása"
+      },
+      "plan": {
+        "title": "Az első DawnVow készen áll.",
+        "copy": "Holnap az álmos éned követi a tervet.",
+        "cta": "DawnVow megtartása",
+        "trust": "Az engedélyeket csak akkor kérjük, amikor szükség van rájuk.",
+        "labels": {
+          "wakeTime": "Ébredési idő",
+          "mission": "A küldetésed",
+          "rule": "Az új szabályod"
+        }
+      }
+    },
+    "calm": {
+      "back": "Vissza",
+      "rule": "Teljesítsd a küldetést. Teljesítsd a reggelt.",
+      "timestamps": {
+        "planned": "06:30 Tervezett",
+        "late": "12:00 Késő",
+        "alreadyMoving": "06:30 · Már mozgásban"
+      },
+      "painHook": {
+        "title": "Kikapcsoltad az ébresztőt.\nNem ébredtél fel.",
+        "cta": "Ez én vagyok"
+      },
+      "identity": {
+        "title": "Reggeli ember vagy?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "not_yet": "Még nem"
+        }
+      },
+      "consent": {
+        "title": "Segítesz mérni a hirdetéseket?",
+        "copy": "Ebből látjuk, mely hirdetések hoznak embereket a DawnVow-ba. Eszközazonosítót használ — soha nem az ébresztőidet, küldetéseidet vagy válaszaidat.",
+        "benefits": [
+          "Csak a hirdetéseket méri",
+          "Soha nem az ébresztőidet vagy küldetéseidet",
+          "A beállításokban bármikor kikapcsolható"
+        ],
+        "allow": "Mérés engedélyezése",
+        "notNow": "Most nem"
+      },
+      "alarmCount": {
+        "title": "Hány ébresztőt állítasz be?",
+        "cta": "Folytatás",
+        "options": {
+          "one": "Egyet",
+          "two_or_three": "Kettőt vagy hármat",
+          "four_plus": "Négyet vagy többet"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Felébresztene egyetlen ébresztő?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "sometimes": "Néha",
+          "no": "Nem"
+        }
+      },
+      "insight": {
+        "title": "Nem vagy lusta. Félig alszol.",
+        "copy": "A koppintás győz, mielőtt az agy felébred.",
+        "cta": "Folytatás",
+        "byTrust": {
+          "yes": {
+            "title": "A felébredés nem a te problémád.",
+            "copy": "Egy ébresztő felébreszt. Az a nehéz, hogy kikelj az ágyból."
+          },
+          "sometimes": {
+            "title": "A „néha” olyan, mint az érmedobás.",
+            "copy": "Azokon a reggeleken, amikor rosszra fordul, egy félálomban tett koppintás győz."
+          }
+        }
+      },
+      "goal": {
+        "title": "Min szeretnél változtatni a reggeleiden?",
+        "cta": "Választom a reggeli győzelmemet",
+        "options": {
+          "first_alarm": "Keljek fel az első ébresztőre",
+          "on_time": "Érjek be időben a munkába vagy az iskolába",
+          "workouts": "Legyen időm reggeli edzésre",
+          "routine": "Építsek ki egy állandó reggeli rutint",
+          "no_rushing": "Kezdjem a napot kapkodás nélkül"
+        }
+      },
+      "painPoints": {
+        "title": "Mi lopja el általában a reggeledet?",
+        "titlesByGoal": {
+          "first_alarm": "Mi állít meg, amikor megszólal az első ébresztő?",
+          "on_time": "Mi miatt késel általában?",
+          "workouts": "Mi áll közéd és a reggeli edzés közé?",
+          "routine": "Mi töri meg a reggeli rutinodat?",
+          "no_rushing": "Mi teszi kapkodássá a reggeledet?"
+        },
+        "copy": "Válaszd azt, ami újra meg újra megtörténik.",
+        "cta": "Ez én vagyok",
+        "options": {
+          "snooze_unaware": "Gondolkodás nélkül szundizok",
+          "dismiss_fall_asleep": "Kikapcsolom, és visszaalszom",
+          "up_not_moving": "Ébren vagyok, de nem tudok felkelni"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miért történik. Hogyan áll meg.",
+        "cta": "Mutasd, hogyan működik",
+        "solutions": {
+          "snooze_unaware": "A szundi hurok a küldetésnél véget ér.",
+          "dismiss_fall_asleep": "A koppintás nem tudja végigvinni a feladatot.",
+          "up_not_moving": "A küldetés felállít, mielőtt az ébresztő elhallgat."
+        }
+      },
+      "mechanism": {
+        "title": "A reggeled, lépésről lépésre.",
+        "copy": "Ahhoz, hogy felébredj, fel kell kelned.",
+        "cta": "Mutasd, milyen lehetne a reggelem",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Megszólal az ébresztő",
+            "copy": "a választott időben"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Kapcsold ki korán",
+            "copy": "újra megszólal"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Teljesítsd a küldetést",
+            "copy": "fotó vagy matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Kapcsold ki az ébresztőt",
+            "copy": "csak ellenőrzés után"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Már fent. Már mozgásban.",
+        "copy": "Az első óra a tiéd.",
+        "cta": "Építsd meg az ébredési tervem",
+        "gains": [
+          "Időben",
+          "Tiszta fejjel",
+          "Már mozgásban",
+          "Kontroll alatt"
+        ]
+      },
+      "mission": {
+        "title": "Mi indítana el igazán?",
+        "copy": "Válaszd azt a küldetést, ami reálisnak tűnik a reggeledhez.",
+        "cta": "Ezt a küldetést használom",
+        "targetTitle": "Melyikek vannak valóban meg neked?",
+        "targetCta": "Ezek az enyéim",
+        "photoDisclosure": "A fotókat a telefonod ellenőrzi. A galéria nem számít.",
+        "targetPrompt": "A DawnVow egyet kiválaszt ezek közül, amikor megszólal az ébresztő.",
+        "targets": {
+          "toilet": "WC",
+          "sink": "Mosogató",
+          "toothbrush": "Fogkefe",
+          "hair drier": "Hajszárító",
+          "refrigerator": "Hűtőszekrény",
+          "cup": "Bögre",
+          "bottle": "Palack",
+          "microwave": "Mikrohullámú sütő",
+          "bowl": "Tál",
+          "cat": "Macska",
+          "dog": "Kutya",
+          "book": "Könyv",
+          "laptop": "Laptop",
+          "keyboard": "Billentyűzet",
+          "mouse": "Egér",
+          "backpack": "Hátizsák"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Fürdőszobai menekülés",
+            "copy": "fürdőszobai dolgok"
+          },
+          "kitchen_start": {
+            "title": "Konyhai start",
+            "copy": "konyhai dolgok"
+          },
+          "pet_check": {
+            "title": "Kedvenc-ellenőrzés",
+            "copy": "a macskád vagy a kutyád"
+          },
+          "study_mode": {
+            "title": "Tanulómód",
+            "copy": "könyv vagy laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "néhány matekpélda"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Mennyire legyen nehéz?",
+        "cta": "Folytatás",
+        "options": {
+          "easy": "Könnyű",
+          "medium": "Közepes",
+          "hard": "Nehéz"
+        }
+      },
+      "wakeTime": {
+        "title": "Hánykor szeretnél felkelni holnap?",
+        "copy": "Válaszd ki az időt, amikor az első DawnVow megszólal.",
+        "cta": "Ébredési idő beállítása",
+        "accessibilityLabel": "Ébredési idő kiválasztása"
+      },
+      "plan": {
+        "title": "Az első DawnVow készen áll.",
+        "copy": "Holnap az álmos éned követi a tervet.",
+        "cta": "DawnVow megtartása",
+        "trust": "Az engedélyeket csak akkor kérjük, amikor szükség van rájuk.",
+        "labels": {
+          "wakeTime": "Ébredési idő",
+          "mission": "A küldetésed",
+          "rule": "Az új szabályod"
+        }
+      }
+    },
+    "bold": {
+      "back": "Vissza",
+      "rule": "Teljesítsd a küldetést. Teljesítsd a reggelt.",
+      "timestamps": {
+        "planned": "06:30 Tervezett",
+        "late": "12:00 Késő",
+        "alreadyMoving": "06:30 · Már mozgásban"
+      },
+      "painHook": {
+        "title": "Kikapcsoltad az ébresztőt.\nNem ébredtél fel.",
+        "cta": "Ez én vagyok"
+      },
+      "identity": {
+        "title": "Reggeli ember vagy?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "not_yet": "Még nem"
+        }
+      },
+      "consent": {
+        "title": "Segítesz mérni a hirdetéseket?",
+        "copy": "Ebből látjuk, mely hirdetések hoznak embereket a DawnVow-ba. Eszközazonosítót használ — soha nem az ébresztőidet, küldetéseidet vagy válaszaidat.",
+        "benefits": [
+          "Csak a hirdetéseket méri",
+          "Soha nem az ébresztőidet vagy küldetéseidet",
+          "A beállításokban bármikor kikapcsolható"
+        ],
+        "allow": "Mérés engedélyezése",
+        "notNow": "Most nem"
+      },
+      "alarmCount": {
+        "title": "Hány ébresztőt állítasz be?",
+        "cta": "Folytatás",
+        "options": {
+          "one": "Egyet",
+          "two_or_three": "Kettőt vagy hármat",
+          "four_plus": "Négyet vagy többet"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Felébresztene egyetlen ébresztő?",
+        "cta": "Folytatás",
+        "options": {
+          "yes": "Igen",
+          "sometimes": "Néha",
+          "no": "Nem"
+        }
+      },
+      "insight": {
+        "title": "Nem vagy lusta. Félig alszol.",
+        "copy": "A koppintás győz, mielőtt az agy felébred.",
+        "cta": "Folytatás",
+        "byTrust": {
+          "yes": {
+            "title": "A felébredés nem a te problémád.",
+            "copy": "Egy ébresztő felébreszt. Az a nehéz, hogy kikelj az ágyból."
+          },
+          "sometimes": {
+            "title": "A „néha” olyan, mint az érmedobás.",
+            "copy": "Azokon a reggeleken, amikor rosszra fordul, egy félálomban tett koppintás győz."
+          }
+        }
+      },
+      "goal": {
+        "title": "Min szeretnél változtatni a reggeleiden?",
+        "cta": "Választom a reggeli győzelmemet",
+        "options": {
+          "first_alarm": "Keljek fel az első ébresztőre",
+          "on_time": "Érjek be időben a munkába vagy az iskolába",
+          "workouts": "Legyen időm reggeli edzésre",
+          "routine": "Építsek ki egy állandó reggeli rutint",
+          "no_rushing": "Kezdjem a napot kapkodás nélkül"
+        }
+      },
+      "painPoints": {
+        "title": "Mi lopja el általában a reggeledet?",
+        "titlesByGoal": {
+          "first_alarm": "Mi állít meg, amikor megszólal az első ébresztő?",
+          "on_time": "Mi miatt késel általában?",
+          "workouts": "Mi áll közéd és a reggeli edzés közé?",
+          "routine": "Mi töri meg a reggeli rutinodat?",
+          "no_rushing": "Mi teszi kapkodássá a reggeledet?"
+        },
+        "copy": "Válaszd azt, ami újra meg újra megtörténik.",
+        "cta": "Ez én vagyok",
+        "options": {
+          "snooze_unaware": "Gondolkodás nélkül szundizok",
+          "dismiss_fall_asleep": "Kikapcsolom, és visszaalszom",
+          "up_not_moving": "Ébren vagyok, de nem tudok felkelni"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Miért történik. Hogyan áll meg.",
+        "cta": "Mutasd, hogyan működik",
+        "solutions": {
+          "snooze_unaware": "A szundi hurok a küldetésnél véget ér.",
+          "dismiss_fall_asleep": "A koppintás nem tudja végigvinni a feladatot.",
+          "up_not_moving": "A küldetés felállít, mielőtt az ébresztő elhallgat."
+        }
+      },
+      "mechanism": {
+        "title": "A reggeled, lépésről lépésre.",
+        "copy": "Ahhoz, hogy felébredj, fel kell kelned.",
+        "cta": "Mutasd, milyen lehetne a reggelem",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Megszólal az ébresztő",
+            "copy": "a választott időben"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Kapcsold ki korán",
+            "copy": "újra megszólal"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Teljesítsd a küldetést",
+            "copy": "fotó vagy matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Kapcsold ki az ébresztőt",
+            "copy": "csak ellenőrzés után"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Már fent. Már mozgásban.",
+        "copy": "Az első óra a tiéd.",
+        "cta": "Építsd meg az ébredési tervem",
+        "gains": [
+          "Időben",
+          "Tiszta fejjel",
+          "Már mozgásban",
+          "Kontroll alatt"
+        ]
+      },
+      "mission": {
+        "title": "Mi indítana el igazán?",
+        "copy": "Válaszd azt a küldetést, ami reálisnak tűnik a reggeledhez.",
+        "cta": "Ezt a küldetést használom",
+        "targetTitle": "Melyikek vannak valóban meg neked?",
+        "targetCta": "Ezek az enyéim",
+        "photoDisclosure": "A fotókat a telefonod ellenőrzi. A galéria nem számít.",
+        "targetPrompt": "A DawnVow egyet kiválaszt ezek közül, amikor megszólal az ébresztő.",
+        "targets": {
+          "toilet": "WC",
+          "sink": "Mosogató",
+          "toothbrush": "Fogkefe",
+          "hair drier": "Hajszárító",
+          "refrigerator": "Hűtőszekrény",
+          "cup": "Bögre",
+          "bottle": "Palack",
+          "microwave": "Mikrohullámú sütő",
+          "bowl": "Tál",
+          "cat": "Macska",
+          "dog": "Kutya",
+          "book": "Könyv",
+          "laptop": "Laptop",
+          "keyboard": "Billentyűzet",
+          "mouse": "Egér",
+          "backpack": "Hátizsák"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Fürdőszobai menekülés",
+            "copy": "fürdőszobai dolgok"
+          },
+          "kitchen_start": {
+            "title": "Konyhai start",
+            "copy": "konyhai dolgok"
+          },
+          "pet_check": {
+            "title": "Kedvenc-ellenőrzés",
+            "copy": "a macskád vagy a kutyád"
+          },
+          "study_mode": {
+            "title": "Tanulómód",
+            "copy": "könyv vagy laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "néhány matekpélda"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Mennyire legyen nehéz?",
+        "cta": "Folytatás",
+        "options": {
+          "easy": "Könnyű",
+          "medium": "Közepes",
+          "hard": "Nehéz"
+        }
+      },
+      "wakeTime": {
+        "title": "Hánykor szeretnél felkelni holnap?",
+        "copy": "Válaszd ki az időt, amikor az első DawnVow megszólal.",
+        "cta": "Ébredési idő beállítása",
+        "accessibilityLabel": "Ébredési idő kiválasztása"
+      },
+      "plan": {
+        "title": "Az első DawnVow készen áll.",
+        "copy": "Holnap az álmos éned követi a tervet.",
+        "cta": "DawnVow megtartása",
+        "trust": "Az engedélyeket csak akkor kérjük, amikor szükség van rájuk.",
+        "labels": {
+          "wakeTime": "Ébredési idő",
+          "mission": "A küldetésed",
+          "rule": "Az új szabályod"
+        }
+      }
+    }
+  }
+}

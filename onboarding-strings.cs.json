@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 28,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Zpět",
+      "rule": "Dokonči úkol. Dokonči ráno.",
+      "timestamps": {
+        "planned": "06:30 Naplánováno",
+        "late": "12:00 Pozdě",
+        "alreadyMoving": "06:30 · Už v pohybu"
+      },
+      "painHook": {
+        "title": "Vypnul jsi budík.\nNeprobudil ses.",
+        "cta": "To jsem já"
+      },
+      "identity": {
+        "title": "Jsi ranní ptáče?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "not_yet": "Zatím ne"
+        }
+      },
+      "consent": {
+        "title": "Pomůžeš nám měřit reklamy?",
+        "copy": "Ukazuje nám, které reklamy přivádějí lidi do DawnVow. Používá identifikátor zařízení — nikdy tvé budíky, úkoly ani odpovědi.",
+        "benefits": [
+          "Měří jen reklamy",
+          "Nikdy tvé budíky ani úkoly",
+          "Kdykoli vypnout v nastavení"
+        ],
+        "allow": "Povolit měření",
+        "notNow": "Teď ne"
+      },
+      "alarmCount": {
+        "title": "Kolik budíků si nastavuješ?",
+        "cta": "Pokračovat",
+        "options": {
+          "one": "Jeden",
+          "two_or_three": "Dva nebo tři",
+          "four_plus": "Čtyři nebo víc"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Probudil by tě jeden budík?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "sometimes": "Někdy",
+          "no": "Ne"
+        }
+      },
+      "insight": {
+        "title": "Nejsi líný. Jsi zpola ospalý.",
+        "copy": "Klepnutí vyhraje dřív, než se mozek probudí.",
+        "cta": "Pokračovat",
+        "byTrust": {
+          "yes": {
+            "title": "Probudit se není tvůj problém.",
+            "copy": "Jeden budík tě vzbudí. Těžké je vstát z postele."
+          },
+          "sometimes": {
+            "title": "„Někdy“ je jako hod mincí.",
+            "copy": "V ránech, kdy to padne špatně, vyhraje klepnutí ve spánku."
+          }
+        }
+      },
+      "goal": {
+        "title": "Co chceš na svých ránech změnit?",
+        "cta": "Vybrat mé ranní vítězství",
+        "options": {
+          "first_alarm": "Vstávat na první budík",
+          "on_time": "Chodit do práce nebo do školy včas",
+          "workouts": "Najít čas na ranní trénink",
+          "routine": "Vybudovat stálou ranní rutinu",
+          "no_rushing": "Začínat den bez spěchu"
+        }
+      },
+      "painPoints": {
+        "title": "Co ti obvykle krade ráno?",
+        "titlesByGoal": {
+          "first_alarm": "Co tě zastaví, když zazvoní první budík?",
+          "on_time": "Co tě obvykle zdrží?",
+          "workouts": "Co se staví mezi tebe a ranní trénink?",
+          "routine": "Co rozbíjí tvou ranní rutinu?",
+          "no_rushing": "Co promění tvé ráno ve spěch?"
+        },
+        "copy": "Vyber to, co se opakuje.",
+        "cta": "To zní jako já",
+        "options": {
+          "snooze_unaware": "Odkládám bez přemýšlení",
+          "dismiss_fall_asleep": "Vypnu a zase usnu",
+          "up_not_moving": "Jsem vzhůru, ale nemůžu vstát"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Proč se to děje. Jak to skončí.",
+        "cta": "Ukaž mi, jak to funguje",
+        "solutions": {
+          "snooze_unaware": "Smyčka odkládání končí u úkolu.",
+          "dismiss_fall_asleep": "Klepnutím úkol nesplníš.",
+          "up_not_moving": "Úkol tě zvedne dřív, než budík ztichne."
+        }
+      },
+      "mechanism": {
+        "title": "Tvé ráno, krok za krokem.",
+        "copy": "Abys se probudil, musíš vstát.",
+        "cta": "Ukaž, jak by mé ráno mohlo vypadat",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Zazvoní budík",
+            "copy": "v čas, který sis vybral"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vypni ho dřív",
+            "copy": "zazvoní znovu"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Dokonči úkol",
+            "copy": "fotka nebo matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Vypni budík",
+            "copy": "až po ověření"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Už vzhůru. Už v pohybu.",
+        "copy": "První hodina patří tobě.",
+        "cta": "Sestavit můj plán vstávání",
+        "gains": [
+          "Včas",
+          "Jasná hlava",
+          "Už v pohybu",
+          "Pod kontrolou"
+        ]
+      },
+      "mission": {
+        "title": "Co by tě opravdu zvedlo?",
+        "copy": "Vyber úkol, který je pro tvé ráno realistický.",
+        "cta": "Použít tento úkol",
+        "targetTitle": "Které z těchto opravdu máš?",
+        "targetCta": "Tyhle mám",
+        "photoDisclosure": "Fotky se kontrolují v telefonu. Galerie neplatí.",
+        "targetPrompt": "DawnVow jeden z nich vybere, když zazvoní budík.",
+        "targets": {
+          "toilet": "Toaleta",
+          "sink": "Dřez",
+          "toothbrush": "Zubní kartáček",
+          "hair drier": "Fén",
+          "refrigerator": "Lednice",
+          "cup": "Hrnek",
+          "bottle": "Láhev",
+          "microwave": "Mikrovlnka",
+          "bowl": "Miska",
+          "cat": "Kočka",
+          "dog": "Pes",
+          "book": "Kniha",
+          "laptop": "Notebook",
+          "keyboard": "Klávesnice",
+          "mouse": "Myš",
+          "backpack": "Batoh"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Únik z koupelny",
+            "copy": "věci z koupelny"
+          },
+          "kitchen_start": {
+            "title": "Start v kuchyni",
+            "copy": "věci z kuchyně"
+          },
+          "pet_check": {
+            "title": "Kontrola mazlíčka",
+            "copy": "tvoje kočka nebo pes"
+          },
+          "study_mode": {
+            "title": "Studijní režim",
+            "copy": "kniha nebo notebook"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "pár matematických příkladů"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Jak těžké to má být?",
+        "cta": "Pokračovat",
+        "options": {
+          "easy": "Snadné",
+          "medium": "Střední",
+          "hard": "Těžké"
+        }
+      },
+      "wakeTime": {
+        "title": "V kolik chceš zítra vstát?",
+        "copy": "Zvol čas, kdy má zazvonit první DawnVow.",
+        "cta": "Nastavit čas vstávání",
+        "accessibilityLabel": "Vybrat čas vstávání"
+      },
+      "plan": {
+        "title": "Tvůj první DawnVow je připraven.",
+        "copy": "Zítra bude ospalé já následovat plán.",
+        "cta": "Ponechat můj DawnVow",
+        "trust": "Oprávnění se žádají jen tehdy, když jsou potřeba.",
+        "labels": {
+          "wakeTime": "Čas vstávání",
+          "mission": "Tvůj úkol",
+          "rule": "Tvé nové pravidlo"
+        }
+      }
+    },
+    "calm": {
+      "back": "Zpět",
+      "rule": "Dokonči úkol. Dokonči ráno.",
+      "timestamps": {
+        "planned": "06:30 Naplánováno",
+        "late": "12:00 Pozdě",
+        "alreadyMoving": "06:30 · Už v pohybu"
+      },
+      "painHook": {
+        "title": "Vypnul jsi budík.\nNeprobudil ses.",
+        "cta": "To jsem já"
+      },
+      "identity": {
+        "title": "Jsi ranní ptáče?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "not_yet": "Zatím ne"
+        }
+      },
+      "consent": {
+        "title": "Pomůžeš nám měřit reklamy?",
+        "copy": "Ukazuje nám, které reklamy přivádějí lidi do DawnVow. Používá identifikátor zařízení — nikdy tvé budíky, úkoly ani odpovědi.",
+        "benefits": [
+          "Měří jen reklamy",
+          "Nikdy tvé budíky ani úkoly",
+          "Kdykoli vypnout v nastavení"
+        ],
+        "allow": "Povolit měření",
+        "notNow": "Teď ne"
+      },
+      "alarmCount": {
+        "title": "Kolik budíků si nastavuješ?",
+        "cta": "Pokračovat",
+        "options": {
+          "one": "Jeden",
+          "two_or_three": "Dva nebo tři",
+          "four_plus": "Čtyři nebo víc"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Probudil by tě jeden budík?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "sometimes": "Někdy",
+          "no": "Ne"
+        }
+      },
+      "insight": {
+        "title": "Nejsi líný. Jsi zpola ospalý.",
+        "copy": "Klepnutí vyhraje dřív, než se mozek probudí.",
+        "cta": "Pokračovat",
+        "byTrust": {
+          "yes": {
+            "title": "Probudit se není tvůj problém.",
+            "copy": "Jeden budík tě vzbudí. Těžké je vstát z postele."
+          },
+          "sometimes": {
+            "title": "„Někdy“ je jako hod mincí.",
+            "copy": "V ránech, kdy to padne špatně, vyhraje klepnutí ve spánku."
+          }
+        }
+      },
+      "goal": {
+        "title": "Co chceš na svých ránech změnit?",
+        "cta": "Vybrat mé ranní vítězství",
+        "options": {
+          "first_alarm": "Vstávat na první budík",
+          "on_time": "Chodit do práce nebo do školy včas",
+          "workouts": "Najít čas na ranní trénink",
+          "routine": "Vybudovat stálou ranní rutinu",
+          "no_rushing": "Začínat den bez spěchu"
+        }
+      },
+      "painPoints": {
+        "title": "Co ti obvykle krade ráno?",
+        "titlesByGoal": {
+          "first_alarm": "Co tě zastaví, když zazvoní první budík?",
+          "on_time": "Co tě obvykle zdrží?",
+          "workouts": "Co se staví mezi tebe a ranní trénink?",
+          "routine": "Co rozbíjí tvou ranní rutinu?",
+          "no_rushing": "Co promění tvé ráno ve spěch?"
+        },
+        "copy": "Vyber to, co se opakuje.",
+        "cta": "To zní jako já",
+        "options": {
+          "snooze_unaware": "Odkládám bez přemýšlení",
+          "dismiss_fall_asleep": "Vypnu a zase usnu",
+          "up_not_moving": "Jsem vzhůru, ale nemůžu vstát"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Proč se to děje. Jak to skončí.",
+        "cta": "Ukaž mi, jak to funguje",
+        "solutions": {
+          "snooze_unaware": "Smyčka odkládání končí u úkolu.",
+          "dismiss_fall_asleep": "Klepnutím úkol nesplníš.",
+          "up_not_moving": "Úkol tě zvedne dřív, než budík ztichne."
+        }
+      },
+      "mechanism": {
+        "title": "Tvé ráno, krok za krokem.",
+        "copy": "Abys se probudil, musíš vstát.",
+        "cta": "Ukaž, jak by mé ráno mohlo vypadat",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Zazvoní budík",
+            "copy": "v čas, který sis vybral"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vypni ho dřív",
+            "copy": "zazvoní znovu"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Dokonči úkol",
+            "copy": "fotka nebo matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Vypni budík",
+            "copy": "až po ověření"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Už vzhůru. Už v pohybu.",
+        "copy": "První hodina patří tobě.",
+        "cta": "Sestavit můj plán vstávání",
+        "gains": [
+          "Včas",
+          "Jasná hlava",
+          "Už v pohybu",
+          "Pod kontrolou"
+        ]
+      },
+      "mission": {
+        "title": "Co by tě opravdu zvedlo?",
+        "copy": "Vyber úkol, který je pro tvé ráno realistický.",
+        "cta": "Použít tento úkol",
+        "targetTitle": "Které z těchto opravdu máš?",
+        "targetCta": "Tyhle mám",
+        "photoDisclosure": "Fotky se kontrolují v telefonu. Galerie neplatí.",
+        "targetPrompt": "DawnVow jeden z nich vybere, když zazvoní budík.",
+        "targets": {
+          "toilet": "Toaleta",
+          "sink": "Dřez",
+          "toothbrush": "Zubní kartáček",
+          "hair drier": "Fén",
+          "refrigerator": "Lednice",
+          "cup": "Hrnek",
+          "bottle": "Láhev",
+          "microwave": "Mikrovlnka",
+          "bowl": "Miska",
+          "cat": "Kočka",
+          "dog": "Pes",
+          "book": "Kniha",
+          "laptop": "Notebook",
+          "keyboard": "Klávesnice",
+          "mouse": "Myš",
+          "backpack": "Batoh"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Únik z koupelny",
+            "copy": "věci z koupelny"
+          },
+          "kitchen_start": {
+            "title": "Start v kuchyni",
+            "copy": "věci z kuchyně"
+          },
+          "pet_check": {
+            "title": "Kontrola mazlíčka",
+            "copy": "tvoje kočka nebo pes"
+          },
+          "study_mode": {
+            "title": "Studijní režim",
+            "copy": "kniha nebo notebook"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "pár matematických příkladů"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Jak těžké to má být?",
+        "cta": "Pokračovat",
+        "options": {
+          "easy": "Snadné",
+          "medium": "Střední",
+          "hard": "Těžké"
+        }
+      },
+      "wakeTime": {
+        "title": "V kolik chceš zítra vstát?",
+        "copy": "Zvol čas, kdy má zazvonit první DawnVow.",
+        "cta": "Nastavit čas vstávání",
+        "accessibilityLabel": "Vybrat čas vstávání"
+      },
+      "plan": {
+        "title": "Tvůj první DawnVow je připraven.",
+        "copy": "Zítra bude ospalé já následovat plán.",
+        "cta": "Ponechat můj DawnVow",
+        "trust": "Oprávnění se žádají jen tehdy, když jsou potřeba.",
+        "labels": {
+          "wakeTime": "Čas vstávání",
+          "mission": "Tvůj úkol",
+          "rule": "Tvé nové pravidlo"
+        }
+      }
+    },
+    "bold": {
+      "back": "Zpět",
+      "rule": "Dokonči úkol. Dokonči ráno.",
+      "timestamps": {
+        "planned": "06:30 Naplánováno",
+        "late": "12:00 Pozdě",
+        "alreadyMoving": "06:30 · Už v pohybu"
+      },
+      "painHook": {
+        "title": "Vypnul jsi budík.\nNeprobudil ses.",
+        "cta": "To jsem já"
+      },
+      "identity": {
+        "title": "Jsi ranní ptáče?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "not_yet": "Zatím ne"
+        }
+      },
+      "consent": {
+        "title": "Pomůžeš nám měřit reklamy?",
+        "copy": "Ukazuje nám, které reklamy přivádějí lidi do DawnVow. Používá identifikátor zařízení — nikdy tvé budíky, úkoly ani odpovědi.",
+        "benefits": [
+          "Měří jen reklamy",
+          "Nikdy tvé budíky ani úkoly",
+          "Kdykoli vypnout v nastavení"
+        ],
+        "allow": "Povolit měření",
+        "notNow": "Teď ne"
+      },
+      "alarmCount": {
+        "title": "Kolik budíků si nastavuješ?",
+        "cta": "Pokračovat",
+        "options": {
+          "one": "Jeden",
+          "two_or_three": "Dva nebo tři",
+          "four_plus": "Čtyři nebo víc"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Probudil by tě jeden budík?",
+        "cta": "Pokračovat",
+        "options": {
+          "yes": "Ano",
+          "sometimes": "Někdy",
+          "no": "Ne"
+        }
+      },
+      "insight": {
+        "title": "Nejsi líný. Jsi zpola ospalý.",
+        "copy": "Klepnutí vyhraje dřív, než se mozek probudí.",
+        "cta": "Pokračovat",
+        "byTrust": {
+          "yes": {
+            "title": "Probudit se není tvůj problém.",
+            "copy": "Jeden budík tě vzbudí. Těžké je vstát z postele."
+          },
+          "sometimes": {
+            "title": "„Někdy“ je jako hod mincí.",
+            "copy": "V ránech, kdy to padne špatně, vyhraje klepnutí ve spánku."
+          }
+        }
+      },
+      "goal": {
+        "title": "Co chceš na svých ránech změnit?",
+        "cta": "Vybrat mé ranní vítězství",
+        "options": {
+          "first_alarm": "Vstávat na první budík",
+          "on_time": "Chodit do práce nebo do školy včas",
+          "workouts": "Najít čas na ranní trénink",
+          "routine": "Vybudovat stálou ranní rutinu",
+          "no_rushing": "Začínat den bez spěchu"
+        }
+      },
+      "painPoints": {
+        "title": "Co ti obvykle krade ráno?",
+        "titlesByGoal": {
+          "first_alarm": "Co tě zastaví, když zazvoní první budík?",
+          "on_time": "Co tě obvykle zdrží?",
+          "workouts": "Co se staví mezi tebe a ranní trénink?",
+          "routine": "Co rozbíjí tvou ranní rutinu?",
+          "no_rushing": "Co promění tvé ráno ve spěch?"
+        },
+        "copy": "Vyber to, co se opakuje.",
+        "cta": "To zní jako já",
+        "options": {
+          "snooze_unaware": "Odkládám bez přemýšlení",
+          "dismiss_fall_asleep": "Vypnu a zase usnu",
+          "up_not_moving": "Jsem vzhůru, ale nemůžu vstát"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Proč se to děje. Jak to skončí.",
+        "cta": "Ukaž mi, jak to funguje",
+        "solutions": {
+          "snooze_unaware": "Smyčka odkládání končí u úkolu.",
+          "dismiss_fall_asleep": "Klepnutím úkol nesplníš.",
+          "up_not_moving": "Úkol tě zvedne dřív, než budík ztichne."
+        }
+      },
+      "mechanism": {
+        "title": "Tvé ráno, krok za krokem.",
+        "copy": "Abys se probudil, musíš vstát.",
+        "cta": "Ukaž, jak by mé ráno mohlo vypadat",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Zazvoní budík",
+            "copy": "v čas, který sis vybral"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Vypni ho dřív",
+            "copy": "zazvoní znovu"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Dokonči úkol",
+            "copy": "fotka nebo matematika"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Vypni budík",
+            "copy": "až po ověření"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Už vzhůru. Už v pohybu.",
+        "copy": "První hodina patří tobě.",
+        "cta": "Sestavit můj plán vstávání",
+        "gains": [
+          "Včas",
+          "Jasná hlava",
+          "Už v pohybu",
+          "Pod kontrolou"
+        ]
+      },
+      "mission": {
+        "title": "Co by tě opravdu zvedlo?",
+        "copy": "Vyber úkol, který je pro tvé ráno realistický.",
+        "cta": "Použít tento úkol",
+        "targetTitle": "Které z těchto opravdu máš?",
+        "targetCta": "Tyhle mám",
+        "photoDisclosure": "Fotky se kontrolují v telefonu. Galerie neplatí.",
+        "targetPrompt": "DawnVow jeden z nich vybere, když zazvoní budík.",
+        "targets": {
+          "toilet": "Toaleta",
+          "sink": "Dřez",
+          "toothbrush": "Zubní kartáček",
+          "hair drier": "Fén",
+          "refrigerator": "Lednice",
+          "cup": "Hrnek",
+          "bottle": "Láhev",
+          "microwave": "Mikrovlnka",
+          "bowl": "Miska",
+          "cat": "Kočka",
+          "dog": "Pes",
+          "book": "Kniha",
+          "laptop": "Notebook",
+          "keyboard": "Klávesnice",
+          "mouse": "Myš",
+          "backpack": "Batoh"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Únik z koupelny",
+            "copy": "věci z koupelny"
+          },
+          "kitchen_start": {
+            "title": "Start v kuchyni",
+            "copy": "věci z kuchyně"
+          },
+          "pet_check": {
+            "title": "Kontrola mazlíčka",
+            "copy": "tvoje kočka nebo pes"
+          },
+          "study_mode": {
+            "title": "Studijní režim",
+            "copy": "kniha nebo notebook"
+          },
+          "quick_quiz": {
+            "title": "Matematika",
+            "copy": "pár matematických příkladů"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Jak těžké to má být?",
+        "cta": "Pokračovat",
+        "options": {
+          "easy": "Snadné",
+          "medium": "Střední",
+          "hard": "Těžké"
+        }
+      },
+      "wakeTime": {
+        "title": "V kolik chceš zítra vstát?",
+        "copy": "Zvol čas, kdy má zazvonit první DawnVow.",
+        "cta": "Nastavit čas vstávání",
+        "accessibilityLabel": "Vybrat čas vstávání"
+      },
+      "plan": {
+        "title": "Tvůj první DawnVow je připraven.",
+        "copy": "Zítra bude ospalé já následovat plán.",
+        "cta": "Ponechat můj DawnVow",
+        "trust": "Oprávnění se žádají jen tehdy, když jsou potřeba.",
+        "labels": {
+          "wakeTime": "Čas vstávání",
+          "mission": "Tvůj úkol",
+          "rule": "Tvé nové pravidlo"
+        }
+      }
+    }
+  }
+}

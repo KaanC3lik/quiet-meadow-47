@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 28,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Înapoi",
+      "rule": "Încheie misiunea. Încheie dimineața.",
+      "timestamps": {
+        "planned": "06:30 Planificat",
+        "late": "12:00 Târziu",
+        "alreadyMoving": "06:30 · Deja în mișcare"
+      },
+      "painHook": {
+        "title": "Ai oprit alarma.\nNu te-ai trezit.",
+        "cta": "Sunt eu"
+      },
+      "identity": {
+        "title": "Ești o persoană de dimineață?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "not_yet": "Încă nu"
+        }
+      },
+      "consent": {
+        "title": "Ne ajuți să măsurăm reclamele?",
+        "copy": "Așa vedem ce reclame aduc oameni în DawnVow. Folosește un identificator de dispozitiv — niciodată alarmele, misiunile sau răspunsurile tale.",
+        "benefits": [
+          "Măsoară doar reclamele",
+          "Niciodată alarmele sau misiunile tale",
+          "Se oprește oricând din Setări"
+        ],
+        "allow": "Permite măsurarea",
+        "notNow": "Nu acum"
+      },
+      "alarmCount": {
+        "title": "Câte alarme pui?",
+        "cta": "Continuă",
+        "options": {
+          "one": "Una",
+          "two_or_three": "Două sau trei",
+          "four_plus": "Patru sau mai multe"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Te-ar trezi o singură alarmă?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "sometimes": "Uneori",
+          "no": "Nu"
+        }
+      },
+      "insight": {
+        "title": "Nu ești leneș. Ești pe jumătate adormit.",
+        "copy": "Atingerea câștigă înainte să se trezească creierul.",
+        "cta": "Continuă",
+        "byTrust": {
+          "yes": {
+            "title": "Trezitul nu este problema ta.",
+            "copy": "O alarmă te trezește. Greu este să te dai jos din pat."
+          },
+          "sometimes": {
+            "title": "„Uneori” este ca aruncarea unei monede.",
+            "copy": "În diminețile în care cade prost, câștigă o atingere pe jumătate adormită."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ce vrei să schimbi la diminețile tale?",
+        "cta": "Alege victoria mea de dimineață",
+        "options": {
+          "first_alarm": "Să mă trezesc la prima alarmă",
+          "on_time": "Să ajung la muncă sau la școală la timp",
+          "workouts": "Să găsesc timp pentru antrenamentul de dimineață",
+          "routine": "Să construiesc o rutină de dimineață constantă",
+          "no_rushing": "Să încep ziua fără grabă"
+        }
+      },
+      "painPoints": {
+        "title": "Ce îți fură de obicei dimineața?",
+        "titlesByGoal": {
+          "first_alarm": "Ce te oprește când sună prima alarmă?",
+          "on_time": "Ce te face de obicei să întârzii?",
+          "workouts": "Ce se pune între tine și antrenamentul de dimineață?",
+          "routine": "Ce îți strică rutina de dimineață?",
+          "no_rushing": "Ce îți transformă dimineața în grabă?"
+        },
+        "copy": "Alege ce se repetă.",
+        "cta": "Sună ca mine",
+        "options": {
+          "snooze_unaware": "Amân alarma fără să gândesc",
+          "dismiss_fall_asleep": "O opresc și adorm la loc",
+          "up_not_moving": "Sunt treaz, dar nu pot să mă ridic"
+        }
+      },
+      "personalizedSolution": {
+        "title": "De ce se întâmplă. Cum se oprește.",
+        "cta": "Arată-mi cum funcționează",
+        "solutions": {
+          "snooze_unaware": "Bucla amânării se termină la misiune.",
+          "dismiss_fall_asleep": "O atingere nu poate duce treaba la capăt.",
+          "up_not_moving": "Misiunea te ridică înainte ca alarma să tacă."
+        }
+      },
+      "mechanism": {
+        "title": "Dimineața ta, pas cu pas.",
+        "copy": "Ca să te trezești, trebuie să te ridici.",
+        "cta": "Vezi cum ar putea arăta dimineața mea",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Sună alarma",
+            "copy": "la ora pe care ai ales-o"
+          },
+          {
+            "id": "retry_chain",
+            "title": "O oprești devreme",
+            "copy": "sună din nou"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Încheie misiunea",
+            "copy": "fotografie sau matematică"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Oprește alarma",
+            "copy": "doar după verificare"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Deja sus. Deja în mișcare.",
+        "copy": "Prima oră este a ta.",
+        "cta": "Construiește-mi planul de trezire",
+        "gains": [
+          "La timp",
+          "Cu mintea limpede",
+          "Deja în mișcare",
+          "În control"
+        ]
+      },
+      "mission": {
+        "title": "Ce te-ar pune cu adevărat în mișcare?",
+        "copy": "Alege misiunea care pare realistă pentru dimineața ta.",
+        "cta": "Folosește această misiune",
+        "targetTitle": "Pe care dintre acestea le ai cu adevărat?",
+        "targetCta": "Acestea sunt ale mele",
+        "photoDisclosure": "Fotografiile sunt verificate pe telefon. Galeria nu contează.",
+        "targetPrompt": "DawnVow alege unul dintre ele când sună alarma.",
+        "targets": {
+          "toilet": "Toaletă",
+          "sink": "Chiuvetă",
+          "toothbrush": "Periuță de dinți",
+          "hair drier": "Uscător de păr",
+          "refrigerator": "Frigider",
+          "cup": "Cană",
+          "bottle": "Sticlă",
+          "microwave": "Cuptor cu microunde",
+          "bowl": "Castron",
+          "cat": "Pisică",
+          "dog": "Câine",
+          "book": "Carte",
+          "laptop": "Laptop",
+          "keyboard": "Tastatură",
+          "mouse": "Mouse",
+          "backpack": "Rucsac"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Evadare din baie",
+            "copy": "lucruri din baie"
+          },
+          "kitchen_start": {
+            "title": "Start în bucătărie",
+            "copy": "lucruri din bucătărie"
+          },
+          "pet_check": {
+            "title": "Verifică animalul",
+            "copy": "pisica sau câinele tău"
+          },
+          "study_mode": {
+            "title": "Mod de studiu",
+            "copy": "carte sau laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematică",
+            "copy": "câteva întrebări de matematică"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Cât de greu să fie?",
+        "cta": "Continuă",
+        "options": {
+          "easy": "Ușor",
+          "medium": "Mediu",
+          "hard": "Greu"
+        }
+      },
+      "wakeTime": {
+        "title": "La ce oră vrei să te trezești mâine?",
+        "copy": "Alege ora la care să sune primul DawnVow.",
+        "cta": "Setează ora mea de trezire",
+        "accessibilityLabel": "Alege ora de trezire"
+      },
+      "plan": {
+        "title": "Primul tău DawnVow este gata.",
+        "copy": "Mâine, tu cel somnoros vei urma planul.",
+        "cta": "Păstrează DawnVow",
+        "trust": "Permisiunile sunt cerute doar când sunt necesare.",
+        "labels": {
+          "wakeTime": "Ora de trezire",
+          "mission": "Misiunea ta",
+          "rule": "Noua ta regulă"
+        }
+      }
+    },
+    "calm": {
+      "back": "Înapoi",
+      "rule": "Încheie misiunea. Încheie dimineața.",
+      "timestamps": {
+        "planned": "06:30 Planificat",
+        "late": "12:00 Târziu",
+        "alreadyMoving": "06:30 · Deja în mișcare"
+      },
+      "painHook": {
+        "title": "Ai oprit alarma.\nNu te-ai trezit.",
+        "cta": "Sunt eu"
+      },
+      "identity": {
+        "title": "Ești o persoană de dimineață?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "not_yet": "Încă nu"
+        }
+      },
+      "consent": {
+        "title": "Ne ajuți să măsurăm reclamele?",
+        "copy": "Așa vedem ce reclame aduc oameni în DawnVow. Folosește un identificator de dispozitiv — niciodată alarmele, misiunile sau răspunsurile tale.",
+        "benefits": [
+          "Măsoară doar reclamele",
+          "Niciodată alarmele sau misiunile tale",
+          "Se oprește oricând din Setări"
+        ],
+        "allow": "Permite măsurarea",
+        "notNow": "Nu acum"
+      },
+      "alarmCount": {
+        "title": "Câte alarme pui?",
+        "cta": "Continuă",
+        "options": {
+          "one": "Una",
+          "two_or_three": "Două sau trei",
+          "four_plus": "Patru sau mai multe"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Te-ar trezi o singură alarmă?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "sometimes": "Uneori",
+          "no": "Nu"
+        }
+      },
+      "insight": {
+        "title": "Nu ești leneș. Ești pe jumătate adormit.",
+        "copy": "Atingerea câștigă înainte să se trezească creierul.",
+        "cta": "Continuă",
+        "byTrust": {
+          "yes": {
+            "title": "Trezitul nu este problema ta.",
+            "copy": "O alarmă te trezește. Greu este să te dai jos din pat."
+          },
+          "sometimes": {
+            "title": "„Uneori” este ca aruncarea unei monede.",
+            "copy": "În diminețile în care cade prost, câștigă o atingere pe jumătate adormită."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ce vrei să schimbi la diminețile tale?",
+        "cta": "Alege victoria mea de dimineață",
+        "options": {
+          "first_alarm": "Să mă trezesc la prima alarmă",
+          "on_time": "Să ajung la muncă sau la școală la timp",
+          "workouts": "Să găsesc timp pentru antrenamentul de dimineață",
+          "routine": "Să construiesc o rutină de dimineață constantă",
+          "no_rushing": "Să încep ziua fără grabă"
+        }
+      },
+      "painPoints": {
+        "title": "Ce îți fură de obicei dimineața?",
+        "titlesByGoal": {
+          "first_alarm": "Ce te oprește când sună prima alarmă?",
+          "on_time": "Ce te face de obicei să întârzii?",
+          "workouts": "Ce se pune între tine și antrenamentul de dimineață?",
+          "routine": "Ce îți strică rutina de dimineață?",
+          "no_rushing": "Ce îți transformă dimineața în grabă?"
+        },
+        "copy": "Alege ce se repetă.",
+        "cta": "Sună ca mine",
+        "options": {
+          "snooze_unaware": "Amân alarma fără să gândesc",
+          "dismiss_fall_asleep": "O opresc și adorm la loc",
+          "up_not_moving": "Sunt treaz, dar nu pot să mă ridic"
+        }
+      },
+      "personalizedSolution": {
+        "title": "De ce se întâmplă. Cum se oprește.",
+        "cta": "Arată-mi cum funcționează",
+        "solutions": {
+          "snooze_unaware": "Bucla amânării se termină la misiune.",
+          "dismiss_fall_asleep": "O atingere nu poate duce treaba la capăt.",
+          "up_not_moving": "Misiunea te ridică înainte ca alarma să tacă."
+        }
+      },
+      "mechanism": {
+        "title": "Dimineața ta, pas cu pas.",
+        "copy": "Ca să te trezești, trebuie să te ridici.",
+        "cta": "Vezi cum ar putea arăta dimineața mea",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Sună alarma",
+            "copy": "la ora pe care ai ales-o"
+          },
+          {
+            "id": "retry_chain",
+            "title": "O oprești devreme",
+            "copy": "sună din nou"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Încheie misiunea",
+            "copy": "fotografie sau matematică"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Oprește alarma",
+            "copy": "doar după verificare"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Deja sus. Deja în mișcare.",
+        "copy": "Prima oră este a ta.",
+        "cta": "Construiește-mi planul de trezire",
+        "gains": [
+          "La timp",
+          "Cu mintea limpede",
+          "Deja în mișcare",
+          "În control"
+        ]
+      },
+      "mission": {
+        "title": "Ce te-ar pune cu adevărat în mișcare?",
+        "copy": "Alege misiunea care pare realistă pentru dimineața ta.",
+        "cta": "Folosește această misiune",
+        "targetTitle": "Pe care dintre acestea le ai cu adevărat?",
+        "targetCta": "Acestea sunt ale mele",
+        "photoDisclosure": "Fotografiile sunt verificate pe telefon. Galeria nu contează.",
+        "targetPrompt": "DawnVow alege unul dintre ele când sună alarma.",
+        "targets": {
+          "toilet": "Toaletă",
+          "sink": "Chiuvetă",
+          "toothbrush": "Periuță de dinți",
+          "hair drier": "Uscător de păr",
+          "refrigerator": "Frigider",
+          "cup": "Cană",
+          "bottle": "Sticlă",
+          "microwave": "Cuptor cu microunde",
+          "bowl": "Castron",
+          "cat": "Pisică",
+          "dog": "Câine",
+          "book": "Carte",
+          "laptop": "Laptop",
+          "keyboard": "Tastatură",
+          "mouse": "Mouse",
+          "backpack": "Rucsac"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Evadare din baie",
+            "copy": "lucruri din baie"
+          },
+          "kitchen_start": {
+            "title": "Start în bucătărie",
+            "copy": "lucruri din bucătărie"
+          },
+          "pet_check": {
+            "title": "Verifică animalul",
+            "copy": "pisica sau câinele tău"
+          },
+          "study_mode": {
+            "title": "Mod de studiu",
+            "copy": "carte sau laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematică",
+            "copy": "câteva întrebări de matematică"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Cât de greu să fie?",
+        "cta": "Continuă",
+        "options": {
+          "easy": "Ușor",
+          "medium": "Mediu",
+          "hard": "Greu"
+        }
+      },
+      "wakeTime": {
+        "title": "La ce oră vrei să te trezești mâine?",
+        "copy": "Alege ora la care să sune primul DawnVow.",
+        "cta": "Setează ora mea de trezire",
+        "accessibilityLabel": "Alege ora de trezire"
+      },
+      "plan": {
+        "title": "Primul tău DawnVow este gata.",
+        "copy": "Mâine, tu cel somnoros vei urma planul.",
+        "cta": "Păstrează DawnVow",
+        "trust": "Permisiunile sunt cerute doar când sunt necesare.",
+        "labels": {
+          "wakeTime": "Ora de trezire",
+          "mission": "Misiunea ta",
+          "rule": "Noua ta regulă"
+        }
+      }
+    },
+    "bold": {
+      "back": "Înapoi",
+      "rule": "Încheie misiunea. Încheie dimineața.",
+      "timestamps": {
+        "planned": "06:30 Planificat",
+        "late": "12:00 Târziu",
+        "alreadyMoving": "06:30 · Deja în mișcare"
+      },
+      "painHook": {
+        "title": "Ai oprit alarma.\nNu te-ai trezit.",
+        "cta": "Sunt eu"
+      },
+      "identity": {
+        "title": "Ești o persoană de dimineață?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "not_yet": "Încă nu"
+        }
+      },
+      "consent": {
+        "title": "Ne ajuți să măsurăm reclamele?",
+        "copy": "Așa vedem ce reclame aduc oameni în DawnVow. Folosește un identificator de dispozitiv — niciodată alarmele, misiunile sau răspunsurile tale.",
+        "benefits": [
+          "Măsoară doar reclamele",
+          "Niciodată alarmele sau misiunile tale",
+          "Se oprește oricând din Setări"
+        ],
+        "allow": "Permite măsurarea",
+        "notNow": "Nu acum"
+      },
+      "alarmCount": {
+        "title": "Câte alarme pui?",
+        "cta": "Continuă",
+        "options": {
+          "one": "Una",
+          "two_or_three": "Două sau trei",
+          "four_plus": "Patru sau mai multe"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Te-ar trezi o singură alarmă?",
+        "cta": "Continuă",
+        "options": {
+          "yes": "Da",
+          "sometimes": "Uneori",
+          "no": "Nu"
+        }
+      },
+      "insight": {
+        "title": "Nu ești leneș. Ești pe jumătate adormit.",
+        "copy": "Atingerea câștigă înainte să se trezească creierul.",
+        "cta": "Continuă",
+        "byTrust": {
+          "yes": {
+            "title": "Trezitul nu este problema ta.",
+            "copy": "O alarmă te trezește. Greu este să te dai jos din pat."
+          },
+          "sometimes": {
+            "title": "„Uneori” este ca aruncarea unei monede.",
+            "copy": "În diminețile în care cade prost, câștigă o atingere pe jumătate adormită."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ce vrei să schimbi la diminețile tale?",
+        "cta": "Alege victoria mea de dimineață",
+        "options": {
+          "first_alarm": "Să mă trezesc la prima alarmă",
+          "on_time": "Să ajung la muncă sau la școală la timp",
+          "workouts": "Să găsesc timp pentru antrenamentul de dimineață",
+          "routine": "Să construiesc o rutină de dimineață constantă",
+          "no_rushing": "Să încep ziua fără grabă"
+        }
+      },
+      "painPoints": {
+        "title": "Ce îți fură de obicei dimineața?",
+        "titlesByGoal": {
+          "first_alarm": "Ce te oprește când sună prima alarmă?",
+          "on_time": "Ce te face de obicei să întârzii?",
+          "workouts": "Ce se pune între tine și antrenamentul de dimineață?",
+          "routine": "Ce îți strică rutina de dimineață?",
+          "no_rushing": "Ce îți transformă dimineața în grabă?"
+        },
+        "copy": "Alege ce se repetă.",
+        "cta": "Sună ca mine",
+        "options": {
+          "snooze_unaware": "Amân alarma fără să gândesc",
+          "dismiss_fall_asleep": "O opresc și adorm la loc",
+          "up_not_moving": "Sunt treaz, dar nu pot să mă ridic"
+        }
+      },
+      "personalizedSolution": {
+        "title": "De ce se întâmplă. Cum se oprește.",
+        "cta": "Arată-mi cum funcționează",
+        "solutions": {
+          "snooze_unaware": "Bucla amânării se termină la misiune.",
+          "dismiss_fall_asleep": "O atingere nu poate duce treaba la capăt.",
+          "up_not_moving": "Misiunea te ridică înainte ca alarma să tacă."
+        }
+      },
+      "mechanism": {
+        "title": "Dimineața ta, pas cu pas.",
+        "copy": "Ca să te trezești, trebuie să te ridici.",
+        "cta": "Vezi cum ar putea arăta dimineața mea",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Sună alarma",
+            "copy": "la ora pe care ai ales-o"
+          },
+          {
+            "id": "retry_chain",
+            "title": "O oprești devreme",
+            "copy": "sună din nou"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Încheie misiunea",
+            "copy": "fotografie sau matematică"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Oprește alarma",
+            "copy": "doar după verificare"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Deja sus. Deja în mișcare.",
+        "copy": "Prima oră este a ta.",
+        "cta": "Construiește-mi planul de trezire",
+        "gains": [
+          "La timp",
+          "Cu mintea limpede",
+          "Deja în mișcare",
+          "În control"
+        ]
+      },
+      "mission": {
+        "title": "Ce te-ar pune cu adevărat în mișcare?",
+        "copy": "Alege misiunea care pare realistă pentru dimineața ta.",
+        "cta": "Folosește această misiune",
+        "targetTitle": "Pe care dintre acestea le ai cu adevărat?",
+        "targetCta": "Acestea sunt ale mele",
+        "photoDisclosure": "Fotografiile sunt verificate pe telefon. Galeria nu contează.",
+        "targetPrompt": "DawnVow alege unul dintre ele când sună alarma.",
+        "targets": {
+          "toilet": "Toaletă",
+          "sink": "Chiuvetă",
+          "toothbrush": "Periuță de dinți",
+          "hair drier": "Uscător de păr",
+          "refrigerator": "Frigider",
+          "cup": "Cană",
+          "bottle": "Sticlă",
+          "microwave": "Cuptor cu microunde",
+          "bowl": "Castron",
+          "cat": "Pisică",
+          "dog": "Câine",
+          "book": "Carte",
+          "laptop": "Laptop",
+          "keyboard": "Tastatură",
+          "mouse": "Mouse",
+          "backpack": "Rucsac"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Evadare din baie",
+            "copy": "lucruri din baie"
+          },
+          "kitchen_start": {
+            "title": "Start în bucătărie",
+            "copy": "lucruri din bucătărie"
+          },
+          "pet_check": {
+            "title": "Verifică animalul",
+            "copy": "pisica sau câinele tău"
+          },
+          "study_mode": {
+            "title": "Mod de studiu",
+            "copy": "carte sau laptop"
+          },
+          "quick_quiz": {
+            "title": "Matematică",
+            "copy": "câteva întrebări de matematică"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Cât de greu să fie?",
+        "cta": "Continuă",
+        "options": {
+          "easy": "Ușor",
+          "medium": "Mediu",
+          "hard": "Greu"
+        }
+      },
+      "wakeTime": {
+        "title": "La ce oră vrei să te trezești mâine?",
+        "copy": "Alege ora la care să sune primul DawnVow.",
+        "cta": "Setează ora mea de trezire",
+        "accessibilityLabel": "Alege ora de trezire"
+      },
+      "plan": {
+        "title": "Primul tău DawnVow este gata.",
+        "copy": "Mâine, tu cel somnoros vei urma planul.",
+        "cta": "Păstrează DawnVow",
+        "trust": "Permisiunile sunt cerute doar când sunt necesare.",
+        "labels": {
+          "wakeTime": "Ora de trezire",
+          "mission": "Misiunea ta",
+          "rule": "Noua ta regulă"
+        }
+      }
+    }
+  }
+}
