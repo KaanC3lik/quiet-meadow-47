@@ -15,54 +15,54 @@
         "alreadyMoving": "06:30 · もう動いている"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "朝型ですか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "はい",
+          "not_yet": "まだ"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "広告の測定にご協力いただけますか？",
+        "copy": "どの広告がDawnVowにつながったかを測ります。端末IDを使い、アラーム、ミッション、回答は使いません。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "広告の測定のみ",
+          "アラームやミッションには使いません",
+          "設定でいつでもオフ"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "測定を許可",
+        "notNow": "今はしない"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "アラームはいくつ設定しますか？",
+        "cta": "続ける",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "1つ",
+          "two_or_three": "2〜3つ",
+          "four_plus": "4つ以上"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "アラーム1つで本当に起きられますか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "はい",
+          "sometimes": "ときどき",
+          "no": "いいえ"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "あなたは怠けているのではなく、半分眠っています。",
+        "copy": "脳が起きる前に、タップが勝ってしまいます。",
+        "cta": "続ける",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "起きること自体は問題ではありません。",
+            "copy": "アラーム1つで目は覚めます。難しいのはベッドから出ることです。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "ときどきはコイン投げです。",
+            "copy": "うまくいかない朝は、半分眠ったままのタップが勝ちます。"
           }
         }
       },
@@ -95,7 +95,7 @@
         "options": {
           "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "目は覚めているのに、起き上がれない"
         }
       },
       "personalizedSolution": {
@@ -150,9 +150,9 @@
         "copy": "朝に無理なくできそうなミッションを選んでください。",
         "cta": "このミッションを使う",
         "photoDisclosure": "写真は端末上で確認されます。ギャラリー画像は使えず、ミッション写真は確認後に削除されます。",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "実際に持っているものは？",
+        "targetCta": "これならあります",
+        "targetPrompt": "アラームが鳴るとDawnVowが1つ選びます。",
         "targets": {
           "toilet": "トイレ",
           "sink": "シンク",
@@ -195,12 +195,12 @@
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "難易度は？",
+        "cta": "続ける",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "やさしい",
+          "medium": "ふつう",
+          "hard": "むずかしい"
         }
       },
       "wakeTime": {
@@ -230,54 +230,54 @@
         "alreadyMoving": "06:30 · もう動いている"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "朝型ですか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "はい",
+          "not_yet": "まだ"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "広告の測定にご協力いただけますか？",
+        "copy": "どの広告がDawnVowにつながったかを測ります。端末IDを使い、アラーム、ミッション、回答は使いません。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "広告の測定のみ",
+          "アラームやミッションには使いません",
+          "設定でいつでもオフ"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "測定を許可",
+        "notNow": "今はしない"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "アラームはいくつ設定しますか？",
+        "cta": "続ける",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "1つ",
+          "two_or_three": "2〜3つ",
+          "four_plus": "4つ以上"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "アラーム1つで本当に起きられますか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "はい",
+          "sometimes": "ときどき",
+          "no": "いいえ"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "あなたは怠けているのではなく、半分眠っています。",
+        "copy": "脳が起きる前に、タップが勝ってしまいます。",
+        "cta": "続ける",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "起きること自体は問題ではありません。",
+            "copy": "アラーム1つで目は覚めます。難しいのはベッドから出ることです。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "ときどきはコイン投げです。",
+            "copy": "うまくいかない朝は、半分眠ったままのタップが勝ちます。"
           }
         }
       },
@@ -310,7 +310,7 @@
         "options": {
           "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "目は覚めているのに、起き上がれない"
         }
       },
       "personalizedSolution": {
@@ -365,9 +365,9 @@
         "copy": "朝に無理なくできそうなミッションを選んでください。",
         "cta": "このミッションを使う",
         "photoDisclosure": "写真は端末上で確認されます。ギャラリー画像は使えず、ミッション写真は確認後に削除されます。",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "実際に持っているものは？",
+        "targetCta": "これならあります",
+        "targetPrompt": "アラームが鳴るとDawnVowが1つ選びます。",
         "targets": {
           "toilet": "トイレ",
           "sink": "シンク",
@@ -410,12 +410,12 @@
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "難易度は？",
+        "cta": "続ける",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "やさしい",
+          "medium": "ふつう",
+          "hard": "むずかしい"
         }
       },
       "wakeTime": {
@@ -445,54 +445,54 @@
         "alreadyMoving": "06:30 · もう動いている"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "朝型ですか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "はい",
+          "not_yet": "まだ"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "広告の測定にご協力いただけますか？",
+        "copy": "どの広告がDawnVowにつながったかを測ります。端末IDを使い、アラーム、ミッション、回答は使いません。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "広告の測定のみ",
+          "アラームやミッションには使いません",
+          "設定でいつでもオフ"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "測定を許可",
+        "notNow": "今はしない"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "アラームはいくつ設定しますか？",
+        "cta": "続ける",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "1つ",
+          "two_or_three": "2〜3つ",
+          "four_plus": "4つ以上"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "アラーム1つで本当に起きられますか？",
+        "cta": "続ける",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "はい",
+          "sometimes": "ときどき",
+          "no": "いいえ"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "あなたは怠けているのではなく、半分眠っています。",
+        "copy": "脳が起きる前に、タップが勝ってしまいます。",
+        "cta": "続ける",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "起きること自体は問題ではありません。",
+            "copy": "アラーム1つで目は覚めます。難しいのはベッドから出ることです。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "ときどきはコイン投げです。",
+            "copy": "うまくいかない朝は、半分眠ったままのタップが勝ちます。"
           }
         }
       },
@@ -525,7 +525,7 @@
         "options": {
           "snooze_unaware": "考えずにスヌーズを押してしまう。",
           "dismiss_fall_asleep": "止めて、また眠ってしまう",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "目は覚めているのに、起き上がれない"
         }
       },
       "personalizedSolution": {
@@ -580,9 +580,9 @@
         "copy": "朝に無理なくできそうなミッションを選んでください。",
         "cta": "このミッションを使う",
         "photoDisclosure": "写真は端末上で確認されます。ギャラリー画像は使えず、ミッション写真は確認後に削除されます。",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetTitle": "実際に持っているものは？",
+        "targetCta": "これならあります",
+        "targetPrompt": "アラームが鳴るとDawnVowが1つ選びます。",
         "targets": {
           "toilet": "トイレ",
           "sink": "シンク",
@@ -625,12 +625,12 @@
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "難易度は？",
+        "cta": "続ける",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "やさしい",
+          "medium": "ふつう",
+          "hard": "むずかしい"
         }
       },
       "wakeTime": {
