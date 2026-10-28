@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 30,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Rudi",
+      "rule": "Kamilisha missioni. Kamilisha asubuhi.",
+      "timestamps": {
+        "planned": "06:30 Imepangwa",
+        "late": "12:00 Umechelewa",
+        "alreadyMoving": "06:30 · Tayari unaendelea"
+      },
+      "painHook": {
+        "title": "Ulizima kengele.\nHukuamka.",
+        "cta": "Ni mimi"
+      },
+      "identity": {
+        "title": "Wewe ni mtu wa asubuhi?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "not_yet": "Bado"
+        }
+      },
+      "consent": {
+        "title": "Utatusaidia kupima matangazo?",
+        "copy": "Hii inatuonyesha ni matangazo gani yanawaleta watu kwenye DawnVow. Inatumia kitambulisho cha kifaa — sio kengele, missioni, au majibu yako kamwe.",
+        "benefits": [
+          "Inapima matangazo pekee",
+          "Sio kengele au missioni zako kamwe",
+          "Inaweza kuzimwa kwenye Mipangilio"
+        ],
+        "allow": "Ruhusu upimaji",
+        "notNow": "Sio sasa"
+      },
+      "alarmCount": {
+        "title": "Unaweka kengele ngapi?",
+        "cta": "Endelea",
+        "options": {
+          "one": "Moja",
+          "two_or_three": "Mbili au tatu",
+          "four_plus": "Nne au zaidi"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Kengele moja ingekuamsha?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "sometimes": "Wakati mwingine",
+          "no": "Hapana"
+        }
+      },
+      "insight": {
+        "title": "Wewe si mvivu. Uko nusu menggunakanizi.",
+        "copy": "Mguso unashinda kabla ubongo kuamka.",
+        "cta": "Endelea",
+        "byTrust": {
+          "yes": {
+            "title": "Kuamka sio tatizo lako.",
+            "copy": "Kengele moja inakuamsha. Kigumu ni kuondoka kitandani."
+          },
+          "sometimes": {
+            "title": "„Wakati mwingine” ni kama kutupa sarafu.",
+            "copy": "Asubuhi ambazo hazikwenda sawa, mguso wa nusu menggunakanizi unashinda."
+          }
+        }
+      },
+      "goal": {
+        "title": "Unataka kubadilisha nini kwenye asubuhi zako?",
+        "cta": "Chagua ushindi wangu wa asubuhi",
+        "options": {
+          "first_alarm": "Kuamka kwenye kengele ya kwanza",
+          "on_time": "Kufika kazini au shuleni kwa wakati",
+          "workouts": "Kupata muda wa mazoezi ya asubuhi",
+          "routine": "Kujenga utaratibu thabiti wa asubuhi",
+          "no_rushing": "Kuanza siku bila haraka"
+        }
+      },
+      "painPoints": {
+        "title": "Nini huwa kinaiba asubuhi yako?",
+        "titlesByGoal": {
+          "first_alarm": "Nini kinakuzuia kengele ya kwanza inapolia?",
+          "on_time": "Nini huwa kinakufanya uchelewe?",
+          "workouts": "Nini kiko kati yako na mazoezi ya asubuhi?",
+          "routine": "Nini kinavunja utaratibu wako wa asubuhi?",
+          "no_rushing": "Nini hugeuza asubuhi yako kuwa haraka?"
+        },
+        "copy": "Chagua kile kinachojirudia.",
+        "cta": "Hiyo inanifanana",
+        "options": {
+          "snooze_unaware": "Nachelewesha bila kufikiri",
+          "dismiss_fall_asleep": "Nazima na kulala tena",
+          "up_not_moving": "Niko macho, lakini siwezi kuamka"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Kwa nini inatokea. Inasimamaje.",
+        "cta": "Nionyeshe inavyofanya kazi",
+        "solutions": {
+          "snooze_unaware": "Mzunguko wa kuchelewesha unaishia kwenye missioni.",
+          "dismiss_fall_asleep": "Mguso hauwezi kumaliza kazi.",
+          "up_not_moving": "Missioni inakunyanyua kabla ya kengele kunyamaza."
+        }
+      },
+      "mechanism": {
+        "title": "Asubuhi yako, hatua kwa hatua.",
+        "copy": "Ili uamke, lazima uinuke.",
+        "cta": "Ona asubuhi yangu ingewezaje kuwa",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Kengele inalia",
+            "copy": "kwa saa uliyochagua"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Izime mapema",
+            "copy": "italia tena"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Kamilisha missioni",
+            "copy": "picha au hesabu"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Zima kengele",
+            "copy": "baada ya kuthibitishwa tu"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Tayari umeamka. Tayari unaendelea.",
+        "copy": "Saa ya kwanza ni yako.",
+        "cta": "Jenga mpango wangu wa kuamka",
+        "gains": [
+          "Kwa wakati",
+          "Akili safi",
+          "Tayari unaendelea",
+          "Una udhibiti"
+        ]
+      },
+      "mission": {
+        "title": "Nini kingekufanya uendelee kweli?",
+        "copy": "Chagua missioni inayokaa kama inawezekana kwa asubuhi yako.",
+        "cta": "Tumia missioni hii",
+        "targetTitle": "Ni vipi kati ya hivi unavyo kweli?",
+        "targetCta": "Hivi ni vyangu",
+        "photoDisclosure": "Picha zinakaguliwa kwenye simu. Galari haihesabiwi.",
+        "targetPrompt": "DawnVow huchagua kimoja kati ya hivi kengele inapolia.",
+        "targets": {
+          "toilet": "Choo",
+          "sink": "Sinki",
+          "toothbrush": "Mswaki",
+          "hair drier": "Kikaushio cha nywele",
+          "refrigerator": "Friji",
+          "cup": "Kikombe",
+          "bottle": "Chupa",
+          "microwave": "Microwave",
+          "bowl": "Bakuli",
+          "cat": "Paka",
+          "dog": "Mbwa",
+          "book": "Kitabu",
+          "laptop": "Laptop",
+          "keyboard": "Kibodi",
+          "mouse": "Panya wa kompyuta",
+          "backpack": "Begi la mgongoni"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kutoroka bafuni",
+            "copy": "vitu vya bafuni"
+          },
+          "kitchen_start": {
+            "title": "Kuanza jikoni",
+            "copy": "vitu vya jikoni"
+          },
+          "pet_check": {
+            "title": "Ukaguzi wa mnyama",
+            "copy": "paka au mbwa wako"
+          },
+          "study_mode": {
+            "title": "Hali ya kusoma",
+            "copy": "kitabu au laptop"
+          },
+          "quick_quiz": {
+            "title": "Hesabu",
+            "copy": "maswali machache ya hesabu"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Iwe ngumu kiasi gani?",
+        "cta": "Endelea",
+        "options": {
+          "easy": "Rahisi",
+          "medium": "Wastani",
+          "hard": "Ngumu"
+        }
+      },
+      "wakeTime": {
+        "title": "Unataka kuamka saa ngapi kesho?",
+        "copy": "Chagua saa ambayo DawnVow yako ya kwanza italia.",
+        "cta": "Weka saa yangu ya kuamka",
+        "accessibilityLabel": "Chagua saa ya kuamka"
+      },
+      "plan": {
+        "title": "DawnVow yako ya kwanza iko tayari.",
+        "copy": "Kesho, wewe mwenye usingizi utafuata mpango.",
+        "cta": "Bakiza DawnVow yangu",
+        "trust": "Ruhusa zinaombwa tu zinapohitajika.",
+        "labels": {
+          "wakeTime": "Saa ya kuamka",
+          "mission": "Missioni yako",
+          "rule": "Kanuni yako mpya"
+        }
+      }
+    },
+    "calm": {
+      "back": "Rudi",
+      "rule": "Kamilisha missioni. Kamilisha asubuhi.",
+      "timestamps": {
+        "planned": "06:30 Imepangwa",
+        "late": "12:00 Umechelewa",
+        "alreadyMoving": "06:30 · Tayari unaendelea"
+      },
+      "painHook": {
+        "title": "Ulizima kengele.\nHukuamka.",
+        "cta": "Ni mimi"
+      },
+      "identity": {
+        "title": "Wewe ni mtu wa asubuhi?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "not_yet": "Bado"
+        }
+      },
+      "consent": {
+        "title": "Utatusaidia kupima matangazo?",
+        "copy": "Hii inatuonyesha ni matangazo gani yanawaleta watu kwenye DawnVow. Inatumia kitambulisho cha kifaa — sio kengele, missioni, au majibu yako kamwe.",
+        "benefits": [
+          "Inapima matangazo pekee",
+          "Sio kengele au missioni zako kamwe",
+          "Inaweza kuzimwa kwenye Mipangilio"
+        ],
+        "allow": "Ruhusu upimaji",
+        "notNow": "Sio sasa"
+      },
+      "alarmCount": {
+        "title": "Unaweka kengele ngapi?",
+        "cta": "Endelea",
+        "options": {
+          "one": "Moja",
+          "two_or_three": "Mbili au tatu",
+          "four_plus": "Nne au zaidi"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Kengele moja ingekuamsha?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "sometimes": "Wakati mwingine",
+          "no": "Hapana"
+        }
+      },
+      "insight": {
+        "title": "Wewe si mvivu. Uko nusu menggunakanizi.",
+        "copy": "Mguso unashinda kabla ubongo kuamka.",
+        "cta": "Endelea",
+        "byTrust": {
+          "yes": {
+            "title": "Kuamka sio tatizo lako.",
+            "copy": "Kengele moja inakuamsha. Kigumu ni kuondoka kitandani."
+          },
+          "sometimes": {
+            "title": "„Wakati mwingine” ni kama kutupa sarafu.",
+            "copy": "Asubuhi ambazo hazikwenda sawa, mguso wa nusu menggunakanizi unashinda."
+          }
+        }
+      },
+      "goal": {
+        "title": "Unataka kubadilisha nini kwenye asubuhi zako?",
+        "cta": "Chagua ushindi wangu wa asubuhi",
+        "options": {
+          "first_alarm": "Kuamka kwenye kengele ya kwanza",
+          "on_time": "Kufika kazini au shuleni kwa wakati",
+          "workouts": "Kupata muda wa mazoezi ya asubuhi",
+          "routine": "Kujenga utaratibu thabiti wa asubuhi",
+          "no_rushing": "Kuanza siku bila haraka"
+        }
+      },
+      "painPoints": {
+        "title": "Nini huwa kinaiba asubuhi yako?",
+        "titlesByGoal": {
+          "first_alarm": "Nini kinakuzuia kengele ya kwanza inapolia?",
+          "on_time": "Nini huwa kinakufanya uchelewe?",
+          "workouts": "Nini kiko kati yako na mazoezi ya asubuhi?",
+          "routine": "Nini kinavunja utaratibu wako wa asubuhi?",
+          "no_rushing": "Nini hugeuza asubuhi yako kuwa haraka?"
+        },
+        "copy": "Chagua kile kinachojirudia.",
+        "cta": "Hiyo inanifanana",
+        "options": {
+          "snooze_unaware": "Nachelewesha bila kufikiri",
+          "dismiss_fall_asleep": "Nazima na kulala tena",
+          "up_not_moving": "Niko macho, lakini siwezi kuamka"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Kwa nini inatokea. Inasimamaje.",
+        "cta": "Nionyeshe inavyofanya kazi",
+        "solutions": {
+          "snooze_unaware": "Mzunguko wa kuchelewesha unaishia kwenye missioni.",
+          "dismiss_fall_asleep": "Mguso hauwezi kumaliza kazi.",
+          "up_not_moving": "Missioni inakunyanyua kabla ya kengele kunyamaza."
+        }
+      },
+      "mechanism": {
+        "title": "Asubuhi yako, hatua kwa hatua.",
+        "copy": "Ili uamke, lazima uinuke.",
+        "cta": "Ona asubuhi yangu ingewezaje kuwa",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Kengele inalia",
+            "copy": "kwa saa uliyochagua"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Izime mapema",
+            "copy": "italia tena"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Kamilisha missioni",
+            "copy": "picha au hesabu"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Zima kengele",
+            "copy": "baada ya kuthibitishwa tu"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Tayari umeamka. Tayari unaendelea.",
+        "copy": "Saa ya kwanza ni yako.",
+        "cta": "Jenga mpango wangu wa kuamka",
+        "gains": [
+          "Kwa wakati",
+          "Akili safi",
+          "Tayari unaendelea",
+          "Una udhibiti"
+        ]
+      },
+      "mission": {
+        "title": "Nini kingekufanya uendelee kweli?",
+        "copy": "Chagua missioni inayokaa kama inawezekana kwa asubuhi yako.",
+        "cta": "Tumia missioni hii",
+        "targetTitle": "Ni vipi kati ya hivi unavyo kweli?",
+        "targetCta": "Hivi ni vyangu",
+        "photoDisclosure": "Picha zinakaguliwa kwenye simu. Galari haihesabiwi.",
+        "targetPrompt": "DawnVow huchagua kimoja kati ya hivi kengele inapolia.",
+        "targets": {
+          "toilet": "Choo",
+          "sink": "Sinki",
+          "toothbrush": "Mswaki",
+          "hair drier": "Kikaushio cha nywele",
+          "refrigerator": "Friji",
+          "cup": "Kikombe",
+          "bottle": "Chupa",
+          "microwave": "Microwave",
+          "bowl": "Bakuli",
+          "cat": "Paka",
+          "dog": "Mbwa",
+          "book": "Kitabu",
+          "laptop": "Laptop",
+          "keyboard": "Kibodi",
+          "mouse": "Panya wa kompyuta",
+          "backpack": "Begi la mgongoni"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kutoroka bafuni",
+            "copy": "vitu vya bafuni"
+          },
+          "kitchen_start": {
+            "title": "Kuanza jikoni",
+            "copy": "vitu vya jikoni"
+          },
+          "pet_check": {
+            "title": "Ukaguzi wa mnyama",
+            "copy": "paka au mbwa wako"
+          },
+          "study_mode": {
+            "title": "Hali ya kusoma",
+            "copy": "kitabu au laptop"
+          },
+          "quick_quiz": {
+            "title": "Hesabu",
+            "copy": "maswali machache ya hesabu"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Iwe ngumu kiasi gani?",
+        "cta": "Endelea",
+        "options": {
+          "easy": "Rahisi",
+          "medium": "Wastani",
+          "hard": "Ngumu"
+        }
+      },
+      "wakeTime": {
+        "title": "Unataka kuamka saa ngapi kesho?",
+        "copy": "Chagua saa ambayo DawnVow yako ya kwanza italia.",
+        "cta": "Weka saa yangu ya kuamka",
+        "accessibilityLabel": "Chagua saa ya kuamka"
+      },
+      "plan": {
+        "title": "DawnVow yako ya kwanza iko tayari.",
+        "copy": "Kesho, wewe mwenye usingizi utafuata mpango.",
+        "cta": "Bakiza DawnVow yangu",
+        "trust": "Ruhusa zinaombwa tu zinapohitajika.",
+        "labels": {
+          "wakeTime": "Saa ya kuamka",
+          "mission": "Missioni yako",
+          "rule": "Kanuni yako mpya"
+        }
+      }
+    },
+    "bold": {
+      "back": "Rudi",
+      "rule": "Kamilisha missioni. Kamilisha asubuhi.",
+      "timestamps": {
+        "planned": "06:30 Imepangwa",
+        "late": "12:00 Umechelewa",
+        "alreadyMoving": "06:30 · Tayari unaendelea"
+      },
+      "painHook": {
+        "title": "Ulizima kengele.\nHukuamka.",
+        "cta": "Ni mimi"
+      },
+      "identity": {
+        "title": "Wewe ni mtu wa asubuhi?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "not_yet": "Bado"
+        }
+      },
+      "consent": {
+        "title": "Utatusaidia kupima matangazo?",
+        "copy": "Hii inatuonyesha ni matangazo gani yanawaleta watu kwenye DawnVow. Inatumia kitambulisho cha kifaa — sio kengele, missioni, au majibu yako kamwe.",
+        "benefits": [
+          "Inapima matangazo pekee",
+          "Sio kengele au missioni zako kamwe",
+          "Inaweza kuzimwa kwenye Mipangilio"
+        ],
+        "allow": "Ruhusu upimaji",
+        "notNow": "Sio sasa"
+      },
+      "alarmCount": {
+        "title": "Unaweka kengele ngapi?",
+        "cta": "Endelea",
+        "options": {
+          "one": "Moja",
+          "two_or_three": "Mbili au tatu",
+          "four_plus": "Nne au zaidi"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Kengele moja ingekuamsha?",
+        "cta": "Endelea",
+        "options": {
+          "yes": "Ndiyo",
+          "sometimes": "Wakati mwingine",
+          "no": "Hapana"
+        }
+      },
+      "insight": {
+        "title": "Wewe si mvivu. Uko nusu menggunakanizi.",
+        "copy": "Mguso unashinda kabla ubongo kuamka.",
+        "cta": "Endelea",
+        "byTrust": {
+          "yes": {
+            "title": "Kuamka sio tatizo lako.",
+            "copy": "Kengele moja inakuamsha. Kigumu ni kuondoka kitandani."
+          },
+          "sometimes": {
+            "title": "„Wakati mwingine” ni kama kutupa sarafu.",
+            "copy": "Asubuhi ambazo hazikwenda sawa, mguso wa nusu menggunakanizi unashinda."
+          }
+        }
+      },
+      "goal": {
+        "title": "Unataka kubadilisha nini kwenye asubuhi zako?",
+        "cta": "Chagua ushindi wangu wa asubuhi",
+        "options": {
+          "first_alarm": "Kuamka kwenye kengele ya kwanza",
+          "on_time": "Kufika kazini au shuleni kwa wakati",
+          "workouts": "Kupata muda wa mazoezi ya asubuhi",
+          "routine": "Kujenga utaratibu thabiti wa asubuhi",
+          "no_rushing": "Kuanza siku bila haraka"
+        }
+      },
+      "painPoints": {
+        "title": "Nini huwa kinaiba asubuhi yako?",
+        "titlesByGoal": {
+          "first_alarm": "Nini kinakuzuia kengele ya kwanza inapolia?",
+          "on_time": "Nini huwa kinakufanya uchelewe?",
+          "workouts": "Nini kiko kati yako na mazoezi ya asubuhi?",
+          "routine": "Nini kinavunja utaratibu wako wa asubuhi?",
+          "no_rushing": "Nini hugeuza asubuhi yako kuwa haraka?"
+        },
+        "copy": "Chagua kile kinachojirudia.",
+        "cta": "Hiyo inanifanana",
+        "options": {
+          "snooze_unaware": "Nachelewesha bila kufikiri",
+          "dismiss_fall_asleep": "Nazima na kulala tena",
+          "up_not_moving": "Niko macho, lakini siwezi kuamka"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Kwa nini inatokea. Inasimamaje.",
+        "cta": "Nionyeshe inavyofanya kazi",
+        "solutions": {
+          "snooze_unaware": "Mzunguko wa kuchelewesha unaishia kwenye missioni.",
+          "dismiss_fall_asleep": "Mguso hauwezi kumaliza kazi.",
+          "up_not_moving": "Missioni inakunyanyua kabla ya kengele kunyamaza."
+        }
+      },
+      "mechanism": {
+        "title": "Asubuhi yako, hatua kwa hatua.",
+        "copy": "Ili uamke, lazima uinuke.",
+        "cta": "Ona asubuhi yangu ingewezaje kuwa",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Kengele inalia",
+            "copy": "kwa saa uliyochagua"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Izime mapema",
+            "copy": "italia tena"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Kamilisha missioni",
+            "copy": "picha au hesabu"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Zima kengele",
+            "copy": "baada ya kuthibitishwa tu"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Tayari umeamka. Tayari unaendelea.",
+        "copy": "Saa ya kwanza ni yako.",
+        "cta": "Jenga mpango wangu wa kuamka",
+        "gains": [
+          "Kwa wakati",
+          "Akili safi",
+          "Tayari unaendelea",
+          "Una udhibiti"
+        ]
+      },
+      "mission": {
+        "title": "Nini kingekufanya uendelee kweli?",
+        "copy": "Chagua missioni inayokaa kama inawezekana kwa asubuhi yako.",
+        "cta": "Tumia missioni hii",
+        "targetTitle": "Ni vipi kati ya hivi unavyo kweli?",
+        "targetCta": "Hivi ni vyangu",
+        "photoDisclosure": "Picha zinakaguliwa kwenye simu. Galari haihesabiwi.",
+        "targetPrompt": "DawnVow huchagua kimoja kati ya hivi kengele inapolia.",
+        "targets": {
+          "toilet": "Choo",
+          "sink": "Sinki",
+          "toothbrush": "Mswaki",
+          "hair drier": "Kikaushio cha nywele",
+          "refrigerator": "Friji",
+          "cup": "Kikombe",
+          "bottle": "Chupa",
+          "microwave": "Microwave",
+          "bowl": "Bakuli",
+          "cat": "Paka",
+          "dog": "Mbwa",
+          "book": "Kitabu",
+          "laptop": "Laptop",
+          "keyboard": "Kibodi",
+          "mouse": "Panya wa kompyuta",
+          "backpack": "Begi la mgongoni"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Kutoroka bafuni",
+            "copy": "vitu vya bafuni"
+          },
+          "kitchen_start": {
+            "title": "Kuanza jikoni",
+            "copy": "vitu vya jikoni"
+          },
+          "pet_check": {
+            "title": "Ukaguzi wa mnyama",
+            "copy": "paka au mbwa wako"
+          },
+          "study_mode": {
+            "title": "Hali ya kusoma",
+            "copy": "kitabu au laptop"
+          },
+          "quick_quiz": {
+            "title": "Hesabu",
+            "copy": "maswali machache ya hesabu"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Iwe ngumu kiasi gani?",
+        "cta": "Endelea",
+        "options": {
+          "easy": "Rahisi",
+          "medium": "Wastani",
+          "hard": "Ngumu"
+        }
+      },
+      "wakeTime": {
+        "title": "Unataka kuamka saa ngapi kesho?",
+        "copy": "Chagua saa ambayo DawnVow yako ya kwanza italia.",
+        "cta": "Weka saa yangu ya kuamka",
+        "accessibilityLabel": "Chagua saa ya kuamka"
+      },
+      "plan": {
+        "title": "DawnVow yako ya kwanza iko tayari.",
+        "copy": "Kesho, wewe mwenye usingizi utafuata mpango.",
+        "cta": "Bakiza DawnVow yangu",
+        "trust": "Ruhusa zinaombwa tu zinapohitajika.",
+        "labels": {
+          "wakeTime": "Saa ya kuamka",
+          "mission": "Missioni yako",
+          "rule": "Kanuni yako mpya"
+        }
+      }
+    }
+  }
+}

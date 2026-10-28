@@ -1,0 +1,655 @@
+{
+  "source_version": 2,
+  "version": 30,
+  "experiment_id": "exp_v2",
+  "assignment": {
+    "control": 100
+  },
+  "variants": {
+    "control": {
+      "back": "Bumalik",
+      "rule": "Tapusin ang mission. Tapusin ang umaga.",
+      "timestamps": {
+        "planned": "06:30 Nakaplano",
+        "late": "12:00 Huli",
+        "alreadyMoving": "06:30 · Gumagalaw na"
+      },
+      "painHook": {
+        "title": "Pinatay mo ang alarm.\nHindi ka nagising.",
+        "cta": "Ako iyon"
+      },
+      "identity": {
+        "title": "Morning person ka ba?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "not_yet": "Hindi pa"
+        }
+      },
+      "consent": {
+        "title": "Tulungan mo kaming sukatin ang ads?",
+        "copy": "Ipinapakita nito kung aling ads ang nagdadala ng tao sa DawnVow. Gumagamit ito ng device identifier — hindi kailanman ang alarm, mission, o sagot mo.",
+        "benefits": [
+          "Ang ads lang ang sinusukat",
+          "Hindi kailanman ang alarm o mission mo",
+          "Pwedeng i-off sa Settings anumang oras"
+        ],
+        "allow": "Payagan ang pagsukat",
+        "notNow": "Hindi ngayon"
+      },
+      "alarmCount": {
+        "title": "Ilang alarm ang itinatakda mo?",
+        "cta": "Magpatuloy",
+        "options": {
+          "one": "Isa",
+          "two_or_three": "Dalawa o tatlo",
+          "four_plus": "Apat o higit pa"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Magigising ka ba sa isang alarm?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "sometimes": "Minsan",
+          "no": "Hindi"
+        }
+      },
+      "insight": {
+        "title": "Hindi ka tamad. Kalahati ka pang tulog.",
+        "copy": "Nanalo ang tapik bago magising ang utak.",
+        "cta": "Magpatuloy",
+        "byTrust": {
+          "yes": {
+            "title": "Hindi ang paggising ang problema mo.",
+            "copy": "Isang alarm ang gumigising sa iyo. Ang mahirap ay bumangon sa kama."
+          },
+          "sometimes": {
+            "title": "Ang „minsan” ay parang paghagis ng barya.",
+            "copy": "Sa mga umagang mali ang bagsak, nananalo ang tapik habang kalahating tulog."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ano ang gusto mong baguhin sa umaga mo?",
+        "cta": "Piliin ang panalo ko sa umaga",
+        "options": {
+          "first_alarm": "Bumangon sa unang alarm",
+          "on_time": "Pumasok nang tama sa oras sa trabaho o eskwela",
+          "workouts": "Magkaroon ng oras para sa morning workout",
+          "routine": "Bumuo ng tuloy-tuloy na morning routine",
+          "no_rushing": "Simulan ang araw nang walang pagmamadali"
+        }
+      },
+      "painPoints": {
+        "title": "Ano ang kadalasang nagnanakaw ng umaga mo?",
+        "titlesByGoal": {
+          "first_alarm": "Ano ang pumipigil sa iyo kapag tumunog ang unang alarm?",
+          "on_time": "Ano ang kadalasang nagpapahuli sa iyo?",
+          "workouts": "Ano ang nasa pagitan mo at ng morning workout?",
+          "routine": "Ano ang sumisira sa morning routine mo?",
+          "no_rushing": "Ano ang ginagawang pagmamadali ang umaga mo?"
+        },
+        "copy": "Piliin ang paulit-ulit na nangyayari.",
+        "cta": "Parang ako iyon",
+        "options": {
+          "snooze_unaware": "Nag-snooze ako nang hindi nag-iisip",
+          "dismiss_fall_asleep": "Pinapatay ko at natutulog muli",
+          "up_not_moving": "Gising ako, pero hindi ako makabangon"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Bakit nangyayari. Paano ito titigil.",
+        "cta": "Ipakita kung paano ito gumagana",
+        "solutions": {
+          "snooze_unaware": "Nagtatapos ang snooze loop sa mission.",
+          "dismiss_fall_asleep": "Hindi kayang tapusin ng isang tapik ang trabaho.",
+          "up_not_moving": "Pinababangon ka ng mission bago tumahimik ang alarm."
+        }
+      },
+      "mechanism": {
+        "title": "Ang umaga mo, hakbang-hakbang.",
+        "copy": "Para magising, kailangan mong bumangon.",
+        "cta": "Tingnan kung ano ang maaaring maging umaga ko",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Tumutunog ang alarm",
+            "copy": "sa oras na pinili mo"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Patayin ito nang maaga",
+            "copy": "tutunog muli"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Tapusin ang mission",
+            "copy": "litrato o math"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Patayin ang alarm",
+            "copy": "pagkatapos lang ma-verify"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Nakabangon na. Gumagalaw na.",
+        "copy": "Sa iyo ang unang oras.",
+        "cta": "Buuin ang plano ko sa paggising",
+        "gains": [
+          "Sa oras",
+          "Malinaw ang isip",
+          "Gumagalaw na",
+          "May kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Ano ang talagang magpapagalaw sa iyo?",
+        "copy": "Piliin ang mission na makatotohanan para sa umaga mo.",
+        "cta": "Gamitin ang mission na ito",
+        "targetTitle": "Alin sa mga ito ang talagang mayroon ka?",
+        "targetCta": "Akin ang mga ito",
+        "photoDisclosure": "Sinusuri sa telepono ang mga litrato. Hindi binibilang ang gallery.",
+        "targetPrompt": "Pipili ang DawnVow ng isa sa mga ito kapag tumunog ang alarm.",
+        "targets": {
+          "toilet": "Kubeta",
+          "sink": "Lababo",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Blower",
+          "refrigerator": "Ref",
+          "cup": "Tasa",
+          "bottle": "Bote",
+          "microwave": "Microwave",
+          "bowl": "Mangkok",
+          "cat": "Pusa",
+          "dog": "Aso",
+          "book": "Libro",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Takas sa banyo",
+            "copy": "mga gamit sa banyo"
+          },
+          "kitchen_start": {
+            "title": "Simula sa kusina",
+            "copy": "mga gamit sa kusina"
+          },
+          "pet_check": {
+            "title": "Check ng alaga",
+            "copy": "ang pusa o aso mo"
+          },
+          "study_mode": {
+            "title": "Study mode",
+            "copy": "libro o laptop"
+          },
+          "quick_quiz": {
+            "title": "Math",
+            "copy": "ilang math question"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Gaano kahirap dapat?",
+        "cta": "Magpatuloy",
+        "options": {
+          "easy": "Madali",
+          "medium": "Katamtaman",
+          "hard": "Mahirap"
+        }
+      },
+      "wakeTime": {
+        "title": "Anong oras gusto mong gumising bukas?",
+        "copy": "Piliin ang oras na tutunog ang una mong DawnVow.",
+        "cta": "Itakda ang oras ng paggising ko",
+        "accessibilityLabel": "Pumili ng oras ng paggising"
+      },
+      "plan": {
+        "title": "Handa na ang una mong DawnVow.",
+        "copy": "Bukas, susundin ng antok mong sarili ang plano.",
+        "cta": "Panatilihin ang DawnVow ko",
+        "trust": "Hinihingi lang ang mga pahintulot kapag kailangan.",
+        "labels": {
+          "wakeTime": "Oras ng paggising",
+          "mission": "Ang mission mo",
+          "rule": "Ang bagong tuntunin mo"
+        }
+      }
+    },
+    "calm": {
+      "back": "Bumalik",
+      "rule": "Tapusin ang mission. Tapusin ang umaga.",
+      "timestamps": {
+        "planned": "06:30 Nakaplano",
+        "late": "12:00 Huli",
+        "alreadyMoving": "06:30 · Gumagalaw na"
+      },
+      "painHook": {
+        "title": "Pinatay mo ang alarm.\nHindi ka nagising.",
+        "cta": "Ako iyon"
+      },
+      "identity": {
+        "title": "Morning person ka ba?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "not_yet": "Hindi pa"
+        }
+      },
+      "consent": {
+        "title": "Tulungan mo kaming sukatin ang ads?",
+        "copy": "Ipinapakita nito kung aling ads ang nagdadala ng tao sa DawnVow. Gumagamit ito ng device identifier — hindi kailanman ang alarm, mission, o sagot mo.",
+        "benefits": [
+          "Ang ads lang ang sinusukat",
+          "Hindi kailanman ang alarm o mission mo",
+          "Pwedeng i-off sa Settings anumang oras"
+        ],
+        "allow": "Payagan ang pagsukat",
+        "notNow": "Hindi ngayon"
+      },
+      "alarmCount": {
+        "title": "Ilang alarm ang itinatakda mo?",
+        "cta": "Magpatuloy",
+        "options": {
+          "one": "Isa",
+          "two_or_three": "Dalawa o tatlo",
+          "four_plus": "Apat o higit pa"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Magigising ka ba sa isang alarm?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "sometimes": "Minsan",
+          "no": "Hindi"
+        }
+      },
+      "insight": {
+        "title": "Hindi ka tamad. Kalahati ka pang tulog.",
+        "copy": "Nanalo ang tapik bago magising ang utak.",
+        "cta": "Magpatuloy",
+        "byTrust": {
+          "yes": {
+            "title": "Hindi ang paggising ang problema mo.",
+            "copy": "Isang alarm ang gumigising sa iyo. Ang mahirap ay bumangon sa kama."
+          },
+          "sometimes": {
+            "title": "Ang „minsan” ay parang paghagis ng barya.",
+            "copy": "Sa mga umagang mali ang bagsak, nananalo ang tapik habang kalahating tulog."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ano ang gusto mong baguhin sa umaga mo?",
+        "cta": "Piliin ang panalo ko sa umaga",
+        "options": {
+          "first_alarm": "Bumangon sa unang alarm",
+          "on_time": "Pumasok nang tama sa oras sa trabaho o eskwela",
+          "workouts": "Magkaroon ng oras para sa morning workout",
+          "routine": "Bumuo ng tuloy-tuloy na morning routine",
+          "no_rushing": "Simulan ang araw nang walang pagmamadali"
+        }
+      },
+      "painPoints": {
+        "title": "Ano ang kadalasang nagnanakaw ng umaga mo?",
+        "titlesByGoal": {
+          "first_alarm": "Ano ang pumipigil sa iyo kapag tumunog ang unang alarm?",
+          "on_time": "Ano ang kadalasang nagpapahuli sa iyo?",
+          "workouts": "Ano ang nasa pagitan mo at ng morning workout?",
+          "routine": "Ano ang sumisira sa morning routine mo?",
+          "no_rushing": "Ano ang ginagawang pagmamadali ang umaga mo?"
+        },
+        "copy": "Piliin ang paulit-ulit na nangyayari.",
+        "cta": "Parang ako iyon",
+        "options": {
+          "snooze_unaware": "Nag-snooze ako nang hindi nag-iisip",
+          "dismiss_fall_asleep": "Pinapatay ko at natutulog muli",
+          "up_not_moving": "Gising ako, pero hindi ako makabangon"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Bakit nangyayari. Paano ito titigil.",
+        "cta": "Ipakita kung paano ito gumagana",
+        "solutions": {
+          "snooze_unaware": "Nagtatapos ang snooze loop sa mission.",
+          "dismiss_fall_asleep": "Hindi kayang tapusin ng isang tapik ang trabaho.",
+          "up_not_moving": "Pinababangon ka ng mission bago tumahimik ang alarm."
+        }
+      },
+      "mechanism": {
+        "title": "Ang umaga mo, hakbang-hakbang.",
+        "copy": "Para magising, kailangan mong bumangon.",
+        "cta": "Tingnan kung ano ang maaaring maging umaga ko",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Tumutunog ang alarm",
+            "copy": "sa oras na pinili mo"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Patayin ito nang maaga",
+            "copy": "tutunog muli"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Tapusin ang mission",
+            "copy": "litrato o math"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Patayin ang alarm",
+            "copy": "pagkatapos lang ma-verify"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Nakabangon na. Gumagalaw na.",
+        "copy": "Sa iyo ang unang oras.",
+        "cta": "Buuin ang plano ko sa paggising",
+        "gains": [
+          "Sa oras",
+          "Malinaw ang isip",
+          "Gumagalaw na",
+          "May kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Ano ang talagang magpapagalaw sa iyo?",
+        "copy": "Piliin ang mission na makatotohanan para sa umaga mo.",
+        "cta": "Gamitin ang mission na ito",
+        "targetTitle": "Alin sa mga ito ang talagang mayroon ka?",
+        "targetCta": "Akin ang mga ito",
+        "photoDisclosure": "Sinusuri sa telepono ang mga litrato. Hindi binibilang ang gallery.",
+        "targetPrompt": "Pipili ang DawnVow ng isa sa mga ito kapag tumunog ang alarm.",
+        "targets": {
+          "toilet": "Kubeta",
+          "sink": "Lababo",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Blower",
+          "refrigerator": "Ref",
+          "cup": "Tasa",
+          "bottle": "Bote",
+          "microwave": "Microwave",
+          "bowl": "Mangkok",
+          "cat": "Pusa",
+          "dog": "Aso",
+          "book": "Libro",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Takas sa banyo",
+            "copy": "mga gamit sa banyo"
+          },
+          "kitchen_start": {
+            "title": "Simula sa kusina",
+            "copy": "mga gamit sa kusina"
+          },
+          "pet_check": {
+            "title": "Check ng alaga",
+            "copy": "ang pusa o aso mo"
+          },
+          "study_mode": {
+            "title": "Study mode",
+            "copy": "libro o laptop"
+          },
+          "quick_quiz": {
+            "title": "Math",
+            "copy": "ilang math question"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Gaano kahirap dapat?",
+        "cta": "Magpatuloy",
+        "options": {
+          "easy": "Madali",
+          "medium": "Katamtaman",
+          "hard": "Mahirap"
+        }
+      },
+      "wakeTime": {
+        "title": "Anong oras gusto mong gumising bukas?",
+        "copy": "Piliin ang oras na tutunog ang una mong DawnVow.",
+        "cta": "Itakda ang oras ng paggising ko",
+        "accessibilityLabel": "Pumili ng oras ng paggising"
+      },
+      "plan": {
+        "title": "Handa na ang una mong DawnVow.",
+        "copy": "Bukas, susundin ng antok mong sarili ang plano.",
+        "cta": "Panatilihin ang DawnVow ko",
+        "trust": "Hinihingi lang ang mga pahintulot kapag kailangan.",
+        "labels": {
+          "wakeTime": "Oras ng paggising",
+          "mission": "Ang mission mo",
+          "rule": "Ang bagong tuntunin mo"
+        }
+      }
+    },
+    "bold": {
+      "back": "Bumalik",
+      "rule": "Tapusin ang mission. Tapusin ang umaga.",
+      "timestamps": {
+        "planned": "06:30 Nakaplano",
+        "late": "12:00 Huli",
+        "alreadyMoving": "06:30 · Gumagalaw na"
+      },
+      "painHook": {
+        "title": "Pinatay mo ang alarm.\nHindi ka nagising.",
+        "cta": "Ako iyon"
+      },
+      "identity": {
+        "title": "Morning person ka ba?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "not_yet": "Hindi pa"
+        }
+      },
+      "consent": {
+        "title": "Tulungan mo kaming sukatin ang ads?",
+        "copy": "Ipinapakita nito kung aling ads ang nagdadala ng tao sa DawnVow. Gumagamit ito ng device identifier — hindi kailanman ang alarm, mission, o sagot mo.",
+        "benefits": [
+          "Ang ads lang ang sinusukat",
+          "Hindi kailanman ang alarm o mission mo",
+          "Pwedeng i-off sa Settings anumang oras"
+        ],
+        "allow": "Payagan ang pagsukat",
+        "notNow": "Hindi ngayon"
+      },
+      "alarmCount": {
+        "title": "Ilang alarm ang itinatakda mo?",
+        "cta": "Magpatuloy",
+        "options": {
+          "one": "Isa",
+          "two_or_three": "Dalawa o tatlo",
+          "four_plus": "Apat o higit pa"
+        }
+      },
+      "oneAlarmTrust": {
+        "title": "Magigising ka ba sa isang alarm?",
+        "cta": "Magpatuloy",
+        "options": {
+          "yes": "Oo",
+          "sometimes": "Minsan",
+          "no": "Hindi"
+        }
+      },
+      "insight": {
+        "title": "Hindi ka tamad. Kalahati ka pang tulog.",
+        "copy": "Nanalo ang tapik bago magising ang utak.",
+        "cta": "Magpatuloy",
+        "byTrust": {
+          "yes": {
+            "title": "Hindi ang paggising ang problema mo.",
+            "copy": "Isang alarm ang gumigising sa iyo. Ang mahirap ay bumangon sa kama."
+          },
+          "sometimes": {
+            "title": "Ang „minsan” ay parang paghagis ng barya.",
+            "copy": "Sa mga umagang mali ang bagsak, nananalo ang tapik habang kalahating tulog."
+          }
+        }
+      },
+      "goal": {
+        "title": "Ano ang gusto mong baguhin sa umaga mo?",
+        "cta": "Piliin ang panalo ko sa umaga",
+        "options": {
+          "first_alarm": "Bumangon sa unang alarm",
+          "on_time": "Pumasok nang tama sa oras sa trabaho o eskwela",
+          "workouts": "Magkaroon ng oras para sa morning workout",
+          "routine": "Bumuo ng tuloy-tuloy na morning routine",
+          "no_rushing": "Simulan ang araw nang walang pagmamadali"
+        }
+      },
+      "painPoints": {
+        "title": "Ano ang kadalasang nagnanakaw ng umaga mo?",
+        "titlesByGoal": {
+          "first_alarm": "Ano ang pumipigil sa iyo kapag tumunog ang unang alarm?",
+          "on_time": "Ano ang kadalasang nagpapahuli sa iyo?",
+          "workouts": "Ano ang nasa pagitan mo at ng morning workout?",
+          "routine": "Ano ang sumisira sa morning routine mo?",
+          "no_rushing": "Ano ang ginagawang pagmamadali ang umaga mo?"
+        },
+        "copy": "Piliin ang paulit-ulit na nangyayari.",
+        "cta": "Parang ako iyon",
+        "options": {
+          "snooze_unaware": "Nag-snooze ako nang hindi nag-iisip",
+          "dismiss_fall_asleep": "Pinapatay ko at natutulog muli",
+          "up_not_moving": "Gising ako, pero hindi ako makabangon"
+        }
+      },
+      "personalizedSolution": {
+        "title": "Bakit nangyayari. Paano ito titigil.",
+        "cta": "Ipakita kung paano ito gumagana",
+        "solutions": {
+          "snooze_unaware": "Nagtatapos ang snooze loop sa mission.",
+          "dismiss_fall_asleep": "Hindi kayang tapusin ng isang tapik ang trabaho.",
+          "up_not_moving": "Pinababangon ka ng mission bago tumahimik ang alarm."
+        }
+      },
+      "mechanism": {
+        "title": "Ang umaga mo, hakbang-hakbang.",
+        "copy": "Para magising, kailangan mong bumangon.",
+        "cta": "Tingnan kung ano ang maaaring maging umaga ko",
+        "steps": [
+          {
+            "id": "alarm_rings",
+            "title": "Tumutunog ang alarm",
+            "copy": "sa oras na pinili mo"
+          },
+          {
+            "id": "retry_chain",
+            "title": "Patayin ito nang maaga",
+            "copy": "tutunog muli"
+          },
+          {
+            "id": "complete_mission",
+            "title": "Tapusin ang mission",
+            "copy": "litrato o math"
+          },
+          {
+            "id": "dismiss_alarm",
+            "title": "Patayin ang alarm",
+            "copy": "pagkatapos lang ma-verify"
+          }
+        ]
+      },
+      "futureState": {
+        "title": "06:30. Nakabangon na. Gumagalaw na.",
+        "copy": "Sa iyo ang unang oras.",
+        "cta": "Buuin ang plano ko sa paggising",
+        "gains": [
+          "Sa oras",
+          "Malinaw ang isip",
+          "Gumagalaw na",
+          "May kontrol"
+        ]
+      },
+      "mission": {
+        "title": "Ano ang talagang magpapagalaw sa iyo?",
+        "copy": "Piliin ang mission na makatotohanan para sa umaga mo.",
+        "cta": "Gamitin ang mission na ito",
+        "targetTitle": "Alin sa mga ito ang talagang mayroon ka?",
+        "targetCta": "Akin ang mga ito",
+        "photoDisclosure": "Sinusuri sa telepono ang mga litrato. Hindi binibilang ang gallery.",
+        "targetPrompt": "Pipili ang DawnVow ng isa sa mga ito kapag tumunog ang alarm.",
+        "targets": {
+          "toilet": "Kubeta",
+          "sink": "Lababo",
+          "toothbrush": "Toothbrush",
+          "hair drier": "Blower",
+          "refrigerator": "Ref",
+          "cup": "Tasa",
+          "bottle": "Bote",
+          "microwave": "Microwave",
+          "bowl": "Mangkok",
+          "cat": "Pusa",
+          "dog": "Aso",
+          "book": "Libro",
+          "laptop": "Laptop",
+          "keyboard": "Keyboard",
+          "mouse": "Mouse",
+          "backpack": "Backpack"
+        },
+        "options": {
+          "bathroom_escape": {
+            "title": "Takas sa banyo",
+            "copy": "mga gamit sa banyo"
+          },
+          "kitchen_start": {
+            "title": "Simula sa kusina",
+            "copy": "mga gamit sa kusina"
+          },
+          "pet_check": {
+            "title": "Check ng alaga",
+            "copy": "ang pusa o aso mo"
+          },
+          "study_mode": {
+            "title": "Study mode",
+            "copy": "libro o laptop"
+          },
+          "quick_quiz": {
+            "title": "Math",
+            "copy": "ilang math question"
+          }
+        }
+      },
+      "quizDifficulty": {
+        "title": "Gaano kahirap dapat?",
+        "cta": "Magpatuloy",
+        "options": {
+          "easy": "Madali",
+          "medium": "Katamtaman",
+          "hard": "Mahirap"
+        }
+      },
+      "wakeTime": {
+        "title": "Anong oras gusto mong gumising bukas?",
+        "copy": "Piliin ang oras na tutunog ang una mong DawnVow.",
+        "cta": "Itakda ang oras ng paggising ko",
+        "accessibilityLabel": "Pumili ng oras ng paggising"
+      },
+      "plan": {
+        "title": "Handa na ang una mong DawnVow.",
+        "copy": "Bukas, susundin ng antok mong sarili ang plano.",
+        "cta": "Panatilihin ang DawnVow ko",
+        "trust": "Hinihingi lang ang mga pahintulot kapag kailangan.",
+        "labels": {
+          "wakeTime": "Oras ng paggising",
+          "mission": "Ang mission mo",
+          "rule": "Ang bagong tuntunin mo"
+        }
+      }
+    }
+  }
+}
