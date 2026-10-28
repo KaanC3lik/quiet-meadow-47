@@ -19,54 +19,54 @@
         "cta": "这就是我"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "你是早起型吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "是",
+          "not_yet": "还不是"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "帮我们衡量广告？",
+        "copy": "这会显示哪些广告为 DawnVow 带来用户。它使用设备标识符——绝不会使用你的闹钟、任务或回答。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "只衡量广告",
+          "绝不使用你的闹钟或任务",
+          "可随时在设置中关闭"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "允许衡量",
+        "notNow": "暂不"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "你设置几个闹钟？",
+        "cta": "继续",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "一个",
+          "two_or_three": "两个或三个",
+          "four_plus": "四个或更多"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "一个闹钟真的能叫醒你吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "是",
+          "sometimes": "有时",
+          "no": "不"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "你不是懒，你只是半睡半醒。",
+        "copy": "大脑醒来前，点击已经赢了。",
+        "cta": "继续",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "醒来不是你的问题。",
+            "copy": "一个闹钟能叫醒你，难的是起床。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "有时就像抛硬币。",
+            "copy": "在不顺利的早晨，半睡半醒的点击会赢。"
           }
         }
       },
@@ -95,7 +95,7 @@
         "options": {
           "snooze_unaware": "我想都没想就按下稍后提醒。",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "我醒了，但起不来"
         }
       },
       "personalizedSolution": {
@@ -149,27 +149,27 @@
         "title": "什么真的能让你行动起来？",
         "copy": "选择一个适合你早晨的现实任务。",
         "cta": "使用此任务",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "你真正拥有哪些？",
+        "targetCta": "这些我有",
         "photoDisclosure": "照片会在设备上检查。图库图片不算数，任务照片验证后会删除。",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "闹钟响起时，DawnVow 会选择一个。",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "马桶",
+          "sink": "水槽",
+          "toothbrush": "牙刷",
+          "hair drier": "吹风机",
+          "refrigerator": "冰箱",
+          "cup": "杯子",
+          "bottle": "瓶子",
+          "microwave": "微波炉",
+          "bowl": "碗",
+          "cat": "猫",
+          "dog": "狗",
+          "book": "书",
+          "laptop": "笔记本电脑",
+          "keyboard": "键盘",
+          "mouse": "鼠标",
+          "backpack": "背包"
         },
         "options": {
           "bathroom_escape": {
@@ -189,18 +189,18 @@
             "copy": "拍摄书、笔记本电脑或背包。"
           },
           "quick_quiz": {
-            "title": "快速测验",
-            "copy": "回答几个问题，证明你已经醒了。"
+            "title": "数学测验",
+            "copy": "回答几道数学题，证明你醒了。"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "难度如何？",
+        "cta": "继续",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "简单",
+          "medium": "中等",
+          "hard": "困难"
         }
       },
       "wakeTime": {
@@ -234,54 +234,54 @@
         "cta": "这就是我"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "你是早起型吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "是",
+          "not_yet": "还不是"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "帮我们衡量广告？",
+        "copy": "这会显示哪些广告为 DawnVow 带来用户。它使用设备标识符——绝不会使用你的闹钟、任务或回答。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "只衡量广告",
+          "绝不使用你的闹钟或任务",
+          "可随时在设置中关闭"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "允许衡量",
+        "notNow": "暂不"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "你设置几个闹钟？",
+        "cta": "继续",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "一个",
+          "two_or_three": "两个或三个",
+          "four_plus": "四个或更多"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "一个闹钟真的能叫醒你吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "是",
+          "sometimes": "有时",
+          "no": "不"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "你不是懒，你只是半睡半醒。",
+        "copy": "大脑醒来前，点击已经赢了。",
+        "cta": "继续",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "醒来不是你的问题。",
+            "copy": "一个闹钟能叫醒你，难的是起床。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "有时就像抛硬币。",
+            "copy": "在不顺利的早晨，半睡半醒的点击会赢。"
           }
         }
       },
@@ -310,7 +310,7 @@
         "options": {
           "snooze_unaware": "我想都没想就按下稍后提醒。",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "我醒了，但起不来"
         }
       },
       "personalizedSolution": {
@@ -364,27 +364,27 @@
         "title": "什么真的能让你行动起来？",
         "copy": "选择一个适合你早晨的现实任务。",
         "cta": "使用此任务",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "你真正拥有哪些？",
+        "targetCta": "这些我有",
         "photoDisclosure": "照片会在设备上检查。图库图片不算数，任务照片验证后会删除。",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "闹钟响起时，DawnVow 会选择一个。",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "马桶",
+          "sink": "水槽",
+          "toothbrush": "牙刷",
+          "hair drier": "吹风机",
+          "refrigerator": "冰箱",
+          "cup": "杯子",
+          "bottle": "瓶子",
+          "microwave": "微波炉",
+          "bowl": "碗",
+          "cat": "猫",
+          "dog": "狗",
+          "book": "书",
+          "laptop": "笔记本电脑",
+          "keyboard": "键盘",
+          "mouse": "鼠标",
+          "backpack": "背包"
         },
         "options": {
           "bathroom_escape": {
@@ -404,18 +404,18 @@
             "copy": "拍摄书、笔记本电脑或背包。"
           },
           "quick_quiz": {
-            "title": "快速测验",
-            "copy": "回答几个问题，证明你已经醒了。"
+            "title": "数学测验",
+            "copy": "回答几道数学题，证明你醒了。"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "难度如何？",
+        "cta": "继续",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "简单",
+          "medium": "中等",
+          "hard": "困难"
         }
       },
       "wakeTime": {
@@ -449,54 +449,54 @@
         "cta": "这就是我"
       },
       "identity": {
-        "title": "Are you a morning person?",
-        "cta": "Continue",
+        "title": "你是早起型吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "not_yet": "Not yet"
+          "yes": "是",
+          "not_yet": "还不是"
         }
       },
       "consent": {
-        "title": "Help us measure our ads?",
-        "copy": "This shows us which ads bring people to DawnVow. It uses a device identifier — never your alarms, missions, or answers.",
+        "title": "帮我们衡量广告？",
+        "copy": "这会显示哪些广告为 DawnVow 带来用户。它使用设备标识符——绝不会使用你的闹钟、任务或回答。",
         "benefits": [
-          "Measures the ads, nothing else",
-          "Never your alarms or missions",
-          "Off anytime in Settings"
+          "只衡量广告",
+          "绝不使用你的闹钟或任务",
+          "可随时在设置中关闭"
         ],
-        "allow": "Allow measurement",
-        "notNow": "Not now"
+        "allow": "允许衡量",
+        "notNow": "暂不"
       },
       "alarmCount": {
-        "title": "How many alarms do you set?",
-        "cta": "Continue",
+        "title": "你设置几个闹钟？",
+        "cta": "继续",
         "options": {
-          "one": "One",
-          "two_or_three": "Two or three",
-          "four_plus": "Four or more"
+          "one": "一个",
+          "two_or_three": "两个或三个",
+          "four_plus": "四个或更多"
         }
       },
       "oneAlarmTrust": {
-        "title": "Would one alarm actually wake you?",
-        "cta": "Continue",
+        "title": "一个闹钟真的能叫醒你吗？",
+        "cta": "继续",
         "options": {
-          "yes": "Yes",
-          "sometimes": "Sometimes",
-          "no": "No"
+          "yes": "是",
+          "sometimes": "有时",
+          "no": "不"
         }
       },
       "insight": {
-        "title": "You’re not lazy. You’re half-asleep.",
-        "copy": "The tap wins before your brain wakes up.",
-        "cta": "Continue",
+        "title": "你不是懒，你只是半睡半醒。",
+        "copy": "大脑醒来前，点击已经赢了。",
+        "cta": "继续",
         "byTrust": {
           "yes": {
-            "title": "Waking up isn’t your problem.",
-            "copy": "One alarm wakes you up. Getting out of bed is the hard part."
+            "title": "醒来不是你的问题。",
+            "copy": "一个闹钟能叫醒你，难的是起床。"
           },
           "sometimes": {
-            "title": "Sometimes is a coin flip.",
-            "copy": "On the mornings it lands wrong, a half-asleep tap wins."
+            "title": "有时就像抛硬币。",
+            "copy": "在不顺利的早晨，半睡半醒的点击会赢。"
           }
         }
       },
@@ -525,7 +525,7 @@
         "options": {
           "snooze_unaware": "我想都没想就按下稍后提醒。",
           "dismiss_fall_asleep": "我关掉闹钟后又睡着了",
-          "up_not_moving": "I’m awake, but I can’t get up"
+          "up_not_moving": "我醒了，但起不来"
         }
       },
       "personalizedSolution": {
@@ -579,27 +579,27 @@
         "title": "什么真的能让你行动起来？",
         "copy": "选择一个适合你早晨的现实任务。",
         "cta": "使用此任务",
-        "targetTitle": "Which ones do you actually have?",
-        "targetCta": "These are mine",
+        "targetTitle": "你真正拥有哪些？",
+        "targetCta": "这些我有",
         "photoDisclosure": "照片会在设备上检查。图库图片不算数，任务照片验证后会删除。",
-        "targetPrompt": "DawnVow picks one of these when your alarm rings.",
+        "targetPrompt": "闹钟响起时，DawnVow 会选择一个。",
         "targets": {
-          "toilet": "Toilet",
-          "sink": "Sink",
-          "toothbrush": "Toothbrush",
-          "hair drier": "Hair dryer",
-          "refrigerator": "Refrigerator",
-          "cup": "Cup",
-          "bottle": "Bottle",
-          "microwave": "Microwave",
-          "bowl": "Bowl",
-          "cat": "Cat",
-          "dog": "Dog",
-          "book": "Book",
-          "laptop": "Laptop",
-          "keyboard": "Keyboard",
-          "mouse": "Mouse",
-          "backpack": "Backpack"
+          "toilet": "马桶",
+          "sink": "水槽",
+          "toothbrush": "牙刷",
+          "hair drier": "吹风机",
+          "refrigerator": "冰箱",
+          "cup": "杯子",
+          "bottle": "瓶子",
+          "microwave": "微波炉",
+          "bowl": "碗",
+          "cat": "猫",
+          "dog": "狗",
+          "book": "书",
+          "laptop": "笔记本电脑",
+          "keyboard": "键盘",
+          "mouse": "鼠标",
+          "backpack": "背包"
         },
         "options": {
           "bathroom_escape": {
@@ -619,18 +619,18 @@
             "copy": "拍摄书、笔记本电脑或背包。"
           },
           "quick_quiz": {
-            "title": "快速测验",
-            "copy": "回答几个问题，证明你已经醒了。"
+            "title": "数学测验",
+            "copy": "回答几道数学题，证明你醒了。"
           }
         }
       },
       "quizDifficulty": {
-        "title": "How hard should it be?",
-        "cta": "Continue",
+        "title": "难度如何？",
+        "cta": "继续",
         "options": {
-          "easy": "Easy",
-          "medium": "Medium",
-          "hard": "Hard"
+          "easy": "简单",
+          "medium": "中等",
+          "hard": "困难"
         }
       },
       "wakeTime": {
